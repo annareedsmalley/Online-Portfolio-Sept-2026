@@ -588,6 +588,7 @@ export const CaseStudyBody02 = () => {
               </P>
             </Section>
             </PasswordGate>
+          </article>
         </div>
       </div>
     </section>
