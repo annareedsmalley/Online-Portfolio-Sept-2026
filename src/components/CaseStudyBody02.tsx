@@ -588,38 +588,6 @@ export const CaseStudyBody02 = () => {
               </P>
             </Section>
             </PasswordGate>
-          </article>
-
-          {/* RIGHT: sticky nav */}
-          <aside className="relative">
-            <div className="sticky top-28 w-full" style={{ maxWidth: 412 }}>
-              <nav
-                aria-label="Case study sections"
-                className="w-full rounded-2xl border border-sand bg-sand/50 p-6"
-                style={{ maxWidth: 412 }}
-              >
-                <ul className="flex flex-col gap-1">
-                  {sections.map((s) => {
-                    const isActive = active === s.id;
-                    return (
-                      <li key={s.id} className="min-w-0">
-                        <a
-                          href={`#${s.id}`}
-                          className={`block rounded-md px-3 py-2 font-sans text-[13px] font-semibold leading-snug tracking-wide transition-colors ${
-                            isActive
-                              ? "bg-background text-terracotta"
-                              : "text-title/70 hover:text-terracotta"
-                          }`}
-                        >
-                          {s.title}
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </nav>
-            </div>
-          </aside>
         </div>
       </div>
     </section>
