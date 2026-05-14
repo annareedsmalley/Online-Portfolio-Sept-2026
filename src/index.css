@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Anna Smalley portfolio design system.
+   All colors defined as HSL. No hex values in components. */
+
+@layer base {
+  :root {
+    /* Brand palette */
+    --bg-default: 36 33% 97%;       /* #FAF8F5 warm off-white */
+    --bg-sand: 40 29% 94%;          /* #F4F1EB warm sand */
+    --bg-blue: 217 35% 89%;         /* #D6E0EE soft blue-grey */
+    --accent: 18 66% 47%;            /* #C55829 primary orange */
+    --accent-hover: 18 66% 37%;      /* deeper orange for hover states */
+    --accent-deep: 341 52% 13%;      /* #32101B dark brown */
+    --navy: 211 56% 11%;            /* #0D1B2A dark navy */
+    --text-title: 30 8% 9%;         /* #1B1918 near black */
+    --text-body: 30 6% 33%;         /* #56514D warm grey */
+
+    /* shadcn semantic tokens mapped to brand */
+    --background: var(--bg-default);
+    --foreground: var(--text-title);
+
+    --card: var(--bg-default);
+    --card-foreground: var(--text-title);
+
+    --popover: var(--bg-default);
+    --popover-foreground: var(--text-title);
+
+    --primary: var(--accent);
+    --primary-foreground: var(--bg-default);
+
+    --secondary: var(--bg-sand);
+    --secondary-foreground: var(--text-title);
+
+    --muted: var(--bg-sand);
+    --muted-foreground: var(--text-body);
+
+    --accent-color: var(--accent);
+    --accent-foreground: var(--bg-default);
+
+    --destructive: 0 70% 45%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 33 22% 86%;
+    --input: 33 22% 86%;
+    --ring: var(--accent);
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "kern", "liga";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+    color: hsl(var(--text-title));
+    line-height: 1.15;
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .kicker {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.75rem;
+    color: hsl(var(--accent));
+  }
+
+  .body-text {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(var(--text-body));
+    line-height: 1.6;
+  }
+}
+
+/* =========================================================
+   Subtle entrance animations
+   - fade-up on scroll via .reveal (toggled by Reveal.tsx)
+   - hero-enter on initial page load
+   - global hover transitions for cards / buttons / nav links
+   - fully disabled for prefers-reduced-motion
+   ========================================================= */
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 600ms ease-out,
+      transform 600ms ease-out;
+    will-change: opacity, transform;
+  }
+  .reveal.reveal--in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .hero-enter {
+    opacity: 0;
+    transform: translateY(16px);
+    animation: hero-enter-kf 600ms ease-out 60ms forwards;
+  }
+  @keyframes hero-enter-kf {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Subtle continuous bounce for hero scroll-cue arrow */
+  .arrow-bounce {
+    animation: arrow-bounce-kf 1400ms ease-in-out infinite;
+    will-change: transform;
+  }
+  @keyframes arrow-bounce-kf {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(7px); }
+  }
+
+  /* Hero collage piece pop-in: each element fades + scales + settles to its own rotation.
+     Set --pop-rot on the element to its final rotation (e.g. style={{ '--pop-rot': '-5deg' }}).
+     Use .pop-in with .pop-delay-{n} for a staggered, energetic entrance. */
+  .pop-in {
+    --pop-rot: 0deg;
+    opacity: 0;
+    transform: translateY(28px) scale(0.85) rotate(0deg);
+    animation: pop-in-kf 700ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    will-change: opacity, transform;
+  }
+  @keyframes pop-in-kf {
+    0%   { opacity: 0; transform: translateY(28px) scale(0.85) rotate(0deg); }
+    60%  { opacity: 1; }
+    100% { opacity: 1; transform: translateY(0) scale(1) rotate(var(--pop-rot)); }
+  }
+  .pop-delay-1 { animation-delay: 120ms; }
+  .pop-delay-2 { animation-delay: 240ms; }
+  .pop-delay-3 { animation-delay: 360ms; }
+  .pop-delay-4 { animation-delay: 480ms; }
+  .pop-delay-5 { animation-delay: 600ms; }
+  .pop-delay-6 { animation-delay: 720ms; }
+
+  /* Hero arch — draw-on stroke animation, plays once on page load.
+     Generous dasharray covers the full path length without runtime measurement. */
+  .hero-arch-path {
+    stroke-dasharray: 6000;
+    stroke-dashoffset: 6000;
+    animation: hero-arch-draw 8000ms ease-in-out 200ms forwards;
+  }
+  @keyframes hero-arch-draw {
+    to { stroke-dashoffset: 0; }
+  }
+
+  /* Sticky note static resting rotation (no hover motion) */
+  .sticky-note {
+    transform: rotate(var(--sticky-rest-rot, 0deg));
+  }
+
+  /* Default 200ms ease hover transition for interactive surfaces */
+  a,
+  button,
+  .card-hover {
+    transition: all 200ms ease;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.reveal--in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .hero-enter {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+  .arrow-bounce {
+    animation: none !important;
+  }
+  .hero-arch-path {
+    stroke-dasharray: none !important;
+    stroke-dashoffset: 0 !important;
+    animation: none !important;
+  }
+  .pop-in {
+    opacity: 1 !important;
+    transform: rotate(var(--pop-rot)) !important;
+    animation: none !important;
+  }
+  .sticky-note {
+    transform: rotate(var(--sticky-rest-rot, 0deg)) !important;
+  }
+  a,
+  button,
+  .card-hover {
+    transition: none !important;
+  }
+}
