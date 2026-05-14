@@ -181,9 +181,8 @@ const StatBlock = ({ value, label }: { value: string; label: string }) => (
   </div>
 );
 
-const Section = ({ id, children }: { id: string; children: ReactNode }) => (
+const Section = ({ children }: { id?: string; children: ReactNode }) => (
   <Reveal as="section" className="flex scroll-mt-28 flex-col gap-6">
-    <span id={id} className="block scroll-mt-28" aria-hidden="true" />
     {children}
   </Reveal>
 );
