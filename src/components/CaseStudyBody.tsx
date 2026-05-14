@@ -149,9 +149,8 @@ const VideoFigure = ({ src, ariaLabel, caption }: { src: string; ariaLabel: stri
   );
 };
 
-const Section = ({ id, children }: { id: string; children: ReactNode }) => (
+const Section = ({ children }: { id?: string; children: ReactNode }) => (
   <Reveal as="section" className="flex scroll-mt-28 flex-col gap-6">
-    <span id={id} className="block scroll-mt-28" aria-hidden="true" />
     {children}
   </Reveal>
 );
