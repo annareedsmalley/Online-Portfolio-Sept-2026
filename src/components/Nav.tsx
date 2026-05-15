@@ -95,7 +95,13 @@ export const Nav = () => {
         transition: open ? "none" : "background-color 300ms ease, color 300ms ease, border-color 300ms ease",
       }}
     >
-      <div className="relative z-50 mx-auto flex h-16 max-w-content items-center justify-between px-6">
+      <div
+        className={cn(
+          "relative z-50 mx-auto flex max-w-content items-center justify-between overflow-hidden px-6 transition-[height,opacity] duration-300 ease-out",
+          collapseMainBar ? "h-0 opacity-0 md:h-16 md:opacity-100" : "h-16 opacity-100"
+        )}
+        aria-hidden={collapseMainBar ? true : undefined}
+      >
         <a
           href="/"
           onClick={(e) => {
