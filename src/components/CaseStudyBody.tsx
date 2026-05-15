@@ -265,7 +265,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                       window.scrollTo({ top: 0, behavior: "smooth" });
                       history.replaceState(null, "", window.location.pathname);
                     }}
-                    className="mb-3 block font-serif text-[18px] leading-snug text-title hover:text-terracotta transition-colors"
+                    className="mb-3 block font-sans text-[15px] font-semibold tracking-wide leading-snug text-title hover:text-terracotta transition-colors"
                   >
                     {studyTitle}
                   </a>
