@@ -209,7 +209,7 @@ export const Nav = () => {
           <button
             type="button"
             aria-label="Close menu"
-            className="fixed inset-0 z-40 h-screen w-screen bg-black/50"
+            className="fixed inset-x-0 bottom-0 top-16 z-40 bg-black/50"
             onClick={() => setOpen(false)}
           />
         </div>
