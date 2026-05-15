@@ -186,7 +186,7 @@ const Index = () => {
         <div className="mx-auto max-w-content px-6 py-20 md:px-16 md:py-28">
           <div className="mx-auto mb-14 max-w-2xl text-center">
             <span className="kicker">Kind Words</span>
-            <h2 className="mt-3 whitespace-nowrap font-serif text-[28px] text-title md:text-[40px]">
+            <h2 className="mt-3 font-serif text-[28px] text-title md:whitespace-nowrap md:text-[40px]">
               What people I've worked with say
             </h2>
           </div>
