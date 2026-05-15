@@ -125,6 +125,20 @@ const Index = () => {
           <h2 className="font-serif text-[36px] text-title md:text-[44px]">
             Recent work
           </h2>
+          <p className="mt-3 max-w-xl text-base text-body">
+            <a
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+                window.history.replaceState(null, "", "#contact");
+              }}
+              className="font-medium text-title underline-offset-4 hover:underline"
+            >
+              Contact me
+            </a>{" "}
+            for case studies on Salesforce and Walmart.
+          </p>
 
           <div className="group/list flex flex-col">
             {caseStudies.map((cs, idx) => (
