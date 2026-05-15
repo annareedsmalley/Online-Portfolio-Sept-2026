@@ -20,7 +20,7 @@ export const CaseStudyListRow = ({
     className="group relative block border-b border-border transition-colors duration-200 hover:bg-sand"
   >
     <div className="relative flex items-center justify-between gap-6 px-2 py-8 md:px-4 md:py-10">
-      <div className="relative z-20 flex w-1/2 flex-col gap-1.5">
+      <div className="relative z-20 flex w-5/12 flex-col gap-1.5">
         <h3 className="font-serif text-xl leading-snug text-title md:text-2xl">
           {title}
         </h3>
