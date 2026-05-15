@@ -83,10 +83,7 @@ const CaseStudyGap = () => {
             <img
               src={heroVisual}
               alt="Gap Inc. brand portfolio: Gap, Old Navy, Athleta, Banana Republic"
-              width={500}
-              height={724}
-              className="rounded-2xl shrink-0"
-              style={{ width: 500, height: 724, flexShrink: 0 }}
+              className="w-full h-auto rounded-2xl"
             />
           </div>
         </div>
