@@ -7,6 +7,7 @@ import { CaseStudyBodyAI } from "@/components/CaseStudyBodyAI";
 import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import { caseStudies } from "@/data/caseStudies";
+import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 import heroVisual from "@/assets/cs03/hero.png";
 
 const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/designing-trust-into-ai-feature");
@@ -39,6 +40,7 @@ const impacts = [
 ];
 
 const CaseStudyAIReviews = () => {
+  useSetCaseStudyTitle("Designing trust into Gap Inc.'s first customer-facing AI feature");
   return (
     <SiteLayout>
       {/* HERO */}

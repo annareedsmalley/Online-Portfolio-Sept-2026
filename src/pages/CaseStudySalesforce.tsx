@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import heroVisual from "@/assets/cs02/hero-timeline.png";
 import impactVisual from "@/assets/cs02/impact-at-a-glance.png";
 import { caseStudies } from "@/data/caseStudies";
+import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
 const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/four-brands-one-membership");
 
@@ -37,6 +38,7 @@ const impacts = [
 ];
 
 const CaseStudySalesforce = () => {
+  useSetCaseStudyTitle("Building a unified membership platform");
   return (
     <SiteLayout>
       {/* HERO */}
