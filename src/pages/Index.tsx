@@ -190,6 +190,7 @@ const Index = () => {
         </div>
       </section>
 
+      <ContactSection />
     </SiteLayout>
   );
 };
