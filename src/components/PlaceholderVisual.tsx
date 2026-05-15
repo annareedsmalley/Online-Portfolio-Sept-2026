@@ -35,7 +35,7 @@ export const PlaceholderVisual = ({
         <p className="font-label text-[11px] font-semibold uppercase tracking-[0.16em] text-terracotta">
           Visual Placeholder
         </p>
-        <p className="body-text text-[14px] leading-[1.55] text-title md:text-[15px]">
+        <p className="body-text text-[14px] leading-[1.5] text-title md:text-[15px]">
           {description}
         </p>
         {source && (
