@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Reveal } from "@/components/Reveal";
 import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
+import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import startingPointImg from "@/assets/cs02/starting-point.png";
 import theInitiativeImg from "@/assets/cs02/the-initiative.png";
 import theFrameworkImg from "@/assets/cs02/the-framework.png";
@@ -196,6 +197,20 @@ const SectionDivider = () => (
 export const CaseStudyBody02 = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState<string>(sections[0].id);
+  const [unlocked, setUnlocked] = useState(false);
+
+  useEffect(() => {
+    try {
+      if (sessionStorage.getItem(CASE_STUDY_GATE_STORAGE_KEY) === "1") {
+        setUnlocked(true);
+      }
+    } catch {
+      // ignore
+    }
+    const handler = () => setUnlocked(true);
+    window.addEventListener("case-study-unlocked", handler);
+    return () => window.removeEventListener("case-study-unlocked", handler);
+  }, []);
 
   const [observerTick, setObserverTick] = useState(0);
 
@@ -239,45 +254,46 @@ export const CaseStudyBody02 = () => {
           ref={containerRef}
           className="grid grid-cols-1 gap-16 lg:grid-cols-[35fr_65fr]"
         >
-          {/* LEFT: sticky nav */}
-          <aside className="relative">
-            <div className="sticky top-28 w-full" style={{ maxWidth: 412 }}>
-              <nav
-                aria-label="Case study sections"
-                className="w-full rounded-2xl border border-sand bg-sand/50 p-6"
-                style={{ maxWidth: 412 }}
-              >
-                <ul className="flex flex-col gap-1">
-                  {sections.map((s) => {
-                    const isActive = active === s.id;
-                    return (
-                      <li key={s.id} className="min-w-0">
-                        <a
-                          href={`#${s.id}`}
-                          onClick={(e) => {
-                            e.preventDefault();
-                            const el = document.getElementById(s.id);
-                            if (el) {
-                              const y = el.getBoundingClientRect().top + window.scrollY - 112;
-                              window.scrollTo({ top: y, behavior: "smooth" });
-                              history.replaceState(null, "", `#${s.id}`);
-                            }
-                          }}
-                          className={`block rounded-md px-3 py-2 font-sans text-[13px] font-semibold leading-snug tracking-wide transition-colors ${
-                            isActive
-                              ? "bg-background text-terracotta"
-                              : "text-title/70 hover:text-terracotta"
-                          }`}
-                        >
-                          {s.title}
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </nav>
-            </div>
-          </aside>
+          {unlocked && (
+            <aside className="relative">
+              <div className="sticky top-28 w-full" style={{ maxWidth: 412 }}>
+                <nav
+                  aria-label="Case study sections"
+                  className="w-full rounded-2xl border border-sand bg-sand/50 p-6"
+                  style={{ maxWidth: 412 }}
+                >
+                  <ul className="flex flex-col gap-1">
+                    {sections.map((s) => {
+                      const isActive = active === s.id;
+                      return (
+                        <li key={s.id} className="min-w-0">
+                          <a
+                            href={`#${s.id}`}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              const el = document.getElementById(s.id);
+                              if (el) {
+                                const y = el.getBoundingClientRect().top + window.scrollY - 112;
+                                window.scrollTo({ top: y, behavior: "smooth" });
+                                history.replaceState(null, "", `#${s.id}`);
+                              }
+                            }}
+                            className={`block rounded-md px-3 py-2 font-sans text-[13px] font-semibold leading-snug tracking-wide transition-colors ${
+                              isActive
+                                ? "bg-background text-terracotta"
+                                : "text-title/70 hover:text-terracotta"
+                            }`}
+                          >
+                            {s.title}
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </nav>
+              </div>
+            </aside>
+          )}
 
           {/* RIGHT: content */}
           <article className="flex min-w-0 flex-col gap-0">
