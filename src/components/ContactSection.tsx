@@ -85,8 +85,8 @@ export const ContactSection = () => {
             </a>
           </div>
 
-          <div className="w-full">
-            <div className="rounded-2xl bg-white p-8 shadow-sm md:p-10">
+          <div className="w-full max-w-xl mx-auto">
+            <div className="rounded-2xl bg-white p-8 shadow-sm md:p-10 text-left">
               <form onSubmit={onSubmit} noValidate className="flex flex-col gap-6">
                 <Field
                   id="name"
