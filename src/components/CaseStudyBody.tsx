@@ -188,6 +188,20 @@ const KeyInsight = ({
 export const CaseStudyBody = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState<string>(sections[0].id);
+  const [unlocked, setUnlocked] = useState(false);
+
+  useEffect(() => {
+    try {
+      if (sessionStorage.getItem(CASE_STUDY_GATE_STORAGE_KEY) === "1") {
+        setUnlocked(true);
+      }
+    } catch {
+      // ignore
+    }
+    const handler = () => setUnlocked(true);
+    window.addEventListener("case-study-unlocked", handler);
+    return () => window.removeEventListener("case-study-unlocked", handler);
+  }, []);
 
   const [observerTick, setObserverTick] = useState(0);
 
