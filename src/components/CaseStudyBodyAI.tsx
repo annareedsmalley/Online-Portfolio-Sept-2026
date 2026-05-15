@@ -20,6 +20,10 @@ interface NavSection {
   title: string;
 }
 
+interface CaseStudyBodyAIProps {
+  studyTitle: string;
+}
+
 const sections: NavSection[] = [
   { id: "the-situation", title: "The situation" },
   { id: "ai-thesis", title: "The AI thesis & team" },
@@ -108,7 +112,7 @@ const Section = ({ children }: { id?: string; children: ReactNode }) => (
 
 const SectionDivider = () => null;
 
-export const CaseStudyBodyAI = () => {
+export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState<string>(sections[0].id);
   const [unlocked, setUnlocked] = useState(false);
@@ -174,6 +178,17 @@ export const CaseStudyBodyAI = () => {
                   className="w-full rounded-2xl border border-sand bg-sand/50 p-6"
                   style={{ maxWidth: 412 }}
                 >
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                      history.replaceState(null, "", window.location.pathname);
+                    }}
+                    className="mb-3 block font-serif text-[18px] leading-snug text-title hover:text-terracotta transition-colors"
+                  >
+                    {studyTitle}
+                  </a>
                   <ul className="flex flex-col gap-1">
                     {sections.map((s) => {
                       const isActive = active === s.id;
