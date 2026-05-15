@@ -224,7 +224,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
           )}
 
           {/* RIGHT: content */}
-          <article className="flex min-w-0 flex-col gap-0 [&>*:first-child_h2]:mt-0">
+          <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
             <PasswordGate>
 
             {/* ===================== The Situation ===================== */}
