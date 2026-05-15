@@ -76,7 +76,7 @@ const Index = () => {
                 </StickyNote>
               </div>
 
-              <h1 className="font-serif text-[clamp(48px,6.4vw,100px)] leading-[1.05] text-white">
+              <h1 className="font-serif text-[clamp(36px,6.4vw,100px)] leading-[1.05] text-white">
                 {/* Line 1: I'm Anna Smalley, [headshot] */}
                 <span className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3">
                   <span
