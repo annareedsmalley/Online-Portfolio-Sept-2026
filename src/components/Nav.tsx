@@ -100,21 +100,12 @@ export const Nav = () => {
             }
           }}
           className={cn(
-            "inline-block min-w-0 transition-opacity hover:opacity-80",
+            "inline-block transition-opacity hover:opacity-80",
             onHero ? "text-white" : "text-title"
           )}
-          aria-label={showCaseStudyTitle ? `${caseStudyTitle} — back to top` : "Anna Smalley — home"}
+          aria-label="Anna Smalley — home"
         >
-          {showCaseStudyTitle ? (
-            <>
-              <span className="block max-w-[260px] truncate font-serif text-base font-semibold md:hidden">
-                {caseStudyTitle}
-              </span>
-              <span className="hidden font-serif text-lg font-bold md:inline md:text-xl">Anna Smalley</span>
-            </>
-          ) : (
-            <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
-          )}
+          <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -188,6 +179,21 @@ export const Nav = () => {
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
+
+      {showCaseStudyTitle ? (
+        <div className="border-t border-border bg-background md:hidden">
+          <button
+            type="button"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            aria-label={`${caseStudyTitle} — scroll to top`}
+            className="mx-auto flex h-10 w-full max-w-content items-center px-6 text-left"
+          >
+            <span className="truncate font-serif text-[14px] font-semibold text-title">
+              {caseStudyTitle}
+            </span>
+          </button>
+        </div>
+      ) : null}
 
       {open ? (
         <div className="md:hidden">
