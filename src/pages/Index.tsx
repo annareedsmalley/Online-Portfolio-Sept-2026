@@ -1,6 +1,5 @@
 import { SiteLayout } from "@/components/SiteLayout";
 import { CaseStudyListRow } from "@/components/CaseStudyListRow";
-import { CtaSection } from "@/components/CtaSection";
 import { Reveal } from "@/components/Reveal";
 
 import { StickyNote } from "@/components/StickyNote";

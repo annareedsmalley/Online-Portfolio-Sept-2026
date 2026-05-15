@@ -3,7 +3,6 @@ import { Pill } from "@/components/Pill";
 import { ImpactItem } from "@/components/ImpactItem";
 import { Reveal } from "@/components/Reveal";
 import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
-import { CtaSection } from "@/components/CtaSection";
 
 import { CaseStudyBody02 } from "@/components/CaseStudyBody02";
 import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
