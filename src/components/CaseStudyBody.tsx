@@ -70,9 +70,12 @@ const UL = ({ children }: { children: ReactNode }) => (
 //  - Montserrat Regular, 12px, color #56514D
 const Figure = ({ src, alt, caption, bgColor }: { src: string; alt: string; caption: string; bgColor?: string }) => (
   <figure className="flex flex-col">
-    <div className="rounded-xl overflow-hidden" style={bgColor ? { backgroundColor: bgColor } : undefined}>
-      <img src={src} alt={alt} className="block h-auto w-full" />
-    </div>
+    <ZoomableImage
+      src={src}
+      alt={alt}
+      className="rounded-xl overflow-hidden"
+      style={bgColor ? { backgroundColor: bgColor } : undefined}
+    />
     <figcaption
       className="mt-2 font-normal"
       style={{
