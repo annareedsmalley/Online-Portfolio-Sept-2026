@@ -41,19 +41,19 @@ const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
 );
 
 const H3 = ({ children }: { children: ReactNode }) => (
-  <h3 className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-12 mb-4">
+  <h3 className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-8 mb-2">
     {children}
   </h3>
 );
 
 const P = ({ children }: { children: ReactNode }) => (
-  <p className="body-text text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+  <p className="body-text text-[16px] leading-[1.55] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
     {children}
   </p>
 );
 
 const UL = ({ children }: { children: ReactNode }) => (
-  <ul className="body-text flex list-disc flex-col gap-2 pl-6 text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+  <ul className="body-text flex list-disc flex-col gap-1 pl-6 text-[16px] leading-[1.45] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
     {children}
   </ul>
 );
