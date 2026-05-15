@@ -3,6 +3,7 @@ import { Reveal } from "@/components/Reveal";
 import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
 import { PlaceholderVisual } from "@/components/PlaceholderVisual";
+import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import stakeholderMap from "@/assets/cs03/stakeholder-map.png";
 import aiThesis from "@/assets/cs03/ai-thesis.png";
 import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
