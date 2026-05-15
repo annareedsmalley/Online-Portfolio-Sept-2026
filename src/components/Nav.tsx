@@ -220,7 +220,7 @@ export const Nav = () => {
                   key={l.to}
                   href={l.to}
                   onClick={(e) => handleHashClick(e, l.hashTarget!)}
-                  className="font-serif text-xl text-title py-3 hover:text-terracotta"
+                  className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </a>
