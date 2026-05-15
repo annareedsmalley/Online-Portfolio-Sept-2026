@@ -79,7 +79,8 @@ const Contact = () => {
               </h1>
               <p className="body-text mt-5 max-w-xl text-base md:text-lg">
                 Whether it's a hiring conversation, an advisory engagement, or a hard product question
-                you'd like a second pair of eyes on — I'd love to hear from you.
+                you'd like a second pair of eyes on — I'd love to hear{" "}
+                <span className="whitespace-nowrap">from you.</span>
               </p>
 
               {/* FigJam-style sticky note */}
