@@ -11,6 +11,8 @@ import competitiveAnalysisImg from "@/assets/competitive-analysis.png";
 import showingNotTellingVideo from "@/assets/showing-not-telling.mov";
 import crossFunctionalAlignment1Img from "@/assets/cross-functional-alignment-1.png";
 import crossFunctionalAlignment2Img from "@/assets/cross-functional-alignment-2.png";
+import workshopIdeationImg from "@/assets/workshop-ideation.png";
+import workshopSessionImg from "@/assets/workshop-session.png";
 import validatingUserResearchImg from "@/assets/validating-user-research.png";
 import firstDesignSolutionImg from "@/assets/first-design-solution.png";
 import aikidoAmazonPushImg from "@/assets/aikido-amazon-push.png";
@@ -73,6 +75,67 @@ const UL = ({ children }: { children: ReactNode }) => (
 // Image with caption per spec:
 //  - 8px gap below image
 //  - Montserrat Regular, 12px, color #56514D
+const CyclingFigure = ({
+  images,
+  alt,
+  caption,
+  intervalMs = 3500,
+}: {
+  images: { src: string; alt?: string }[];
+  alt: string;
+  caption: string;
+  intervalMs?: number;
+}) => {
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => {
+      setIndex((i) => (i + 1) % images.length);
+    }, intervalMs);
+    return () => clearInterval(id);
+  }, [images.length, intervalMs]);
+  return (
+    <figure className="flex flex-col">
+      <div className="relative rounded-xl overflow-hidden">
+        {images.map((img, i) => (
+          <div
+            key={img.src}
+            className={`transition-opacity duration-700 ${i === index ? "opacity-100 relative" : "opacity-0 absolute inset-0"}`}
+            aria-hidden={i !== index}
+          >
+            <ZoomableImage
+              src={img.src}
+              alt={img.alt ?? alt}
+              className="rounded-xl overflow-hidden"
+            />
+          </div>
+        ))}
+      </div>
+      <div className="mt-3 flex justify-center gap-1.5">
+        {images.map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            aria-label={`Show image ${i + 1}`}
+            onClick={() => setIndex(i)}
+            className={`h-1.5 rounded-full transition-all ${i === index ? "w-6 bg-terracotta" : "w-1.5 bg-title/20"}`}
+          />
+        ))}
+      </div>
+      <figcaption
+        className="mt-2 font-normal"
+        style={{
+          fontFamily: "'Montserrat', sans-serif",
+          fontSize: "12px",
+          color: "#56514D",
+          marginTop: "8px",
+        }}
+      >
+        {caption}
+      </figcaption>
+    </figure>
+  );
+};
+
 const Figure = ({ src, alt, caption, bgColor }: { src: string; alt: string; caption: string; bgColor?: string }) => (
   <figure className="flex flex-col">
     <ZoomableImage
@@ -459,9 +522,13 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 We used design review and office hour slots with the VP of UX and VP of Product Management to communicate progress and gain approvals, with documentation within Figma of the dates we reviewed and gained approval for what designs and from which specific brands.
               </P>
-              <Figure
-                src={crossFunctionalAlignment1Img}
-                alt="Cross-Functional Alignment Structure Image 1"
+              <CyclingFigure
+                images={[
+                  { src: crossFunctionalAlignment1Img, alt: "Workshop graphics — original" },
+                  { src: workshopIdeationImg, alt: "Workshop ideation board" },
+                  { src: workshopSessionImg, alt: "Workshop session board" },
+                ]}
+                alt="Workshop graphics"
                 caption="Workshop graphics section"
               />
               <Figure
