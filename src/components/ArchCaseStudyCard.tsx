@@ -21,7 +21,7 @@ export const ArchCaseStudyCard = ({
   titleColor,
 }: ArchCaseStudyCardProps) => (
   <Link to={to} className="group flex flex-col gap-4">
-    <div className="relative aspect-square overflow-hidden rounded-2xl transition-all duration-200 group-hover:-translate-y-1">
+    <div className="relative overflow-hidden rounded-2xl transition-all duration-200 group-hover:-translate-y-1" style={{ aspectRatio: "1312 / 456" }}>
       <img
         src={image}
         alt={imageAlt}
