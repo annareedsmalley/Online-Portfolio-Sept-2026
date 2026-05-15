@@ -8,7 +8,7 @@ interface ImpactItemProps {
 export const ImpactItem = ({ label, body }: ImpactItemProps) => (
   <div className="flex flex-col gap-3">
     <div className="flex items-center gap-2">
-      <Check className="h-4 w-4 text-terracotta" strokeWidth={2.5} />
+      <Check className="h-5 w-5 text-terracotta" strokeWidth={2.5} />
       <h4 className="font-label text-[16px] font-semibold uppercase tracking-wider text-terracotta">
         {label}
       </h4>
