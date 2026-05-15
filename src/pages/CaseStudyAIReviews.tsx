@@ -65,8 +65,7 @@ const CaseStudyAIReviews = () => {
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
               The GenAI Review Summary, scaled across all four brands.
-              </p>
-            </Reveal>
+            </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {[
                 { icon: Briefcase, label: "UX Design Manager · Gap Inc." },
