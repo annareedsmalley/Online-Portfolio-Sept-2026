@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
 const links = [
   { label: "Case Studies", to: "/#work", hashTarget: "work" },
@@ -14,11 +15,14 @@ const links = [
 export const Nav = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [pastHero, setPastHero] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+  const caseStudyTitle = useCaseStudyTitle();
 
   const isHome = location.pathname === "/";
   const onHero = isHome && !scrolled && !open;
+  const showCaseStudyTitle = !!caseStudyTitle && pastHero && !open;
 
   useEffect(() => {
     setOpen(false);
