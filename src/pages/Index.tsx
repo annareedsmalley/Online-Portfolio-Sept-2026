@@ -124,8 +124,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-        </div>
-      </section>
 
       {/* CASE STUDIES */}
       <section id="work" className="bg-background">
