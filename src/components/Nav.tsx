@@ -67,7 +67,7 @@ export const Nav = () => {
         transition: "background-color 300ms ease, color 300ms ease, border-color 300ms ease",
       }}
     >
-      <div className="relative z-50 mx-auto flex h-16 max-w-content items-center justify-between bg-inherit px-6">
+      <div className="relative z-50 mx-auto flex h-16 max-w-content items-center justify-between px-6">
         <a
           href="/"
           onClick={(e) => {
