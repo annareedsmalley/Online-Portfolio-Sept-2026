@@ -235,7 +235,7 @@ export const CaseStudyBodyAI = () => {
 
               <H3>Deciding to say yes</H3>
               <P>
-                My team had a full roadmap. Saying yes to leading this meant taking on a project where the design problem was downstream of a much bigger problem about how Gap Inc. would think about AI. That was exactly why I said yes.
+                My team had a full roadmap. <strong>Saying yes to leading this meant taking on a project where the design problem was downstream of a much bigger problem about how Gap Inc. would think about AI.</strong> That was exactly why I said yes.
               </P>
               <P>
                 There was a version of this where the design team showed up after the fact, tidying up the UI on whatever Brand and AI/ML had already built. I have seen that movie before. The design ends up looking right but the experience is wrong, and by the time anyone notices, it is shipping. I wanted us upstream.
