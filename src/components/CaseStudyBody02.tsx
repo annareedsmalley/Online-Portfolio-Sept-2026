@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Reveal } from "@/components/Reveal";
+import { ZoomableImage } from "@/components/ZoomableImage";
 import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
 import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
@@ -67,9 +68,12 @@ const UL = ({ children }: { children: ReactNode }) => (
 
 const Figure = ({ src, alt, caption, bgColor }: { src: string; alt: string; caption?: string; bgColor?: string }) => (
   <figure className="flex flex-col">
-    <div className="rounded-xl overflow-hidden" style={bgColor ? { backgroundColor: bgColor } : undefined}>
-      <img src={src} alt={alt} className="block h-auto w-full" />
-    </div>
+    <ZoomableImage
+      src={src}
+      alt={alt}
+      className="rounded-xl overflow-hidden"
+      style={bgColor ? { backgroundColor: bgColor } : undefined}
+    />
     {caption && (
       <figcaption
         className="mt-2 font-normal"
