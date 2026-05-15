@@ -58,7 +58,10 @@ export const Nav = () => {
       <div className="mx-auto flex h-16 max-w-content items-center justify-between px-6">
         <Link
           to="/"
-          className="inline-block text-title transition-opacity hover:opacity-80"
+          className={cn(
+            "inline-block transition-opacity hover:opacity-80",
+            onHero ? "text-white" : "text-title"
+          )}
           aria-label="Anna Smalley — home"
         >
           <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
