@@ -100,21 +100,12 @@ export const Nav = () => {
             }
           }}
           className={cn(
-            "inline-block min-w-0 transition-opacity hover:opacity-80",
+            "inline-block transition-opacity hover:opacity-80",
             onHero ? "text-white" : "text-title"
           )}
-          aria-label={showCaseStudyTitle ? `${caseStudyTitle} — back to top` : "Anna Smalley — home"}
+          aria-label="Anna Smalley — home"
         >
-          {showCaseStudyTitle ? (
-            <>
-              <span className="block max-w-[260px] truncate font-serif text-base font-semibold md:hidden">
-                {caseStudyTitle}
-              </span>
-              <span className="hidden font-serif text-lg font-bold md:inline md:text-xl">Anna Smalley</span>
-            </>
-          ) : (
-            <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
-          )}
+          <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
