@@ -295,7 +295,7 @@ export const CaseStudyBodyAI = () => {
 
               <H3>Asking why</H3>
               <P>
-                The brief came in as "pilot an AI-generated review summary." Our first job was to refuse that framing politely, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?
+                The brief came in as "pilot an AI-generated review summary." <strong>Our first job was to refuse that framing politely, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?</strong>
               </P>
               <P>
                 What we found, working with UXR and looking at our existing review data, reframed the project. Customers who engage with reviews are 10% more likely to convert. But on PDPs with thousands of reviews, decision fatigue causes drop-off. Customers want a synthesis. The question was not whether AI summarization was useful. It clearly was. The question was whether customers would trust an AI to do that synthesis honestly.
