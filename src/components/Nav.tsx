@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -16,6 +16,8 @@ export const Nav = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [pastHero, setPastHero] = useState(false);
+  const [hideMainBar, setHideMainBar] = useState(false);
+  const lastYRef = useRef(0);
   const location = useLocation();
   const navigate = useNavigate();
   const caseStudyTitle = useCaseStudyTitle();
@@ -23,17 +25,27 @@ export const Nav = () => {
   const isHome = location.pathname === "/";
   const onHero = isHome && !scrolled && !open;
   const showCaseStudyTitle = !!caseStudyTitle && pastHero && !open;
+  const collapseMainBar = showCaseStudyTitle && hideMainBar;
 
   useEffect(() => {
     setOpen(false);
   }, [location.pathname, location.hash]);
 
   useEffect(() => {
+    lastYRef.current = window.scrollY;
     const update = () => {
       const y = window.scrollY;
       setScrolled(y > 0);
-      // "Past hero" = scrolled enough that the case study H1 is no longer visible
       setPastHero(y > 240);
+      const delta = y - lastYRef.current;
+      if (Math.abs(delta) > 4) {
+        if (delta > 0 && y > 240) {
+          setHideMainBar(true);
+        } else if (delta < 0) {
+          setHideMainBar(false);
+        }
+        lastYRef.current = y;
+      }
     };
     update();
     window.addEventListener("scroll", update, { passive: true });
