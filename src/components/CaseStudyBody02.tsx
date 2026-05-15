@@ -29,10 +29,10 @@ interface NavSection {
 }
 
 const sections: NavSection[] = [
-  { id: "leadership-context", title: "Leadership Context" },
-  { id: "integrated-loyalty", title: "Integrated Loyalty" },
-  { id: "next-evolution", title: "The Next Evolution" },
-  { id: "payoff-product-gating", title: "The Payoff: Product Gating" },
+  { id: "leadership-context", title: "Leadership context" },
+  { id: "integrated-loyalty", title: "Integrated loyalty" },
+  { id: "next-evolution", title: "The next evolution" },
+  { id: "payoff-product-gating", title: "The payoff: product gating" },
   { id: "reflections", title: "Reflections" },
 ];
 
@@ -285,9 +285,9 @@ export const CaseStudyBody02 = () => {
 
             {/* ===================== Leadership Context ===================== */}
             <Section id="leadership-context">
-              <H2 id="leadership-context">Leadership Context</H2>
+              <H2 id="leadership-context">Leadership context</H2>
 
-              <H3>The Starting Point: Four Brands, One Easy Checkout</H3>
+              <H3>The starting point: four brands, one easy checkout</H3>
               <P>
                 When I joined Gap Inc. in 2018, the eCommerce platform allowed customers to shop just one of Gap Inc.'s brands, or switch between them. All products a customer added would appear in a shared cart.
               </P>
@@ -297,12 +297,12 @@ export const CaseStudyBody02 = () => {
                 caption="Brand switcher: a four-screen mobile flow from Old Navy to brand switcher to Gap to a shared cart."
               />
 
-              <H3>My Read on the Situation</H3>
+              <H3>My read on the situation</H3>
               <P>
                 The shared checkout was a remarkable feat of platform engineering, but I quickly noticed a gap between what the platform could technically support and what customers actually experienced day to day.
               </P>
 
-              <H3>My Scope at Gap, Inc.</H3>
+              <H3>My scope at Gap, inc</H3>
               <P>
                 During my tenure at Gap, Inc., I focused on each step of the eCommerce shopping journey, for all four brands:
               </P>
@@ -319,7 +319,7 @@ export const CaseStudyBody02 = () => {
                 I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
               </P>
 
-              <H3>The Problem</H3>
+              <H3>The problem</H3>
               <P>
                 Gap Inc shoppers could become members of almost a dozen separate loyalty programs, depending on:
               </P>
@@ -341,9 +341,9 @@ export const CaseStudyBody02 = () => {
 
             {/* ===================== Integrated Loyalty ===================== */}
             <Section id="integrated-loyalty">
-              <H2 id="integrated-loyalty">Integrated Loyalty (2020–2021)</H2>
+              <H2 id="integrated-loyalty">Integrated loyalty (2020–2021)</H2>
 
-              <H3>The Initiative</H3>
+              <H3>The initiative</H3>
               <P>
                 In 2020, my team joined the "Integrated Loyalty" project — a multi-year effort to create a single loyalty program for shoppers of all four Gap Inc. brands. This program promised:
               </P>
@@ -358,7 +358,7 @@ export const CaseStudyBody02 = () => {
                 caption="Our UX Teams: the cross-functional structure that delivered the Integrated Loyalty program across all four Gap Inc. brands."
               />
 
-              <H3>My Team's Role</H3>
+              <H3>My team's role</H3>
               <P>
                 I was the Sr. Manager for the "Web Buy" team — a team of 3 designers that owned authentication (sign up, sign in, and the various experiences around recognized customers vs. signed-in customers vs. unrecognized "guests"), web bag, checkout, profile, and post-purchase experiences including emails.
               </P>
@@ -369,7 +369,7 @@ export const CaseStudyBody02 = () => {
                 We weren't responsible for the app surfaces, but the App Buy UX team followed our lead in terms of the UX we came up with for web.
               </P>
 
-              <H3>The Framework</H3>
+              <H3>The framework</H3>
               <P>
                 I helped define the three workstreams that would guide the UX team's contribution to the integrated loyalty program: Program Foundation; Value Proposition & Omni CX; and Loyalty Self-Service & Account Management.
               </P>
@@ -390,7 +390,7 @@ export const CaseStudyBody02 = () => {
                 alt="Redeem journey: in-store and online flows from Browse to Points Deducted"
               />
 
-              <H3>Managing the Complexity</H3>
+              <H3>Managing the complexity</H3>
               <P>
                 To reach these goals, we worked through a massive amount of complexity. The challenge required deep cross-functional and cross-brand alignment, because the experience for the first version of the integrated loyalty program was going to be almost identical across brands.
               </P>
@@ -407,12 +407,12 @@ export const CaseStudyBody02 = () => {
                 alt="Sticky notes grouped into themes: Way Finding, Rewards & Points, Discoverability, Loyalty program/Hub, Program Comprehension, Fun & Ease of Use, Tiering, Motivation, Value/Expectations, Customer Control, Communication, Balancing Shopping Task vs Loyalty Task, Hub/Account, Card Acquisition, and Omni/In Store."
               />
 
-              <H3>The Hardest Part</H3>
+              <H3>The hardest part</H3>
               <P>
                 The hardest part was mapping all of the existing types of accounts and rewards options and making sure the required account merging experience was smooth for all types of account holders. We had to reconcile what would need to happen to create a simple and graceful transition experience for customers in dozens of different scenarios — e.g. "customer has an ecommerce account only and has some rewards earned through the Old Navy MTL program but also has a separate Athleta loyalty account with a different type of reward."
               </P>
 
-              <H3>The Launch</H3>
+              <H3>The launch</H3>
               <P>Then, in 2021…</P>
               <P>
                 <strong>We did it! We launched our new cross-brand, Integrated Loyalty Program.</strong>
@@ -421,7 +421,7 @@ export const CaseStudyBody02 = () => {
                 Ever since then, all customers have been able to use a single account, in stores and online, to access all Gap Inc. loyalty program benefits, all of which apply to all four brands.
               </P>
 
-              <H3>Two Gap Inc. Firsts</H3>
+              <H3>Two Gap Inc. firsts</H3>
               <P>
                 This was the first time we offered free shipping benefits to those with loyalty accounts.
               </P>
@@ -438,12 +438,12 @@ export const CaseStudyBody02 = () => {
                 alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
               />
 
-              <H3>19 Million New Accounts</H3>
+              <H3>19 Million new accounts</H3>
               <P>
                 By 2022, customers had created <strong>19 million new Gap Inc loyalty accounts!</strong>
               </P>
 
-              <H3>The Results</H3>
+              <H3>The results</H3>
               <P>
                 Within the first year of launch, the integrated loyalty program drove significant customer growth and adoption across brands.
               </P>
@@ -471,9 +471,9 @@ export const CaseStudyBody02 = () => {
 
             {/* ===================== The Next Evolution ===================== */}
             <Section id="next-evolution">
-              <H2 id="next-evolution">The Next Evolution (2024)</H2>
+              <H2 id="next-evolution">The next evolution (2024)</H2>
 
-              <H3>Phase 2 Begins</H3>
+              <H3>Phase 2 begins</H3>
               <P>
                 By 2024, it was time to start on the second phase of the Gap Inc Loyalty program.
               </P>
@@ -482,7 +482,7 @@ export const CaseStudyBody02 = () => {
                 Retain the simplicity and power of a single, shared loyalty program while also applying brand-specific styling to each customer's loyalty experience?
               </Pullquote>
 
-              <H3>The Answer Was Technology</H3>
+              <H3>The answer was technology</H3>
               <P>
                 As it turned out, the answer to this How Might We resided in… Technology.
               </P>
@@ -490,12 +490,12 @@ export const CaseStudyBody02 = () => {
                 This is because, prior to 2024, Gap Inc.'s eCommerce UI was not "headless." In other words, applying a different look & feel to the same underlying experience meant rebuilding that experience four times.
               </P>
 
-              <H3>Leading the Headless UI Migration</H3>
+              <H3>Leading the headless UI migration</H3>
               <P>
                 Luckily, later that very same year, Gap Inc. started the process to move our entire web platform to headless UI, using <strong>Next.js and Tailwind</strong>. Soon after, I became the lead of the Product Design team dedicated to this effort.
               </P>
 
-              <H3>How We Approached the Work</H3>
+              <H3>How we approached the work</H3>
               <P>
                 Our "Unlocking Momentum" strategy framework focused on three principles: <strong>scaling</strong> across new platforms, markets, and brands; <strong>moving fast</strong> through prototyping and testing; and ensuring <strong>consistency</strong> across platforms, devices, and teams.
               </P>
@@ -511,7 +511,7 @@ export const CaseStudyBody02 = () => {
                 alt="New foundational PDP buy box template preview across Athleta, Banana Republic, Gap, and Old Navy"
               />
 
-              <H3>75% Done in 10 Months</H3>
+              <H3>75% Done in 10 months</H3>
               <P>
                 10 months later, we're <strong>75% done with this work, including 100% of our PLP and PDP pages.</strong>
               </P>
@@ -521,9 +521,9 @@ export const CaseStudyBody02 = () => {
 
             {/* ===================== The Payoff: Product Gating ===================== */}
             <Section id="payoff-product-gating">
-              <H2 id="payoff-product-gating">The Payoff: Product Gating (2024–2025)</H2>
+              <H2 id="payoff-product-gating">The payoff: product gating (2024–2025)</H2>
 
-              <H3>The First Big Win</H3>
+              <H3>The first big win</H3>
               <P>
                 Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
@@ -544,7 +544,7 @@ export const CaseStudyBody02 = () => {
                 ariaLabel="Product gating interaction loop"
               />
 
-              <H3>Built Once, Used by All</H3>
+              <H3>Built once, used by all</H3>
               <P>
                 Because Gap used Headless UI to create these 3 new shared components for the product gating experience, it was trivial for the other brands to implement the same program, using their own brand theme.
               </P>
@@ -564,7 +564,7 @@ export const CaseStudyBody02 = () => {
                 alt="Bag screen shared component themed across Old Navy, Gap, Banana Republic, and Athleta"
               />
 
-              <H3>The Efficiency Gain</H3>
+              <H3>The efficiency gain</H3>
               <StatBlock value="25%" label="The amount of engineering and design time it now takes to propagate a new experience across all four brands, compared to the time it would have taken last year, before we launched Headless UI." />
               <P>
                 Given the impact of just one campaign, for one brand, the potential is exponential.
@@ -577,12 +577,12 @@ export const CaseStudyBody02 = () => {
             <Section id="reflections">
               <H2 id="reflections">Reflections</H2>
 
-              <H3>What I'm Most Proud Of</H3>
+              <H3>What I'm most proud of</H3>
               <P>
                 I'm proudest of how the work compounded. The integrated loyalty launch gave 19 million customers a simpler relationship with our brands, and the headless platform that followed turned every future loyalty improvement into a four-brand win by default. None of that happens without the cross-functional trust my team built over years of unglamorous reconciliation work.
               </P>
 
-              <H3>What I Would Do Differently</H3>
+              <H3>What I would do differently</H3>
               <P>
                 I'd invest in the design token and theming architecture earlier. We spent years rebuilding the same experiences four times before headless UI made brand-specific theming trivial — and I underestimated how much faster every other initiative would move once that foundation existed.
               </P>
