@@ -10,14 +10,14 @@ interface NavSection {
 }
 
 const sections: NavSection[] = [
-  { id: "the-situation", title: "The situation" },
-  { id: "ai-thesis", title: "The AI thesis & team" },
-  { id: "structuring-work", title: "Structuring the work" },
-  { id: "strategic-bets", title: "The strategic bets" },
-  { id: "cross-functional", title: "Cross-functional execution" },
-  { id: "launch-reframe", title: "The launch & reframe" },
-  { id: "scaling", title: "Scaling across four brands" },
-  { id: "lasting-impact", title: "Lasting strategic impact" },
+  { id: "the-situation", title: "The Situation" },
+  { id: "ai-thesis", title: "The AI Thesis & Team" },
+  { id: "structuring-work", title: "Structuring the Work" },
+  { id: "strategic-bets", title: "The Strategic Bets" },
+  { id: "cross-functional", title: "Cross-Functional Execution" },
+  { id: "launch-reframe", title: "The Launch & Reframe" },
+  { id: "scaling", title: "Scaling Across Four Brands" },
+  { id: "lasting-impact", title: "Lasting Strategic Impact" },
   { id: "reflections", title: "Reflections" },
 ];
 
@@ -191,7 +191,7 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== The Situation ===================== */}
             <Section id="the-situation">
-              <H2 id="the-situation">The situation</H2>
+              <H2 id="the-situation">The Situation</H2>
               <P>
                 Every retailer in 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who had originally proposed using AI to generate review summaries and highlights for customers. So this was a project I had helped seed long before the brief landed on my team.
               </P>
@@ -206,7 +206,7 @@ export const CaseStudyBodyAI = () => {
                 aspect="wide"
               />
 
-              <H3>My read on the situation</H3>
+              <H3>My Read on the Situation</H3>
               <P>
                 When the brief came in, my first thought was that we were not being asked to ship a feature. We were being asked to set a precedent. This was going to be the first time a Gap Inc. customer would knowingly interact with AI on our site, and whatever pattern we established here would set the bar, both internally and externally, for every AI experience that came after.
               </P>
@@ -223,7 +223,7 @@ export const CaseStudyBodyAI = () => {
                 We were not being asked to ship a feature. We were being asked to set a precedent.
               </Pullquote>
 
-              <H3>Deciding to say yes</H3>
+              <H3>Deciding to Say Yes</H3>
               <P>
                 My team had a full roadmap. Saying yes to leading this meant taking on a project where the design problem was downstream of a much bigger problem about how Gap Inc. would think about AI. That was exactly why I said yes.
               </P>
@@ -239,7 +239,7 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== AI Thesis & Team ===================== */}
             <Section id="ai-thesis">
-              <H2 id="ai-thesis">The AI thesis i walked in with</H2>
+              <H2 id="ai-thesis">The AI Thesis I Walked In With</H2>
               <P>
                 Before any design work started, I made sure my team and our cross-functional partners understood the lens I was bringing to this. Six principles, which I came back to again and again as we worked:
               </P>
@@ -256,7 +256,7 @@ export const CaseStudyBodyAI = () => {
                 aspect="video"
               />
 
-              <H3>My first move: choosing the right designer</H3>
+              <H3>My First Move: Choosing the Right Designer</H3>
               <P>
                 My first move on any project of this kind is the same as it was on the multivariant PDP project: I pick the designer. Who I put on a project tells the team and the org what I think the project is.
               </P>
@@ -267,7 +267,7 @@ export const CaseStudyBodyAI = () => {
                 She was also an experienced native app designer when she joined my team. That meant much more of her career had been spent designing for small screens than the rest of my team, who all had experience designing for desktop as well. Mobile is where most of our customers shop, and the constraint of a small screen is where AI either earns its keep or wastes the customer's time. Katie brought the right instincts for that constraint.
               </P>
 
-              <H3>Servant leadership in practice</H3>
+              <H3>Servant Leadership in Practice</H3>
               <P>
                 Once Katie was on the project, my role was to set the conditions for her to do her best work. She presented her own designs in cross-functional reviews. She led conversations with the AI/ML team and the Data Science team. She drove the UXR plan with our researcher. I did not present her work and I did not speak for her in stakeholder meetings.
               </P>
@@ -280,9 +280,9 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== Structuring the Work ===================== */}
             <Section id="structuring-work">
-              <H2 id="structuring-work">How i structured the team's work</H2>
+              <H2 id="structuring-work">How I Structured the Team's Work</H2>
 
-              <H3>Asking why</H3>
+              <H3>Asking Why</H3>
               <P>
                 The brief came in as "pilot an AI-generated review summary." Our first job was to refuse that framing politely, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?
               </P>
@@ -296,7 +296,7 @@ export const CaseStudyBodyAI = () => {
                 Customers want a synthesis. The question was whether they would trust an AI to do that synthesis honestly.
               </Pullquote>
 
-              <H3>Discovery and competitive analysis</H3>
+              <H3>Discovery and Competitive Analysis</H3>
               <P>
                 We started with a deep look at how other retailers were handling AI review summaries: Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
               </P>
@@ -306,7 +306,7 @@ export const CaseStudyBodyAI = () => {
                 aspect="wide"
               />
 
-              <H3>Discovery research with customers</H3>
+              <H3>Discovery Research with Customers</H3>
               <P>
                 We ran a phased UXR program over the project. The discovery phase confirmed what I suspected: customers actively look for negative reviews. They use them to test whether a product is right for them. They distrust unalloyed praise. They distrust AI. They want to see how a product fails before they trust it to succeed.
               </P>
@@ -324,12 +324,12 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== Strategic Bets ===================== */}
             <Section id="strategic-bets">
-              <H2 id="strategic-bets">The strategic bets</H2>
+              <H2 id="strategic-bets">The Strategic Bets</H2>
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
               </P>
 
-              <H3>Bet 1: show negative sentiment, don't hide it</H3>
+              <H3>Bet 1: Show negative sentiment, don't hide it</H3>
               <P>
                 The instinct from Brand was understandable: an AI summary that says "customers found this product runs small" or "the fabric pills" sounds like negative marketing copy. The instinct from craft was to soften it, smooth it, surface it in the lightest possible way.
               </P>
@@ -347,12 +347,12 @@ export const CaseStudyBodyAI = () => {
                 attribution="UX Research participant. The customer logic behind keeping the Dislikes bucket visible even when empty. UXR also found that keeping the Dislikes bucket and showing 'No Trending Dislikes' was interpreted as the brand maintaining integrity for their customers' product experience. And most participants perceived Mixed Reviews as a credibility signal: a brand willing to acknowledge mixed feedback was a brand they trusted more."
               />
 
-              <H3>Bet 2: add an AI disclAImer</H3>
+              <H3>Bet 2: Add an AI disclaimer</H3>
               <P>
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite: told the customer this is AI, labeled the section, and used a disclaimer to acknowledge the model's limits. This is the trust-first thesis expressed in copy rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
               </P>
 
-              <H3>Bet 3: use a 3-bucket sentiment system</H3>
+              <H3>Bet 3: Use a 3-bucket sentiment system</H3>
               <P>
                 Katie explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a 3-bucket system that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
               </P>
@@ -365,7 +365,7 @@ export const CaseStudyBodyAI = () => {
                 aspect="wide"
               />
 
-              <H3>Bet 4: design for model confidence, not agAInst it</H3>
+              <H3>Bet 4: Design for model confidence, not against it</H3>
               <P>
                 The most consequential AI thinking we did on this project was designing the UI around what the model actually knew, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
               </P>
@@ -381,7 +381,7 @@ export const CaseStudyBodyAI = () => {
                 aspect="wide"
               />
 
-              <H3>Bet 5: make the AI summary scAnnable</H3>
+              <H3>Bet 5: Make the AI summary scannable</H3>
               <P>
                 My fifth call was one I had to make repeatedly, and one that did not come from the designer or the content strategist. I pushed for using GenAI not only to produce the text summary and the attribute table, but also to bold a few key words inside the text summary, making it even more scannable. This was not something most of our competitors were doing.
               </P>
@@ -397,7 +397,7 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== Cross-Functional Execution ===================== */}
             <Section id="cross-functional">
-              <H2 id="cross-functional">Leading the cross-functional org</H2>
+              <H2 id="cross-functional">Leading the Cross-Functional Org</H2>
               <P>
                 A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), Product Management, Platform Engineering, Brand Producers and Category Merchants across all four brands, Content Strategy (with much heavier-than-usual involvement, because everything the model output was content the org had not previously generated), Design Systems, UX Research, and UX Leadership.
               </P>
@@ -421,7 +421,7 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== Launch & Reframe ===================== */}
             <Section id="launch-reframe">
-              <H2 id="launch-reframe">The launch and the reframe</H2>
+              <H2 id="launch-reframe">The Launch and the Reframe</H2>
               <P>
                 We launched on Athleta and Old Navy in early 2025. The A/B test was set up to measure conversion, add-to-bag, and return rates.
               </P>
@@ -450,7 +450,7 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== Scaling ===================== */}
             <Section id="scaling">
-              <H2 id="scaling">Scaling across four brands</H2>
+              <H2 id="scaling">Scaling Across Four Brands</H2>
               <P>
                 Once we had the trust and returns story validated at Old Navy and Athleta, the next problem was scale. Four brands, each with its own visual identity, its own merchandising priorities, and its own opinions about what AI should and should not say to its customers.
               </P>
@@ -470,7 +470,7 @@ export const CaseStudyBodyAI = () => {
 
             {/* ===================== Lasting Strategic Impact ===================== */}
             <Section id="lasting-impact">
-              <H2 id="lasting-impact">Lasting strategic impact</H2>
+              <H2 id="lasting-impact">Lasting Strategic Impact</H2>
               <P>
                 What I am most proud of from this project is not the feature itself, although the business value speaks for itself. What I am most proud of is what the feature seeded.
               </P>
@@ -481,7 +481,7 @@ export const CaseStudyBodyAI = () => {
                 That is what foundational work is supposed to do. One project pays for the next ten.
               </Pullquote>
 
-              <H3>The AI principles this work established</H3>
+              <H3>The AI Principles This Work Established</H3>
               <P>
                 If a hiring manager wants to know how I think about AI, this is the shortest version. These are the principles I walked into this project with, and that this project then validated in production.
               </P>
@@ -501,7 +501,7 @@ export const CaseStudyBodyAI = () => {
             <Section id="reflections">
               <H2 id="reflections">Reflections</H2>
 
-              <H3>What i'm proud of</H3>
+              <H3>What I'm Proud Of</H3>
               <UL>
                 <li>Reframing the success conversation when conversion came back flat and returns came back down. That moment, more than any individual design decision, is what made this project a foundation rather than a one-off.</li>
                 <li>Holding the line on trust architecture (especially the negatives, the disclaimer, and the model-confidence states) through the inevitable pressure to make the feature feel "more positive" or "more confident" than the underlying data justified.</li>

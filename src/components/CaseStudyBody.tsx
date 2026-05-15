@@ -24,15 +24,15 @@ interface NavSection {
 
 // Sticky nav reflects every H2 in the source document, in order.
 const sections: NavSection[] = [
-  { id: "leadership-context", title: "Leadership context" },
-  { id: "structuring-work", title: "How i structured the team's work" },
-  { id: "first-battle", title: "The first battle: buying time" },
-  { id: "what-we-did", title: "What we did with the time we were granted" },
-  { id: "first-solution", title: "The first design solution" },
-  { id: "second-challenge", title: "The second challenge: the data crisis" },
-  { id: "accessibility-round-two", title: "Accessibility: round two and setting a new precedent" },
-  { id: "additional-solution", title: "The second solution: comparison table" },
-  { id: "two-solutions", title: "Two solutions" },
+  { id: "leadership-context", title: "Leadership Context" },
+  { id: "structuring-work", title: "How I Structured the Team's Work" },
+  { id: "first-battle", title: "The First Battle: Buying Time" },
+  { id: "what-we-did", title: "What We Did with the Time We Were Granted" },
+  { id: "first-solution", title: "The First Design Solution" },
+  { id: "second-challenge", title: "The Second Challenge: The Data Crisis" },
+  { id: "accessibility-round-two", title: "Accessibility: Round Two and Setting a New Precedent" },
+  { id: "additional-solution", title: "The Second Solution: Comparison Table" },
+  { id: "two-solutions", title: "Two Solutions" },
   { id: "reflections", title: "Reflections" },
 ];
 
@@ -277,9 +277,9 @@ export const CaseStudyBody = () => {
 
             {/* ===================== Leadership Context ===================== */}
             <Section id="leadership-context">
-              <H2 id="leadership-context">Leadership context</H2>
+              <H2 id="leadership-context">Leadership Context</H2>
 
-              <H3>The situation</H3>
+              <H3>The Situation</H3>
               <P>
                 This project began as a brand-owned initiative, scoped as an Old Navy-only effort. Within the brand world at Gap Inc., that meant something specific: there was no brief, no strategy, and no stakeholder alignment. Old Navy had a vision, they wanted it implemented, and the impact on customers was assumed to be positive without needing interrogation. No user research. No design involvement in the scoping.
               </P>
@@ -292,7 +292,7 @@ export const CaseStudyBody = () => {
                 caption="The brand's vision was to replicate the in-store experience of seeing all variant options."
               />
 
-              <H3>Here's what i walked into:</H3>
+              <H3>Here's what I walked into:</H3>
               <P>
                 Years of brand requests for multi-variant PDPs, and zero design work had been done. Engineering had already given an estimate and timeline. <strong>Handoff was three weeks away.</strong> And Old Navy had a <strong>$17 million marketing campaign</strong> riding on that timeline.
               </P>
@@ -300,7 +300,7 @@ export const CaseStudyBody = () => {
                 Leadership had scoped multi-variant PDPs as straightforward UI. "Just add selectors to the page; should be simple." It wasn't. This was a classic worst-case scenario for a UX team: <strong>engineering estimates and solution assumptions made without design input.</strong>
               </P>
 
-              <H3>My read on the situation</H3>
+              <H3>My Read on the Situation</H3>
               <P>
                 When I first assessed the project, I immediately thought: "Uh oh, I hope this doesn't end up being something where we have to bring in the VP of UX to interface with brand executives." I had observed and heard stories of similar situations where disagreements between the central organization and the brand organizations escalated quickly. My read was we'd need to get very close to the brands very quickly and earn their trust if we wanted to avoid escalation.
               </P>
@@ -316,7 +316,7 @@ export const CaseStudyBody = () => {
                 caption="The organizational landscape I was navigating: a web of cross-functional stakeholders spanning four brands, platform engineering, product management, UX research, and design systems."
               />
 
-              <H3>Deciding to say yes</H3>
+              <H3>Deciding to Say Yes</H3>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
               </P>
@@ -324,7 +324,7 @@ export const CaseStudyBody = () => {
                 We knew that if we didn't invest in trying to turn the ship around, it would come back to us in a way that would be much more unpleasant: cleaning up after a mess instead of designing a solid, validated solution in the first place. One that customers and the business would benefit from. And that we would benefit from, in terms of earning trust and respect from the brands and our other partners within the central org
               </P>
 
-              <H3>The AIkido approach</H3>
+              <H3>The Aikido Approach</H3>
               <P>
                 Rather than forcing design to the table through escalation, I took an <strong>aikido approach</strong>: working with existing organizational momentum rather than against it.
               </P>
@@ -338,7 +338,7 @@ export const CaseStudyBody = () => {
                 Don't fight the org's momentum — borrow it. Let stakeholders walk the path themselves and the conclusion holds.
               </KeyInsight>
 
-              <H3>My first move</H3>
+              <H3>My First Move</H3>
               <P>
                 My first move was selecting the right designer. I chose Jordan, a junior designer I had inherited from another team who had been operating at a senior level.
               </P>
@@ -352,7 +352,7 @@ export const CaseStudyBody = () => {
                 My second move was to strategize directly with Jordan, bringing them into the thinking about what needed to be done, which had everything to do with establishing trust with the brands quickly. I knew this would require relationship building and neutral demonstrations: showing, not telling, why the assumed simple solution would not be in any brand's interest to build without more thought and validation.
               </P>
 
-              <H3>My team: surfies and brandies</H3>
+              <H3>My Team: Surfies and Brandies</H3>
               <P>
                 I had 7 designers, and everyone had a senior title except Jordan. The team was structured in a new way that I had recently designed and begun implementing: each designer specialized in either a single "surface" across all four brands (the Product Listing Page or the Product Detail Page, for example) or specialized in one single brand across the whole eCommerce experience. The first group were called <strong>"Surfies"</strong> and the second group were called <strong>"Brandies."</strong>
               </P>
@@ -366,7 +366,7 @@ export const CaseStudyBody = () => {
                 caption={"Each designer specialized in either a single \"surface\" across all four brands or specialized in one single brand across the whole eCommerce experience. The first group were called \"Surfies\" and the second group were called \"Brandies.\""}
               />
 
-              <H3>Servant leadership in practice</H3>
+              <H3>Servant Leadership in Practice</H3>
               <P>
                 When it came to dividing responsibilities with Jordan, they were always the headliner. They presented their work, led the conversations in collaborative sessions and design reviews with the brands. I never presented their work or led those conversations for them.
               </P>
@@ -379,9 +379,9 @@ export const CaseStudyBody = () => {
 
             {/* ===================== How I Structured the Team's Work ===================== */}
             <Section id="structuring-work">
-              <H2 id="structuring-work">How i structured the team's work</H2>
+              <H2 id="structuring-work">How I Structured the Team's Work</H2>
 
-              <H3>Asking why: what problem are we even solving?</H3>
+              <H3>Asking Why: What Problem Are We Even Solving?</H3>
               <P>
                 The brands came to us saying "add more variant sets to PDPs." They didn't initially explain why. It was just "we want people to be able to get to other variants from the PDP." Our first step wasn't competitive analysis or prototyping. It was asking: what are you really trying to solve? Is this a customer problem, a business problem, or both?
               </P>
@@ -392,7 +392,7 @@ export const CaseStudyBody = () => {
                 When stakeholders hand you a solution, your first job is to find the question it was trying to answer.
               </KeyInsight>
 
-              <H3>Starting with competitive analysis, and why</H3>
+              <H3>Starting with Competitive Analysis, and Why</H3>
               <P>
                 Competitive analysis was an obvious place to start as the lowest-hanging fruit in terms of bolstering the argument that the assumptions being made were not safe. Depending on findings, the team could potentially get buy-in for an extended timeline simply based on what certain competitors were doing or not doing, or what percent of competitors were approaching the problem differently from the solution being pushed forward.
               </P>
@@ -405,7 +405,7 @@ export const CaseStudyBody = () => {
                 caption="Describe the competitive analysis"
               />
 
-              <H3>Showing, not telling: prototyping as a leadership tool</H3>
+              <H3>Showing, Not Telling: Prototyping as a Leadership Tool</H3>
               <P>
                 Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced <strong>15+ Figma prototypes across 4 brands</strong> and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination.
               </P>
@@ -418,7 +418,7 @@ export const CaseStudyBody = () => {
                 caption="A sample of the 15+ Figma prototypes built across four brands and multiple platforms. These weren't polished solutions; they were stress tests designed to surface failure scenarios and make assumptions visible."
               />
 
-              <H3>Cross-functional alignment structure</H3>
+              <H3>Cross-Functional Alignment Structure</H3>
               <P>
                 I leveraged the headless UI sprint structure I had already set up for a parallel project, which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a live forum right around the corner where stakeholders could bring up concerns and feel heard.
               </P>
@@ -439,7 +439,7 @@ export const CaseStudyBody = () => {
                 caption="The two-week headless UI sprint cadence I had already established for a parallel project. Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days."
               />
 
-              <H3>Influencing without authority</H3>
+              <H3>Influencing Without Authority</H3>
               <P>We had a strategic playbook for how to move stakeholders. It had four parts:</P>
               <UL>
                 <li>
@@ -461,9 +461,9 @@ export const CaseStudyBody = () => {
 
             {/* ===================== The First Battle: Buying Time ===================== */}
             <Section id="first-battle">
-              <H2 id="first-battle">The first battle: buying time</H2>
+              <H2 id="first-battle">The First Battle: Buying Time</H2>
 
-              <H3>AIkido in action: how we won the first battle</H3>
+              <H3>Aikido in Action: How We Won the First Battle</H3>
               <P>
                 Our challenge was to ask the right questions and get answers quickly to determine feasibility. We had one week's worth of competitive analysis, prototypes, and best practices research. We needed to convince stakeholders that three weeks wasn't enough, that engineering should pause, and assumptions needed to be challenged.
               </P>
@@ -482,9 +482,9 @@ export const CaseStudyBody = () => {
 
             {/* ===================== What We Did with the Time ===================== */}
             <Section id="what-we-did">
-              <H2 id="what-we-did">What we did with the time we were granted</H2>
+              <H2 id="what-we-did">What We Did with the Time We Were Granted</H2>
 
-              <H3>Validating through user research</H3>
+              <H3>Validating Through User Research</H3>
               <P>
                 All of our work so far had led us to our own assumptions. The next step was to find out what happened when we talked to real users.
               </P>
@@ -509,7 +509,7 @@ export const CaseStudyBody = () => {
                 caption="Research stimuli used in our user studies: real product pages with multi-variant selectors, tested across different product types and complexity levels to surface where the experience broke down."
               />
 
-              <H3>Seeing the accessibility opportunity</H3>
+              <H3>Seeing the Accessibility Opportunity</H3>
               <P>
                 My intuition told me that the solution as it was being handed to us would cause cognitive overload for neurotypical users, so it seemed especially important to get the perspective of people who already face barriers to comprehension when using websites and apps like ours.
               </P>
@@ -525,7 +525,7 @@ export const CaseStudyBody = () => {
 
             {/* ===================== The First Design Solution ===================== */}
             <Section id="first-solution">
-              <H2 id="first-solution">The first design solution</H2>
+              <H2 id="first-solution">The First Design Solution</H2>
               <P>
                 Based on the research, the team developed <strong>Solution A: a Sticky Container</strong> that solved the out-of-viewport problem, keeping key elements like price, reviews, images, and selected color visible as users scrolled, paired with <strong>Product Setup Guidelines</strong> that addressed cognitive overload by limiting variant complexity.
               </P>
@@ -541,7 +541,7 @@ export const CaseStudyBody = () => {
                 caption="The Sticky Container keeps price, reviews, images, and selected color visible as users scroll through variant options. Paired with product setup guidelines limiting PDPs to a maximum of four variant groups."
               />
 
-              <H3>Knowing when to step in and when not to</H3>
+              <H3>Knowing When to Step In and When Not To</H3>
               <P>
                 When the team landed on the "sticky container" solution, I was concerned it wouldn't solve the problem. But it was the design the team had landed on to test, and I did not stop them from testing it. The results came back much better than expected.
               </P>
@@ -554,7 +554,7 @@ export const CaseStudyBody = () => {
 
             {/* ===================== The Second Challenge: The Data Crisis ===================== */}
             <Section id="second-challenge">
-              <H2 id="second-challenge">The second challenge: the data crisis</H2>
+              <H2 id="second-challenge">The Second Challenge: The Data Crisis</H2>
               <P>
                 I really thought we were doing great. We were back in a state of equilibrium. But you know how these things go.
               </P>
@@ -562,7 +562,7 @@ export const CaseStudyBody = () => {
                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>products without 100% variant coverage caused the UI to behave unexpectedly.</strong> User clicks silently switched to unexpected variants, or resulted in dead clicks with no visual feedback.
               </P>
 
-              <H3>The pressure cooker moment</H3>
+              <H3>The Pressure Cooker Moment</H3>
               <P>
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
@@ -570,7 +570,7 @@ export const CaseStudyBody = () => {
                 We deployed the playbook again. We established shared vocabulary, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
               </P>
 
-              <H3>AIkido in action: the Amazon push</H3>
+              <H3>Aikido in Action: The Amazon Push</H3>
               <P>
                 Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
@@ -599,7 +599,9 @@ export const CaseStudyBody = () => {
 
             {/* ===================== Accessibility: Round Two ===================== */}
             <Section id="accessibility-round-two">
-              <H2 id="accessibility-round-two">Accessibility: round two and setting a new precedent</H2>
+              <H2 id="accessibility-round-two">
+                Accessibility: Round Two and Setting a New Precedent
+              </H2>
               <P>
                 Because it had gone so well the first time and added nothing to the timeline, we ran parallel accessibility research again with C4AT during this second phase. This time the results were even more robust.
               </P>
@@ -623,7 +625,7 @@ export const CaseStudyBody = () => {
 
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
-              <H2 id="additional-solution">The second solution: comparison table</H2>
+              <H2 id="additional-solution">The Second Solution: Comparison Table</H2>
 
               <P>
                 <em>The strategic win — the answer the brands rallied behind.</em>
@@ -652,7 +654,7 @@ export const CaseStudyBody = () => {
 
             {/* ===================== Two Solutions ===================== */}
             <Section id="two-solutions">
-              <H2 id="two-solutions">Two solutions</H2>
+              <H2 id="two-solutions">Two Solutions</H2>
               <P>
                 Brands have two patterns to choose from depending on their products and data. The Comparison Table is the more comprehensive solution where data and product fit allow, while the Stacked Selector remains available for simpler product setups. Either way, brands have guidelines for A/B testing to determine what works best.
               </P>
@@ -662,7 +664,7 @@ export const CaseStudyBody = () => {
                 caption="Caption of the visual"
               />
 
-              <H3>What happened next</H3>
+              <H3>What Happened Next</H3>
               <P>
                 We gave every brand the same framework, the same guidelines, and the same choice. What happened next proved the approach worked.
               </P>
@@ -688,7 +690,7 @@ export const CaseStudyBody = () => {
                 We didn't have to say "I told you so." The whole point of the aikido approach was that brands would learn on their own terms, and they did.
               </P>
 
-              <H3>Product and business impact</H3>
+              <H3>Product and Business Impact</H3>
               <UL>
                 <li>
                   <strong>Solution B (Comparison Table)</strong> was designed and validated through user research and is now in development.
@@ -701,7 +703,7 @@ export const CaseStudyBody = () => {
                 </li>
               </UL>
 
-              <H3>Guidelines that lasted</H3>
+              <H3>Guidelines That Lasted</H3>
               <P>
                 Company-wide grouping guidelines adopted as official policy across all four brands for future product decisions.
               </P>
@@ -718,12 +720,12 @@ export const CaseStudyBody = () => {
                 caption="Caption of the visual"
               />
 
-              <H3>Setting a new accessibility precedent</H3>
+              <H3>Setting a New Accessibility Precedent</H3>
               <P>
                 I set a new precedent at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
               </P>
 
-              <H3>Team and leadership impact</H3>
+              <H3>Team and Leadership Impact</H3>
               <UL>
                 <li>
                   Raised the confidence and profile of a junior designer. I got approval from the VP of UX to promote Jordan, largely because of the visibility and impact of their work on this project. Jordan has since been able to use their case study for this work to get a senior role at a big tech company.
@@ -743,12 +745,12 @@ export const CaseStudyBody = () => {
             <Section id="reflections">
               <H2 id="reflections">Reflections</H2>
 
-              <H3>What i would do differently</H3>
+              <H3>What I Would Do Differently</H3>
               <P>
                 More design studio workshops. We ran at least one hands-on brainstorming workshop with the central team (product, engineering, UX) and it was incredibly useful for alignment. If there's one thing I would do differently, it would be running more of these, and bringing the brands into them earlier. Co-creation builds faster alignment than presentation.
               </P>
 
-              <H3>What i'm proud of</H3>
+              <H3>What I'm Proud Of</H3>
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
                 <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
