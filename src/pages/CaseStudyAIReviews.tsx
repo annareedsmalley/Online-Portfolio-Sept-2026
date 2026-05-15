@@ -102,7 +102,7 @@ const CaseStudyAIReviews = () => {
 
       {/* IMPACT */}
       <section className="bg-sand">
-        <div className="mx-auto max-w-content px-6 py-24 md:px-16">
+        <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-24">
           <div className="grid gap-12 md:grid-cols-[max-content_1fr] md:gap-x-10">
             <div>
               <Reveal>
@@ -129,7 +129,7 @@ const CaseStudyAIReviews = () => {
 
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">
-        <div className="mx-auto max-w-content px-6 py-24 md:px-16">
+        <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-24">
           <Reveal>
             <h2 className="mb-10 font-serif text-[32px] text-title md:text-[44px]">
               Other case studies

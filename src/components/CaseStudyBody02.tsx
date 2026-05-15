@@ -253,7 +253,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
   return (
     <section className="bg-background">
-      <div className="mx-auto max-w-content px-6 py-24 md:px-16">
+      <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-24">
         <div
           ref={containerRef}
           className={`grid grid-cols-1 gap-16 ${unlocked ? "lg:grid-cols-[35fr_65fr]" : ""}`}
