@@ -56,8 +56,17 @@ export const Nav = () => {
       }}
     >
       <div className="mx-auto flex h-16 max-w-content items-center justify-between px-6">
-        <Link
-          to="/"
+        <a
+          href="/"
+          onClick={(e) => {
+            e.preventDefault();
+            if (isHome) {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+              window.history.replaceState(null, "", "/");
+            } else {
+              navigate("/");
+            }
+          }}
           className={cn(
             "inline-block transition-opacity hover:opacity-80",
             onHero ? "text-white" : "text-title"
@@ -65,7 +74,7 @@ export const Nav = () => {
           aria-label="Anna Smalley — home"
         >
           <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
-        </Link>
+        </a>
 
         <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => {
