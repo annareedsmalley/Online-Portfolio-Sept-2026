@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -206,14 +207,19 @@ export const Nav = () => {
               ),
             )}
           </nav>
-          <button
-            type="button"
-            aria-label="Close menu"
-            className="fixed inset-x-0 bottom-0 top-16 z-40 bg-black/50"
-            onClick={() => setOpen(false)}
-          />
         </div>
       ) : null}
+      {open
+        ? createPortal(
+            <button
+              type="button"
+              aria-label="Close menu"
+              className="fixed inset-0 z-40 bg-black/50 md:hidden"
+              onClick={() => setOpen(false)}
+            />,
+            document.body,
+          )
+        : null}
     </header>
   );
 };
