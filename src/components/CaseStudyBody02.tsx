@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Reveal } from "@/components/Reveal";
+import { ZoomableImage } from "@/components/ZoomableImage";
 import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
 import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
