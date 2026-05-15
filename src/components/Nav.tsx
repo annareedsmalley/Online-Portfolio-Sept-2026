@@ -211,7 +211,7 @@ export const Nav = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setOpen(false)}
-                  className="font-serif text-xl text-title py-3 hover:text-terracotta"
+                className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </a>
