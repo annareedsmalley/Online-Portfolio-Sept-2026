@@ -9,7 +9,7 @@ const CaseStudiesIndex = () => {
       <section className="bg-background">
         <div className="mx-auto max-w-content px-6 py-20 md:px-16 md:py-28">
           <span className="kicker">Selected Work</span>
-          <h1 className="mt-3 font-serif text-[44px] leading-[1.05] text-title md:text-[64px]">
+          <h1 className="mt-3 font-serif text-[36px] leading-[1.05] text-title md:text-[64px]">
             Case studies
           </h1>
 
