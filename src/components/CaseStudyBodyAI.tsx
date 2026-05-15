@@ -5,6 +5,7 @@ import { PasswordGate } from "@/components/PasswordGate";
 import { PlaceholderVisual } from "@/components/PlaceholderVisual";
 import stakeholderMap from "@/assets/cs03/stakeholder-map.png";
 import aiThesis from "@/assets/cs03/ai-thesis.png";
+import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
 
 interface NavSection {
   id: string;
@@ -304,11 +305,19 @@ export const CaseStudyBodyAI = () => {
               <P>
                 We started with a deep look at how other retailers were handling AI review summaries: Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
               </P>
-              <PlaceholderVisual
-                description="Competitive analysis grid: the four reference retailers (Amazon, Target, NewEgg, Expedia) with annotated callouts on what each got right and where the trust gap lived."
-                source="March 2024 GenAI Reviews Summary UXR report"
-                aspect="wide"
-              />
+              <figure className="my-4">
+                <img
+                  src={competitiveAnalysis}
+                  alt="Competitive analysis grid: the four reference retailers (Amazon, Target, NewEgg, Expedia) with annotated callouts on what each got right and where the trust gap lived."
+                  className="w-full h-auto rounded-2xl"
+                />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  March 2024 GenAI Reviews Summary UXR report
+                </figcaption>
+              </figure>
 
               <H3>Discovery research with customers</H3>
               <P>
