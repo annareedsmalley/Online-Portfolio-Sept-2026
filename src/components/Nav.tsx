@@ -46,6 +46,7 @@ export const Nav = () => {
 
   const handleHashClick = (e: React.MouseEvent, target: string) => {
     e.preventDefault();
+    setOpen(false);
     if (location.pathname === "/") {
       document.getElementById(target)?.scrollIntoView({ behavior: "smooth" });
       window.history.replaceState(null, "", `/#${target}`);
