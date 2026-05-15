@@ -111,13 +111,11 @@
 
   .hero-enter {
     opacity: 0;
-    transform: translateY(16px);
     animation: hero-enter-kf 600ms ease-out 60ms forwards;
   }
   @keyframes hero-enter-kf {
     to {
       opacity: 1;
-      transform: translateY(0);
     }
   }
 
