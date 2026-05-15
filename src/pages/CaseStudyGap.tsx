@@ -46,7 +46,7 @@ const CaseStudyGap = () => {
   return (
     <SiteLayout>
       {/* HERO */}
-      <section className="bg-background hero-enter">
+      <section className="bg-background">
         <div className="mx-auto max-w-content px-6 pt-6 md:px-16 md:pt-16">
           <Link
             to="/#work"

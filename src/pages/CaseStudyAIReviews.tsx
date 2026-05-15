@@ -57,19 +57,15 @@ const CaseStudyAIReviews = () => {
 
         <div className="mx-auto grid max-w-content items-start gap-y-12 px-6 pt-6 pb-12 md:px-16 md:pb-24 md:grid-cols-[748fr_1fr] md:gap-x-16">
           <div className="flex flex-col gap-7">
-            <Reveal>
-              <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
-                Designing trust into{" "}
-                <span className="text-terracotta">
-                  Gap Inc.'s first customer-facing AI feature
-                </span>
-              </h1>
-            </Reveal>
-            <Reveal delay={80}>
-              <p className="body-text max-w-xl text-base md:text-lg">
-                The GenAI Review Summary, scaled across all four brands.
-              </p>
-            </Reveal>
+            <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
+              Designing trust into{" "}
+              <span className="text-terracotta">
+                Gap Inc.'s first customer-facing AI feature
+              </span>
+            </h1>
+            <p className="body-text max-w-xl text-base md:text-lg">
+              The GenAI Review Summary, scaled across all four brands.
+            </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {[
                 { icon: Briefcase, label: "UX Design Manager · Gap Inc." },
