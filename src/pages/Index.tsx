@@ -183,7 +183,7 @@ const Index = () => {
           </div>
 
           {/* Big stats — sticky-note style */}
-          <div className="mt-20 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-14 border-t border-border pt-20 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-20 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
             <BigStat end={15} suffix="+" label="Years leading UX" color="yellow" rotate={-4} />
             <BigStat end={4} label="Brands unified" color="peach" rotate={3} />
             <BigStat end={40} suffix="+" label="Designers mentored" color="blue" rotate={-2} />
