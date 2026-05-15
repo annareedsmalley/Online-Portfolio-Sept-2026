@@ -40,7 +40,7 @@ const Index = () => {
           <div className="relative">
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
-              <h1 className="font-serif text-[36px] leading-[1.1] text-white">
+              <h1 className="font-serif text-[32px] leading-[1.1] text-white">
                 I'm <span>Anna Smalley</span>, a senior UX leader
               </h1>
             <img
@@ -122,7 +122,7 @@ const Index = () => {
       {/* CASE STUDIES */}
       <section id="work" className="bg-background">
         <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-16">
-          <h2 className="font-serif text-[36px] text-title md:text-[44px]">
+          <h2 className="font-serif text-[32px] text-title md:text-[44px]">
             Recent work
           </h2>
           <p className="mt-3 max-w-xl text-base text-body">
@@ -167,7 +167,7 @@ const Index = () => {
               </div>
             </div>
             <div className="md:col-span-7">
-              <h2 className="font-serif text-[36px] text-title md:text-[48px]">
+              <h2 className="font-serif text-[32px] text-title md:text-[48px]">
                 About me
               </h2>
               <p className="body-text mt-6 text-base md:text-lg">
