@@ -188,11 +188,7 @@ const Section = ({ children }: { id?: string; children: ReactNode }) => (
   </Reveal>
 );
 
-const SectionDivider = () => (
-  <div className="my-8">
-    <hr className="my-0 h-px w-full border-0 bg-border" aria-hidden="true" />
-  </div>
-);
+const SectionDivider = () => null;
 
 export const CaseStudyBody02 = () => {
   const containerRef = useRef<HTMLDivElement>(null);
