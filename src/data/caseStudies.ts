@@ -1,6 +1,6 @@
 import fourBrandsImg from "@/assets/case-study-gap-thumbnail.png";
-import salesforceImg from "@/assets/case-salesforce-einstein.png";
-import cartCheckoutImg from "@/assets/case-cart-checkout.png";
+import placeholder02 from "@/assets/placeholder-featured-02.png";
+import placeholder03 from "@/assets/placeholder-featured-03.png";
 
 export interface CaseStudyEntry {
   to: string;
@@ -26,8 +26,8 @@ export const caseStudies: CaseStudyEntry[] = [
     to: "/work/four-brands-one-membership",
     title: "Four brands, one membership",
     tags: "AI & Customer Experience",
-    image: salesforceImg,
-    imageAlt: "LogiBot chatbot conversation on a smartphone",
+    image: placeholder02,
+    imageAlt: "Placeholder: add featured image for Four brands, one membership",
     arrowColor: "#1B1918",
     titleColor: "#1B1918",
   },
@@ -35,8 +35,8 @@ export const caseStudies: CaseStudyEntry[] = [
     to: "/work/designing-trust-into-ai-feature",
     title: "Designing trust into Gap Inc.'s first customer-facing AI feature",
     tags: "Customer-Facing GenAI",
-    image: cartCheckoutImg,
-    imageAlt: "Placeholder thumbnail for the GenAI Review Summary case study",
+    image: placeholder03,
+    imageAlt: "Placeholder: add featured image for Designing trust into Gap Inc.'s first customer-facing AI feature",
     arrowColor: "#1B1918",
     titleColor: "#1B1918",
   },
