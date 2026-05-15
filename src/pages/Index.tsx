@@ -182,9 +182,8 @@ const Index = () => {
       <section className="bg-background">
         <div className="mx-auto max-w-content px-6 py-20 md:px-16 md:py-28">
           <div className="mx-auto mb-14 max-w-2xl text-center">
-            <span className="kicker">Kind Words</span>
-            <h2 className="mt-3 font-serif text-[28px] text-title md:whitespace-nowrap md:text-[40px]">
-              What people I've worked with say
+            <h2 className="font-serif text-[28px] text-title md:whitespace-nowrap md:text-[40px]">
+              Kind words
             </h2>
           </div>
           <TestimonialGrid items={testimonials} />
