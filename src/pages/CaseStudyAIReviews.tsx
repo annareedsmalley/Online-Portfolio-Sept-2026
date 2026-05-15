@@ -43,7 +43,7 @@ const CaseStudyAIReviews = () => {
   return (
     <SiteLayout>
       {/* HERO */}
-      <section className="bg-background hero-enter">
+      <section className="bg-background">
         <div className="mx-auto max-w-content px-16 pt-12 md:pt-16">
           <Link
             to="/#work"
@@ -56,39 +56,47 @@ const CaseStudyAIReviews = () => {
 
         <div className="mx-auto grid max-w-content items-center gap-y-12 px-16 pt-10 pb-24 md:grid-cols-[748fr_1fr] md:gap-x-16">
           <div className="flex flex-col gap-7">
-            <h1 className="font-serif text-[38px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
-              Designing trust into{" "}
-              <span className="text-terracotta">
-                Gap Inc.'s first customer-facing AI feature
-              </span>
-            </h1>
-            <p className="body-text max-w-xl text-base md:text-lg">
-              The GenAI Review Summary, scaled across all four brands.
-            </p>
+            <Reveal>
+              <h1 className="font-serif text-[38px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
+                Designing trust into{" "}
+                <span className="text-terracotta">
+                  Gap Inc.'s first customer-facing AI feature
+                </span>
+              </h1>
+            </Reveal>
+            <Reveal delay={80}>
+              <p className="body-text max-w-xl text-base md:text-lg">
+                The GenAI Review Summary, scaled across all four brands.
+              </p>
+            </Reveal>
             <div className="flex flex-wrap gap-2 pt-2">
               {[
                 { icon: Briefcase, label: "UX Design Manager · Gap Inc." },
                 { icon: Calendar, label: "~6 months" },
                 { icon: Layers, label: "7 direct reports" },
               ].map((p, i) => (
-                <Reveal key={p.label} delay={i * 90}>
+                <Reveal key={p.label} delay={160 + i * 90}>
                   <Pill icon={p.icon}>{p.label}</Pill>
                 </Reveal>
               ))}
             </div>
-            <p className="max-w-xl text-xs text-body leading-relaxed">
-              Cross-functional partners: Data Science, AI/ML Engineering, Product, Platform Engineering, Brand Producers and Category Merchants (×4), UX Research, Content Strategy, Design Systems, UX Leadership
-            </p>
+            <Reveal delay={240}>
+              <p className="max-w-xl text-xs text-body leading-relaxed">
+                Cross-functional partners: Data Science, AI/ML Engineering, Product, Platform Engineering, Brand Producers and Category Merchants (×4), UX Research, Content Strategy, Design Systems, UX Leadership
+              </p>
+            </Reveal>
           </div>
 
           <div className="flex justify-center md:justify-end">
-            <div className="w-full md:w-[500px]">
-              <img
-                src={heroVisual}
-                alt="The GenAI Review Summary feature on Athleta and Old Navy product pages, with the four Gap Inc. brand wordmarks beneath."
-                className="w-full h-auto rounded-2xl"
-              />
-            </div>
+            <Reveal delay={120}>
+              <div className="w-full md:w-[500px]">
+                <img
+                  src={heroVisual}
+                  alt="The GenAI Review Summary feature on Athleta and Old Navy product pages, with the four Gap Inc. brand wordmarks beneath."
+                  className="w-full h-auto rounded-2xl"
+                />
+              </div>
+            </Reveal>
           </div>
         </div>
       </section>
