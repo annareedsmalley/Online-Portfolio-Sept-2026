@@ -49,28 +49,20 @@ const Index = () => {
               <h1 className="font-serif text-[56px] leading-[0.95] text-white">
                 I'm <span className="italic">Anna Smalley</span>, a Senior UX Leader.
               </h1>
-              <img
-                src={annaPortrait}
-                alt="Anna Smalley portrait"
-                className="h-56 w-44 rounded-md object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
-              />
-              <StickyNote color="pink" rotate={-4} size="md" hoverLift={false}>
-                <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
-                  Currently
-                </p>
-                <p className="mt-1 font-serif text-[15px] leading-snug text-title">
-                  Open to advisory<br />engagements →
-                </p>
-              </StickyNote>
-              <a
-                href="#work"
-                onClick={scrollToWork}
-                className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 font-label text-sm font-semibold uppercase tracking-[0.14em] text-terracotta transition-transform hover:-translate-y-0.5"
-              >
-                View Work
-                <ArrowDown className="h-4 w-4" />
-              </a>
-            </div>
+            <img
+              src={annaPortrait}
+              alt="Anna Smalley portrait"
+              className="h-56 w-44 rounded-md object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
+            />
+            <StickyNote color="pink" rotate={-4} size="md" hoverLift={false}>
+              <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                Currently
+              </p>
+              <p className="mt-1 font-serif text-[15px] leading-snug text-title">
+                Open to advisory<br />engagements →
+              </p>
+            </StickyNote>
+          </div>
 
             {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
             <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
