@@ -71,18 +71,17 @@ export const ContactSection = () => {
               Let's <span className="text-terracotta-hero">talk</span>
             </h2>
             <p className="body-text mt-5 max-w-xl text-base md:text-lg">
-              I'd love to hear from you! Please reach out on LinkedIn or fill out the form to send me a message.
+              I'd love to hear from you! Please reach out on{" "}
+              <a
+                href="https://www.linkedin.com/in/anna-smalley-uxlead/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-title underline-offset-4 hover:underline"
+              >
+                LinkedIn
+              </a>{" "}
+              or fill out the form to send me a message.
             </p>
-
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex items-center gap-2 font-sans text-[15px] font-medium text-title underline-offset-4 hover:underline"
-            >
-              <Linkedin className="h-4 w-4" />
-              LinkedIn
-            </a>
           </div>
 
           <div className="w-full max-w-xl mx-auto">
