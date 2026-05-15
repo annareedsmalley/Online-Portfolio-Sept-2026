@@ -53,7 +53,7 @@ export const Nav = () => {
         onHero ? "border-transparent" : "border-border",
       )}
       style={{
-        backgroundColor: onHero ? "#C55829" : "#FAF8F5",
+        backgroundColor: onHero ? "transparent" : "#FAF8F5",
         transition: "background-color 300ms ease, color 300ms ease, border-color 300ms ease",
       }}
     >
