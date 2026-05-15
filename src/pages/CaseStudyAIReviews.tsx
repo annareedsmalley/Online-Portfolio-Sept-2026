@@ -5,10 +5,10 @@ import { Reveal } from "@/components/Reveal";
 import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CtaSection } from "@/components/CtaSection";
 import { CaseStudyBodyAI } from "@/components/CaseStudyBodyAI";
-import { PlaceholderVisual } from "@/components/PlaceholderVisual";
 import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import { caseStudies } from "@/data/caseStudies";
+import heroVisual from "@/assets/cs03/hero.png";
 
 const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/designing-trust-into-ai-feature");
 
