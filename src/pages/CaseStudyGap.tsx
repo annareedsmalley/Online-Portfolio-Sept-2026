@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import heroVisual from "@/assets/case-study-01-hero.png";
 import impactVisual from "@/assets/impact-at-a-glance.png";
 import { caseStudies } from "@/data/caseStudies";
+import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
 const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/cross-brand-product-experience");
 
@@ -41,6 +42,7 @@ const impacts = [
 ];
 
 const CaseStudyGap = () => {
+  useSetCaseStudyTitle("Leading a cross-brand product experience strategy");
   return (
     <SiteLayout>
       {/* HERO */}
