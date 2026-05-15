@@ -56,9 +56,9 @@ const CaseStudySalesforce = () => {
           <div className="flex flex-col gap-7">
             <span className="kicker">Case Study 02</span>
             <h1 className="font-serif text-[42px] leading-[1.1] text-title md:text-[52px] lg:text-[58px]">
-              Four Brands,&nbsp;<br />
+              Four brands,&nbsp;<br />
               <span className="text-terracotta">
-                One Membership.
+                one membership
               </span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
@@ -97,7 +97,7 @@ const CaseStudySalesforce = () => {
             <div>
               <Reveal>
                 <h2 className="font-serif text-[36px] text-title md:text-[44px]">
-                  Impact at a Glance
+                  Impact at a glance
                 </h2>
               </Reveal>
             </div>
@@ -149,7 +149,7 @@ const CaseStudySalesforce = () => {
         <div className="mx-auto max-w-content px-6 py-24 md:px-16">
           <Reveal>
             <h2 className="mb-10 font-serif text-[36px] text-title md:text-[44px]">
-              Other Case Studies
+              Other case studies
             </h2>
           </Reveal>
           <div className="grid gap-8 md:grid-cols-3">

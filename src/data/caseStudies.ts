@@ -15,7 +15,7 @@ export interface CaseStudyEntry {
 export const caseStudies: CaseStudyEntry[] = [
   {
     to: "/work/cross-brand-product-experience",
-    title: "Leading a Cross-Brand Product Experience Strategy Through Organizational Change at Gap Inc.",
+    title: "Leading a cross-brand product experience strategy through organizational change at Gap Inc.",
     tags: "Cross-Brand Product Strategy · 2022–2024",
     image: fourBrandsImg,
     imageAlt: "Athleta, Old Navy, Banana Republic, and Gap mobile product pages side by side",
@@ -24,7 +24,7 @@ export const caseStudies: CaseStudyEntry[] = [
   },
   {
     to: "/work/four-brands-one-membership",
-    title: "Four Brands, One Membership.",
+    title: "Four brands, one membership",
     tags: "AI & Customer Experience · 2017–2018",
     image: salesforceImg,
     imageAlt: "LogiBot chatbot conversation on a smartphone",
@@ -33,7 +33,7 @@ export const caseStudies: CaseStudyEntry[] = [
   },
   {
     to: "/work/designing-trust-into-ai-feature",
-    title: "Designing Trust into Gap Inc.'s First Customer-Facing AI Feature",
+    title: "Designing trust into Gap Inc.'s first customer-facing AI feature",
     tags: "Customer-Facing GenAI · 2024–2025",
     image: cartCheckoutImg,
     imageAlt: "Placeholder thumbnail for the GenAI Review Summary case study",

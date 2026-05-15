@@ -58,9 +58,9 @@ const CaseStudyAIReviews = () => {
           <div className="flex flex-col gap-7">
             <span className="kicker">Case Study 03</span>
             <h1 className="font-serif text-[42px] leading-[1.1] text-title md:text-[52px] lg:text-[58px]">
-              Designing Trust into{" "}
+              Designing trust into{" "}
               <span className="text-terracotta">
-                Gap Inc.'s First Customer-Facing AI Feature
+                Gap Inc.'s first customer-facing AI feature
               </span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
@@ -125,7 +125,7 @@ const CaseStudyAIReviews = () => {
         <div className="mx-auto max-w-content px-6 py-24 md:px-16">
           <Reveal>
             <h2 className="mb-10 font-serif text-[36px] text-title md:text-[44px]">
-              Other Case Studies
+              Other case studies
             </h2>
           </Reveal>
           <div className="grid gap-8 md:grid-cols-3">

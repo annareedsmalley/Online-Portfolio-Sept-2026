@@ -41,7 +41,7 @@ const Index = () => {
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
               <h1 className="font-serif text-[56px] leading-[0.95] text-white">
-                I'm <span className="italic">Anna Smalley</span>, a Senior UX Leader.
+                I'm <span className="italic">Anna Smalley</span>, a senior UX leader
               </h1>
             <img
               src={annaPortrait}
@@ -109,7 +109,7 @@ const Index = () => {
                     className="pop-in pop-delay-5 inline-block whitespace-nowrap"
                     style={{ ['--pop-rot' as string]: '0deg' }}
                   >
-                    a Senior UX Leader.
+                    a senior UX leader
                   </span>
                 </span>
               </h1>
@@ -157,7 +157,7 @@ const Index = () => {
             </div>
             <div className="md:col-span-7">
               <h2 className="font-serif text-[36px] text-title md:text-[48px]">
-                About Me
+                About me
               </h2>
               <p className="body-text mt-6 text-base md:text-lg">
                 I'm a UX design leader with deep experience in eCommerce, a strong reputation for building collaborative, high-impact cross-functional partnerships, and an unwavering commitment to inclusion and accessibility - both in design work itself and in the way I lead teams.
@@ -187,7 +187,7 @@ const Index = () => {
           <div className="mx-auto mb-14 max-w-2xl text-center">
             <span className="kicker">Kind Words</span>
             <h2 className="mt-3 whitespace-nowrap font-serif text-[28px] text-title md:text-[40px]">
-              What people I've worked with say.
+              What people I've worked with say
             </h2>
           </div>
           <TestimonialGrid items={testimonials} />
