@@ -100,13 +100,13 @@ const ResearchQuote = ({ quote, attribution }: { quote: string; attribution: str
 );
 
 const Section = ({ children }: { id?: string; children: ReactNode }) => (
-  <Reveal as="section" className="flex scroll-mt-28 flex-col gap-6">
+  <Reveal as="section" className="flex scroll-mt-28 flex-col gap-4">
     {children}
   </Reveal>
 );
 
 const SectionDivider = () => (
-  <div className="my-12">
+  <div className="my-8">
     <hr className="my-0 h-px w-full border-0 bg-border" aria-hidden="true" />
   </div>
 );
