@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound.tsx";
 import Contact from "./pages/Contact.tsx";
 import CaseStudyGap from "./pages/CaseStudyGap.tsx";
 import CaseStudySalesforce from "./pages/CaseStudySalesforce.tsx";
+import CaseStudyAIReviews from "./pages/CaseStudyAIReviews.tsx";
 import { ScrollToTop } from "./components/ScrollToTop.tsx";
 
 const queryClient = new QueryClient();
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/work/gap-inc" element={<CaseStudyGap />} />
           <Route path="/work/case-study-02" element={<CaseStudySalesforce />} />
+          <Route path="/work/ai-reviews" element={<CaseStudyAIReviews />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
