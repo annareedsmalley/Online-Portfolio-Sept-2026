@@ -104,7 +104,21 @@ export const Nav = () => {
               colorClass,
               ringClass,
             );
-            return l.to.startsWith("/#") ? (
+            return l.external ? (
+              <a
+                key={l.to}
+                href={l.to}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn(
+                  "font-sans text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5 border-transparent",
+                  onHero ? "text-white hover:text-white/80" : "text-title hover:text-terracotta",
+                )}
+                style={{ transition: "color 300ms ease, opacity 200ms ease, border-color 300ms ease" }}
+              >
+                {l.label}
+              </a>
+            ) : l.to.startsWith("/#") ? (
               <a
                 key={l.to}
                 href={l.to}
