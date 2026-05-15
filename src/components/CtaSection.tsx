@@ -10,7 +10,7 @@ interface CtaSectionProps {
 }
 
 export const CtaSection = ({
-  title = "Let's Talk",
+  title = "Let's talk",
   body = "From eCommerce scale to accessible AI — I bring strategic depth, cross-functional range, and a track record of building high-performing design teams.",
   buttonLabel = "Get In Touch",
   to = "/contact",
