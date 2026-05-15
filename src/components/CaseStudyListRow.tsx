@@ -17,10 +17,10 @@ export const CaseStudyListRow = ({
 }: CaseStudyListRowProps) => (
   <Link
     to={to}
-    className="group relative block border-b border-border transition-colors duration-200 hover:bg-sand"
+    className="group relative block transition-colors duration-200 hover:bg-sand"
   >
-    <div className="relative flex items-center justify-between gap-6 px-2 py-8 md:px-4 md:py-10">
-      <div className="relative z-20 flex w-5/12 flex-col gap-1.5">
+    <div className="relative flex flex-col gap-4 px-2 py-8 md:flex-row md:items-center md:justify-between md:gap-6 md:px-4 md:py-10">
+      <div className="relative z-20 flex w-full flex-col gap-1.5 md:w-5/12">
         <h3 className="font-serif text-xl leading-snug text-title md:text-2xl">
           {title}
         </h3>
@@ -29,7 +29,7 @@ export const CaseStudyListRow = ({
         </p>
       </div>
 
-      <div className="relative z-10 hidden shrink-0 md:block">
+      <div className="relative z-10 shrink-0">
         <img
           src={image}
           alt={imageAlt}
