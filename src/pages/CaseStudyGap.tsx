@@ -12,7 +12,7 @@ import heroVisual from "@/assets/case-study-01-hero.png";
 import impactVisual from "@/assets/impact-at-a-glance.png";
 import { caseStudies } from "@/data/caseStudies";
 
-const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/gap-inc");
+const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/cross-brand-product-experience");
 
 const impacts = [
   {

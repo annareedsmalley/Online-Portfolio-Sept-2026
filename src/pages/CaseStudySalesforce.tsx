@@ -12,7 +12,7 @@ import heroVisual from "@/assets/cs02/hero-timeline.png";
 import impactVisual from "@/assets/cs02/impact-at-a-glance.png";
 import { caseStudies } from "@/data/caseStudies";
 
-const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/case-study-02");
+const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/four-brands-one-membership");
 
 const impacts = [
   {

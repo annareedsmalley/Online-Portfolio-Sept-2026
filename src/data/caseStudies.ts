@@ -14,16 +14,7 @@ export interface CaseStudyEntry {
 
 export const caseStudies: CaseStudyEntry[] = [
   {
-    to: "/work/case-study-02",
-    title: "Four Brands, One Membership.",
-    tags: "AI & Customer Experience · 2017–2018",
-    image: salesforceImg,
-    imageAlt: "LogiBot chatbot conversation on a smartphone",
-    arrowColor: "#1B1918",
-    titleColor: "#1B1918",
-  },
-  {
-    to: "/work/gap-inc",
+    to: "/work/cross-brand-product-experience",
     title: "Leading a Cross-Brand Product Experience Strategy Through Organizational Change at Gap Inc.",
     tags: "Cross-Brand Product Strategy · 2022–2024",
     image: fourBrandsImg,
@@ -32,7 +23,16 @@ export const caseStudies: CaseStudyEntry[] = [
     titleColor: "#1B1918",
   },
   {
-    to: "/work/ai-reviews",
+    to: "/work/four-brands-one-membership",
+    title: "Four Brands, One Membership.",
+    tags: "AI & Customer Experience · 2017–2018",
+    image: salesforceImg,
+    imageAlt: "LogiBot chatbot conversation on a smartphone",
+    arrowColor: "#1B1918",
+    titleColor: "#1B1918",
+  },
+  {
+    to: "/work/designing-trust-into-ai-feature",
     title: "Designing Trust into Gap Inc.'s First Customer-Facing AI Feature",
     tags: "Customer-Facing GenAI · 2024–2025",
     image: cartCheckoutImg,
