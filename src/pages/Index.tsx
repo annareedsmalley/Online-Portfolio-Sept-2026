@@ -5,14 +5,8 @@ import { Reveal } from "@/components/Reveal";
 
 import { StickyNote } from "@/components/StickyNote";
 import { TestimonialGrid } from "@/components/TestimonialStack";
-import { ArrowDown } from "lucide-react";
 import annaPortrait from "@/assets/anna-portrait.jpg";
 import { caseStudies } from "@/data/caseStudies";
-
-const scrollToWork = (e: React.MouseEvent) => {
-  e.preventDefault();
-  document.getElementById("work")?.scrollIntoView({ behavior: "smooth" });
-};
 
 const Index = () => {
   return (
