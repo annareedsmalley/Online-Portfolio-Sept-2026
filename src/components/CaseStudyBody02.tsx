@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Reveal } from "@/components/Reveal";
 import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
+import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import startingPointImg from "@/assets/cs02/starting-point.png";
 import theInitiativeImg from "@/assets/cs02/the-initiative.png";
 import theFrameworkImg from "@/assets/cs02/the-framework.png";
