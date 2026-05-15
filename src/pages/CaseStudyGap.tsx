@@ -60,8 +60,8 @@ const CaseStudyGap = () => {
           <div className="flex flex-col gap-7">
             <span className="kicker">Case Study 01</span>
             <h1 className="font-serif text-[42px] leading-[1.1] text-title md:text-[52px] lg:text-[58px]">
-              Leading a Cross-Brand Product Experience Strategy Through{" "}
-              <span className="text-terracotta">Organizational Change at Gap Inc.</span>
+              Leading a cross-brand product experience strategy through{" "}
+              <span className="text-terracotta">organizational change at Gap Inc.</span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
               How my team turned an under-scoped, politically complex initiative into a validated design framework used across four brands, and prevented a major launch failure along the way.
@@ -100,7 +100,7 @@ const CaseStudyGap = () => {
             <div>
               <Reveal>
                 <h2 className="font-serif text-[36px] text-title md:text-[44px]">
-                  Impact at a Glance
+                  Impact at a glance
                 </h2>
               </Reveal>
             </div>
@@ -136,7 +136,7 @@ const CaseStudyGap = () => {
         <div className="mx-auto max-w-content px-6 py-24 md:px-16">
           <Reveal>
             <h2 className="mb-10 font-serif text-[36px] text-title md:text-[44px]">
-              Other Case Studies
+              Other case studies
             </h2>
           </Reveal>
           <div className="grid gap-8 md:grid-cols-3">
