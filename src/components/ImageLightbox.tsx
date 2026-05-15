@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { X, ZoomIn, ZoomOut } from "lucide-react";
 
 interface ImageLightboxProps {
@@ -23,29 +24,29 @@ export const ImageLightbox = ({ src, alt, onClose }: ImageLightboxProps) => {
     };
   }, [onClose]);
 
-  return (
+  return createPortal(
     <div
       role="dialog"
       aria-modal="true"
       aria-label={alt}
-      className="fixed inset-0 z-[100] flex flex-col bg-black/90"
+      className="fixed inset-0 z-[2147483647] flex flex-col bg-black/95"
     >
-      <div className="flex items-center justify-end gap-2 p-3">
+      <div className="flex items-center justify-end gap-3 p-4">
         <button
           type="button"
           onClick={() => setZoomed((z) => !z)}
           aria-label={zoomed ? "Zoom out" : "Zoom in"}
-          className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur transition hover:bg-white/20"
+          className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur transition hover:bg-white/25"
         >
-          {zoomed ? <ZoomOut className="h-5 w-5" /> : <ZoomIn className="h-5 w-5" />}
+          {zoomed ? <ZoomOut className="h-6 w-6" /> : <ZoomIn className="h-6 w-6" />}
         </button>
         <button
           type="button"
           onClick={onClose}
           aria-label="Close"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur transition hover:bg-white/20"
+          className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-black shadow-lg transition hover:bg-white/90"
         >
-          <X className="h-5 w-5" />
+          <X className="h-7 w-7" strokeWidth={2.5} />
         </button>
       </div>
       <div
@@ -72,6 +73,7 @@ export const ImageLightbox = ({ src, alt, onClose }: ImageLightboxProps) => {
           />
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 };
