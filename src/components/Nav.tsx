@@ -180,6 +180,21 @@ export const Nav = () => {
         </button>
       </div>
 
+      {showCaseStudyTitle ? (
+        <div className="border-t border-border bg-background md:hidden">
+          <button
+            type="button"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            aria-label={`${caseStudyTitle} — scroll to top`}
+            className="mx-auto flex h-10 w-full max-w-content items-center px-6 text-left"
+          >
+            <span className="truncate font-serif text-[14px] font-semibold text-title">
+              {caseStudyTitle}
+            </span>
+          </button>
+        </div>
+      ) : null}
+
       {open ? (
         <div className="md:hidden">
           <nav
