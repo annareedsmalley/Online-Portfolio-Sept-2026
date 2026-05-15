@@ -288,7 +288,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                               e.preventDefault();
                               const el = document.getElementById(s.id);
                               if (el) {
-                              const y = el.getBoundingClientRect().top + window.scrollY - 152;
+                              const y = el.getBoundingClientRect().top + window.scrollY - 80;
                                 window.scrollTo({ top: y, behavior: "smooth" });
                                 history.replaceState(null, "", `#${s.id}`);
                               }
