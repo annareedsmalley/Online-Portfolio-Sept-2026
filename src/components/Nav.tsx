@@ -112,7 +112,10 @@ export const Nav = () => {
 
         <button
           type="button"
-          className="rounded-full p-2 text-title md:hidden"
+          className={cn(
+            "rounded-full p-2 md:hidden",
+            onHero ? "text-white" : "text-title"
+          )}
           aria-label="Toggle menu"
           onClick={() => setOpen((v) => !v)}
         >
