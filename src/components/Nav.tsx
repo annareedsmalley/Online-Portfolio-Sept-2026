@@ -164,7 +164,7 @@ export const Nav = () => {
         <div className="md:hidden">
           <nav
             className={cn(
-              "relative z-50 flex flex-col gap-2 border-t px-6 py-6",
+              "relative z-50 flex flex-col gap-2 px-6 py-6",
               onHero ? "border-border bg-background" : "border-border bg-background",
             )}
           >
