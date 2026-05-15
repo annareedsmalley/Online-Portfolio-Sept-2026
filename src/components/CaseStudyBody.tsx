@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Reveal } from "@/components/Reveal";
 import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
+import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import theSituationImg from "@/assets/the-situation.png";
 import myReadOnTheSituationImg from "@/assets/my-read-on-the-situation.png";
 import myTeamSurfiesBrandiesImg from "@/assets/my-team-surfies-brandies.png";
