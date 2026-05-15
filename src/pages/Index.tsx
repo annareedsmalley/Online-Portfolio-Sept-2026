@@ -46,7 +46,7 @@ const Index = () => {
             <img
               src={annaPortrait}
               alt="Anna Smalley portrait"
-              className="h-56 w-56 rounded-full object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
+              className="h-40 w-40 rounded-full object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
             />
             <StickyNote color="pink" rotate={-4} size="md" hoverLift={false}>
               <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
