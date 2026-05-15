@@ -9,6 +9,7 @@ import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
 import trustFailureModes from "@/assets/cs03/trust-failure-modes.png";
 import threeBucketSentiment from "@/assets/cs03/three-bucket-sentiment.png";
 import modelConfidenceStates from "@/assets/cs03/model-confidence-states.png";
+import keywordCollaboration from "@/assets/cs03/keyword-collaboration.png";
 
 interface NavSection {
   id: string;
@@ -443,11 +444,19 @@ export const CaseStudyBodyAI = () => {
               <P>
                 This project actually predated the operating rhythm I later set up on the Headless UI migration. While the project was in flight, we ran on a less formal cadence: daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with Katie, the content strategist, the brand producers and category merchants, and the product manager. The work was organic and productive. By the time we were handing off into broader scaling, we were running on the same HUI cadence that anchored the multivariant PDP project.
               </P>
-              <PlaceholderVisual
-                description="Content-strategy / data-science / category-merchant collaboration artifact: a working session where Content Strategy, Data Science, and the brand category merchants together determined which keywords found in customer reviews could be considered positive, negative, or mixed indicators across the six attributes that would surface in the bucket display."
-                source="Figma — AI Review Summary (node 4578-812)"
-                aspect="wide"
-              />
+              <figure className="my-4">
+                <img
+                  src={keywordCollaboration}
+                  alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display."
+                  className="w-full h-auto rounded-2xl"
+                />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Figma — AI Review Summary (node 4578-812)
+                </figcaption>
+              </figure>
             </Section>
 
             <SectionDivider />
