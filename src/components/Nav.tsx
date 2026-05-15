@@ -169,7 +169,18 @@ export const Nav = () => {
             )}
           >
             {links.map((l) =>
-              l.to.startsWith("/#") ? (
+              l.external ? (
+                <a
+                  key={l.to}
+                  href={l.to}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setOpen(false)}
+                  className="font-serif text-2xl text-title hover:text-terracotta"
+                >
+                  {l.label}
+                </a>
+              ) : l.to.startsWith("/#") ? (
                 <a
                   key={l.to}
                   href={l.to}
