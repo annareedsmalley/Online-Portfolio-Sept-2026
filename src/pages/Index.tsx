@@ -5,14 +5,8 @@ import { Reveal } from "@/components/Reveal";
 
 import { StickyNote } from "@/components/StickyNote";
 import { TestimonialGrid } from "@/components/TestimonialStack";
-import { ArrowDown } from "lucide-react";
 import annaPortrait from "@/assets/anna-portrait.jpg";
 import { caseStudies } from "@/data/caseStudies";
-
-const scrollToWork = (e: React.MouseEvent) => {
-  e.preventDefault();
-  document.getElementById("work")?.scrollIntoView({ behavior: "smooth" });
-};
 
 const Index = () => {
   return (
@@ -49,28 +43,20 @@ const Index = () => {
               <h1 className="font-serif text-[56px] leading-[0.95] text-white">
                 I'm <span className="italic">Anna Smalley</span>, a Senior UX Leader.
               </h1>
-              <img
-                src={annaPortrait}
-                alt="Anna Smalley portrait"
-                className="h-56 w-44 rounded-md object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
-              />
-              <StickyNote color="pink" rotate={-4} size="md" hoverLift={false}>
-                <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
-                  Currently
-                </p>
-                <p className="mt-1 font-serif text-[15px] leading-snug text-title">
-                  Open to advisory<br />engagements →
-                </p>
-              </StickyNote>
-              <a
-                href="#work"
-                onClick={scrollToWork}
-                className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 font-label text-sm font-semibold uppercase tracking-[0.14em] text-terracotta transition-transform hover:-translate-y-0.5"
-              >
-                View Work
-                <ArrowDown className="h-4 w-4" />
-              </a>
-            </div>
+            <img
+              src={annaPortrait}
+              alt="Anna Smalley portrait"
+              className="h-56 w-44 rounded-md object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
+            />
+            <StickyNote color="pink" rotate={-4} size="md" hoverLift={false}>
+              <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                Currently
+              </p>
+              <p className="mt-1 font-serif text-[15px] leading-snug text-title">
+                Open to advisory<br />engagements →
+              </p>
+            </StickyNote>
+          </div>
 
             {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
             <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
@@ -129,22 +115,6 @@ const Index = () => {
               </h1>
             </div>
 
-            {/* CTA — its own centered row at the bottom of the hero */}
-            <div className="hidden justify-center pt-2 md:flex">
-              <div
-                className="pop-in pop-delay-6"
-                style={{ ['--pop-rot' as string]: '0deg' }}
-              >
-                <a
-                  href="#work"
-                  onClick={scrollToWork}
-                  className="inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 font-label text-sm font-semibold uppercase tracking-[0.14em] text-terracotta shadow-[0_12px_30px_-12px_rgba(0,0,0,0.4)] transition-transform duration-200 hover:-translate-y-0.5"
-                >
-                  View My Work
-                  <ArrowDown className="h-4 w-4" />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
