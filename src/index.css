@@ -11,6 +11,7 @@
     --bg-default: 36 33% 97%;       /* #FAF8F5 warm off-white */
     --bg-sand: 40 29% 94%;          /* #F4F1EB warm sand */
     --bg-blue: 217 35% 89%;         /* #D6E0EE soft blue-grey */
+    --accent-hero: 22 75% 38%;         /* #AA4D18 hero background — more saturated */
     --accent: 18 66% 47%;            /* #C55829 primary orange */
     --accent-hover: 18 66% 37%;      /* deeper orange for hover states */
     --accent-deep: 341 52% 13%;      /* #32101B dark brown */
