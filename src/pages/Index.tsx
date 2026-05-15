@@ -140,7 +140,7 @@ const Index = () => {
             for case studies on Salesforce and Walmart.
           </p>
 
-          <div className="group/list flex flex-col">
+          <div className="group/list mt-6 flex flex-col">
             {caseStudies.map((cs, idx) => (
               <Reveal key={cs.to} delay={idx * 100}>
                 <CaseStudyListRow {...cs} />
