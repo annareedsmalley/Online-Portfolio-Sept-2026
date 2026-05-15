@@ -11,6 +11,7 @@ import threeBucketSentiment from "@/assets/cs03/three-bucket-sentiment.png";
 import modelConfidenceStates from "@/assets/cs03/model-confidence-states.png";
 import keywordCollaboration from "@/assets/cs03/keyword-collaboration.png";
 import abResults from "@/assets/cs03/ab-results.png";
+import crossBrandScale from "@/assets/cs03/cross-brand-scale.png";
 
 interface NavSection {
   id: string;
@@ -504,9 +505,10 @@ export const CaseStudyBodyAI = () => {
               <P>
                 That gave each brand the room to feel like itself without putting the trust architecture up for renegotiation. Brands could choose how to theme the component. They could choose, in narrow cases, to suppress the buckets for a specific product or to opt out of bolded keywords. What they could not choose was whether to disclose the AI or whether to acknowledge negatives at all. Those defaults held, and the data on returns and trust held with them.
               </P>
-              <PlaceholderVisual
-                description="Cross-brand scale visual: the GenAI Review Summary applied across Gap, Athleta, Old Navy, and Banana Republic, showing the consistent trust architecture and the brand-specific theming. Best as an animated GIF cycling through the four brands; static grid acceptable."
-                aspect="wide"
+              <img
+                src={crossBrandScale}
+                alt="Cross-brand scale visual: the GenAI Review Summary applied across Old Navy, Gap, Banana Republic, and Athleta product pages, showing a consistent trust architecture with brand-specific theming."
+                className="w-full h-auto rounded-2xl my-4"
               />
             </Section>
 
