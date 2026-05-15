@@ -122,12 +122,9 @@ const Index = () => {
       {/* CASE STUDIES */}
       <section id="work" className="bg-background">
         <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-16">
-          <div className="mb-12">
-            <span className="kicker">Selected Work</span>
-            <h2 className="mt-3 font-serif text-[36px] text-title md:text-[44px]">
-              Case studies
-            </h2>
-          </div>
+          <h2 className="font-serif text-[36px] text-title md:text-[44px]">
+            Recent work
+          </h2>
 
           <div className="group/list flex flex-col">
             {caseStudies.map((cs, idx) => (
