@@ -30,7 +30,7 @@ const impacts = [
     body: "The success of this work contributed to the creation of Gap Inc.'s dedicated Office of AI, formalizing AI as a strategic capability.",
   },
   {
-    label: "CROSS-FUNCTIONAL ALIGNMENT AT SCALE",
+    label: "TEAM ALIGNMENT AT SCALE",
     body: "Coordinated Data Science, AI/ML Engineering, Product, Engineering, UX, UXR, Content Strategy, Brand, and Design Systems around a single customer-facing AI experience.",
   },
   {
