@@ -241,7 +241,7 @@ export const CaseStudyBody = () => {
 
   return (
     <section className="bg-background">
-      <div className="mx-auto max-w-content px-16 py-24">
+      <div className="mx-auto max-w-content px-6 py-24 md:px-16">
         <div
           ref={containerRef}
           className="grid grid-cols-1 gap-16 lg:grid-cols-[35fr_65fr]"

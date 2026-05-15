@@ -44,7 +44,7 @@ const CaseStudyAIReviews = () => {
     <SiteLayout>
       {/* HERO */}
       <section className="bg-background">
-        <div className="mx-auto max-w-content px-16 pt-12 md:pt-16">
+        <div className="mx-auto max-w-content px-6 pt-12 md:px-16 md:pt-16">
           <Link
             to="/#work"
             className="inline-flex items-center gap-2 font-label text-xs uppercase tracking-wider text-title transition-colors hover:text-terracotta"
@@ -54,7 +54,7 @@ const CaseStudyAIReviews = () => {
           </Link>
         </div>
 
-        <div className="mx-auto grid max-w-content items-center gap-y-12 px-16 pt-10 pb-24 md:grid-cols-[748fr_1fr] md:gap-x-16">
+        <div className="mx-auto grid max-w-content items-center gap-y-12 px-6 pt-10 pb-24 md:px-16 md:grid-cols-[748fr_1fr] md:gap-x-16">
           <div className="flex flex-col gap-7">
             <Reveal>
               <h1 className="font-serif text-[38px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
@@ -103,7 +103,7 @@ const CaseStudyAIReviews = () => {
 
       {/* IMPACT */}
       <section className="bg-sand">
-        <div className="mx-auto max-w-content px-16 py-24">
+        <div className="mx-auto max-w-content px-6 py-24 md:px-16">
           <div className="grid gap-12 md:grid-cols-[max-content_1fr] md:gap-x-10">
             <div>
               <Reveal>
