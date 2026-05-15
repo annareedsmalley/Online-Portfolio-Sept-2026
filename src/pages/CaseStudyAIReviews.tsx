@@ -10,7 +10,7 @@ import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import { caseStudies } from "@/data/caseStudies";
 
-const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/ai-reviews");
+const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/designing-trust-into-ai-feature");
 
 const impacts = [
   {

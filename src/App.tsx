@@ -22,9 +22,9 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/work/gap-inc" element={<CaseStudyGap />} />
-          <Route path="/work/case-study-02" element={<CaseStudySalesforce />} />
-          <Route path="/work/ai-reviews" element={<CaseStudyAIReviews />} />
+          <Route path="/work/cross-brand-product-experience" element={<CaseStudyGap />} />
+          <Route path="/work/four-brands-one-membership" element={<CaseStudySalesforce />} />
+          <Route path="/work/designing-trust-into-ai-feature" element={<CaseStudyAIReviews />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
