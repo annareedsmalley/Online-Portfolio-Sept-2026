@@ -79,6 +79,10 @@ export const Nav = () => {
           href="/"
           onClick={(e) => {
             e.preventDefault();
+            if (open) {
+              setOpen(false);
+              return;
+            }
             if (isHome) {
               window.scrollTo({ top: 0, behavior: "smooth" });
               window.history.replaceState(null, "", "/");
