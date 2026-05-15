@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
 const links = [
   { label: "Case Studies", to: "/#work", hashTarget: "work" },
@@ -14,18 +15,26 @@ const links = [
 export const Nav = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [pastHero, setPastHero] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+  const caseStudyTitle = useCaseStudyTitle();
 
   const isHome = location.pathname === "/";
   const onHero = isHome && !scrolled && !open;
+  const showCaseStudyTitle = !!caseStudyTitle && pastHero && !open;
 
   useEffect(() => {
     setOpen(false);
   }, [location.pathname, location.hash]);
 
   useEffect(() => {
-    const update = () => setScrolled(window.scrollY > 0);
+    const update = () => {
+      const y = window.scrollY;
+      setScrolled(y > 0);
+      // "Past hero" = scrolled enough that the case study H1 is no longer visible
+      setPastHero(y > 240);
+    };
     update();
     window.addEventListener("scroll", update, { passive: true });
     return () => window.removeEventListener("scroll", update);
@@ -91,12 +100,21 @@ export const Nav = () => {
             }
           }}
           className={cn(
-            "inline-block transition-opacity hover:opacity-80",
+            "inline-block min-w-0 transition-opacity hover:opacity-80",
             onHero ? "text-white" : "text-title"
           )}
-          aria-label="Anna Smalley — home"
+          aria-label={showCaseStudyTitle ? `${caseStudyTitle} — back to top` : "Anna Smalley — home"}
         >
-          <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
+          {showCaseStudyTitle ? (
+            <>
+              <span className="block max-w-[260px] truncate font-serif text-base font-semibold md:hidden">
+                {caseStudyTitle}
+              </span>
+              <span className="hidden font-serif text-lg font-bold md:inline md:text-xl">Anna Smalley</span>
+            </>
+          ) : (
+            <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
+          )}
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
