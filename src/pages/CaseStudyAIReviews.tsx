@@ -56,7 +56,7 @@ const CaseStudyAIReviews = () => {
         <div className="mx-auto grid max-w-content items-start gap-y-12 px-6 pt-10 pb-24 md:px-16 md:grid-cols-[748fr_1fr] md:gap-x-16">
           <div className="flex flex-col gap-7">
             <Reveal>
-              <h1 className="font-serif text-[32px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
+              <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
                 Designing trust into{" "}
                 <span className="text-terracotta">
                   Gap Inc.'s first customer-facing AI feature
@@ -106,7 +106,7 @@ const CaseStudyAIReviews = () => {
           <div className="grid gap-12 md:grid-cols-[max-content_1fr] md:gap-x-10">
             <div>
               <Reveal>
-                <h2 className="font-serif text-[32px] text-title md:text-[44px]">
+                <h2 className="font-serif text-[28px] text-title md:text-[44px]">
                   Impact at a Glance
                 </h2>
               </Reveal>
@@ -131,7 +131,7 @@ const CaseStudyAIReviews = () => {
       <section className="bg-background">
         <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-24">
           <Reveal>
-            <h2 className="mb-10 font-serif text-[32px] text-title md:text-[44px]">
+            <h2 className="mb-10 font-serif text-[28px] text-title md:text-[44px]">
               Other case studies
             </h2>
           </Reveal>
