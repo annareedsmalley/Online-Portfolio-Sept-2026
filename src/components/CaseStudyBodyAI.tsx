@@ -7,6 +7,7 @@ import stakeholderMap from "@/assets/cs03/stakeholder-map.png";
 import aiThesis from "@/assets/cs03/ai-thesis.png";
 import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
 import trustFailureModes from "@/assets/cs03/trust-failure-modes.png";
+import threeBucketSentiment from "@/assets/cs03/three-bucket-sentiment.png";
 
 interface NavSection {
   id: string;
@@ -374,11 +375,19 @@ export const CaseStudyBodyAI = () => {
               <P>
                 I pushed for this pattern over the simpler alternatives because it carried the trust philosophy in its structure, not just its content. A single summary can be edited to feel positive. A "likes / dislikes" binary feels combative. The three-bucket structure mirrors how customers actually think (there are things I love, things I am unsure about, and things I worry about), and that mirroring is what makes it land as honest.
               </P>
-              <PlaceholderVisual
-                description="Three-bucket sentiment design exploration grid: from UXR Design 1 (winner), with the alternative variants (1a, 1b, and the discarded Design 2 / Design 3) shown as the path to the final pattern."
-                source="July 2024 GenAI Review Summary Testing UXR report"
-                aspect="wide"
-              />
+              <figure className="my-4">
+                <img
+                  src={threeBucketSentiment}
+                  alt="Three-bucket sentiment design exploration: the winning Design 1 (Likes / Mixed Reviews / Dislikes) annotated with rules for keyword buckets, summary length, and AI disclaimer placement, alongside the alternative variants (1a, 1b) and the discarded Design 2 and Design 3 explorations."
+                  className="w-full h-auto rounded-2xl"
+                />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  July 2024 GenAI Review Summary Testing UXR report
+                </figcaption>
+              </figure>
 
               <H3>Bet 4: design for model confidence, not against it</H3>
               <P>
