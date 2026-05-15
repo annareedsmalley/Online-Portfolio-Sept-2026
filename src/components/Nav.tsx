@@ -64,7 +64,7 @@ export const Nav = () => {
       )}
       style={{
         backgroundColor: onHero ? "transparent" : "#FAF8F5",
-        transition: "background-color 300ms ease, color 300ms ease, border-color 300ms ease",
+        transition: open ? "none" : "background-color 300ms ease, color 300ms ease, border-color 300ms ease",
       }}
     >
       <div className="relative z-50 mx-auto flex h-16 max-w-content items-center justify-between px-6">
