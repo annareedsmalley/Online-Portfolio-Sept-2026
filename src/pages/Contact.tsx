@@ -75,7 +75,7 @@ const Contact = () => {
             <div className="md:col-span-4">
               <span className="kicker">Contact</span>
               <h1 className="mt-4 font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
-                Let's <span className="text-terracotta">talk.</span>
+                Let's <span className="text-terracotta-hero">talk.</span>
               </h1>
               <p className="body-text mt-5 max-w-xl text-base md:text-lg">
                 Whether it's a hiring conversation, an advisory engagement, or a hard product question
@@ -139,7 +139,7 @@ const Contact = () => {
                   />
 
                   <div>
-                    <ActionButton type="submit" variant="primary" size="lg" disabled={submitting}>
+                    <ActionButton type="submit" variant="primary" size="lg" disabled={submitting} className="bg-terracotta-hero hover:bg-terracotta-hero/90">
                       {submitting ? "Sending…" : "Send message"}
                       <ArrowRight className="h-4 w-4" />
                     </ActionButton>
