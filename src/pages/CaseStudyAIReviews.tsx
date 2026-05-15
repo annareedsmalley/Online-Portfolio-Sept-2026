@@ -5,10 +5,10 @@ import { Reveal } from "@/components/Reveal";
 import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CtaSection } from "@/components/CtaSection";
 import { CaseStudyBodyAI } from "@/components/CaseStudyBodyAI";
-import { PlaceholderVisual } from "@/components/PlaceholderVisual";
 import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import { caseStudies } from "@/data/caseStudies";
+import heroVisual from "@/assets/cs03/hero.png";
 
 const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/designing-trust-into-ai-feature");
 
@@ -80,9 +80,10 @@ const CaseStudyAIReviews = () => {
 
           <div className="flex justify-center md:justify-end">
             <div className="w-full md:w-[500px]">
-              <PlaceholderVisual
-                description="Hero composite: the GenAI Review Summary feature live on Athleta and Old Navy PDPs side by side, with the four brand wordmarks beneath."
-                aspect="tall"
+              <img
+                src={heroVisual}
+                alt="The GenAI Review Summary feature on Athleta and Old Navy product pages, with the four Gap Inc. brand wordmarks beneath."
+                className="w-full h-auto rounded-2xl"
               />
             </div>
           </div>
