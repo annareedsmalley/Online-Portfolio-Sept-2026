@@ -19,7 +19,7 @@ export const CaseStudyListRow = ({
     to={to}
     className="group relative mb-4 block transition-colors duration-200 hover:bg-sand md:mb-0"
   >
-    <div className="relative flex flex-col gap-4 rounded-xl bg-sand px-2 py-8 md:flex-row md:items-center md:justify-between md:gap-6 md:rounded-none md:bg-transparent md:px-4 md:py-10">
+    <div className="relative flex flex-col gap-4 rounded-xl bg-sand px-5 py-10 md:flex-row md:items-center md:justify-between md:gap-6 md:rounded-none md:bg-transparent md:px-6 md:py-12">
       <div className="relative z-20 flex w-full flex-col gap-1.5 md:w-5/12">
         <h3 className="font-serif text-xl leading-snug text-title md:text-2xl">
           {title}
