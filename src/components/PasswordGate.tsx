@@ -45,7 +45,10 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
   if (unlocked) return <>{children}</>;
 
   return (
-    <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-[100vw] px-6">
+    <div
+      className="relative w-screen px-6"
+      style={{ marginLeft: "calc(50% - 50vw)", marginRight: "calc(50% - 50vw)" }}
+    >
       <div className="mx-auto flex max-w-xl flex-col items-center gap-6 rounded-2xl border border-border bg-sand/40 p-8 md:p-10">
         <h2 className="font-serif text-[24px] leading-[1.2] text-title md:text-[28px] text-center">
           To read more, please enter password.
