@@ -29,7 +29,12 @@ export const Nav = () => {
   }, [location.pathname, location.hash]);
 
   useEffect(() => {
-    const update = () => setScrolled(window.scrollY > 0);
+    const update = () => {
+      const y = window.scrollY;
+      setScrolled(y > 0);
+      // "Past hero" = scrolled enough that the case study H1 is no longer visible
+      setPastHero(y > 240);
+    };
     update();
     window.addEventListener("scroll", update, { passive: true });
     return () => window.removeEventListener("scroll", update);
