@@ -24,6 +24,10 @@ interface NavSection {
   title: string;
 }
 
+interface CaseStudyBodyProps {
+  studyTitle: string;
+}
+
 // Sticky nav reflects every H2 in the source document, in order.
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Leadership context" },
@@ -185,7 +189,7 @@ const KeyInsight = ({
   </div>
 );
 
-export const CaseStudyBody = () => {
+export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState<string>(sections[0].id);
   const [unlocked, setUnlocked] = useState(false);
@@ -254,6 +258,17 @@ export const CaseStudyBody = () => {
                   className="w-full rounded-2xl border border-sand bg-sand/50 p-6"
                   style={{ maxWidth: 412 }}
                 >
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                      history.replaceState(null, "", window.location.pathname);
+                    }}
+                    className="mb-3 block font-serif text-[18px] leading-snug text-title hover:text-terracotta transition-colors"
+                  >
+                    {studyTitle}
+                  </a>
                   <ul className="flex flex-col gap-1">
                     {sections.map((s) => {
                       const isActive = active === s.id;

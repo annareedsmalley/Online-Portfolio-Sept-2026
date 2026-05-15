@@ -121,7 +121,7 @@ const CaseStudyGap = () => {
       </section>
 
       {/* CASE STUDY BODY */}
-      <CaseStudyBody />
+      <CaseStudyBody studyTitle="Leading a cross-brand product experience strategy" />
 
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">

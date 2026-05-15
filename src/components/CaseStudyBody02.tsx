@@ -30,6 +30,10 @@ interface NavSection {
   title: string;
 }
 
+interface CaseStudyBody02Props {
+  studyTitle: string;
+}
+
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Leadership context" },
   { id: "integrated-loyalty", title: "Integrated loyalty" },
@@ -194,7 +198,7 @@ const Section = ({ children }: { id?: string; children: ReactNode }) => (
 
 const SectionDivider = () => null;
 
-export const CaseStudyBody02 = () => {
+export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [active, setActive] = useState<string>(sections[0].id);
   const [unlocked, setUnlocked] = useState(false);
@@ -262,6 +266,17 @@ export const CaseStudyBody02 = () => {
                   className="w-full rounded-2xl border border-sand bg-sand/50 p-6"
                   style={{ maxWidth: 412 }}
                 >
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                      history.replaceState(null, "", window.location.pathname);
+                    }}
+                    className="mb-3 block font-serif text-[18px] leading-snug text-title hover:text-terracotta transition-colors"
+                  >
+                    {studyTitle}
+                  </a>
                   <ul className="flex flex-col gap-1">
                     {sections.map((s) => {
                       const isActive = active === s.id;
