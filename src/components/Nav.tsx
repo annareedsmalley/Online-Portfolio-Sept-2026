@@ -58,7 +58,10 @@ export const Nav = () => {
       <div className="mx-auto flex h-16 max-w-content items-center justify-between px-6">
         <Link
           to="/"
-          className="inline-block text-title transition-opacity hover:opacity-80"
+          className={cn(
+            "inline-block transition-opacity hover:opacity-80",
+            onHero ? "text-white" : "text-title"
+          )}
           aria-label="Anna Smalley — home"
         >
           <span className="font-serif text-lg font-bold md:text-xl">Anna Smalley</span>
@@ -70,7 +73,9 @@ export const Nav = () => {
             const ringClass = active ? "border-terracotta" : "border-transparent";
             const colorClass = active
               ? "text-terracotta"
-              : "text-title hover:text-terracotta";
+              : onHero
+                ? "text-white hover:text-white/80"
+                : "text-title hover:text-terracotta";
             const baseClasses = cn(
               "font-sans text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
               colorClass,
@@ -93,7 +98,7 @@ export const Nav = () => {
                 className={({ isActive }) =>
                   cn(
                     "font-sans text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
-                    isActive ? "text-terracotta" : "text-title hover:text-terracotta",
+                    isActive ? "text-terracotta" : onHero ? "text-white hover:text-white/80" : "text-title hover:text-terracotta",
                     isActive ? "border-terracotta" : "border-transparent",
                   )
                 }
@@ -107,7 +112,10 @@ export const Nav = () => {
 
         <button
           type="button"
-          className="rounded-full p-2 text-title md:hidden"
+          className={cn(
+            "rounded-full p-2 md:hidden",
+            onHero ? "text-white" : "text-title"
+          )}
           aria-label="Toggle menu"
           onClick={() => setOpen((v) => !v)}
         >
