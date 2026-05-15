@@ -13,7 +13,7 @@ const Index = () => {
     <SiteLayout>
       {/* HERO — playful collage on terracotta */}
       <section
-        className="relative overflow-hidden hero-enter"
+        className="relative -mt-16 overflow-hidden hero-enter pt-16"
         style={{ backgroundColor: "#C55829" }}
       >
         {/* Faint arch background */}
