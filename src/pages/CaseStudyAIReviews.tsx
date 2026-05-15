@@ -146,8 +146,6 @@ const CaseStudyAIReviews = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <CtaSection />
     </SiteLayout>
   );
 };

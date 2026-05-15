@@ -155,8 +155,6 @@ const CaseStudySalesforce = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <CtaSection />
     </SiteLayout>
   );
 };

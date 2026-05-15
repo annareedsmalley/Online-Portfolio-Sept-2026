@@ -142,8 +142,6 @@ const CaseStudyGap = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <CtaSection />
     </SiteLayout>
   );
 };

@@ -190,8 +190,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA — reused */}
-      <CtaSection />
     </SiteLayout>
   );
 };

@@ -24,7 +24,6 @@ const CaseStudiesIndex = () => {
         </div>
       </section>
 
-      <CtaSection />
     </SiteLayout>
   );
 };
