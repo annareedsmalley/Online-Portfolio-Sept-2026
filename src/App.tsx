@@ -10,6 +10,7 @@ import CaseStudyGap from "./pages/CaseStudyGap.tsx";
 import CaseStudySalesforce from "./pages/CaseStudySalesforce.tsx";
 import CaseStudyAIReviews from "./pages/CaseStudyAIReviews.tsx";
 import { ScrollToTop } from "./components/ScrollToTop.tsx";
+import { CaseStudyTitleProvider } from "./context/CaseStudyTitleContext";
 
 const queryClient = new QueryClient();
 
@@ -20,15 +21,17 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/work/cross-brand-product-experience" element={<CaseStudyGap />} />
-          <Route path="/work/four-brands-one-membership" element={<CaseStudySalesforce />} />
-          <Route path="/work/designing-trust-into-ai-feature" element={<CaseStudyAIReviews />} />
-          
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <CaseStudyTitleProvider>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/work/cross-brand-product-experience" element={<CaseStudyGap />} />
+            <Route path="/work/four-brands-one-membership" element={<CaseStudySalesforce />} />
+            <Route path="/work/designing-trust-into-ai-feature" element={<CaseStudyAIReviews />} />
+
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </CaseStudyTitleProvider>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
