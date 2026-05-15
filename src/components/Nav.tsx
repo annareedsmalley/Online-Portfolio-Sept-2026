@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 const links = [
   { label: "Case Studies", to: "/#work", hashTarget: "work" },
   { label: "About", to: "/#about", hashTarget: "about" },
+  { label: "Resume", to: "/resume.pdf", external: true },
   { label: "Contact", to: "/#contact", hashTarget: "contact" },
 ];
 
