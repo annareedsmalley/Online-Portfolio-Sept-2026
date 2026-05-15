@@ -1,6 +1,5 @@
 import { SiteLayout } from "@/components/SiteLayout";
 import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
-import { CtaSection } from "@/components/CtaSection";
 import { Reveal } from "@/components/Reveal";
 import { caseStudies } from "@/data/caseStudies";
 
@@ -24,7 +23,6 @@ const CaseStudiesIndex = () => {
         </div>
       </section>
 
-      <CtaSection />
     </SiteLayout>
   );
 };

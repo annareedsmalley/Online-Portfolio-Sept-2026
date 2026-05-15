@@ -3,7 +3,6 @@ import { Pill } from "@/components/Pill";
 import { ImpactItem } from "@/components/ImpactItem";
 import { Reveal } from "@/components/Reveal";
 import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
-import { CtaSection } from "@/components/CtaSection";
 
 import { CaseStudyBody } from "@/components/CaseStudyBody";
 import { ArrowLeft, Briefcase, Building2, Clock, Layers } from "lucide-react";
@@ -142,8 +141,6 @@ const CaseStudyGap = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <CtaSection />
     </SiteLayout>
   );
 };
