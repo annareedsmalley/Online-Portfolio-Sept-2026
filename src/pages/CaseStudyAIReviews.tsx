@@ -124,7 +124,7 @@ const CaseStudyAIReviews = () => {
               Other case studies
             </h2>
           </Reveal>
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-2">
             {otherCaseStudies.map((cs, idx) => (
               <Reveal key={cs.to} delay={idx * 100}>
                 <ArchCaseStudyCard {...cs} />
