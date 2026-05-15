@@ -40,13 +40,13 @@ const Index = () => {
           <div className="relative">
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
-              <h1 className="font-serif text-[56px] leading-[0.95] text-white">
+              <h1 className="font-serif text-[56px] leading-[1.1] text-white">
                 I'm <span>Anna Smalley</span>, a senior UX leader
               </h1>
             <img
               src={annaPortrait}
               alt="Anna Smalley portrait"
-              className="h-56 w-44 rounded-md object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
+              className="h-56 w-44 rounded-full object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
             />
             <StickyNote color="pink" rotate={-4} size="md" hoverLift={false}>
               <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
