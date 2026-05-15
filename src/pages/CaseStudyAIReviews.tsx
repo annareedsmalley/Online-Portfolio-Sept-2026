@@ -6,7 +6,7 @@ import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CtaSection } from "@/components/CtaSection";
 import { CaseStudyBodyAI } from "@/components/CaseStudyBodyAI";
 import { PlaceholderVisual } from "@/components/PlaceholderVisual";
-import { ArrowLeft, Briefcase, Calendar, Layers, Target } from "lucide-react";
+import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import { caseStudies } from "@/data/caseStudies";
 
@@ -67,11 +67,10 @@ const CaseStudyAIReviews = () => {
               The GenAI Review Summary, scaled across all four brands.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
-              {[
+              [
                 { icon: Briefcase, label: "UX Design Manager · Gap Inc." },
                 { icon: Calendar, label: "~6 months" },
                 { icon: Layers, label: "7 direct reports" },
-                { icon: Target, label: "Scope: Gap Inc.'s first customer-facing GenAI feature, scaled across all four brands" },
               ].map((p, i) => (
                 <Reveal key={p.label} delay={i * 90}>
                   <Pill icon={p.icon}>{p.label}</Pill>
