@@ -247,7 +247,7 @@ export const CaseStudyBody = () => {
           className="grid grid-cols-1 gap-16 lg:grid-cols-[35fr_65fr]"
         >
           {unlocked && (
-            <aside className="relative">
+            <aside className="relative hidden lg:block">
               <div className="sticky top-28 w-full" style={{ maxWidth: 412 }}>
                 <nav
                   aria-label="Case study sections"
