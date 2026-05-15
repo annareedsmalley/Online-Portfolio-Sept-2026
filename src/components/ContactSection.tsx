@@ -71,9 +71,7 @@ export const ContactSection = () => {
               Let's <span className="text-terracotta-hero">talk</span>
             </h2>
             <p className="body-text mt-5 max-w-xl text-base md:text-lg">
-              Whether it's a hiring conversation, an advisory engagement, or a hard product question
-              you'd like a second pair of eyes on — I'd love to hear{" "}
-              <span className="whitespace-nowrap">from you.</span>
+              I'd love to hear from you! Please reach out on LinkedIn or fill out the form to send me a message.
             </p>
 
             <a
