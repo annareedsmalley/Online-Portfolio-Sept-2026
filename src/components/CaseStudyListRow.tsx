@@ -19,7 +19,7 @@ export const CaseStudyListRow = ({
     to={to}
     className="group relative block transition-colors duration-200 hover:bg-sand"
   >
-    <div className="relative flex flex-col gap-4 px-2 py-8 md:flex-row md:items-center md:justify-between md:gap-6 md:px-4 md:py-10">
+    <div className="relative flex flex-col gap-4 rounded-xl bg-background px-2 py-8 shadow-[0_8px_20px_rgba(0,0,0,0.12)] md:flex-row md:items-center md:justify-between md:gap-6 md:rounded-none md:bg-transparent md:px-4 md:py-10 md:shadow-none">
       <div className="relative z-20 flex w-full flex-col gap-1.5 md:w-5/12">
         <h3 className="font-serif text-xl leading-snug text-title md:text-2xl">
           {title}
@@ -34,7 +34,7 @@ export const CaseStudyListRow = ({
           src={image}
           alt={imageAlt}
           loading="lazy"
-          className="h-36 w-auto rounded-lg object-contain shadow-[0_8px_20px_rgba(0,0,0,0.12)] lg:h-44"
+          className="h-36 w-auto rounded-lg object-contain md:shadow-[0_8px_20px_rgba(0,0,0,0.12)] lg:h-44"
         />
       </div>
     </div>
