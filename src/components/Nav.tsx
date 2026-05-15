@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const links = [
   { label: "Case Studies", to: "/#work", hashTarget: "work" },
   { label: "About", to: "/#about", hashTarget: "about" },
-  { label: "Contact", to: "/contact" },
+  { label: "Contact", to: "/#contact", hashTarget: "contact" },
 ];
 
 export const Nav = () => {

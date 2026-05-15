@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
-import Contact from "./pages/Contact.tsx";
+
 import CaseStudyGap from "./pages/CaseStudyGap.tsx";
 import CaseStudySalesforce from "./pages/CaseStudySalesforce.tsx";
 import CaseStudyAIReviews from "./pages/CaseStudyAIReviews.tsx";
@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/work/cross-brand-product-experience" element={<CaseStudyGap />} />
           <Route path="/work/four-brands-one-membership" element={<CaseStudySalesforce />} />
           <Route path="/work/designing-trust-into-ai-feature" element={<CaseStudyAIReviews />} />
-          <Route path="/contact" element={<Contact />} />
+          
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
