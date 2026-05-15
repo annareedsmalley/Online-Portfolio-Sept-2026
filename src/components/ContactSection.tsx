@@ -138,10 +138,7 @@ interface FieldProps {
 }
 
 const Field = ({ id, label, value, onChange, error, type = "text", autoComplete }: FieldProps) => (
-  <div className="flex flex-col gap-2">
-    <label htmlFor={id} className="font-label text-[11px] font-semibold uppercase tracking-wider text-title">
-      {label}
-    </label>
+  <div className="relative">
     <input
       id={id}
       name={id}
@@ -149,12 +146,19 @@ const Field = ({ id, label, value, onChange, error, type = "text", autoComplete 
       value={value}
       onChange={onChange}
       autoComplete={autoComplete}
+      placeholder=" "
       aria-invalid={!!error}
       aria-describedby={error ? `${id}-error` : undefined}
-      className="rounded-lg border border-border bg-background px-4 py-3 font-sans text-[15px] text-title outline-none transition-colors placeholder:text-body/60 focus:border-terracotta"
+      className="peer block w-full rounded-lg border border-border bg-white px-4 pt-4 pb-3 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:border-2"
     />
+    <label
+      htmlFor={id}
+      className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 bg-white px-1 font-sans text-[15px] text-body/60 transition-all duration-150 peer-focus:top-0 peer-focus:-translate-y-1/2 peer-focus:text-[12px] peer-focus:font-medium peer-focus:text-terracotta peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:-translate-y-1/2 peer-[:not(:placeholder-shown)]:text-[12px] peer-[:not(:placeholder-shown)]:font-medium peer-[:not(:placeholder-shown)]:text-title"
+    >
+      {label}
+    </label>
     {error ? (
-      <p id={`${id}-error`} className="font-sans text-xs text-destructive">
+      <p id={`${id}-error`} className="mt-1 font-sans text-xs text-destructive">
         {error}
       </p>
     ) : null}
@@ -166,22 +170,26 @@ interface TextareaProps extends Omit<FieldProps, "onChange" | "type"> {
 }
 
 const TextareaField = ({ id, label, value, onChange, error }: TextareaProps) => (
-  <div className="flex flex-col gap-2">
-    <label htmlFor={id} className="font-label text-[11px] font-semibold uppercase tracking-wider text-title">
-      {label}
-    </label>
+  <div className="relative">
     <textarea
       id={id}
       name={id}
       value={value}
       onChange={onChange}
       rows={6}
+      placeholder=" "
       aria-invalid={!!error}
       aria-describedby={error ? `${id}-error` : undefined}
-      className="resize-y rounded-lg border border-border bg-background px-4 py-3 font-sans text-[15px] text-title outline-none transition-colors placeholder:text-body/60 focus:border-terracotta"
+      className="peer block w-full resize-y rounded-lg border border-border bg-white px-4 pt-5 pb-3 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:border-2"
     />
+    <label
+      htmlFor={id}
+      className="pointer-events-none absolute left-3 top-4 bg-white px-1 font-sans text-[15px] text-body/60 transition-all duration-150 peer-focus:top-0 peer-focus:-translate-y-1/2 peer-focus:text-[12px] peer-focus:font-medium peer-focus:text-terracotta peer-[:not(:placeholder-shown)]:top-0 peer-[:not(:placeholder-shown)]:-translate-y-1/2 peer-[:not(:placeholder-shown)]:text-[12px] peer-[:not(:placeholder-shown)]:font-medium peer-[:not(:placeholder-shown)]:text-title"
+    >
+      {label}
+    </label>
     {error ? (
-      <p id={`${id}-error`} className="font-sans text-xs text-destructive">
+      <p id={`${id}-error`} className="mt-1 font-sans text-xs text-destructive">
         {error}
       </p>
     ) : null}
