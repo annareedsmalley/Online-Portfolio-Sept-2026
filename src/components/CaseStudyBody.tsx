@@ -240,7 +240,7 @@ export const CaseStudyBody = () => {
       <div className="mx-auto max-w-content px-6 py-24 md:px-16">
         <div
           ref={containerRef}
-          className="grid grid-cols-1 gap-16 lg:grid-cols-[35fr_65fr]"
+          className={`grid grid-cols-1 gap-16 ${unlocked ? "lg:grid-cols-[35fr_65fr]" : ""}`}
         >
           {unlocked && (
             <aside className="relative hidden lg:block">
