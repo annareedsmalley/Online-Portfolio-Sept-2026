@@ -140,9 +140,6 @@ const CaseStudySalesforce = () => {
       {/* CASE STUDY BODY */}
       <CaseStudyBody02 />
 
-      {/* CTA */}
-      <CtaSection />
-
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">
         <div className="mx-auto max-w-content px-6 py-24 md:px-16">
@@ -160,6 +157,9 @@ const CaseStudySalesforce = () => {
           </div>
         </div>
       </section>
+
+      {/* CTA */}
+      <CtaSection />
     </SiteLayout>
   );
 };

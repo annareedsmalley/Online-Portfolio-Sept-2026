@@ -127,9 +127,6 @@ const CaseStudyGap = () => {
       {/* CASE STUDY BODY */}
       <CaseStudyBody />
 
-      {/* CTA */}
-      <CtaSection />
-
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">
         <div className="mx-auto max-w-content px-6 py-24 md:px-16">
@@ -147,6 +144,9 @@ const CaseStudyGap = () => {
           </div>
         </div>
       </section>
+
+      {/* CTA */}
+      <CtaSection />
     </SiteLayout>
   );
 };
