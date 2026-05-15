@@ -8,6 +8,7 @@ import aiThesis from "@/assets/cs03/ai-thesis.png";
 import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
 import trustFailureModes from "@/assets/cs03/trust-failure-modes.png";
 import threeBucketSentiment from "@/assets/cs03/three-bucket-sentiment.png";
+import modelConfidenceStates from "@/assets/cs03/model-confidence-states.png";
 
 interface NavSection {
   id: string;
@@ -399,11 +400,19 @@ export const CaseStudyBodyAI = () => {
               <P>
                 This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
               </P>
-              <PlaceholderVisual
-                description="Model-confidence states diagram: the three UI variants side by side (full / limited negative / high negative) with annotations showing how the layout, language, and emphasis shift based on confidence."
-                source="Figma — AI Review Summary (nodes 4070-705 and 4087-2105)"
-                aspect="wide"
-              />
+              <figure className="my-4">
+                <img
+                  src={modelConfidenceStates}
+                  alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence."
+                  className="w-full h-auto rounded-2xl"
+                />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Figma — AI Review Summary (nodes 4070-705 and 4087-2105)
+                </figcaption>
+              </figure>
 
               <H3>Bet 5: make the AI summary scannable</H3>
               <P>
