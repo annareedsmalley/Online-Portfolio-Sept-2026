@@ -228,7 +228,7 @@ export const Nav = () => {
                 <Link
                   key={l.to}
                   to={l.to}
-                  className="font-serif text-xl text-title py-3 hover:text-terracotta"
+                  className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </Link>
