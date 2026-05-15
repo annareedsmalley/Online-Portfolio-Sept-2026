@@ -302,7 +302,7 @@ export const CaseStudyBody02 = () => {
                 The shared checkout was a remarkable feat of platform engineering, but I quickly noticed a gap between what the platform could technically support and what customers actually experienced day to day.
               </P>
 
-              <H3>My scope at Gap, inc</H3>
+              <H3>My scope at Gap, Inc.</H3>
               <P>
                 During my tenure at Gap, Inc., I focused on each step of the eCommerce shopping journey, for all four brands:
               </P>
@@ -438,7 +438,7 @@ export const CaseStudyBody02 = () => {
                 alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
               />
 
-              <H3>19 Million new accounts</H3>
+              <H3>19 million new accounts</H3>
               <P>
                 By 2022, customers had created <strong>19 million new Gap Inc loyalty accounts!</strong>
               </P>
@@ -511,7 +511,7 @@ export const CaseStudyBody02 = () => {
                 alt="New foundational PDP buy box template preview across Athleta, Banana Republic, Gap, and Old Navy"
               />
 
-              <H3>75% Done in 10 months</H3>
+              <H3>75% done in 10 months</H3>
               <P>
                 10 months later, we're <strong>75% done with this work, including 100% of our PLP and PDP pages.</strong>
               </P>
