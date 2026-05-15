@@ -29,6 +29,16 @@ export const Nav = () => {
     return () => window.removeEventListener("scroll", update);
   }, [location.pathname]);
 
+  useEffect(() => {
+    if (open) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+  }, [open]);
+
   const isActive = (to: string) => {
     if (to.startsWith("/#")) return location.pathname === "/" && location.hash === to.slice(1);
     return location.pathname === to;
@@ -138,7 +148,7 @@ export const Nav = () => {
         <div className="md:hidden">
           <nav
             className={cn(
-              "flex flex-col gap-2 border-t px-6 py-6",
+              "relative z-10 flex flex-col gap-2 border-t px-6 py-6",
               onHero ? "border-border bg-background" : "border-border bg-background",
             )}
           >
@@ -163,6 +173,12 @@ export const Nav = () => {
               ),
             )}
           </nav>
+          <button
+            type="button"
+            aria-label="Close menu"
+            className="fixed inset-0 top-0 -z-0 h-screen w-screen bg-black/50"
+            onClick={() => setOpen(false)}
+          />
         </div>
       ) : null}
     </header>
