@@ -16,7 +16,7 @@ const NotFound = () => {
       <section className="bg-background">
         <div className="mx-auto flex max-w-content flex-col items-center px-6 py-32 text-center">
           <span className="kicker">404</span>
-          <h1 className="mt-4 font-serif text-[36px] text-title md:text-[72px]">
+          <h1 className="mt-4 font-serif text-[32px] text-title md:text-[72px]">
             Page <span className="text-terracotta">not found</span>
           </h1>
           <p className="body-text mt-5 max-w-md">
