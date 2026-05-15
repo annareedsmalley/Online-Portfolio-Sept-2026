@@ -1,5 +1,4 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { Lock } from "lucide-react";
 import {
   CASE_STUDY_GATE_STORAGE_KEY,
   CASE_STUDY_PASSWORD,
@@ -7,13 +6,9 @@ import {
 
 interface PasswordGateProps {
   children: ReactNode;
-  message?: string;
 }
 
-const DEFAULT_MESSAGE =
-  "This case study contains confidential client work. Enter the password to continue reading.";
-
-export const PasswordGate = ({ children, message = DEFAULT_MESSAGE }: PasswordGateProps) => {
+export const PasswordGate = ({ children }: PasswordGateProps) => {
   const [unlocked, setUnlocked] = useState(false);
   const [value, setValue] = useState("");
   const [error, setError] = useState<string | null>(null);
@@ -51,15 +46,9 @@ export const PasswordGate = ({ children, message = DEFAULT_MESSAGE }: PasswordGa
 
   return (
     <div className="flex flex-col items-start gap-6 rounded-2xl border border-border bg-sand/40 p-8 md:p-10">
-      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-terracotta/10 text-terracotta">
-        <Lock className="h-5 w-5" aria-hidden="true" />
-      </div>
-      <div className="flex flex-col gap-2">
-        <h2 className="font-serif text-[24px] leading-[1.2] text-title md:text-[28px]">
-          Protected case study
-        </h2>
-        <p className="body-text text-[15px] leading-[1.6] md:text-[16px]">{message}</p>
-      </div>
+      <h2 className="font-serif text-[24px] leading-[1.2] text-title md:text-[28px]">
+        To read more, please enter password.
+      </h2>
       <form onSubmit={handleSubmit} className="flex w-full max-w-md flex-col gap-3">
         <label htmlFor="case-study-password" className="sr-only">
           Password
