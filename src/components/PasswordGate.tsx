@@ -45,44 +45,46 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
   if (unlocked) return <>{children}</>;
 
   return (
-    <div className="mx-auto flex max-w-xl flex-col items-center gap-6 rounded-2xl border border-border bg-sand/40 p-8 md:p-10">
-      <h2 className="font-serif text-[24px] leading-[1.2] text-title md:text-[28px]">
-        To read more, please enter password.
-      </h2>
-      <form onSubmit={handleSubmit} className="flex w-full flex-col gap-3">
-        <label htmlFor="case-study-password" className="sr-only">
-          Password
-        </label>
-        <input
-          id="case-study-password"
-          type="password"
-          autoComplete="current-password"
-          value={value}
-          onChange={(e) => {
-            setValue(e.target.value);
-            if (error) setError(null);
-          }}
-          placeholder="Password"
-          className="w-full rounded-md border border-border bg-background px-4 py-3 font-sans text-[15px] text-title placeholder:text-title/40 focus:border-terracotta focus:outline-none focus:ring-2 focus:ring-terracotta/30"
-          aria-invalid={error ? "true" : "false"}
-          aria-describedby={error ? "case-study-password-error" : undefined}
-        />
-        {error && (
-          <p
-            id="case-study-password-error"
-            className="font-sans text-[13px] text-terracotta"
-            role="alert"
+    <div className="relative left-1/2 -translate-x-1/2 w-screen max-w-[100vw] px-6">
+      <div className="mx-auto flex max-w-xl flex-col items-center gap-6 rounded-2xl border border-border bg-sand/40 p-8 md:p-10">
+        <h2 className="font-serif text-[24px] leading-[1.2] text-title md:text-[28px] text-center">
+          To read more, please enter password.
+        </h2>
+        <form onSubmit={handleSubmit} className="flex w-full flex-col gap-3">
+          <label htmlFor="case-study-password" className="sr-only">
+            Password
+          </label>
+          <input
+            id="case-study-password"
+            type="password"
+            autoComplete="current-password"
+            value={value}
+            onChange={(e) => {
+              setValue(e.target.value);
+              if (error) setError(null);
+            }}
+            placeholder="Password"
+            className="w-full rounded-md border border-border bg-background px-4 py-3 font-sans text-[15px] text-title placeholder:text-title/40 focus:border-terracotta focus:outline-none focus:ring-2 focus:ring-terracotta/30"
+            aria-invalid={error ? "true" : "false"}
+            aria-describedby={error ? "case-study-password-error" : undefined}
+          />
+          {error && (
+            <p
+              id="case-study-password-error"
+              className="font-sans text-[13px] text-terracotta"
+              role="alert"
+            >
+              {error}
+            </p>
+          )}
+          <button
+            type="submit"
+            className="self-center rounded-md bg-terracotta px-5 py-3 font-label text-xs uppercase tracking-wider text-background transition-colors hover:bg-terracotta/90 focus:outline-none focus:ring-2 focus:ring-terracotta/40"
           >
-            {error}
-          </p>
-        )}
-        <button
-          type="submit"
-          className="self-center rounded-md bg-terracotta px-5 py-3 font-label text-xs uppercase tracking-wider text-background transition-colors hover:bg-terracotta/90 focus:outline-none focus:ring-2 focus:ring-terracotta/40"
-        >
-          Unlock case study
-        </button>
-      </form>
+            Unlock case study
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
