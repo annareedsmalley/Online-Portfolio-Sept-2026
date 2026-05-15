@@ -41,7 +41,7 @@ const Index = () => {
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
               <h1 className="font-serif text-[56px] leading-[0.95] text-white">
-                I'm <span className="italic">Anna Smalley</span>, a senior UX leader
+                I'm <span>Anna Smalley</span>, a senior UX leader
               </h1>
             <img
               src={annaPortrait}
