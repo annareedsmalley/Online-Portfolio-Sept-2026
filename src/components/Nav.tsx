@@ -79,12 +79,14 @@ export const Nav = () => {
         <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => {
             const active = isActive(l.to);
-            const ringClass = active ? "border-terracotta" : "border-transparent";
-            const colorClass = active
-              ? "text-terracotta"
-              : onHero
-                ? "text-white hover:text-white/80"
-                : "text-title hover:text-terracotta";
+            const ringClass = active && onHero ? "border-white" : active ? "border-terracotta" : "border-transparent";
+            const colorClass = active && onHero
+              ? "text-white"
+              : active
+                ? "text-terracotta"
+                : onHero
+                  ? "text-white hover:text-white/80"
+                  : "text-title hover:text-terracotta";
             const baseClasses = cn(
               "font-sans text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
               colorClass,
@@ -107,8 +109,8 @@ export const Nav = () => {
                 className={({ isActive }) =>
                   cn(
                     "font-sans text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
-                    isActive ? "text-terracotta" : onHero ? "text-white hover:text-white/80" : "text-title hover:text-terracotta",
-                    isActive ? "border-terracotta" : "border-transparent",
+                    isActive && onHero ? "text-white" : isActive ? "text-terracotta" : onHero ? "text-white hover:text-white/80" : "text-title hover:text-terracotta",
+                    isActive && onHero ? "border-white" : isActive ? "border-terracotta" : "border-transparent",
                   )
                 }
                 style={{ transition: "color 300ms ease, opacity 200ms ease, border-color 300ms ease" }}
