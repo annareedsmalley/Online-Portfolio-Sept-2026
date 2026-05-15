@@ -10,6 +10,7 @@ import trustFailureModes from "@/assets/cs03/trust-failure-modes.png";
 import threeBucketSentiment from "@/assets/cs03/three-bucket-sentiment.png";
 import modelConfidenceStates from "@/assets/cs03/model-confidence-states.png";
 import keywordCollaboration from "@/assets/cs03/keyword-collaboration.png";
+import abResults from "@/assets/cs03/ab-results.png";
 
 interface NavSection {
   id: string;
@@ -482,9 +483,10 @@ export const CaseStudyBodyAI = () => {
               <Pullquote color="green" rotate={-3} kicker="The Reframe">
                 The feature was working. It was just working on a different axis than we had initially measured.
               </Pullquote>
-              <PlaceholderVisual
-                description="A/B results panel: two columns. The first shows conversion and add-to-bag essentially flat. The second shows returns down 0.9% and the $2.5M / $4.4M business value. Designed to make the reframe visible at a glance."
-                aspect="wide"
+              <img
+                src={abResults}
+                alt="A/B results panel: 'What we expected to move' shows conversion rate +0.7% and add-to-bag +0.7% (essentially flat); 'What actually moved' shows return rate -0.9% (significant reduction), $2.5M annualized value across Athleta and Old Navy, and $4.4M projected returns value at Athleta."
+                className="w-full h-auto rounded-2xl my-4"
               />
             </Section>
 
