@@ -34,7 +34,7 @@ export const CaseStudyListRow = ({
           src={image}
           alt={imageAlt}
           loading="lazy"
-          className="h-36 w-auto rounded-lg object-contain md:shadow-[0_8px_20px_rgba(0,0,0,0.12)] lg:h-44"
+          className="w-auto rounded-lg object-contain md:h-36 md:shadow-[0_8px_20px_rgba(0,0,0,0.12)] lg:h-44"
         />
       </div>
     </div>
