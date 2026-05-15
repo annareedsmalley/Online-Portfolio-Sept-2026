@@ -143,7 +143,7 @@ export const Nav = () => {
               "flex flex-col gap-2 border-t px-6 py-6",
               onHero ? "border-white/20" : "border-border bg-background",
             )}
-            style={{ backgroundColor: onHero ? "#C55829" : undefined }}
+            style={{ backgroundColor: onHero ? "transparent" : undefined }}
           >
             {links.map((l) =>
               l.to.startsWith("/#") ? (
