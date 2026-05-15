@@ -16,7 +16,7 @@ export const Nav = () => {
   const navigate = useNavigate();
 
   const isHome = location.pathname === "/";
-  const onHero = isHome && !scrolled;
+  const onHero = isHome && !scrolled && !open;
 
   useEffect(() => {
     setOpen(false);
