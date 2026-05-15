@@ -121,23 +121,9 @@ const Index = () => {
               </h1>
             </div>
 
-            {/* CTA — its own centered row at the bottom of the hero */}
-            <div className="hidden justify-center pt-2 md:flex">
-              <div
-                className="pop-in pop-delay-6"
-                style={{ ['--pop-rot' as string]: '0deg' }}
-              >
-                <a
-                  href="#work"
-                  onClick={scrollToWork}
-                  className="inline-flex items-center gap-3 rounded-full bg-white px-8 py-4 font-label text-sm font-semibold uppercase tracking-[0.14em] text-terracotta shadow-[0_12px_30px_-12px_rgba(0,0,0,0.4)] transition-transform duration-200 hover:-translate-y-0.5"
-                >
-                  View My Work
-                  <ArrowDown className="h-4 w-4" />
-                </a>
-              </div>
-            </div>
           </div>
+        </div>
+      </section>
         </div>
       </section>
 
