@@ -54,8 +54,7 @@ const CaseStudySalesforce = () => {
 
         <div className="mx-auto grid max-w-content items-center gap-y-12 px-16 pt-10 pb-24 md:grid-cols-[748fr_1fr] md:gap-x-16">
           <div className="flex flex-col gap-7">
-            <span className="kicker">Case Study 02</span>
-            <h1 className="font-serif text-[42px] leading-[1.1] text-title md:text-[52px] lg:text-[58px]">
+            <h1 className="font-serif text-[38px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Four brands,&nbsp;<br />
               <span className="text-terracotta">
                 one membership
