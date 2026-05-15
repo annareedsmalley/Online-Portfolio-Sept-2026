@@ -87,7 +87,7 @@
   .body-text {
     font-family: 'Montserrat', sans-serif;
     color: hsl(var(--text-body));
-    line-height: 1.6;
+    line-height: 1.5;
   }
 }
 

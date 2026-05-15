@@ -47,13 +47,13 @@ const H3 = ({ children }: { children: ReactNode }) => (
 );
 
 const P = ({ children }: { children: ReactNode }) => (
-  <p className="body-text text-[16px] leading-[1.55] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+  <p className="body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
     {children}
   </p>
 );
 
 const UL = ({ children }: { children: ReactNode }) => (
-  <ul className="body-text flex list-disc flex-col gap-1 pl-6 text-[16px] leading-[1.45] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+  <ul className="body-text flex list-disc flex-col gap-1 pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
     {children}
   </ul>
 );
