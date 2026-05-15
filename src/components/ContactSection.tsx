@@ -2,7 +2,7 @@ import { useState } from "react";
 import { z } from "zod";
 import { toast } from "sonner";
 import { ActionButton } from "@/components/ActionButton";
-import { Linkedin, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const schema = z.object({
   name: z.string().trim().min(1, "Please share your name").max(100),
