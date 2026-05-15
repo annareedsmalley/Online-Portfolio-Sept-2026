@@ -113,7 +113,7 @@ export const ContactSection = () => {
                 />
 
                 <div>
-                  <ActionButton type="submit" variant="primary" size="lg" disabled={submitting} className="bg-terracotta-hero hover:bg-terracotta-hero/90">
+                  <ActionButton type="submit" variant="primary" size="lg" disabled={submitting} className="w-full bg-terracotta-hero hover:bg-terracotta-hero/90">
                     {submitting ? "Sending…" : "Send message"}
                     <ArrowRight className="h-4 w-4" />
                   </ActionButton>
