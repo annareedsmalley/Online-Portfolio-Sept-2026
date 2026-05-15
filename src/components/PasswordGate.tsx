@@ -1,19 +1,8 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { Lock } from "lucide-react";
 import {
   CASE_STUDY_GATE_STORAGE_KEY,
   CASE_STUDY_PASSWORD,
 } from "@/config/caseStudyGate";
-
-interface PasswordGateProps {
-  children: ReactNode;
-  message?: string;
-}
-
-const DEFAULT_MESSAGE =
-  "This case study contains confidential client work. Enter the password to continue reading.";
-
-export const PasswordGate = ({ children, message = DEFAULT_MESSAGE }: PasswordGateProps) => {
   const [unlocked, setUnlocked] = useState(false);
   const [value, setValue] = useState("");
   const [error, setError] = useState<string | null>(null);
