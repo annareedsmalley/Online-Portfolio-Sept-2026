@@ -31,6 +31,7 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           hover: "hsl(var(--accent-hover))",
           deep: "hsl(var(--accent-deep))",
+          hero: "hsl(var(--accent-hero))",
         },
         navy: "hsl(var(--navy))",
         title: "hsl(var(--text-title))",
