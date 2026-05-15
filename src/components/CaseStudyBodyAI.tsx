@@ -6,6 +6,7 @@ import { PlaceholderVisual } from "@/components/PlaceholderVisual";
 import stakeholderMap from "@/assets/cs03/stakeholder-map.png";
 import aiThesis from "@/assets/cs03/ai-thesis.png";
 import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
+import trustFailureModes from "@/assets/cs03/trust-failure-modes.png";
 
 interface NavSection {
   id: string;
@@ -327,9 +328,10 @@ export const CaseStudyBodyAI = () => {
                 quote="I feel like this brand really is being transparent. I don't get the feeling they're only publishing certain reviews, but that they're literally taking customers' voices and putting it here."
                 attribution="UX Research participant, Discovery research — the kind of customer reaction we were designing for."
               />
-              <PlaceholderVisual
-                description="Discovery research findings card: the three trust failure modes customers described (assume the company is hiding something / distrust AI as biased / second-guess purchase decision)."
-                aspect="video"
+              <img
+                src={trustFailureModes}
+                alt="Discovery research findings card titled Trust Failure Modes: 1) Assume the company is hiding something, 2) Distrust AI as biased toward selling, 3) Second-guess any AI-influenced purchase decision."
+                className="w-full h-auto rounded-2xl my-4"
               />
             </Section>
 
