@@ -67,7 +67,7 @@ const CaseStudyAIReviews = () => {
               The GenAI Review Summary, scaled across all four brands.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
-              [
+              {[
                 { icon: Briefcase, label: "UX Design Manager · Gap Inc." },
                 { icon: Calendar, label: "~6 months" },
                 { icon: Layers, label: "7 direct reports" },
