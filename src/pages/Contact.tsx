@@ -81,31 +81,15 @@ const Contact = () => {
                 <span className="whitespace-nowrap">from you.</span>
               </p>
 
-              {/* FigJam-style sticky note */}
-              <StickyNote color="yellow" rotate={-3} size="lg" className="mt-10">
-                <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-title/70">
-                  Reach out directly
-                </p>
-                <div className="mt-4 flex flex-col gap-3">
-                  <a
-                    href="mailto:hello@annasmalley.com"
-                    className="inline-flex items-center gap-2 font-sans text-[15px] font-medium text-title underline-offset-4 hover:underline"
-                  >
-                    <Mail className="h-4 w-4" />
-                    hello@annasmalley.com
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 font-sans text-[15px] font-medium text-title underline-offset-4 hover:underline"
-                  >
-                    <Linkedin className="h-4 w-4" />
-                    LinkedIn
-                  </a>
-                </div>
-                <p className="mt-8 font-serif text-[15px] italic text-title/60">— Anna</p>
-              </StickyNote>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-5 inline-flex items-center gap-2 font-sans text-[15px] font-medium text-title underline-offset-4 hover:underline"
+              >
+                <Linkedin className="h-4 w-4" />
+                LinkedIn
+              </a>
             </div>
 
             {/* Right column — form */}
