@@ -293,7 +293,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                                 history.replaceState(null, "", `#${s.id}`);
                               }
                             }}
-                            className={`block rounded-md px-3 py-2 font-serif text-[14px] leading-snug transition-colors ${
+                            className={`block rounded-md px-3 py-2 font-sans text-[13px] font-semibold leading-snug tracking-wide transition-colors ${
                               isActive
                                 ? "bg-background text-terracotta"
                                 : "text-title/70 hover:text-terracotta"
