@@ -80,10 +80,7 @@ const CaseStudySalesforce = () => {
             <img
               src={heroVisual}
               alt="Integrated Loyalty across all four Gap Inc. brands"
-              width={500}
-              height={724}
-              className="rounded-2xl shrink-0 object-cover"
-              style={{ width: 500, height: 724, flexShrink: 0 }}
+              className="w-full h-auto rounded-2xl"
             />
           </div>
         </div>
