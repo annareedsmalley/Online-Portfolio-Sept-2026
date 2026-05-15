@@ -66,7 +66,7 @@ export const ContactSection = () => {
 
       <div className="relative z-10 mx-auto max-w-content px-6 py-20 md:px-16 md:py-28">
         <div className="grid gap-16 md:grid-cols-12">
-          <div className="md:col-span-4">
+          <div className="md:col-span-5">
             <h2 className="font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
               Let's <span className="text-terracotta-hero">talk</span>
             </h2>
@@ -87,7 +87,7 @@ export const ContactSection = () => {
             </a>
           </div>
 
-          <div className="md:col-span-7 md:col-start-6">
+          <div className="md:col-span-6 md:col-start-7">
             <div className="rounded-2xl bg-white p-8 shadow-sm md:p-10">
               <form onSubmit={onSubmit} noValidate className="flex flex-col gap-6">
                 <Field
