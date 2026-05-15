@@ -6,7 +6,7 @@ import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CtaSection } from "@/components/CtaSection";
 
 import { CaseStudyBody02 } from "@/components/CaseStudyBody02";
-import { ArrowLeft, Briefcase, Calendar, Layers, Target } from "lucide-react";
+import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroVisual from "@/assets/cs02/hero-timeline.png";
 import impactVisual from "@/assets/cs02/impact-at-a-glance.png";
@@ -69,7 +69,6 @@ const CaseStudySalesforce = () => {
                 { icon: Briefcase, label: "Design Leader · Gap Inc." },
                 { icon: Calendar, label: "4 Years" },
                 { icon: Layers, label: "4 Brands on One Shared Platform" },
-                { icon: Target, label: "Scope: Loyalty program strategy, Headless UI migration, Product gating" },
               ].map((p, i) => (
                 <Reveal key={p.label} delay={i * 90}>
                   <Pill icon={p.icon}>{p.label}</Pill>
