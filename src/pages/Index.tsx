@@ -40,7 +40,7 @@ const Index = () => {
           <div className="relative">
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
-              <h1 className="font-serif text-[56px] leading-[1.1] text-white">
+              <h1 className="font-serif text-[36px] leading-[1.1] text-white">
                 I'm <span>Anna Smalley</span>, a senior UX leader
               </h1>
             <img
@@ -76,7 +76,7 @@ const Index = () => {
                 </StickyNote>
               </div>
 
-              <h1 className="font-serif text-[clamp(48px,6.4vw,100px)] leading-[1.05] text-white">
+              <h1 className="font-serif text-[clamp(36px,6.4vw,100px)] leading-[1.05] text-white">
                 {/* Line 1: I'm Anna Smalley, [headshot] */}
                 <span className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3">
                   <span

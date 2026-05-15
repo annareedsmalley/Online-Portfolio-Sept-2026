@@ -57,7 +57,7 @@ const CaseStudyGap = () => {
 
         <div className="mx-auto grid max-w-content items-center gap-y-12 px-6 pt-10 pb-24 md:px-16 md:grid-cols-[748fr_1fr] md:gap-x-16">
           <div className="flex flex-col gap-7">
-            <h1 className="font-serif text-[38px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
+            <h1 className="font-serif text-[36px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Leading a cross-brand product experience strategy through{" "}
               <span className="text-terracotta">organizational change at Gap Inc.</span>
             </h1>
