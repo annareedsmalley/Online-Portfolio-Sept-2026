@@ -73,8 +73,7 @@ const Contact = () => {
           <div className="grid gap-16 md:grid-cols-12">
             {/* Left column — direct contact */}
             <div className="md:col-span-4">
-              <span className="kicker text-terracotta-hero">Contact</span>
-              <h1 className="mt-4 font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
+              <h1 className="font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
                 Let's <span className="text-terracotta-hero">talk</span>
               </h1>
               <p className="body-text mt-5 max-w-xl text-base md:text-lg">
