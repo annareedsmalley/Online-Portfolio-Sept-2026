@@ -46,7 +46,7 @@ const CaseStudyAIReviews = () => {
       {/* HERO */}
       <section className="bg-background">
         <div className="mx-auto grid max-w-content items-start gap-y-6 px-6 pt-6 pb-12 md:grid-cols-[3fr_2fr] md:gap-x-16 md:px-16 md:pt-16 md:pb-24">
-          <div className="md:col-start-1">
+          <div className="flex flex-col gap-7 md:col-start-1">
             <Link
               to="/#work"
               className="inline-flex items-center gap-2 font-label text-xs uppercase tracking-wider text-title transition-colors hover:text-terracotta"
@@ -54,9 +54,7 @@ const CaseStudyAIReviews = () => {
               <ArrowLeft className="h-3.5 w-3.5" />
               Back to work
             </Link>
-          </div>
 
-          <div className="flex flex-col gap-7 md:col-start-1 md:mt-6">
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Designing trust into{" "}
               <span className="text-terracotta">
@@ -84,7 +82,7 @@ const CaseStudyAIReviews = () => {
             </Reveal>
           </div>
 
-          <div className="flex justify-center md:col-start-2 md:row-start-1 md:row-span-2 md:justify-end">
+          <div className="flex justify-center md:col-start-2 md:justify-end">
             <Reveal delay={120}>
               <img
                 src={heroVisual}
