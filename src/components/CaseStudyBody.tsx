@@ -265,7 +265,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                       window.scrollTo({ top: 0, behavior: "smooth" });
                       history.replaceState(null, "", window.location.pathname);
                     }}
-                    className="mb-3 block font-serif text-[18px] leading-snug text-title hover:text-terracotta transition-colors"
+                    className="mb-3 block font-sans text-[15px] font-semibold tracking-wide leading-snug text-title hover:text-terracotta transition-colors"
                   >
                     {studyTitle}
                   </a>
@@ -285,7 +285,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                                 history.replaceState(null, "", `#${s.id}`);
                               }
                             }}
-                            className={`block rounded-md px-3 py-2 font-serif text-[14px] leading-snug transition-colors ${
+                            className={`block rounded-md px-3 py-2 font-sans text-[13px] font-semibold leading-snug tracking-wide transition-colors ${
                               isActive
                                 ? "bg-background text-terracotta"
                                 : "text-title/70 hover:text-terracotta"
