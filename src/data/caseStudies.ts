@@ -32,12 +32,12 @@ export const caseStudies: CaseStudyEntry[] = [
     titleColor: "#1B1918",
   },
   {
-    to: "/work/case-study-03",
-    title: "Supercharging Cart & Checkout",
-    tags: "Operational Excellence · 2019",
+    to: "/work/ai-reviews",
+    title: "Designing Trust into Gap Inc.'s First Customer-Facing AI Feature",
+    tags: "Customer-Facing GenAI · 2024–2025",
     image: cartCheckoutImg,
-    imageAlt: "Walmart mobile checkout — Ready to check out screen",
-    arrowColor: "#FFFFFF",
+    imageAlt: "Placeholder thumbnail for the GenAI Review Summary case study",
+    arrowColor: "#1B1918",
     titleColor: "#1B1918",
   },
 ];
