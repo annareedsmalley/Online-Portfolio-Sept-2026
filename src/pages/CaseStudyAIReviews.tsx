@@ -107,7 +107,7 @@ const CaseStudyAIReviews = () => {
             <div>
               <Reveal>
                 <h2 className="font-serif text-[32px] text-title md:text-[44px]">
-                  Outcomes
+                  Impact at a Glance
                 </h2>
               </Reveal>
             </div>
