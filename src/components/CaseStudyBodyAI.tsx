@@ -224,11 +224,7 @@ export const CaseStudyBodyAI = () => {
               <P>
                 My team owned the PDP across all four brands, which meant any customer-facing AI on a PDP would route through us. There was a precedent worth noting here. <strong>A separate UX team dedicated to strategic initiatives for Athleta had recently tried and failed to launch an Athleta AI fashion assistant chatbot.</strong> Leadership made the deliberate choice not to give that team the AI review summaries work, even though Athleta was one of the brands most interested in the feature. This work landed on my team instead.
               </P>
-              <img
-                src={stakeholderMap}
-                alt="Stakeholder map: Anna at the center as team lead, with spokes connecting to Data Science, AI/ML Engineering, Product, Platform Engineering, Brand Producers and Category Merchants (×4), Content Strategy, Design Systems, UX Leadership, and UX Research."
-                className="w-full h-auto rounded-2xl my-4"
-              />
+              <ZoomableImage src={stakeholderMap} alt="Stakeholder map: Anna at the center as team lead, with spokes connecting to Data Science, AI/ML Engineering, Product, Platform Engineering, Brand Producers and Category Merchants (×4), Content Strategy, Design Systems, UX Leadership, and UX Research." className="w-full h-auto rounded-2xl my-4" />
 
               <H3>My read on the situation</H3>
               <P>
@@ -275,11 +271,7 @@ export const CaseStudyBodyAI = () => {
                 <li><strong>Show, don't hide, imperfections.</strong> My research told me that customers are sophisticated readers of reviews. They often actively look for negatives — they use them to test whether a product is right for them. An AI summary that scrubs the negatives reads as marketing copy and erodes trust.</li>
                 <li><strong>Build foundationally, not feature-shaped.</strong> Whatever we shipped here had to be designed so the next ten AI features at Gap Inc. could inherit from it: components, sentiment patterns, confidence states, disclosure language. Otherwise we were going to keep paying this design tax forever.</li>
               </UL>
-              <img
-                src={aiThesis}
-                alt="AI thesis framework graphic: six principles — Trust before flash; Transparency about AI is non-negotiable; Model confidence is a design constraint; Reframe success metrics; Show, don't hide, imperfections; Build foundationally, not feature-shaped — arranged in a two-row grid."
-                className="w-full h-auto rounded-2xl my-4"
-              />
+              <ZoomableImage src={aiThesis} alt="AI thesis framework graphic: six principles — Trust before flash; Transparency about AI is non-negotiable; Model confidence is a design constraint; Reframe success metrics; Show, don't hide, imperfections; Build foundationally, not feature-shaped — arranged in a two-row grid." className="w-full h-auto rounded-2xl my-4" />
 
               <H3>My first move: choosing the right designer</H3>
               <P>
@@ -326,11 +318,7 @@ export const CaseStudyBodyAI = () => {
                 We started with a deep look at how other retailers were handling AI review summaries: Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
               </P>
               <figure className="my-4">
-                <img
-                  src={competitiveAnalysis}
-                  alt="Competitive analysis grid: the four reference retailers (Amazon, Target, NewEgg, Expedia) with annotated callouts on what each got right and where the trust gap lived."
-                  className="w-full h-auto rounded-2xl"
-                />
+                <ZoomableImage src={competitiveAnalysis} alt="Competitive analysis grid: the four reference retailers (Amazon, Target, NewEgg, Expedia) with annotated callouts on what each got right and where the trust gap lived." className="w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
@@ -347,11 +335,7 @@ export const CaseStudyBodyAI = () => {
                 quote="I feel like this brand really is being transparent. I don't get the feeling they're only publishing certain reviews, but that they're literally taking customers' voices and putting it here."
                 attribution="UX Research participant, Discovery research — the kind of customer reaction we were designing for."
               />
-              <img
-                src={trustFailureModes}
-                alt="Discovery research findings card titled Trust Failure Modes: 1) Assume the company is hiding something, 2) Distrust AI as biased toward selling, 3) Second-guess any AI-influenced purchase decision."
-                className="w-full h-auto rounded-2xl my-4"
-              />
+              <ZoomableImage src={trustFailureModes} alt="Discovery research findings card titled Trust Failure Modes: 1) Assume the company is hiding something, 2) Distrust AI as biased toward selling, 3) Second-guess any AI-influenced purchase decision." className="w-full h-auto rounded-2xl my-4" />
             </Section>
 
             <SectionDivider />
@@ -394,11 +378,7 @@ export const CaseStudyBodyAI = () => {
                 I pushed for this pattern over the simpler alternatives because it carried the trust philosophy in its structure, not just its content. A single summary can be edited to feel positive. A "likes / dislikes" binary feels combative. The three-bucket structure mirrors how customers actually think (there are things I love, things I am unsure about, and things I worry about), and that mirroring is what makes it land as honest.
               </P>
               <figure className="my-4">
-                <img
-                  src={threeBucketSentiment}
-                  alt="Three-bucket sentiment design exploration: the winning Design 1 (Likes / Mixed Reviews / Dislikes) annotated with rules for keyword buckets, summary length, and AI disclaimer placement, alongside the alternative variants (1a, 1b) and the discarded Design 2 and Design 3 explorations."
-                  className="w-full h-auto rounded-2xl"
-                />
+                <ZoomableImage src={threeBucketSentiment} alt="Three-bucket sentiment design exploration: the winning Design 1 (Likes / Mixed Reviews / Dislikes) annotated with rules for keyword buckets, summary length, and AI disclaimer placement, alongside the alternative variants (1a, 1b) and the discarded Design 2 and Design 3 explorations." className="w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
@@ -418,11 +398,7 @@ export const CaseStudyBodyAI = () => {
                 This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
               </P>
               <figure className="my-4">
-                <img
-                  src={modelConfidenceStates}
-                  alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence."
-                  className="w-full h-auto rounded-2xl"
-                />
+                <ZoomableImage src={modelConfidenceStates} alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence." className="w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
@@ -461,11 +437,7 @@ export const CaseStudyBodyAI = () => {
                 This project actually predated the operating rhythm I later set up on the Headless UI migration. While the project was in flight, we ran on a less formal cadence: daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with Katie, the content strategist, the brand producers and category merchants, and the product manager. The work was organic and productive. By the time we were handing off into broader scaling, we were running on the same HUI cadence that anchored the multivariant PDP project.
               </P>
               <figure className="my-4">
-                <img
-                  src={keywordCollaboration}
-                  alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display."
-                  className="w-full h-auto rounded-2xl"
-                />
+                <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
@@ -498,11 +470,7 @@ export const CaseStudyBodyAI = () => {
               <Pullquote color="green" rotate={-3} kicker="The Reframe">
                 The feature was working. It was just working on a different axis than we had initially measured.
               </Pullquote>
-              <img
-                src={abResults}
-                alt="A/B results panel: 'What we expected to move' shows conversion rate +0.7% and add-to-bag +0.7% (essentially flat); 'What actually moved' shows return rate -0.9% (significant reduction), $2.5M annualized value across Athleta and Old Navy, and $4.4M projected returns value at Athleta."
-                className="w-full h-auto rounded-2xl my-4"
-              />
+              <ZoomableImage src={abResults} alt="A/B results panel: 'What we expected to move' shows conversion rate +0.7% and add-to-bag +0.7% (essentially flat); 'What actually moved' shows return rate -0.9% (significant reduction), $2.5M annualized value across Athleta and Old Navy, and $4.4M projected returns value at Athleta." className="w-full h-auto rounded-2xl my-4" />
             </Section>
 
             <SectionDivider />
@@ -519,11 +487,7 @@ export const CaseStudyBodyAI = () => {
               <P>
                 That gave each brand the room to feel like itself without putting the trust architecture up for renegotiation. Brands could choose how to theme the component. They could choose, in narrow cases, to suppress the buckets for a specific product or to opt out of bolded keywords. What they could not choose was whether to disclose the AI or whether to acknowledge negatives at all. Those defaults held, and the data on returns and trust held with them.
               </P>
-              <img
-                src={crossBrandScale}
-                alt="Cross-brand scale visual: the GenAI Review Summary applied across Old Navy, Gap, Banana Republic, and Athleta product pages, showing a consistent trust architecture with brand-specific theming."
-                className="w-full h-auto rounded-2xl my-4"
-              />
+              <ZoomableImage src={crossBrandScale} alt="Cross-brand scale visual: the GenAI Review Summary applied across Old Navy, Gap, Banana Republic, and Athleta product pages, showing a consistent trust architecture with brand-specific theming." className="w-full h-auto rounded-2xl my-4" />
             </Section>
 
             <SectionDivider />
