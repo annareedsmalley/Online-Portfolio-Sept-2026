@@ -134,7 +134,7 @@ const CaseStudySalesforce = () => {
       </section>
 
       {/* CASE STUDY BODY */}
-      <CaseStudyBody02 />
+      <CaseStudyBody02 studyTitle="Building a unified membership platform" />
 
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">

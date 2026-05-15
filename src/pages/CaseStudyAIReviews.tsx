@@ -125,7 +125,7 @@ const CaseStudyAIReviews = () => {
       </section>
 
       {/* CASE STUDY BODY */}
-      <CaseStudyBodyAI />
+      <CaseStudyBodyAI studyTitle="Designing trust into Gap Inc.'s first customer-facing AI feature" />
 
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">
