@@ -378,12 +378,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 <li><strong>Free shipping benefits based on loyalty tier</strong></li>
               </UL>
               <Figure
-                src={ourUxTeamsImg}
-                alt="Our UX Teams table showing Brand Creative, .Com Browse UX, Native Mobile App, and CMS UX teams with their points of contact and goals"
-                caption="Our UX Teams: the cross-functional structure that delivered the Integrated Loyalty program across all four Gap Inc. brands."
-              />
-
-              <Figure
                 src={integratedLoyaltyIdentityImg}
                 alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
               />
@@ -398,6 +392,12 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 We weren't responsible for the app surfaces, but the App Buy UX team followed our lead in terms of the UX we came up with for web.
               </P>
+
+              <Figure
+                src={ourUxTeamsImg}
+                alt="Our UX Teams table showing Brand Creative, .Com Browse UX, Native Mobile App, and CMS UX teams with their points of contact and goals"
+                caption="Our UX Teams: the cross-functional structure that delivered the Integrated Loyalty program across all four Gap Inc. brands."
+              />
 
               <H3>The framework</H3>
               <P>
