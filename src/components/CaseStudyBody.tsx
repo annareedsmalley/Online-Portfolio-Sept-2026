@@ -735,7 +735,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="Caption of the visual"
               />
 
-              <H3>What happened next</H3>
+              <H3>Results</H3>
               <P>
                 We gave every brand the same framework, the same guidelines, and the same choice. What happened next proved the approach worked.
               </P>
