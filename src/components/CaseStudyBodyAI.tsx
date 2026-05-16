@@ -15,6 +15,7 @@ import keywordCollaboration from "@/assets/cs03/keyword-collaboration.png";
 import abResults from "@/assets/cs03/ab-results.png";
 import crossBrandScale from "@/assets/cs03/cross-brand-scale.png";
 import uiPatternsAiSummary from "@/assets/cs03/ui-patterns-ai-summary.png";
+import otherExplorations from "@/assets/cs03/other-explorations.png";
 
 interface NavSection {
   id: string;
