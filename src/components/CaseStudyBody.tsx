@@ -34,9 +34,7 @@ interface CaseStudyBodyProps {
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Leadership context" },
   { id: "structuring-work", title: "How I structured the team's work" },
-  { id: "first-battle", title: "The first battle: buying time" },
-  { id: "what-we-did", title: "What we did with the time we were granted" },
-  { id: "first-solution", title: "The first design solution" },
+  { id: "first-battle", title: "Phase 1" },
   { id: "second-challenge", title: "The second challenge: the data crisis" },
   { id: "accessibility-round-two", title: "Accessibility: round two and setting a new precedent" },
   { id: "additional-solution", title: "The second solution: comparison table" },
@@ -559,7 +557,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The First Battle: Buying Time ===================== */}
             <Section id="first-battle">
-              <H2 id="first-battle">The first battle: buying time</H2>
+              <H2 id="first-battle">Phase 1</H2>
 
               <H3>Aikido in action: how we won the first battle</H3>
               <P>
@@ -580,8 +578,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== What We Did with the Time ===================== */}
             <Section id="what-we-did">
-              <H2 id="what-we-did">What we did with the time we were granted</H2>
-
               <H3>Validating through user research</H3>
               <P>
                 All of our work so far had led us to our own assumptions. The next step was to find out what happened when we talked to real users.
@@ -623,7 +619,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The First Design Solution ===================== */}
             <Section id="first-solution">
-              <H2 id="first-solution">The first design solution</H2>
               <P>
                 Based on the research, the team developed <strong>Solution A: a Sticky Container</strong> that solved the out-of-viewport problem, keeping key elements like price, reviews, images, and selected color visible as users scrolled, paired with <strong>Product Setup Guidelines</strong> that addressed cognitive overload by limiting variant complexity.
               </P>
