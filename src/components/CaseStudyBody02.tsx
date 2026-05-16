@@ -555,10 +555,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 Build once, theme four times. The platform investment quietly compounded with every brand campaign that followed.
               </KeyInsight>
               <Figure
-                src={builtOnce1Img}
-                alt="Added to bag shared component themed across Old Navy, Gap, Banana Republic, and Athleta"
-              />
-              <Figure
                 src={builtOnce2Img}
                 alt="Add to Bag restricted message tile shared component themed across Gap, Old Navy, Banana Republic, and Athleta"
               />
