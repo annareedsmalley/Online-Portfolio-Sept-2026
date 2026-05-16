@@ -781,6 +781,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 We didn't have to say "I told you so." The whole point of the aikido approach was that brands would learn on their own terms, and they did.
               </P>
 
+              <H2 id="team-leadership-impact">Team and leadership impact</H2>
               <H3>Product and business impact</H3>
               <UL>
                 <li>
@@ -816,7 +817,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 I set a new precedent at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
               </P>
 
-              <H2 id="team-leadership-impact">Team and leadership impact</H2>
               <UL>
                 <li>
                   Raised the confidence and profile of a junior designer. I got approval from the VP of UX to promote Jordan, largely because of the visibility and impact of their work on this project. Jordan has since been able to use their case study for this work to get a senior role at a big tech company.
