@@ -58,6 +58,12 @@ const H3 = ({ children }: { children: ReactNode }) => (
   </h3>
 );
 
+const H4 = ({ children }: { children: ReactNode }) => (
+  <h4 className="font-serif text-[18px] leading-[1.25] text-title md:text-[20px] mt-6 mb-2">
+    {children}
+  </h4>
+);
+
 const P = ({ children }: { children: ReactNode }) => (
   <p className="body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
     {children}
@@ -408,7 +414,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="The organizational landscape I was navigating: a web of cross-functional stakeholders spanning four brands, platform engineering, product management, UX research, and design systems."
               />
 
-              <H3>Deciding to say yes</H3>
+              <H4>Deciding to say yes</H4>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
               </P>
@@ -416,7 +422,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 We knew that if we didn't invest in trying to turn the ship around, it would come back to us in a way that would be much more unpleasant: cleaning up after a mess instead of designing a solid, validated solution in the first place. One that customers and the business would benefit from. And that we would benefit from, in terms of earning trust and respect from the brands and our other partners within the central org
               </P>
 
-              <H3>The aikido approach</H3>
+              <H4>The aikido approach</H4>
               <P>
                 Rather than forcing design to the table through escalation, I took an <strong>aikido approach</strong>: working with existing organizational momentum rather than against it.
               </P>
