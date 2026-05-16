@@ -5,7 +5,6 @@ import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
 import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import theSituationImg from "@/assets/the-situation.png";
-import myReadOnTheSituationImg from "@/assets/my-read-on-the-situation.png";
 import myTeamSurfiesBrandiesImg from "@/assets/my-team-surfies-brandies.png";
 import competitiveAnalysisImg from "@/assets/competitive-analysis.png";
 import showingNotTellingVideo from "@/assets/showing-not-telling.mov";
@@ -408,12 +407,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 I was navigating a complex web of stakeholders: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
               </P>
-              <Figure
-                src={myReadOnTheSituationImg}
-                alt="My Read on the Situation"
-                caption="The organizational landscape I was navigating: a web of cross-functional stakeholders spanning four brands, platform engineering, product management, UX research, and design systems."
-              />
-
               <H4>Deciding to say yes</H4>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
