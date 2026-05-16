@@ -29,7 +29,7 @@ const sections: NavSection[] = [
   { id: "the-situation", title: "The situation" },
   { id: "ai-thesis", title: "The AI thesis & team" },
   { id: "structuring-work", title: "Structuring the work" },
-  { id: "strategic-bets", title: "The strategic bets" },
+  { id: "strategic-bets", title: "Design Phase" },
   { id: "cross-functional", title: "Cross-functional execution" },
   { id: "launch-reframe", title: "The launch & reframe" },
   { id: "scaling", title: "Scaling across four brands" },
@@ -355,7 +355,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== Strategic Bets ===================== */}
             <Section id="strategic-bets">
-              <H2 id="strategic-bets">The strategic bets</H2>
+              <H2 id="strategic-bets">Design Phase</H2>
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
               </P>
