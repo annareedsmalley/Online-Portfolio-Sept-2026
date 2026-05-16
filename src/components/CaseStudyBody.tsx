@@ -643,29 +643,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 We deployed the playbook again. We established shared vocabulary, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
               </P>
 
-              <H3>Aikido in action: the Amazon push</H3>
-              <P>
-                Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
-              </P>
-              <P>
-                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, <strong>Gap Inc.'s brand promise is not Amazon's brand promise.</strong>
-              </P>
-              <P>Rather than mandate a single path, we presented three genuine options:</P>
-              <UL>
-                <li>
-                  <strong>Option 1: Fix your data</strong> - achieve 100% coverage, follow the max-dimensions rule, and continue with selectors and the sticky container. (Max 4 variant groups, 100% production coverage required, variant categories must be logically coherent.)
-                </li>
-                <li><strong>Option 2: Accept a broken experience</strong> with the risks we've demonstrated.</li>
-                <li><strong>Option 3: An alternative path</strong> - a new pattern that doesn't require 100% coverage.</li>
-              </UL>
-              <P>
-                This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
-              </P>
-              <Figure
-                src={aikidoAmazonPushImg}
-                alt="Aikido in Action: The Amazon Push"
-                caption="The same three flaws resurfaced in a new form: products without 100% variant coverage caused the UI to silently switch selections or produce dead clicks."
-              />
             </Section>
 
             <SectionDivider />
@@ -696,6 +673,29 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
+              <H3>Aikido in action: the Amazon push</H3>
+              <P>
+                Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
+              </P>
+              <P>
+                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, <strong>Gap Inc.'s brand promise is not Amazon's brand promise.</strong>
+              </P>
+              <P>Rather than mandate a single path, we presented three genuine options:</P>
+              <UL>
+                <li>
+                  <strong>Option 1: Fix your data</strong> - achieve 100% coverage, follow the max-dimensions rule, and continue with selectors and the sticky container. (Max 4 variant groups, 100% production coverage required, variant categories must be logically coherent.)
+                </li>
+                <li><strong>Option 2: Accept a broken experience</strong> with the risks we've demonstrated.</li>
+                <li><strong>Option 3: An alternative path</strong> - a new pattern that doesn't require 100% coverage.</li>
+              </UL>
+              <P>
+                This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
+              </P>
+              <Figure
+                src={aikidoAmazonPushImg}
+                alt="Aikido in Action: The Amazon Push"
+                caption="The same three flaws resurfaced in a new form: products without 100% variant coverage caused the UI to silently switch selections or produce dead clicks."
+              />
               <H3>The second solution: comparison table</H3>
 
               <P>
