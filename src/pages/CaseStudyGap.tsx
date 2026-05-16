@@ -7,8 +7,6 @@ import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CaseStudyBody } from "@/components/CaseStudyBody";
 import { ArrowLeft, Briefcase, Building2, Clock, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroVisual from "@/assets/case-study-01-hero.png";
-import impactVisual from "@/assets/impact-at-a-glance.png";
 import { caseStudies } from "@/data/caseStudies";
 import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
@@ -78,13 +76,6 @@ const CaseStudyGap = () => {
             </div>
           </div>
 
-          <div className="flex justify-center md:col-start-2 md:justify-end">
-            <img
-              src={heroVisual}
-              alt="Gap Inc. brand portfolio: Gap, Old Navy, Athleta, Banana Republic"
-              className="w-full h-auto rounded-2xl"
-            />
-          </div>
         </div>
       </section>
 
@@ -109,14 +100,6 @@ const CaseStudyGap = () => {
               </div>
             </div>
           </div>
-
-          <Reveal className="mt-16">
-            <img
-              src={impactVisual}
-              alt="Athleta, Old Navy, Banana Republic and Gap product screens shown on iPhones"
-              className="block w-full h-auto"
-            />
-          </Reveal>
         </div>
       </section>
 
