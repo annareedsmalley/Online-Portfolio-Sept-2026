@@ -383,6 +383,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 caption="Our UX Teams: the cross-functional structure that delivered the Integrated Loyalty program across all four Gap Inc. brands."
               />
 
+              <Figure
+                src={integratedLoyaltyIdentityImg}
+                alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
+              />
+
               <H3>My team's role</H3>
               <P>
                 I was the Sr. Manager for the "Web Buy" team — a team of 3 designers that owned authentication (sign up, sign in, and the various experiences around recognized customers vs. signed-in customers vs. unrecognized "guests"), web bag, checkout, profile, and post-purchase experiences including emails.
@@ -451,10 +456,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 It was also the first time Gap Inc. customers could enter their email address and let us tell them whether they already had an account.
               </P>
-              <Figure
-                src={integratedLoyaltyIdentityImg}
-                alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
-              />
 
               <H3>19 million new accounts</H3>
               <P>
