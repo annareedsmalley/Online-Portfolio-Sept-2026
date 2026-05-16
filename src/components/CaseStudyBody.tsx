@@ -6,6 +6,7 @@ import { PasswordGate } from "@/components/PasswordGate";
 import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import theSituationImg from "@/assets/the-situation.png";
 import myTeamSurfiesBrandiesImg from "@/assets/my-team-surfies-brandies.png";
+import competitiveAnalysisImg from "@/assets/competitive-analysis.png";
 import showingNotTellingVideo from "@/assets/showing-not-telling.mov";
 import crossFunctionalAlignment1Img from "@/assets/cross-functional-alignment-1.png";
 import crossFunctionalAlignment2Img from "@/assets/cross-functional-alignment-2.png";
@@ -489,6 +490,11 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
               </P>
+              <Figure
+                src={competitiveAnalysisImg}
+                alt="Starting with Competitive Analysis, and Why"
+                caption="Describe the competitive analysis"
+              />
 
               <H4>Showing, not telling: prototyping as a leadership tool</H4>
               <P>
