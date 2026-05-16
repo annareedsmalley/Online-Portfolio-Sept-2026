@@ -23,7 +23,7 @@ export const ArchCaseStudyCard = ({
   <Link to={to} className="group flex flex-col gap-4">
     <div className="flex flex-col gap-1">
       <h3
-        className="font-serif text-xl md:text-2xl"
+        className="font-serif text-xl md:text-2xl line-clamp-2 overflow-hidden text-ellipsis"
         style={titleColor ? { color: titleColor } : undefined}
       >
         {title}
