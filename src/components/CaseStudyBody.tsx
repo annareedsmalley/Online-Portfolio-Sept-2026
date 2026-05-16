@@ -10,7 +10,6 @@ import showingNotTellingVideo from "@/assets/showing-not-telling.mov";
 import crossFunctionalAlignment2Img from "@/assets/cross-functional-alignment-2.png";
 import validatingUserResearchImg from "@/assets/validating-user-research.png";
 import aikidoAmazonPushImg from "@/assets/aikido-amazon-push.png";
-import accessibilityRoundTwoImg from "@/assets/accessibility-round-two.png";
 import solutionBComparisonTableImg from "@/assets/solution-b-comparison-table.png";
 import twoSolutionsImg from "@/assets/two-solutions.png";
 import guidelinesThatLastedImg from "@/assets/guidelines-that-lasted.png";
@@ -662,11 +661,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 This became a <strong>lasting precedent at Gap Inc.</strong>: whenever we conduct user research and already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added effort for the designer. Just a broader, more inclusive research foundation by default.
               </P>
-              <Figure
-                src={accessibilityRoundTwoImg}
-                alt="Accessibility: Round Two and Setting a New Precedent"
-                caption="Key accessibility findings that shaped the final design. Every one of these issues would have shipped to production without the parallel C4AT research."
-              />
             </Section>
 
             <SectionDivider />
