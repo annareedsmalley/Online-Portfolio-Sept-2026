@@ -28,8 +28,8 @@ const impacts = [
     body: "Including 100% of PLP and PDP pages",
   },
   {
-    label: "TWO GAP INC. FIRSTS:",
-    body: "First free shipping benefit for loyalty members, and first email-based account recognition at login",
+    label: "First free shipping benefit for loyalty members",
+    body: "And first email-based account recognition at login",
   },
   {
     label: "25% OF ENGINEERING AND DESIGN TIME",
