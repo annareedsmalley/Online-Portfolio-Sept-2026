@@ -418,11 +418,12 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 The types of customer account states we had to track included: enrollment in Gap Inc. Loyalty or MTL/Encore tiers (Core, Premier, All-Access), credit card holder status (Gap/Barclays/Encore Mastercard for 5x points earning), ecommerce account existence (for login, points accrual across brands, and Loyalty Hub access), and rewards/points balance.
               </P>
-              <P>spreadsheet image here</P>
               <Figure
                 src={managingComplexityGroupedImg}
                 alt="Sticky notes grouped into themes: Way Finding, Rewards & Points, Discoverability, Loyalty program/Hub, Program Comprehension, Fun & Ease of Use, Tiering, Motivation, Value/Expectations, Customer Control, Communication, Balancing Shopping Task vs Loyalty Task, Hub/Account, Card Acquisition, and Omni/In Store."
               />
+
+              <P>[Image of one of the many messaging spreadsheets we created to map every possible combination of customer state, loyalty tier, and authentication level.]</P>
 
               <H3>The hardest part</H3>
               <P>
