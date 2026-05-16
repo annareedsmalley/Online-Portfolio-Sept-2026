@@ -434,6 +434,14 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <P>[Image of one of the many messaging spreadsheets we created to map every possible combination of customer state, loyalty tier, and authentication level.]</P>
 
+              <H3>Two Gap Inc. firsts</H3>
+              <P>
+                This was the first time we offered free shipping benefits to those with loyalty accounts.
+              </P>
+              <P>
+                It was also the first time Gap Inc. customers could enter their email address and let us tell them whether they already had an account.
+              </P>
+
               <H3>The launch</H3>
               <P>Then, in 2021…</P>
               <P>
@@ -447,14 +455,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 src={results2Img}
                 alt="Gap Inc. announcement 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' highlighting 19 million new customers and 37 million combined Cardmembers and Rewards members migrated to the new program."
               />
-
-              <H3>Two Gap Inc. firsts</H3>
-              <P>
-                This was the first time we offered free shipping benefits to those with loyalty accounts.
-              </P>
-              <P>
-                It was also the first time Gap Inc. customers could enter their email address and let us tell them whether they already had an account.
-              </P>
 
               <H3>19 million new accounts</H3>
               <P>
