@@ -14,6 +14,7 @@ import modelConfidenceStates from "@/assets/cs03/model-confidence-states.png";
 import keywordCollaboration from "@/assets/cs03/keyword-collaboration.png";
 import abResults from "@/assets/cs03/ab-results.png";
 import crossBrandScale from "@/assets/cs03/cross-brand-scale.png";
+import uiPatternsAiSummary from "@/assets/cs03/ui-patterns-ai-summary.png";
 
 interface NavSection {
   id: string;
@@ -360,6 +361,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
               </P>
+              <figure className="my-4">
+                <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  UI patterns and content rules for the GenAI Review Summary.
+                </figcaption>
+              </figure>
 
               <H3>Bet 1: show negative sentiment, don't hide it</H3>
               <P>
