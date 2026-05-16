@@ -7,10 +7,7 @@ import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import theSituationImg from "@/assets/the-situation.png";
 import myTeamSurfiesBrandiesImg from "@/assets/my-team-surfies-brandies.png";
 import showingNotTellingVideo from "@/assets/showing-not-telling.mov";
-import crossFunctionalAlignment1Img from "@/assets/cross-functional-alignment-1.png";
 import crossFunctionalAlignment2Img from "@/assets/cross-functional-alignment-2.png";
-import workshopIdeationImg from "@/assets/workshop-ideation.png";
-import workshopSessionImg from "@/assets/workshop-session.png";
 import validatingUserResearchImg from "@/assets/validating-user-research.png";
 import aikidoAmazonPushImg from "@/assets/aikido-amazon-push.png";
 import accessibilityRoundTwoImg from "@/assets/accessibility-round-two.png";
@@ -506,15 +503,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 We used design review and office hour slots with the VP of UX and VP of Product Management to communicate progress and gain approvals, with documentation within Figma of the dates we reviewed and gained approval for what designs and from which specific brands.
               </P>
-              <CyclingFigure
-                images={[
-                  { src: crossFunctionalAlignment1Img, alt: "Workshop graphics — original" },
-                  { src: workshopIdeationImg, alt: "Workshop ideation board" },
-                  { src: workshopSessionImg, alt: "Workshop session board" },
-                ]}
-                alt="Workshop graphics"
-                caption="Workshop graphics section"
-              />
               <Figure
                 src={crossFunctionalAlignment2Img}
                 alt="Cross-Functional Alignment Structure Image 2"
