@@ -456,22 +456,16 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Gap Inc. announcement 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' highlighting 19 million new customers and 37 million combined Cardmembers and Rewards members migrated to the new program."
               />
 
-              <H3>19 million new accounts</H3>
-              <P>
-                By 2022, customers had created <strong>19 million new Gap Inc loyalty accounts!</strong>
-              </P>
-
               <H3>The results</H3>
+              <P>
+                By 2022, customers had created 19 million new Gap Inc loyalty accounts.
+              </P>
               <P>
                 Within the first year of launch, the integrated loyalty program drove significant customer growth and adoption across brands.
               </P>
               <P>
                 By 2021, Gap Inc. reported enrolling more than 19 million new customers in less than 12 months, with total participation reaching 37 million members across cardholders and rewards users.
               </P>
-              <P>As noted in their announcement:</P>
-              <Pullquote>
-                Since relaunching our loyalty program in the fall of 2020, we have enrolled more than 19 million new customers in less than 12 months… Cardmembers and Rewards members combined are 37 million users.
-              </Pullquote>
               <P>
                 This level of rapid adoption highlighted the success of creating a unified, cross-brand loyalty experience that simplified engagement and increased participation at scale.
               </P>
