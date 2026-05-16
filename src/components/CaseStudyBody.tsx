@@ -723,12 +723,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 Brands have two patterns to choose from depending on their products and data. The Comparison Table is the more comprehensive solution where data and product fit allow, while the Stacked Selector remains available for simpler product setups. Either way, brands have guidelines for A/B testing to determine what works best.
               </P>
-              <Figure
-                src={twoSolutionsImg}
-                alt="Two Solutions"
-                caption="Caption of the visual"
-              />
-
               <H3>Results</H3>
               <P>
                 We gave every brand the same framework, the same guidelines, and the same choice. What happened next proved the approach worked.
@@ -786,6 +780,11 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="Caption of the visual"
               />
 
+              <Figure
+                src={twoSolutionsImg}
+                alt="Two Solutions"
+                caption="Caption of the visual"
+              />
               <H3>Setting a new accessibility precedent</H3>
               <P>
                 I set a new precedent at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
