@@ -357,15 +357,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="strategic-bets">
               <H2 id="strategic-bets">Design Phase</H2>
               <Section id="cross-functional">
-                <figure className="my-4">
-                  <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
-                  <figcaption
-                    className="mt-3 font-normal"
-                    style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                  >
-                    UI patterns and content rules for the GenAI Review Summary.
-                  </figcaption>
-                </figure>
                 <h3 id="cross-functional" className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">Leading the cross-functional org</h3>
                 <P>
                   A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), Product Management, Platform Engineering, Brand Producers and Category Merchants across all four brands, Content Strategy (with much heavier-than-usual involvement, because everything the model output was content the org had not previously generated), Design Systems, UX Research, and UX Leadership.
@@ -470,6 +461,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             {/* ===================== Cross-Functional Execution ===================== */}
             {/* ===================== Launch & Reframe ===================== */}
             <Section id="launch-reframe">
+              <figure className="my-4">
+                <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  UI patterns and content rules for the GenAI Review Summary.
+                </figcaption>
+              </figure>
               <H2 id="launch-reframe">The launch and the reframe</H2>
               <P>
                 We launched on Athleta and Old Navy in early 2025. The A/B test was set up to measure conversion, add-to-bag, and return rates.
