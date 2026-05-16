@@ -503,11 +503,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 Prototypes became our primary tool for stakeholder alignment throughout the project. This was a deliberate strategic choice: <strong>instead of telling brands their assumptions were wrong, we showed them.</strong>
               </P>
-              <VideoFigure
-                src={showingNotTellingVideo}
-                ariaLabel="Showing, Not Telling: Prototyping as a Leadership Tool"
-                caption="A sample of the 15+ Figma prototypes built across four brands and multiple platforms. These weren't polished solutions; they were stress tests designed to surface failure scenarios and make assumptions visible."
-              />
 
               <H3>Cross-functional alignment structure</H3>
               <P>
@@ -626,6 +621,12 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The First Design Solution ===================== */}
             <Section id="first-solution">
+              <H3>The first design solution</H3>
+              <VideoFigure
+                src={showingNotTellingVideo}
+                ariaLabel="Showing, Not Telling: Prototyping as a Leadership Tool"
+                caption="A sample of the 15+ Figma prototypes built across four brands and multiple platforms. These weren't polished solutions; they were stress tests designed to surface failure scenarios and make assumptions visible."
+              />
               <P>
                 Based on the research, the team developed <strong>Solution A: a Sticky Container</strong> that solved the out-of-viewport problem, keeping key elements like price, reviews, images, and selected color visible as users scrolled, paired with <strong>Product Setup Guidelines</strong> that addressed cognitive overload by limiting variant complexity.
               </P>
@@ -641,7 +642,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="The Sticky Container keeps price, reviews, images, and selected color visible as users scroll through variant options. Paired with product setup guidelines limiting PDPs to a maximum of four variant groups."
               />
 
-              <H3>The first design solution</H3>
               <P>
                 [solution here]
               </P>
