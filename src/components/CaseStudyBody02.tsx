@@ -400,10 +400,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 I helped define the three workstreams that would guide the UX team's contribution to the integrated loyalty program: Program Foundation; Value Proposition & Omni CX; and Loyalty Self-Service & Account Management.
               </P>
               <Figure
-                src={theFrameworkImg}
-                alt="The Backwards Journey matrix mapping Redeem, Earn, Learn + engage, and Enroll across Ecomm, App, and Store over three sprints"
-              />
-              <Figure
                 src={journeyEnrollImg}
                 alt="Enroll journey: in-store and online flows from Browse to Welcome Email"
               />
