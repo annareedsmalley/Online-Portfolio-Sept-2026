@@ -503,7 +503,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="Describe the competitive analysis"
               />
 
-              <H3>Showing, not telling: prototyping as a leadership tool</H3>
+              <H4>Showing, not telling: prototyping as a leadership tool</H4>
               <P>
                 Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced <strong>15+ Figma prototypes across 4 brands</strong> and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination.
               </P>
@@ -541,7 +541,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="The two-week headless UI sprint cadence I had already established for a parallel project. Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days."
               />
 
-              <H3>Influencing without authority</H3>
+              <H4>Influencing without authority</H4>
               <P>We had a strategic playbook for how to move stakeholders. It had four parts:</P>
               <UL>
                 <li>
