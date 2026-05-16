@@ -438,6 +438,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <P>[Image of one of the many messaging spreadsheets we created to map every possible combination of customer state, loyalty tier, and authentication level.]</P>
 
+              <VideoFigure
+                src={firstBigWin2Video}
+                ariaLabel="Product gating interaction loop"
+              />
+
               <H3>Two Gap Inc. firsts</H3>
               <P>
                 This was the first time we offered free shipping benefits to those with loyalty accounts.
@@ -542,10 +547,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 <strong>This led to the biggest single increase in credit card applications in Gap Inc.'s history.</strong>
               </P>
               <StatBlock value="604%" label="The percentage increase in the number of credit card applications Gap received in one day." />
-              <VideoFigure
-                src={firstBigWin2Video}
-                ariaLabel="Product gating interaction loop"
-              />
 
               <H3>Built once, used by all</H3>
               <P>
