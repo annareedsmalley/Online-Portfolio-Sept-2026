@@ -6,7 +6,6 @@ import { PasswordGate } from "@/components/PasswordGate";
 import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import startingPointImg from "@/assets/cs02/starting-point.png";
 import theInitiativeImg from "@/assets/cs02/the-initiative.png";
-import theFrameworkImg from "@/assets/cs02/the-framework.png";
 import managingComplexityImg from "@/assets/cs02/managing-complexity.png";
 import managingComplexityGroupedImg from "@/assets/cs02/managing-complexity-grouped.png";
 import twoFirstsImg from "@/assets/cs02/two-firsts.png";
@@ -399,10 +398,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 I helped define the three workstreams that would guide the UX team's contribution to the integrated loyalty program: Program Foundation; Value Proposition & Omni CX; and Loyalty Self-Service & Account Management.
               </P>
-              <Figure
-                src={theFrameworkImg}
-                alt="The Backwards Journey matrix mapping Redeem, Earn, Learn + engage, and Enroll across Ecomm, App, and Store over three sprints"
-              />
               <Figure
                 src={journeyEnrollImg}
                 alt="Enroll journey: in-store and online flows from Browse to Welcome Email"
