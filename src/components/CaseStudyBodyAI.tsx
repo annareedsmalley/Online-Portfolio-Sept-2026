@@ -468,7 +468,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <SectionDivider />
 
             {/* ===================== Cross-Functional Execution ===================== */}
-            <Section id="cross-functional">
             {/* ===================== Launch & Reframe ===================== */}
             <Section id="launch-reframe">
               <H2 id="launch-reframe">The launch and the reframe</H2>
