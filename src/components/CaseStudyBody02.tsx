@@ -10,7 +10,6 @@ import managingComplexityImg from "@/assets/cs02/managing-complexity.png";
 import managingComplexityGroupedImg from "@/assets/cs02/managing-complexity-grouped.png";
 import twoFirstsImg from "@/assets/cs02/two-firsts.png";
 import integratedLoyaltyIdentityImg from "@/assets/cs02/integrated-loyalty-identity.png";
-import results1Img from "@/assets/cs02/results-1.png";
 import results2Img from "@/assets/cs02/results-2.png";
 import approachedWork1Img from "@/assets/cs02/approached-work-1.png";
 import approachedWork3Img from "@/assets/cs02/approached-work-3.png";
@@ -445,8 +444,8 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               </P>
 
               <Figure
-                src={results1Img}
-                alt="ContactPigeon article 'Gap Marketing Strategy: How the American Clothing Retailer Scaled to Over 3000 Stores' with a pull quote noting Gap enrolled 19 million new customers in less than 12 months and reached 37 million combined Cardmembers and Rewards members."
+                src={results2Img}
+                alt="Gap Inc. announcement 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' highlighting 19 million new customers and 37 million combined Cardmembers and Rewards members migrated to the new program."
               />
 
               <H3>Two Gap Inc. firsts</H3>
@@ -476,10 +475,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 This level of rapid adoption highlighted the success of creating a unified, cross-brand loyalty experience that simplified engagement and increased participation at scale.
               </P>
-              <Figure
-                src={results2Img}
-                alt="Gap Inc. announcement 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' highlighting 19 million new customers and 37 million combined Cardmembers and Rewards members migrated to the new program."
-              />
             </Section>
 
             <SectionDivider />
