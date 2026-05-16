@@ -692,7 +692,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== Accessibility: Round Two ===================== */}
             <Section id="accessibility-round-two">
-              <H2 id="accessibility-round-two">Accessibility: round two and setting a new precedent</H2>
+              <H3>Accessibility: round two and setting a new precedent</H3>
               <P>
                 Because it had gone so well the first time and added nothing to the timeline, we ran parallel accessibility research again with C4AT during this second phase. This time the results were even more robust.
               </P>
@@ -716,7 +716,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
-              <H2 id="additional-solution">The second solution: comparison table</H2>
+              <H3>The second solution: comparison table</H3>
 
               <P>
                 <em>The strategic win — the answer the brands rallied behind.</em>
