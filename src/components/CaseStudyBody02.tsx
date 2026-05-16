@@ -318,16 +318,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="leadership-context">
               <H2 id="leadership-context">Leadership context</H2>
 
-              <H3>The starting point: four brands, one easy checkout</H3>
-              <P>
-                When I joined Gap Inc. in 2018, the eCommerce platform allowed customers to shop just one of Gap Inc.'s brands, or switch between them. All products a customer added would appear in a shared cart.
-              </P>
-              <Figure
-                src={startingPointImg}
-                alt="Brand switcher mobile flow showing Old Navy to Gap to a shared cart"
-                caption="Brand switcher: a four-screen mobile flow from Old Navy to brand switcher to Gap to a shared cart."
-              />
-
               <H3>My scope at Gap, Inc.</H3>
               <P>
                 During my tenure at Gap, Inc., I focused on each step of the eCommerce shopping journey, for all four brands:
@@ -344,6 +334,16 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
               </P>
+
+              <H3>The starting point: four brands, one easy checkout</H3>
+              <P>
+                When I joined Gap Inc. in 2018, the eCommerce platform allowed customers to shop just one of Gap Inc.'s brands, or switch between them. All products a customer added would appear in a shared cart.
+              </P>
+              <Figure
+                src={startingPointImg}
+                alt="Brand switcher mobile flow showing Old Navy to Gap to a shared cart"
+                caption="Brand switcher: a four-screen mobile flow from Old Navy to brand switcher to Gap to a shared cart."
+              />
 
               <H3>The problem</H3>
               <P>
