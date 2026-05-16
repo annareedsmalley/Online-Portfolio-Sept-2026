@@ -15,6 +15,7 @@ import keywordCollaboration from "@/assets/cs03/keyword-collaboration.png";
 import abResults from "@/assets/cs03/ab-results.png";
 import crossBrandScale from "@/assets/cs03/cross-brand-scale.png";
 import uiPatternsAiSummary from "@/assets/cs03/ui-patterns-ai-summary.png";
+import otherExplorations from "@/assets/cs03/other-explorations.png";
 
 interface NavSection {
   id: string;
@@ -401,15 +402,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 I pushed for this pattern over the simpler alternatives because it carried the trust philosophy in its structure, not just its content. A single summary can be edited to feel positive. A "likes / dislikes" binary feels combative. The three-bucket structure mirrors how customers actually think (there are things I love, things I am unsure about, and things I worry about), and that mirroring is what makes it land as honest.
               </P>
-              <figure className="my-4">
-                <ZoomableImage src={threeBucketSentiment} alt="Three-bucket sentiment design exploration: the winning Design 1 (Likes / Mixed Reviews / Dislikes) annotated with rules for keyword buckets, summary length, and AI disclaimer placement, alongside the alternative variants (1a, 1b) and the discarded Design 2 and Design 3 explorations." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  July 2024 GenAI Review Summary Testing UXR report
-                </figcaption>
-              </figure>
 
               <H3>Bet 4: design for model confidence, not against it</H3>
               <P>
@@ -441,6 +433,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 There was pushback from Banana Republic and Gap on the concept. The implementation for the Gap brand ended up not including bolding for a different reason: the Gap brand design system only contains one font weight, so bolding was technically not possible in that theme. That accident gave us a natural comparison point. Across the brands that did include bolding, the feature reduced returns more. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
               </P>
+              <figure className="my-4">
+                <ZoomableImage src={otherExplorations} alt="Other design explorations for the AI Review Summary: alternative bucket treatments with pill outlines, sentiment-color-coded keywords paired with category icons, and ratings-at-a-glance variants showing per-attribute bar scores with summary text." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Other design explorations considered before landing on the three-bucket system.
+                </figcaption>
+              </figure>
             </Section>
 
             <SectionDivider />
