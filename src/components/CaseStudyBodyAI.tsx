@@ -356,6 +356,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             {/* ===================== Strategic Bets ===================== */}
             <Section id="strategic-bets">
               <H2 id="strategic-bets">Design Phase</H2>
+              <figure className="my-4">
+                <ZoomableImage src={otherExplorations} alt="Other design explorations for the AI Review Summary: alternative bucket treatments with pill outlines, sentiment-color-coded keywords paired with category icons, and ratings-at-a-glance variants showing per-attribute bar scores with summary text." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Other design explorations considered before landing on the three-bucket system.
+                </figcaption>
+              </figure>
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
               </P>
@@ -430,15 +439,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 There was pushback from Banana Republic and Gap on the concept. The implementation for the Gap brand ended up not including bolding for a different reason: the Gap brand design system only contains one font weight, so bolding was technically not possible in that theme. That accident gave us a natural comparison point. Across the brands that did include bolding, the feature reduced returns more. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
               </P>
-              <figure className="my-4">
-                <ZoomableImage src={otherExplorations} alt="Other design explorations for the AI Review Summary: alternative bucket treatments with pill outlines, sentiment-color-coded keywords paired with category icons, and ratings-at-a-glance variants showing per-attribute bar scores with summary text." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  Other design explorations considered before landing on the three-bucket system.
-                </figcaption>
-              </figure>
             </Section>
 
             <SectionDivider />
