@@ -6,7 +6,6 @@ import { PasswordGate } from "@/components/PasswordGate";
 import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
 import startingPointImg from "@/assets/cs02/starting-point.png";
 import theInitiativeImg from "@/assets/cs02/the-initiative.png";
-import theFrameworkImg from "@/assets/cs02/the-framework.png";
 import managingComplexityImg from "@/assets/cs02/managing-complexity.png";
 import managingComplexityGroupedImg from "@/assets/cs02/managing-complexity-grouped.png";
 import twoFirstsImg from "@/assets/cs02/two-firsts.png";
