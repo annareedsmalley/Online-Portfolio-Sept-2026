@@ -15,7 +15,6 @@ import approachedWork1Img from "@/assets/cs02/approached-work-1.png";
 import approachedWork3Img from "@/assets/cs02/approached-work-3.png";
 import firstBigWinImg from "@/assets/cs02/first-big-win.png";
 import firstBigWin2Video from "@/assets/cs02/first-big-win-2.mov";
-import builtOnce1Img from "@/assets/cs02/built-once-1.png";
 import builtOnce2Img from "@/assets/cs02/built-once-2.png";
 import ourUxTeamsImg from "@/assets/cs02/our-ux-teams.png";
 import journeyEnrollImg from "@/assets/cs02/journey-enroll.png";
