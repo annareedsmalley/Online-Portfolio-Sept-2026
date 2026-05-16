@@ -690,6 +690,11 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
               </P>
+              <Figure
+                src={twoSolutionsImg}
+                alt="Two Solutions"
+                caption="Caption of the visual"
+              />
               <H3>The second solution: comparison table</H3>
 
               <P>
@@ -780,11 +785,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="Caption of the visual"
               />
 
-              <Figure
-                src={twoSolutionsImg}
-                alt="Two Solutions"
-                caption="Caption of the visual"
-              />
               <H3>Setting a new accessibility precedent</H3>
               <P>
                 I set a new precedent at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
