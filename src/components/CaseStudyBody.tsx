@@ -725,7 +725,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== Two Solutions ===================== */}
             <Section id="two-solutions">
-              <H2 id="two-solutions">Two solutions</H2>
+              <H3 id="two-solutions">The ultimate solution</H3>
               <P>
                 Brands have two patterns to choose from depending on their products and data. The Comparison Table is the more comprehensive solution where data and product fit allow, while the Stacked Selector remains available for simpler product setups. Either way, brands have guidelines for A/B testing to determine what works best.
               </P>
