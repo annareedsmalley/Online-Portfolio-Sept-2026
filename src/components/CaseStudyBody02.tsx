@@ -328,11 +328,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 caption="Brand switcher: a four-screen mobile flow from Old Navy to brand switcher to Gap to a shared cart."
               />
 
-              <H3>My read on the situation</H3>
-              <P>
-                The shared checkout was a remarkable feat of platform engineering, but I quickly noticed a gap between what the platform could technically support and what customers actually experienced day to day.
-              </P>
-
               <H3>My scope at Gap, Inc.</H3>
               <P>
                 During my tenure at Gap, Inc., I focused on each step of the eCommerce shopping journey, for all four brands:
