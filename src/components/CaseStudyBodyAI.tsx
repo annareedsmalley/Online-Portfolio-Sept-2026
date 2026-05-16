@@ -5,7 +5,6 @@ import { StickyNote } from "@/components/StickyNote";
 import { PasswordGate } from "@/components/PasswordGate";
 import { PlaceholderVisual } from "@/components/PlaceholderVisual";
 import { CASE_STUDY_GATE_STORAGE_KEY } from "@/config/caseStudyGate";
-import stakeholderMap from "@/assets/cs03/stakeholder-map.png";
 import aiThesis from "@/assets/cs03/ai-thesis.png";
 import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
 import trustFailureModes from "@/assets/cs03/trust-failure-modes.png";
@@ -240,8 +239,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 My team owned the PDP across all four brands, which meant any customer-facing AI on a PDP would route through us. There was a precedent worth noting here. <strong>A separate UX team dedicated to strategic initiatives for Athleta had recently tried and failed to launch an Athleta AI fashion assistant chatbot.</strong> Leadership made the deliberate choice not to give that team the AI review summaries work, even though Athleta was one of the brands most interested in the feature. This work landed on my team instead.
               </P>
-              <ZoomableImage src={stakeholderMap} alt="Stakeholder map: Anna at the center as team lead, with spokes connecting to Data Science, AI/ML Engineering, Product, Platform Engineering, Brand Producers and Category Merchants (×4), Content Strategy, Design Systems, UX Leadership, and UX Research." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
-
               <H3>My read on the situation</H3>
               <P>
                 When the brief came in, my first thought was that we were not being asked to ship a feature. We were being asked to set a precedent. This was going to be the first time a Gap Inc. customer would knowingly interact with AI on our site, and whatever pattern we established here would set the bar, both internally and externally, for every AI experience that came after.
