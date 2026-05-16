@@ -452,11 +452,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 It was also the first time Gap Inc. customers could enter their email address and let us tell them whether they already had an account.
               </P>
               <Figure
-                src={twoFirstsImg}
-                alt="Two mobile screens showing the One Membership, Four Brands login flow"
-                caption='A single entry point for all four brands: email entry on Gap.com and "Welcome back!" password screen on Old Navy — the UX expression of the unified program.'
-              />
-              <Figure
                 src={integratedLoyaltyIdentityImg}
                 alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
               />
