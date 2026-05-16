@@ -439,6 +439,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 Ever since then, all customers have been able to use a single account, in stores and online, to access all Gap Inc. loyalty program benefits, all of which apply to all four brands.
               </P>
 
+              <Figure
+                src={results1Img}
+                alt="ContactPigeon article 'Gap Marketing Strategy: How the American Clothing Retailer Scaled to Over 3000 Stores' with a pull quote noting Gap enrolled 19 million new customers in less than 12 months and reached 37 million combined Cardmembers and Rewards members."
+              />
+
               <H3>Two Gap Inc. firsts</H3>
               <P>
                 This was the first time we offered free shipping benefits to those with loyalty accounts.
@@ -475,10 +480,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 This level of rapid adoption highlighted the success of creating a unified, cross-brand loyalty experience that simplified engagement and increased participation at scale.
               </P>
-              <Figure
-                src={results1Img}
-                alt="ContactPigeon article 'Gap Marketing Strategy: How the American Clothing Retailer Scaled to Over 3000 Stores' with a pull quote noting Gap enrolled 19 million new customers in less than 12 months and reached 37 million combined Cardmembers and Rewards members."
-              />
               <Figure
                 src={results2Img}
                 alt="Gap Inc. announcement 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' highlighting 19 million new customers and 37 million combined Cardmembers and Rewards members migrated to the new program."
