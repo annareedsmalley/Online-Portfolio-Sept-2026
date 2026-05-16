@@ -10,7 +10,6 @@ import managingComplexityImg from "@/assets/cs02/managing-complexity.png";
 import managingComplexityGroupedImg from "@/assets/cs02/managing-complexity-grouped.png";
 import twoFirstsImg from "@/assets/cs02/two-firsts.png";
 import integratedLoyaltyIdentityImg from "@/assets/cs02/integrated-loyalty-identity.png";
-import results1Img from "@/assets/cs02/results-1.png";
 import results2Img from "@/assets/cs02/results-2.png";
 import approachedWork1Img from "@/assets/cs02/approached-work-1.png";
 import approachedWork3Img from "@/assets/cs02/approached-work-3.png";
