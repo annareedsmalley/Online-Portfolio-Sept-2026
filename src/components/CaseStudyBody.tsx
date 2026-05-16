@@ -651,7 +651,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The Second Challenge: The Data Crisis ===================== */}
             <Section id="second-challenge">
-              <H2 id="second-challenge">The second challenge: the data crisis</H2>
+              <H2 id="second-challenge">Phase 2</H2>
               <P>
                 I really thought we were doing great. We were back in a state of equilibrium. But you know how these things go.
               </P>
