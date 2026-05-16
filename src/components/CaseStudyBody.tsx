@@ -634,6 +634,11 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>products without 100% variant coverage caused the UI to behave unexpectedly.</strong> User clicks silently switched to unexpected variants, or resulted in dead clicks with no visual feedback.
               </P>
+              <Figure
+                src={aikidoAmazonPushImg}
+                alt="Aikido in Action: The Amazon Push"
+                caption="The same three flaws resurfaced in a new form: products without 100% variant coverage caused the UI to silently switch selections or produce dead clicks."
+              />
 
               <P>
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
@@ -685,11 +690,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
               </P>
-              <Figure
-                src={aikidoAmazonPushImg}
-                alt="Aikido in Action: The Amazon Push"
-                caption="The same three flaws resurfaced in a new form: products without 100% variant coverage caused the UI to silently switch selections or produce dead clicks."
-              />
               <H3>The second solution: comparison table</H3>
 
               <P>
