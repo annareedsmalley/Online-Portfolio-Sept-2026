@@ -356,6 +356,39 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             {/* ===================== Strategic Bets ===================== */}
             <Section id="strategic-bets">
               <H2 id="strategic-bets">Design Phase</H2>
+              <Section id="cross-functional">
+                <figure className="my-4">
+                  <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
+                  <figcaption
+                    className="mt-3 font-normal"
+                    style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                  >
+                    UI patterns and content rules for the GenAI Review Summary.
+                  </figcaption>
+                </figure>
+                <h3 id="cross-functional" className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">Leading the cross-functional org</h3>
+                <P>
+                  A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), Product Management, Platform Engineering, Brand Producers and Category Merchants across all four brands, Content Strategy (with much heavier-than-usual involvement, because everything the model output was content the org had not previously generated), Design Systems, UX Research, and UX Leadership.
+                </P>
+                <P>
+                  The challenge was not getting any one of those teams to do their part. The challenge was that none of them had previously worked together at this depth, and two of those teams (Data Science and AI/ML Engineering) had not previously worked closely with the product organization at all. They had a different operating culture: they were used to setting the direction and making the final calls on the things they worked on, rather than having a product manager doing so.
+                </P>
+                <P>
+                  Our product manager was used to doing so. And the friction surfaced predictably. He asked us to be less supportive of the ideas coming from Data Science and AI/ML, because he felt they were stepping on his toes. We told him what he needed to hear, which was also true: we empathized with him, we supported him, and we would keep him in the loop on every decision. And we kept doing what we had been doing: incorporating all voices and bringing all parties into the working sessions where ideas were shaped. That dual move is how we built trust with both sides at the same time.
+                </P>
+                <P>
+                  This project actually predated the operating rhythm I later set up on the Headless UI migration. While the project was in flight, we ran on a less formal cadence: daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with Katie, the content strategist, the brand producers and category merchants, and the product manager. The work was organic and productive. By the time we were handing off into broader scaling, we were running on the same HUI cadence that anchored the multivariant PDP project.
+                </P>
+                <figure className="my-4">
+                  <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
+                  <figcaption
+                    className="mt-3 font-normal"
+                    style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                  >
+                    Figma — AI Review Summary (node 4578-812)
+                  </figcaption>
+                </figure>
+              </Section>
               <figure className="my-4">
                 <ZoomableImage src={otherExplorations} alt="Other design explorations for the AI Review Summary: alternative bucket treatments with pill outlines, sentiment-color-coded keywords paired with category icons, and ratings-at-a-glance variants showing per-attribute bar scores with summary text." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
@@ -436,41 +469,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== Cross-Functional Execution ===================== */}
             <Section id="cross-functional">
-              <figure className="my-4">
-                <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  UI patterns and content rules for the GenAI Review Summary.
-                </figcaption>
-              </figure>
-              <H2 id="cross-functional">Leading the cross-functional org</H2>
-              <P>
-                A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), Product Management, Platform Engineering, Brand Producers and Category Merchants across all four brands, Content Strategy (with much heavier-than-usual involvement, because everything the model output was content the org had not previously generated), Design Systems, UX Research, and UX Leadership.
-              </P>
-              <P>
-                The challenge was not getting any one of those teams to do their part. The challenge was that none of them had previously worked together at this depth, and two of those teams (Data Science and AI/ML Engineering) had not previously worked closely with the product organization at all. They had a different operating culture: they were used to setting the direction and making the final calls on the things they worked on, rather than having a product manager doing so.
-              </P>
-              <P>
-                Our product manager was used to doing so. And the friction surfaced predictably. He asked us to be less supportive of the ideas coming from Data Science and AI/ML, because he felt they were stepping on his toes. We told him what he needed to hear, which was also true: we empathized with him, we supported him, and we would keep him in the loop on every decision. And we kept doing what we had been doing: incorporating all voices and bringing all parties into the working sessions where ideas were shaped. That dual move is how we built trust with both sides at the same time.
-              </P>
-              <P>
-                This project actually predated the operating rhythm I later set up on the Headless UI migration. While the project was in flight, we ran on a less formal cadence: daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with Katie, the content strategist, the brand producers and category merchants, and the product manager. The work was organic and productive. By the time we were handing off into broader scaling, we were running on the same HUI cadence that anchored the multivariant PDP project.
-              </P>
-              <figure className="my-4">
-                <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  Figma — AI Review Summary (node 4578-812)
-                </figcaption>
-              </figure>
-            </Section>
-
-            <SectionDivider />
-
             {/* ===================== Launch & Reframe ===================== */}
             <Section id="launch-reframe">
               <H2 id="launch-reframe">The launch and the reframe</H2>
