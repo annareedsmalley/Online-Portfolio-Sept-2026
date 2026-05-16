@@ -13,7 +13,6 @@ import crossFunctionalAlignment2Img from "@/assets/cross-functional-alignment-2.
 import workshopIdeationImg from "@/assets/workshop-ideation.png";
 import workshopSessionImg from "@/assets/workshop-session.png";
 import validatingUserResearchImg from "@/assets/validating-user-research.png";
-import firstDesignSolutionImg from "@/assets/first-design-solution.png";
 import aikidoAmazonPushImg from "@/assets/aikido-amazon-push.png";
 import accessibilityRoundTwoImg from "@/assets/accessibility-round-two.png";
 import solutionBComparisonTableImg from "@/assets/solution-b-comparison-table.png";
@@ -622,6 +621,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             {/* ===================== The First Design Solution ===================== */}
             <Section id="first-solution">
               <H3>The first design solution</H3>
+              <P>
+                The Sticky Container keeps price, reviews, images, and selected color visible as users scroll through variant options. Paired with product setup guidelines limiting PDPs to a maximum of four variant groups.
+              </P>
               <VideoFigure
                 src={showingNotTellingVideo}
                 ariaLabel="Showing, Not Telling: Prototyping as a Leadership Tool"
@@ -636,12 +638,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 We also developed <strong>ARIA text alerting users when the page refreshes and resetting the cursor</strong>, an accessibility consideration built into the solution from the start.
               </P>
-              <Figure
-                src={firstDesignSolutionImg}
-                alt="The First Design Solution"
-                caption="The Sticky Container keeps price, reviews, images, and selected color visible as users scroll through variant options. Paired with product setup guidelines limiting PDPs to a maximum of four variant groups."
-              />
-
               <P>
                 [solution here]
               </P>
