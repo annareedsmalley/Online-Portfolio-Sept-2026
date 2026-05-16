@@ -636,7 +636,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>products without 100% variant coverage caused the UI to behave unexpectedly.</strong> User clicks silently switched to unexpected variants, or resulted in dead clicks with no visual feedback.
               </P>
 
-              <H3>The pressure cooker moment</H3>
               <P>
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
