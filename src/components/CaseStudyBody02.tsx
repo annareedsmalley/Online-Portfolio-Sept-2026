@@ -389,6 +389,14 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
               />
 
+              <H3>My leadership role</H3>
+              <P>
+                I led UX design for all non-marketing web experiences within the integrated loyalty initiative across all brands. We owned the end-to-end loyalty experience across the shopping journey, while the App Buy team extended our patterns to mobile. We also partnered closely with the loyalty marketing team to guide content and ensure consistency across touchpoints.
+              </P>
+              <P>
+                Beyond the design work itself, the initiative I'm proudest of was building the team culture that made everything possible. This meant mending strained cross-functional relationships—becoming the glue between design, product, engineering, and marketing—and ensuring design consistency while respecting each brand's unique identity and customer expectations.
+              </P>
+
               <H3>My team's role</H3>
               <P>
                 I was the Sr. Manager for the "Web Buy" team — a team of 3 designers that owned authentication (sign up, sign in, and the various experiences around recognized customers vs. signed-in customers vs. unrecognized "guests"), web bag, checkout, profile, and post-purchase experiences including emails.
