@@ -14,20 +14,20 @@ export interface CaseStudyEntry {
 
 export const caseStudies: CaseStudyEntry[] = [
   {
-    to: "/work/cross-brand-product-experience",
-    title: "Leading a cross-brand product experience strategy through organizational change at Gap Inc.",
-    tags: "Cross-Brand Product Strategy",
-    image: fourBrandsImg,
-    imageAlt: "Athleta, Old Navy, Banana Republic, and Gap mobile product pages side by side",
-    arrowColor: "#1B1918",
-    titleColor: "#1B1918",
-  },
-  {
     to: "/work/four-brands-one-membership",
     title: "Building a unified membership platform for four brands at Gap Inc.",
     tags: "AI & Customer Experience",
     image: placeholder02,
     imageAlt: "Placeholder: add featured image for Building a unified membership platform for four brands at Gap Inc.",
+    arrowColor: "#1B1918",
+    titleColor: "#1B1918",
+  },
+  {
+    to: "/work/cross-brand-product-experience",
+    title: "Leading a cross-brand product experience strategy through organizational change at Gap Inc.",
+    tags: "Cross-Brand Product Strategy",
+    image: fourBrandsImg,
+    imageAlt: "Athleta, Old Navy, Banana Republic, and Gap mobile product pages side by side",
     arrowColor: "#1B1918",
     titleColor: "#1B1918",
   },
