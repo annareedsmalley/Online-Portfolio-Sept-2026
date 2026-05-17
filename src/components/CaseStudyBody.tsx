@@ -423,14 +423,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 My second move was to strategize directly with Jordan, bringing them into the thinking about what needed to be done, which had everything to do with establishing trust with the brands quickly. I knew this would require relationship building and neutral demonstrations: showing, not telling, why the assumed simple solution would not be in any brand's interest to build without more thought and validation.
               </P>
 
-              <H4>Servant leadership in practice</H4>
-              <P>
-                When it came to dividing responsibilities with Jordan, they were always the headliner. They presented their work, led the conversations in collaborative sessions and design reviews with the brands. I never presented their work or led those conversations for them.
-              </P>
-              <P>
-                But I was always there backing them up and bridging gaps between their world and the brands' world, because I had more experience with the brands and what they cared about and where they were coming from. I made myself especially available to Jordan and continued to coach from the sidelines: how to frame things, when to present what, and who to get close to and when.
-              </P>
-
               <H3>My team: surfies and brandies</H3>
               <P>
                 I had 7 designers, and everyone had a senior title except Jordan. The team was structured in a new way that I had recently designed and begun implementing: each designer specialized in either a single "surface" across all four brands (the Product Listing Page or the Product Detail Page, for example) or specialized in one single brand across the whole eCommerce experience. The first group were called <strong>"Surfies"</strong> and the second group were called <strong>"Brandies."</strong>
