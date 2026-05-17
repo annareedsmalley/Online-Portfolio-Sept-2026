@@ -140,6 +140,20 @@ const CaseStudySalesforce = () => {
         </div>
       </section>
 
+      {/* THE CONTEXT */}
+      <section className="bg-background">
+        <div className="mx-auto max-w-content px-6 pb-12 md:px-16 md:pb-20">
+          <Reveal>
+            <h3 className="font-serif text-[24px] text-title md:text-[32px]">
+              The Context
+            </h3>
+            <p className="body-text mt-4 max-w-3xl text-base md:text-lg">
+              In 2020, my team of three designers owned the end-to-end customer experience across authentication—sign up, sign in, and states for recognized, signed-in, and guest users—as well as the web bag, checkout, profile, and post-purchase touchpoints, including email communications.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
       {/* IMPACT */}
       <section className="bg-sand">
         <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-24">
