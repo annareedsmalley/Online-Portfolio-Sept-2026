@@ -722,6 +722,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               <H3>Setting a new accessibility precedent</H3>
               <P>
+                When I saw that this approach made our research foundation stronger without adding anything to the timelines or to the effort involved on the part of the designer, I spread the word to the rest of the UX org. The question became the new standard: if we're going to do UXR, is there any reason at all we wouldn't also have C4AT use the same stimuli to do UXR with people with disabilities? If no, then get both studies completed in parallel. This became a lasting precedent at Gap Inc.: whenever we conduct user research and already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added effort for the designer. Just a broader, more inclusive research foundation by default.
+              </P>
+              <P>
                 I set a new precedent at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
               </P>
 
