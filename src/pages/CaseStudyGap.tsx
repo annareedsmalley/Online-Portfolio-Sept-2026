@@ -17,6 +17,7 @@ const impacts = [
     label: "Prevented a $17M launch failure",
     body: "Surfaced a misaligned product assumption before kickoff and re-scoped the rollout plan with execs.",
   },
+  {
     label: "WON A PROMOTION FOR A SR. DESIGNER",
     body: "Mentored cross-brand leads through a year of org redesign without losing strategic momentum.",
   },
