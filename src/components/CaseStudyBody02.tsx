@@ -407,12 +407,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 We weren't responsible for the app surfaces, but the App Buy UX team followed our lead in terms of the UX we came up with for web.
               </P>
 
-              <Figure
-                src={ourUxTeamsImg}
-                alt="Our UX Teams table showing Brand Creative, .Com Browse UX, Native Mobile App, and CMS UX teams with their points of contact and goals"
-                caption="Our UX Teams: the cross-functional structure that delivered the Integrated Loyalty program across all four Gap Inc. brands."
-              />
-
               <H3>The framework</H3>
               <P>
                 I helped define the three workstreams that would guide the UX team's contribution to the integrated loyalty program: Program Foundation; Value Proposition & Omni CX; and Loyalty Self-Service & Account Management.
