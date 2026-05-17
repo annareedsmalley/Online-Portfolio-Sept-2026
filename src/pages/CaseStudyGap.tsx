@@ -22,10 +22,6 @@ const impacts = [
     body: "Established a shared product language across Athleta, Old Navy, Banana Republic, and Gap.",
   },
   {
-    label: "Reduced design cycle time 40%",
-    body: "Stood up a shared component model so teams stopped re-solving the same problems quarter to quarter.",
-  },
-  {
     label: "Coached 12 senior designers",
     body: "Mentored cross-brand leads through a year of org redesign without losing strategic momentum.",
   },
