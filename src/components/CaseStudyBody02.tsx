@@ -23,6 +23,7 @@ import preIntegratedLoyaltyImg from "@/assets/cs02/pre-integrated-loyalty.png";
 import twoGapIncFirstsImg from "@/assets/cs02/two-gap-inc-firsts.jpg";
 import gapCultGaiaNewsroomImg from "@/assets/cs02/gap-cult-gaia-newsroom.png";
 import gapProductGatingPdpImg from "@/assets/cs02/gap-product-gating-pdp.png";
+import gapCultGaiaResultsImg from "@/assets/cs02/gap-cult-gaia-results.png";
 
 interface NavSection {
   id: string;
@@ -568,6 +569,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 <strong>This led to the biggest single increase in credit card applications in Gap Inc.'s history.</strong>
               </P>
               <StatBlock value="604%" label="The percentage increase in the number of credit card applications Gap received in one day." />
+
+              <Figure
+                src={gapCultGaiaResultsImg}
+                alt="Gap x Cult Gaia results: $415K demand, 16% conversion (3x app trend), highest AOS vs prior collabs at $271.90 with 3.1x AOS vs non-collab."
+              />
 
               <H3>Built once, used by all</H3>
               <P>
