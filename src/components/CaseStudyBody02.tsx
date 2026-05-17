@@ -335,10 +335,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
               </P>
 
-              <P>
-                In 2020, my team of three designers owned the end-to-end customer experience across authentication—sign up, sign in, and states for recognized, signed-in, and guest users—as well as the web bag, checkout, profile, and post-purchase touchpoints, including email communications.
-              </P>
-
               <H3>The Problem: Unified Cart, Fragmented Loyalty</H3>
               <P>
                 When I joined Gap Inc. in 2018, the eCommerce platform allowed customers to shop just one of Gap Inc.'s brands, or switch between them. All products a customer added would appear in a shared cart.
