@@ -517,7 +517,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== What We Did with the Time ===================== */}
             <Section id="what-we-did">
-              <H3>Knowing when to step in and when not to</H3>
               <P>
                 When the team landed on the "sticky container" solution, I was concerned it wouldn't solve the problem. But it was the design the team had landed on to test, and I did not stop them from testing it. The results came back much better than expected.
               </P>
