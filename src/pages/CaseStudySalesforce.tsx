@@ -110,7 +110,7 @@ const CaseStudySalesforce = () => {
             </Reveal>
           </div>
 
-          <Reveal className="mt-12 border-t border-border pt-10">
+          <Reveal className="mt-12 pt-2">
             <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
               Timeline
             </h4>
