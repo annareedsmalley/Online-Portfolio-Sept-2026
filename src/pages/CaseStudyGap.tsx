@@ -22,10 +22,6 @@ const impacts = [
     body: "Mentored cross-brand leads through a year of org redesign without losing strategic momentum.",
   },
   {
-    label: "Defined a measurable north star",
-    body: "Replaced opinion-based reviews with shared, observable success metrics tied to revenue.",
-  },
-  {
     label: "Built executive design fluency",
     body: "Created a recurring forum where product execs reviewed experience tradeoffs alongside roadmap.",
   },
