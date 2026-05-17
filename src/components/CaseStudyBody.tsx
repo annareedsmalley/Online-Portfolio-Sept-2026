@@ -542,7 +542,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="Research stimuli used in our user studies: real product pages with multi-variant selectors, tested across different product types and complexity levels to surface where the experience broke down."
               />
 
-              <H3>Seeing the accessibility opportunity</H3>
               <P>
                 My intuition told me that the solution as it was being handed to us would cause cognitive overload for neurotypical users, so it seemed especially important to get the perspective of people who already face barriers to comprehension when using websites and apps like ours.
               </P>
