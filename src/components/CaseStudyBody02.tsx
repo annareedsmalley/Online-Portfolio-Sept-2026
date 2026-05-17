@@ -20,6 +20,7 @@ import journeyEnrollImg from "@/assets/cs02/journey-enroll.png";
 import journeyEarnImg from "@/assets/cs02/journey-earn.png";
 import journeyRedeemImg from "@/assets/cs02/journey-redeem.png";
 import preIntegratedLoyaltyImg from "@/assets/cs02/pre-integrated-loyalty.png";
+import twoGapIncFirstsImg from "@/assets/cs02/two-gap-inc-firsts.jpg";
 
 interface NavSection {
   id: string;
@@ -459,6 +460,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 It was also the first time Gap Inc. customers could enter their email address and let us tell them whether they already had an account.
               </P>
+
+              <Figure
+                src={twoGapIncFirstsImg}
+                alt="Two Gap Inc. firsts: first time offering free shipping benefits to loyalty accounts, and first time customers could enter their email to check if they already had an account, shown with mobile screens from Gap and Old Navy."
+              />
 
               <H3>The launch</H3>
               <P>Then, in 2021…</P>
