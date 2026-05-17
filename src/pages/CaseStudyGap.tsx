@@ -18,10 +18,6 @@ const impacts = [
     body: "Surfaced a misaligned product assumption before kickoff and re-scoped the rollout plan with execs.",
   },
   {
-    label: "Unified 4 brand experiences",
-    body: "Established a shared product language across Athleta, Old Navy, Banana Republic, and Gap.",
-  },
-  {
     label: "WON A PROMOTION FOR A SR. DESIGNER",
     body: "Mentored cross-brand leads through a year of org redesign without losing strategic momentum.",
   },
