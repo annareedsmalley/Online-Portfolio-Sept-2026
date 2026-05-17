@@ -579,9 +579,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
              <Section id="second-challenge">
                <H2 id="second-challenge">The second challenge</H2>
               <P>
-                I really thought we were doing great. We were back in a state of equilibrium. But you know how these things go.
-              </P>
-              <P>
                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>products without 100% variant coverage caused the UI to behave unexpectedly.</strong> User clicks silently switched to unexpected variants, or resulted in dead clicks with no visual feedback.
               </P>
               <Figure
