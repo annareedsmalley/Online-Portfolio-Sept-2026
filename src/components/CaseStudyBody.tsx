@@ -409,6 +409,20 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 We knew that if we didn't invest in trying to turn the ship around, it would come back to us in a way that would be much more unpleasant: cleaning up after a mess instead of designing a solid, validated solution in the first place. One that customers and the business would benefit from. And that we would benefit from, in terms of earning trust and respect from the brands and our other partners within the central org
               </P>
 
+              <H3>My first move</H3>
+              <P>
+                My first move was selecting the right designer. I chose Jordan, a junior designer I had inherited from another team who had been operating at a senior level.
+              </P>
+              <P>
+                Why: Jordan's strengths were in going deep into problems that appeared deceptively shallow. I knew they were doing senior-level work and wanted to promote them, and knew it would be an uphill battle without a high-profile story to tell.
+              </P>
+              <P>
+                One gap I knew I needed to fill was that Jordan had spent most of their career on the non-branded side of the journey (cart, checkout, profile, fulfillment) where the experience is the same regardless of brand. They weren't as accustomed to the political dynamics of brand-differentiated work, where every brand wants special treatment and tensions can escalate quickly.
+              </P>
+              <P>
+                My second move was to strategize directly with Jordan, bringing them into the thinking about what needed to be done, which had everything to do with establishing trust with the brands quickly. I knew this would require relationship building and neutral demonstrations: showing, not telling, why the assumed simple solution would not be in any brand's interest to build without more thought and validation.
+              </P>
+
               <H3>My team: surfies and brandies</H3>
               <P>
                 I had 7 designers, and everyone had a senior title except Jordan. The team was structured in a new way that I had recently designed and begun implementing: each designer specialized in either a single "surface" across all four brands (the Product Listing Page or the Product Detail Page, for example) or specialized in one single brand across the whole eCommerce experience. The first group were called <strong>"Surfies"</strong> and the second group were called <strong>"Brandies."</strong>
