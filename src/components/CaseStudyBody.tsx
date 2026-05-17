@@ -574,9 +574,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 We also developed <strong>ARIA text alerting users when the page refreshes and resetting the cursor</strong>, an accessibility consideration built into the solution from the start.
               </P>
-              <P>
-                [solution here]
-              </P>
             </Section>
 
             <SectionDivider />
