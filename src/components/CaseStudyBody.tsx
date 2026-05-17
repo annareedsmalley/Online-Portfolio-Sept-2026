@@ -579,12 +579,12 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
              <Section id="second-challenge">
                <H2 id="second-challenge">The second challenge</H2>
               <P>
-                As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>products without 100% variant coverage caused the UI to behave unexpectedly.</strong> User clicks silently switched to unexpected variants, or resulted in dead clicks with no visual feedback.
+                As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. As a result,</strong> user clicks would cause silent switches to different variants for other attributes.
               </P>
               <Figure
                 src={aikidoAmazonPushImg}
                 alt="Aikido in Action: The Amazon Push"
-                caption="The same three flaws resurfaced in a new form: products without 100% variant coverage caused the UI to silently switch selections or produce dead clicks."
+                caption="The same three flaws resurfaced in a new form: the products that brands had set up for testing did not always have 100% cross-variant coverage. As a result, user clicks silently switched to unexpected variants, or resulted in dead clicks with no visual feedback."
               />
 
               <P>
