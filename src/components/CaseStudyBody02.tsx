@@ -35,7 +35,7 @@ interface CaseStudyBody02Props {
 }
 
 const sections: NavSection[] = [
-  { id: "leadership-context", title: "Leadership context" },
+  { id: "leadership-context", title: "Context" },
   { id: "integrated-loyalty", title: "Integrated loyalty" },
   { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty" },
   { id: "payoff-product-gating", title: "The payoff: product gating" },
@@ -314,9 +314,9 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
           <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
             <PasswordGate>
 
-            {/* ===================== Leadership Context ===================== */}
+            {/* ===================== Context ===================== */}
             <Section id="leadership-context">
-              <H2 id="leadership-context">Leadership context</H2>
+              <H2 id="leadership-context">Context</H2>
 
               <H3>My scope at Gap, Inc.</H3>
               <P>
