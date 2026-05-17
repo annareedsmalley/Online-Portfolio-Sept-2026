@@ -54,9 +54,9 @@ const CaseStudySalesforce = () => {
               Back to work
             </Link>
 
-            <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
+            <h3 className="font-label text-sm font-semibold uppercase tracking-[0.15em] text-terracotta md:text-base">
               Loyalty & UX Strategy · 2020–2025
-            </h4>
+            </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Building a unified membership platform{" "}
               <span className="text-terracotta">
