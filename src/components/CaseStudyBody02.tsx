@@ -22,6 +22,7 @@ import journeyRedeemImg from "@/assets/cs02/journey-redeem.png";
 import preIntegratedLoyaltyImg from "@/assets/cs02/pre-integrated-loyalty.png";
 import twoGapIncFirstsImg from "@/assets/cs02/two-gap-inc-firsts.jpg";
 import gapCultGaiaNewsroomImg from "@/assets/cs02/gap-cult-gaia-newsroom.png";
+import gapProductGatingPdpImg from "@/assets/cs02/gap-product-gating-pdp.png";
 
 interface NavSection {
   id: string;
@@ -575,6 +576,10 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <KeyInsight color="green" rotate={-3}>
                 Build once, theme four times. The platform investment quietly compounded with every brand campaign that followed.
               </KeyInsight>
+              <Figure
+                src={gapProductGatingPdpImg}
+                alt="Gap product gating PDP showing Mid Rise Destructed '90s Loose Jeans with Cardmember Exclusive 'Sign in to shop' CTA."
+              />
               <Figure
                 src={builtOnce2Img}
                 alt="Add to Bag restricted message tile shared component themed across Gap, Old Navy, Banana Republic, and Athleta"
