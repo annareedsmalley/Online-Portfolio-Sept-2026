@@ -90,25 +90,6 @@ const CaseStudySalesforce = () => {
       {/* ROLE / TEAM / TIMELINE */}
       <section className="bg-background">
         <div className="mx-auto max-w-content px-6 pb-12 md:px-16 md:pb-20">
-          <div className="grid gap-8 border-t border-border pt-10 sm:grid-cols-2 md:gap-12">
-            <Reveal>
-              <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
-                Role
-              </h4>
-              <p className="mt-2 font-serif text-[20px] text-title md:text-[24px]">
-                Senior Manager, UX Product Design
-              </p>
-            </Reveal>
-            <Reveal delay={90}>
-              <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
-                Team
-              </h4>
-              <p className="mt-2 font-serif text-[20px] text-title md:text-[24px]">
-                Led team of 6 Product Designers
-              </p>
-            </Reveal>
-          </div>
-
           <Reveal className="mt-12 pt-2">
             <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
               Timeline
