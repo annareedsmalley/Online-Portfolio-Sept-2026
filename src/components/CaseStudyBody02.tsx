@@ -442,9 +442,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <H3>Two Gap Inc. firsts</H3>
               <P>
-                This was the first time we offered free shipping benefits to those with loyalty accounts.
-              </P>
-              <P>
                 It was also the first time Gap Inc. customers could enter their email address and let us tell them whether they already had an account.
               </P>
 
