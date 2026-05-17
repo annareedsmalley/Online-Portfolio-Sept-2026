@@ -16,7 +16,6 @@ import approachedWork3Img from "@/assets/cs02/approached-work-3.png";
 import firstBigWinImg from "@/assets/cs02/first-big-win.png";
 import firstBigWin2Video from "@/assets/cs02/first-big-win-2.mov";
 import builtOnce2Img from "@/assets/cs02/built-once-2.png";
-import ourUxTeamsImg from "@/assets/cs02/our-ux-teams.png";
 import journeyEnrollImg from "@/assets/cs02/journey-enroll.png";
 import journeyEarnImg from "@/assets/cs02/journey-earn.png";
 import journeyRedeemImg from "@/assets/cs02/journey-redeem.png";
@@ -407,12 +406,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 We weren't responsible for the app surfaces, but the App Buy UX team followed our lead in terms of the UX we came up with for web.
               </P>
-
-              <Figure
-                src={ourUxTeamsImg}
-                alt="Our UX Teams table showing Brand Creative, .Com Browse UX, Native Mobile App, and CMS UX teams with their points of contact and goals"
-                caption="Our UX Teams: the cross-functional structure that delivered the Integrated Loyalty program across all four Gap Inc. brands."
-              />
 
               <H3>The framework</H3>
               <P>
