@@ -442,7 +442,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="structuring-work">
               <H2 id="structuring-work">How I structured the team's work</H2>
 
-              <H3>Asking why: what problem are we even solving?</H3>
+               <H3>Discovery Phase</H3>
               <P>
                 The brands came to us saying "add more variant sets to PDPs." They didn't initially explain why. It was just "we want people to be able to get to other variants from the PDP." Our first step wasn't competitive analysis or prototyping. It was asking: what are you really trying to solve? Is this a customer problem, a business problem, or both?
               </P>
