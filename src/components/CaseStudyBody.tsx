@@ -476,7 +476,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="The two-week headless UI sprint cadence I had already established for a parallel project. Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days."
               />
 
-              <H4>Influencing without authority</H4>
               <P>We had a strategic playbook for how to move stakeholders. It had four parts:</P>
               <UL>
                 <li>
