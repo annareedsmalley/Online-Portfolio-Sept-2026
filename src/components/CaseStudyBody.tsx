@@ -596,16 +596,16 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="accessibility-round-two">
               <H3>Accessibility: round two and setting a new precedent</H3>
               <P>
-                When I saw that this approach made our research foundation stronger without adding anything to the timelines or to the effort involved on the part of the designer, I spread the word to the rest of the UX org. The question became the new standard: <strong>if we're going to do UXR, is there any reason at all we wouldn't also have C4AT use the same stimuli to do UXR with people with disabilities?</strong> If no, then get both studies completed in parallel.
-              </P>
-              <P>
-                This became a <strong>lasting precedent at Gap Inc.</strong>: whenever we conduct user research and already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added effort for the designer. Just a broader, more inclusive research foundation by default.
-              </P>
-              <P>
                 Because it had gone so well the first time and added nothing to the timeline, we ran parallel accessibility research again with C4AT during this second phase. This time the results were even more robust.
               </P>
               <P>
                 The accessibility research used moderated interviews and found real usability issues: color contrast problems (slashes too light for light-skinned users), confusion with "size type" terminology that left users accidentally navigating to entirely new products, and inconsistencies in how color selection highlighting appeared between currently-selected and previously-selected states.
+              </P>
+              <P>
+                When I saw that this approach made our research foundation stronger without adding anything to the timelines or to the effort involved on the part of the designer, I spread the word to the rest of the UX org. The question became the new standard: <strong>if we're going to do UXR, is there any reason at all we wouldn't also have C4AT use the same stimuli to do UXR with people with disabilities?</strong> If no, then get both studies completed in parallel.
+              </P>
+              <P>
+                This became a <strong>lasting precedent at Gap Inc.</strong>: whenever we conduct user research and already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added effort for the designer. Just a broader, more inclusive research foundation by default.
               </P>
             </Section>
 
