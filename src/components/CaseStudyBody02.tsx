@@ -20,6 +20,7 @@ import ourUxTeamsImg from "@/assets/cs02/our-ux-teams.png";
 import journeyEnrollImg from "@/assets/cs02/journey-enroll.png";
 import journeyEarnImg from "@/assets/cs02/journey-earn.png";
 import journeyRedeemImg from "@/assets/cs02/journey-redeem.png";
+import preIntegratedLoyaltyImg from "@/assets/cs02/pre-integrated-loyalty.png";
 
 interface NavSection {
   id: string;
@@ -359,6 +360,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 Given that shoppers could shop all four brands at the same time online, the disconnects between loyalty programs created customer confusion, frustration and loss of trust.
               </P>
+              <Figure
+                src={preIntegratedLoyaltyImg}
+                alt="Four brands, four loyalty programs: Navyist Rewards, Gap Good Rewards, Banana Republic Rewards, and Athleta Rewards shown with their respective non-card and credit card tiers."
+                caption="Four brands. Four programs. One confused customer — the pre-integrated loyalty landscape across Gap Inc."
+              />
               <P><strong>"Where are my rewards? What is going on here?"</strong></P>
             </Section>
 
