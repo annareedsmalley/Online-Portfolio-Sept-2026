@@ -518,7 +518,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="what-we-did">
               <H3>Validating through user research</H3>
               <P>
-                All of our work so far had led us to our own assumptions. The next step was to find out what happened when we talked to real users.
+                All of our work so far had led us to our own assumptions. (For example, we assumed that adding new sets of variants to the PDP would create a viewport limitation issue on mobile. Specifically, changes made to variants at the bottom of the page could cause changes to the product's price and color, but these things would be out of view.) The next step was to find out what happened when we talked to real users.
               </P>
               <P>
                 Our user research confirmed a critical gap: customers were struggling to discover and compare product variants on PDPs.
