@@ -453,7 +453,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 When stakeholders hand you a solution, your first job is to find the question it was trying to answer.
               </KeyInsight>
 
-              <H3>Starting with competitive analysis, and why</H3>
               <P>
                 Competitive analysis was an obvious place to start as the lowest-hanging fruit in terms of bolstering the argument that the assumptions being made were not safe. Depending on findings, the team could potentially get buy-in for an extended timeline simply based on what certain competitors were doing or not doing, or what percent of competitors were approaching the problem differently from the solution being pushed forward.
               </P>
