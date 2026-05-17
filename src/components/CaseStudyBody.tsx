@@ -581,12 +581,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. As a result,</strong> user clicks would cause silent switches to different variants for other attributes.
               </P>
-              <Figure
-                src={aikidoAmazonPushImg}
-                alt="Aikido in Action: The Amazon Push"
-                caption="The same three flaws resurfaced in a new form: the products that brands had set up for testing did not always have 100% cross-variant coverage. As a result, user clicks silently switched to unexpected variants, or resulted in dead clicks with no visual feedback."
-              />
-
               <P>
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
