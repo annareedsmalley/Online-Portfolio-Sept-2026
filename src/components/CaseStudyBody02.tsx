@@ -447,6 +447,8 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 The hardest part was mapping all of the existing types of accounts and rewards options and making sure the required account merging experience was smooth for all types of account holders. We had to reconcile what would need to happen to create a simple and graceful transition experience for customers in dozens of different scenarios — e.g. "customer has an ecommerce account only and has some rewards earned through the Old Navy MTL program but also has a separate Athleta loyalty account with a different type of reward."
               </P>
 
+              <P>[Image of one of the many messaging spreadsheets we created to map every possible combination of customer state, loyalty tier, and authentication level.]</P>
+
               <VideoFigure
                 src={firstBigWin2Video}
                 ariaLabel="Product gating interaction loop"
