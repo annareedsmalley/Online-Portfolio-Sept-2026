@@ -519,12 +519,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="what-we-did">
               <H3>Validating through user research</H3>
               <P>
-                When the team landed on the "sticky container" solution, I was concerned it wouldn't solve the problem. But it was the design the team had landed on to test, and I did not stop them from testing it. The results came back much better than expected.
-              </P>
-              <P>
-                This was one way I balanced speed with quality: even though I had reservations, I let them go when I saw the research results, and because we definitely had to keep moving or lose the trust we had worked so hard to gain.
-              </P>
-              <P>
                 All of our work so far had led us to our own assumptions. The next step was to find out what happened when we talked to real users.
               </P>
               <P>
