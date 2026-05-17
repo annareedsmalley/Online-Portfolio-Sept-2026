@@ -523,10 +523,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="New foundational PDP buy box template preview across Athleta, Banana Republic, Gap, and Old Navy"
               />
 
-              <H3>75% done in 10 months</H3>
-              <P>
-                10 months later, we're <strong>75% done with this work, including 100% of our PLP and PDP pages.</strong>
-              </P>
             </Section>
 
             <SectionDivider />
