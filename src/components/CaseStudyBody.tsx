@@ -566,7 +566,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The First Design Solution ===================== */}
             <Section id="first-solution">
-              <H3>The first design solution</H3>
+              <H2 id="first-solution">The first design solution</H2>
               <P>
                 The Sticky Container keeps price, reviews, images, and selected color visible as users scroll through variant options. Paired with product setup guidelines limiting PDPs to a maximum of four variant groups.
               </P>
