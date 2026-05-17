@@ -450,9 +450,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 It turned out to be both. People were bouncing because they couldn't discover variant options. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
               </P>
               <P>
-                Competitive analysis was an obvious place to start as the lowest-hanging fruit in terms of bolstering the argument that the assumptions being made were not safe. Depending on findings, the team could potentially get buy-in for an extended timeline simply based on what certain competitors were doing or not doing, or what percent of competitors were approaching the problem differently from the solution being pushed forward.
-              </P>
-              <P>
                 I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
               </P>
               <H4>Showing, not telling: prototyping as a leadership tool</H4>
