@@ -454,8 +454,11 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                </P>
                <H4>[Image of Baymard best practices]</H4>
                <P>
-                 Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced <strong>15+ Figma prototypes across 4 brands</strong> and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination.
-               </P>
+                Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced 15+ Figma prototypes across 4 brands and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination. Prototypes became our primary tool for stakeholder alignment throughout the project. This was a deliberate strategic choice: instead of telling brands their assumptions were wrong, we showed them.
+              </P>
+              <P>
+                [Image of many prototypes]
+              </P>
 
               <H3>Cross-functional alignment structure</H3>
               <P>
