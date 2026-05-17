@@ -452,7 +452,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                <P>
                  In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
                </P>
-              <H4>Showing, not telling: prototyping as a leadership tool</H4>
+               <H4>[Image of Baymard best practices]</H4>
               <P>
                 Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced <strong>15+ Figma prototypes across 4 brands</strong> and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination.
               </P>
