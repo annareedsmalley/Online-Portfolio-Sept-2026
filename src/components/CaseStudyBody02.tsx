@@ -376,12 +376,13 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <H3>The initiative</H3>
               <P>
-                In 2020, my team joined the "Integrated Loyalty" project — a multi-year effort to create a single loyalty program for shoppers of all four Gap Inc. brands. This program promised:
+                In 2020, I was asked to lead the Product Design team for "Integrated Loyalty"—a multi-year, cross-functional initiative to create a single loyalty program for all four Gap Inc. brands. The program promised:
               </P>
               <UL>
-                <li><strong>Unified rewards structure for all customers</strong></li>
-                <li><strong>Automatic membership with account creation</strong></li>
-                <li><strong>Free shipping benefits based on loyalty tier</strong></li>
+                <li><strong>Unified rewards structure</strong> — Earn and redeem across all four brands with a single account</li>
+                <li><strong>Automatic membership</strong> — Join the loyalty program simply by creating an account</li>
+                <li><strong>Free shipping benefits</strong> — Unlock perks based on loyalty tier</li>
+                <li><strong>Seamless omnichannel</strong> — Same experience in stores and online, across all brands</li>
               </UL>
               <Figure
                 src={integratedLoyaltyIdentityImg}
