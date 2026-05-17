@@ -395,10 +395,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 I was responsible for making all changes to all of these surfaces needed for the integrated loyalty program. We designed the UX for all of the loyalty program touchpoints a customer would encounter in a standard shopping journey, besides marketing assets for the program. However, we worked closely with the loyalty marketing team to guide the content of those assets.
               </P>
-              <P>
-                We weren't responsible for the app surfaces, but the App Buy UX team followed our lead in terms of the UX we came up with for web.
-              </P>
-
               <H3>The framework</H3>
               <P>
                 I helped define the three workstreams that would guide the UX team's contribution to the integrated loyalty program: Program Foundation; Value Proposition & Omni CX; and Loyalty Self-Service & Account Management.
