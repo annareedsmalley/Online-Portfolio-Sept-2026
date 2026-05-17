@@ -21,6 +21,7 @@ import journeyEarnImg from "@/assets/cs02/journey-earn.png";
 import journeyRedeemImg from "@/assets/cs02/journey-redeem.png";
 import preIntegratedLoyaltyImg from "@/assets/cs02/pre-integrated-loyalty.png";
 import twoGapIncFirstsImg from "@/assets/cs02/two-gap-inc-firsts.jpg";
+import gapCultGaiaNewsroomImg from "@/assets/cs02/gap-cult-gaia-newsroom.png";
 
 interface NavSection {
   id: string;
@@ -555,6 +556,10 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
+              <Figure
+                src={gapCultGaiaNewsroomImg}
+                alt="Gap Newsroom feature: Gap and Cult Gaia Collaboration Celebrates the Beauty and Strength of Today's Modern Goddess"
+              />
               <P>
                 This campaign was only possible because of the platform my team had spent the past 10 months building.
               </P>
