@@ -9,6 +9,7 @@ import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroVisual from "@/assets/cs02/hero-timeline.png";
 import impactVisual from "@/assets/cs02/impact-at-a-glance.png";
+import gapRewardsWelcome from "@/assets/cs02/gap-rewards-welcome-iphone.png";
 import { caseStudies } from "@/data/caseStudies";
 import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
@@ -75,10 +76,15 @@ const CaseStudySalesforce = () => {
             </div>
           </div>
 
-          <div className="flex justify-center md:col-start-2 md:justify-end">
+          <div className="flex flex-col gap-6 md:col-start-2 items-center md:items-end">
             <img
               src={heroVisual}
               alt="Integrated Loyalty across all four Gap Inc. brands"
+              className="w-full h-auto rounded-2xl"
+            />
+            <img
+              src={gapRewardsWelcome}
+              alt="Gap Good Rewards welcome screen on iPhone"
               className="w-full h-auto rounded-2xl"
             />
           </div>
