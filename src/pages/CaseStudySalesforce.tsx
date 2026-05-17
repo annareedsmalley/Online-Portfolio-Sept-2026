@@ -61,7 +61,7 @@ const CaseStudySalesforce = () => {
               </span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
-              Unlocking Brand Loyalty at Gap Inc.
+              Led the design team that unified Gap Inc.'s fragmented loyalty programs across four brands—then led the headless UI transformation that unlocked a product gating strategy so successful, the other three brands could replicate it at a fraction of the original effort.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {[
