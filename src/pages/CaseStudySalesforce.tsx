@@ -162,6 +162,11 @@ const CaseStudySalesforce = () => {
             </div>
           </div>
 
+          <Reveal className="mt-16">
+            <p className="body-text max-w-3xl text-base md:text-lg">
+              In 2020, my team of three designers owned the end-to-end customer experience across authentication—sign up, sign in, and states for recognized, signed-in, and guest users—as well as the web bag, checkout, profile, and post-purchase touchpoints, including email communications.
+            </p>
+          </Reveal>
         </div>
       </section>
 
