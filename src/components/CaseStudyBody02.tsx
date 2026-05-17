@@ -35,7 +35,7 @@ interface CaseStudyBody02Props {
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Leadership context" },
   { id: "integrated-loyalty", title: "Integrated loyalty" },
-  { id: "next-evolution", title: "The next evolution" },
+  { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty" },
   { id: "payoff-product-gating", title: "The payoff: product gating" },
   { id: "reflections", title: "Reflections" },
 ];
@@ -500,7 +500,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== The Next Evolution ===================== */}
             <Section id="next-evolution">
-              <H2 id="next-evolution">The next evolution (2024)</H2>
+              <H2 id="next-evolution">Phase 2: Brand-Specific Loyalty (2024)</H2>
 
               <H3>Phase 2 begins</H3>
               <P>
