@@ -7,7 +7,6 @@ import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CaseStudyBody02 } from "@/components/CaseStudyBody02";
 import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
-import impactVisual from "@/assets/cs02/impact-at-a-glance.png";
 import gapRewardsWelcome from "@/assets/cs02/gap-rewards-welcome-iphone.png";
 import { caseStudies } from "@/data/caseStudies";
 import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
@@ -163,29 +162,6 @@ const CaseStudySalesforce = () => {
             </div>
           </div>
 
-          <Reveal className="mt-16">
-            <p className="body-text mb-6 text-[16px] font-semibold text-title md:text-[17px]">
-              During my tenure at Gap, Inc., I focused on each step of the eCommerce shopping journey, for all four brands.
-            </p>
-            <figure className="flex flex-col">
-              <img
-                src={impactVisual}
-                alt="Built once, themed for all four brands — shared Headless UI components"
-                className="block w-full h-auto rounded-xl"
-              />
-              <figcaption
-                className="mt-2 font-normal"
-                style={{
-                  fontFamily: "'Montserrat', sans-serif",
-                  fontSize: "12px",
-                  color: "#56514D",
-                  marginTop: "8px",
-                }}
-              >
-                I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
-              </figcaption>
-            </figure>
-          </Reveal>
         </div>
       </section>
 
