@@ -28,7 +28,7 @@ const sections: NavSection[] = [
     { id: "leadership-context", title: "Context" },
     { id: "structuring-work", title: "Definition and Structure" },
     { id: "first-battle", title: "The first challenge" },
-  { id: "second-challenge", title: "The second challenge: the data crisis" },
+   { id: "second-challenge", title: "The second challenge" },
   { id: "accessibility-round-two", title: "Accessibility: round two and setting a new precedent" },
   { id: "additional-solution", title: "The second solution: comparison table" },
   { id: "two-solutions", title: "Two solutions" },
@@ -591,9 +591,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             <SectionDivider />
 
-            {/* ===================== The Second Challenge: The Data Crisis ===================== */}
-            <Section id="second-challenge">
-              <H2 id="second-challenge">Phase 2</H2>
+             {/* ===================== The Second Challenge ===================== */}
+             <Section id="second-challenge">
+               <H2 id="second-challenge">The second challenge</H2>
               <P>
                 I really thought we were doing great. We were back in a state of equilibrium. But you know how these things go.
               </P>
