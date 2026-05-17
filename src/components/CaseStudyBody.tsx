@@ -610,17 +610,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, <strong>Gap Inc.'s brand promise is not Amazon's brand promise.</strong>
               </P>
-              <P>Rather than mandate a single path, we presented three genuine options:</P>
-              <UL>
-                <li>
-                  <strong>Option 1: Fix your data</strong> - achieve 100% coverage, follow the max-dimensions rule, and continue with selectors and the sticky container. (Max 4 variant groups, 100% production coverage required, variant categories must be logically coherent.)
-                </li>
-                <li><strong>Option 2: Accept a broken experience</strong> with the risks we've demonstrated.</li>
-                <li><strong>Option 3: An alternative path</strong> - a new pattern that doesn't require 100% coverage.</li>
-              </UL>
-              <P>
-                This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
-              </P>
               <Figure
                 src={twoSolutionsImg}
                 alt="Two Solutions"
@@ -656,6 +645,17 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             {/* ===================== Two Solutions ===================== */}
             <Section id="two-solutions">
               <H3 id="two-solutions">The ultimate solution</H3>
+              <P>Rather than mandate a single path, we presented three genuine options:</P>
+              <UL>
+                <li>
+                  <strong>Option 1: Fix your data</strong> - achieve 100% coverage, follow the max-dimensions rule, and continue with selectors and the sticky container. (Max 4 variant groups, 100% production coverage required, variant categories must be logically coherent.)
+                </li>
+                <li><strong>Option 2: Accept a broken experience</strong> with the risks we've demonstrated.</li>
+                <li><strong>Option 3: An alternative path</strong> - a new pattern that doesn't require 100% coverage.</li>
+              </UL>
+              <P>
+                This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
+              </P>
               <P>
                 Brands have two patterns to choose from depending on their products and data. The Comparison Table is the more comprehensive solution where data and product fit allow, while the Stacked Selector remains available for simpler product setups. Either way, brands have guidelines for A/B testing to determine what works best.
               </P>
