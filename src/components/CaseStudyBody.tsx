@@ -706,9 +706,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 <li>Merchant Job Aids updated to reflect grouping guidelines for site merchants loading products.</li>
                 <li>Sticky Container pattern adopted into the design system library for future use across products.</li>
               </UL>
-              <P>
-                We also made it a point to have discussions and working sessions with every one of the key groups represented, including at least one representative from each brand, at least once a week. I sometimes hosted these (in terms of sending out the invites) but Jordan facilitated, with my support.
-              </P>
               <Figure
                 src={guidelinesThatLastedImg}
                 alt="Guidelines That Lasted"
