@@ -409,20 +409,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 We knew that if we didn't invest in trying to turn the ship around, it would come back to us in a way that would be much more unpleasant: cleaning up after a mess instead of designing a solid, validated solution in the first place. One that customers and the business would benefit from. And that we would benefit from, in terms of earning trust and respect from the brands and our other partners within the central org
               </P>
 
-              <H4>The aikido approach</H4>
-              <P>
-                Rather than forcing design to the table through escalation, I took an <strong>aikido approach</strong>: working with existing organizational momentum rather than against it.
-              </P>
-              <P>
-                In practice, this meant not putting up a roadblock to brands who wanted to proceed without fixing their data, and letting them own that decision and experience the consequences. It meant using the <strong>Socratic method</strong>, asking questions that led brands to come to many of the same conclusions we had, helping everyone walk down the same paths, but in their own minds and within their own context. And it meant being strategic about when to push and when to redirect.
-              </P>
-              <P>
-                You'll see this approach play out throughout the story: in how we bought time, how we navigated the data crisis, and how brands ultimately came around to the right solution on their own terms.
-              </P>
-              <KeyInsight color="peach" rotate={-3} label="Reframe">
-                Don't fight the org's momentum — borrow it. Let stakeholders walk the path themselves and the conclusion holds.
-              </KeyInsight>
-
               <H3>My first move</H3>
               <P>
                 My first move was selecting the right designer. I chose Jordan, a junior designer I had inherited from another team who had been operating at a senior level.
