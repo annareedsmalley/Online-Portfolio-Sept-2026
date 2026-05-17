@@ -7,7 +7,6 @@ import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CaseStudyBody02 } from "@/components/CaseStudyBody02";
 import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroVisual from "@/assets/cs02/hero-timeline.png";
 import impactVisual from "@/assets/cs02/impact-at-a-glance.png";
 import gapRewardsWelcome from "@/assets/cs02/gap-rewards-welcome-iphone.png";
 import { caseStudies } from "@/data/caseStudies";
@@ -81,16 +80,64 @@ const CaseStudySalesforce = () => {
 
           <div className="flex flex-col gap-6 md:col-start-2 items-center md:items-end">
             <img
-              src={heroVisual}
-              alt="Integrated Loyalty across all four Gap Inc. brands"
-              className="w-full h-auto rounded-2xl"
-            />
-            <img
               src={gapRewardsWelcome}
               alt="Gap Good Rewards welcome screen on iPhone"
               className="w-full h-auto rounded-2xl"
             />
           </div>
+        </div>
+      </section>
+
+      {/* ROLE / TEAM / TIMELINE */}
+      <section className="bg-background">
+        <div className="mx-auto max-w-content px-6 pb-12 md:px-16 md:pb-20">
+          <div className="grid gap-8 border-t border-border pt-10 sm:grid-cols-2 md:gap-12">
+            <Reveal>
+              <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
+                Role
+              </h4>
+              <p className="mt-2 font-serif text-[20px] text-title md:text-[24px]">
+                Senior Manager, UX Product Design
+              </p>
+            </Reveal>
+            <Reveal delay={90}>
+              <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
+                Team
+              </h4>
+              <p className="mt-2 font-serif text-[20px] text-title md:text-[24px]">
+                Led team of 6 Product Designers
+              </p>
+            </Reveal>
+          </div>
+
+          <Reveal className="mt-12 border-t border-border pt-10">
+            <h4 className="font-label text-xs font-semibold uppercase tracking-[0.15em] text-terracotta">
+              Timeline
+            </h4>
+            <ol className="mt-8 grid grid-cols-2 gap-y-8 sm:grid-cols-3 md:grid-cols-6 md:gap-y-0">
+              {[
+                { year: "2018", label: "Joined Gap Inc." },
+                { year: "2020", label: "Integrated Loyalty" },
+                { year: "2021", label: "Unified Program Launch" },
+                { year: "2022", label: "19M New Accounts" },
+                { year: "2024", label: "Headless UI" },
+                { year: "2025", label: "Product Gating" },
+              ].map((m, i, arr) => (
+                <li key={m.year} className="relative flex flex-col pl-0 pr-4">
+                  <div className="relative mb-4 flex items-center">
+                    <span className="h-3 w-3 shrink-0 rounded-full bg-terracotta" />
+                    {i < arr.length - 1 ? (
+                      <span className="ml-0 h-px flex-1 bg-border" />
+                    ) : null}
+                  </div>
+                  <span className="font-serif text-[24px] text-title md:text-[28px]">
+                    {m.year}
+                  </span>
+                  <span className="body-text mt-1 text-[14px]">{m.label}</span>
+                </li>
+              ))}
+            </ol>
+          </Reveal>
         </div>
       </section>
 
