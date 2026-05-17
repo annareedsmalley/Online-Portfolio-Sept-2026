@@ -399,11 +399,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 We weren't responsible for the app surfaces, but the App Buy UX team followed our lead in terms of the UX we came up with for web.
               </P>
 
-              <H3>My leadership role</H3>
-              <P>
-                I led UX design for all non-marketing web experiences within the integrated loyalty initiative across all brands. We owned the end-to-end loyalty experience across the shopping journey, while the App Buy team extended our patterns to mobile. We also partnered closely with the loyalty marketing team to guide content and ensure consistency across touchpoints.
-              </P>
-
               <H3>The framework</H3>
               <P>
                 I helped define the three workstreams that would guide the UX team's contribution to the integrated loyalty program: Program Foundation; Value Proposition & Omni CX; and Loyalty Self-Service & Account Management.
