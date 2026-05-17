@@ -396,9 +396,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 I led UX design for all non-marketing web experiences within the integrated loyalty initiative across all brands. We owned the end-to-end loyalty experience across the shopping journey, while the App Buy team extended our patterns to mobile. We also partnered closely with the loyalty marketing team to guide content and ensure consistency across touchpoints.
               </P>
-              <P>
-                Beyond the design work itself, the initiative I'm proudest of was building the team culture that made everything possible. This meant mending strained cross-functional relationships—becoming the glue between design, product, engineering, and marketing—and ensuring design consistency while respecting each brand's unique identity and customer expectations.
-              </P>
 
               <H3>My team's role</H3>
               <P>
