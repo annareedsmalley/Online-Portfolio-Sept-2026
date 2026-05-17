@@ -22,7 +22,7 @@ const impacts = [
     body: "Established a shared product language across Athleta, Old Navy, Banana Republic, and Gap.",
   },
   {
-    label: "Coached 12 senior designers",
+    label: "WON A PROMOTION FOR A SR. DESIGNER",
     body: "Mentored cross-brand leads through a year of org redesign without losing strategic momentum.",
   },
   {
