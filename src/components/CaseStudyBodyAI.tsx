@@ -286,9 +286,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </UL>
               <ZoomableImage src={aiThesis} alt="AI thesis framework graphic: six principles — Trust before flash; Transparency about AI is non-negotiable; Model confidence is a design constraint; Reframe success metrics; Show, don't hide, imperfections; Build foundationally, not feature-shaped — arranged in a two-row grid." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
 
-              <H3>My first move: choosing the right designer</H3>
+              <H3>My next move: choosing the right designer</H3>
               <P>
-                My first move on any project of this kind is the same as it was on the multivariant PDP project: I pick the designer. Who I put on a project tells the team and the org what I think the project is.
+                My next move was to pick a designer. Who I put on a project tells the team and the org what I think the project is.
               </P>
               <P>
                 I chose Katie. Her background made her unusually well suited for AI work. She has an MS in Human Factors and is a systems thinker by temperament. She is the kind of designer who treats a UI as the visible surface of a much larger machine. That mental model is exactly what an AI feature requires. Most designers treat an AI feature as a UI problem; Katie treats it as a system problem with a UI on top.
