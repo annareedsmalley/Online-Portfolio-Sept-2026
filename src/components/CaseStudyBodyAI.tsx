@@ -229,7 +229,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== The Situation ===================== */}
             <Section id="the-situation">
-              <H2 id="the-situation">The situation</H2>
+              <H2 id="the-situation">Context</H2>
               <P>
                 Every retailer in 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who had originally proposed using AI to generate review summaries and highlights for customers. So this was a project I had helped seed long before the brief landed on my team.
               </P>
