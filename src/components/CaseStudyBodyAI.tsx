@@ -313,7 +313,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 The brief came in as "pilot an AI-generated review summary." <strong>Katie's first job was to refuse that framing politely, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?</strong>
               </P>
               <P>
-                What we found, working with UXR and looking at our existing review data, reframed the project. Customers who engage with reviews are 10% more likely to convert. But on PDPs with thousands of reviews, decision fatigue causes drop-off. Customers want a synthesis. The question was not whether AI summarization was useful. It clearly was. The question was whether customers would trust an AI to do that synthesis honestly.
+                What she found, working with UXR and looking at our existing review data, reframed the project. Customers who engage with reviews are 10% more likely to convert. But on PDPs with thousands of reviews, decision fatigue causes drop-off. Customers want a synthesis. The question was not whether AI summarization was useful. It clearly was. The question was whether customers would trust an AI to do that synthesis honestly.
               </P>
               <P>
                 The answer from the research was a flashing yellow light: customers do not trust AI to be neutral. They assume the company is hiding something, they suspect the AI is biased toward selling, and they second-guess any purchase decision an AI nudged them toward. This was the design problem under the design problem.
