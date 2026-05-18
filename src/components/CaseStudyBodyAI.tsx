@@ -418,24 +418,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </P>
 
               <H3>Bet 4: design for model confidence, not against it</H3>
-              <P>
-                The most consequential AI thinking we did on this project was designing the UI around what the model actually knew, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
-              </P>
-              <P>
-                Katie designed three states for the UI to handle this gracefully: full confidence across all keyword buckets, limited negative confidence (where positives surface clearly but negatives are presented more softly), and high negative confidence (where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it).
-              </P>
-              <P>
-                This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
-              </P>
-              <figure className="my-4">
-                <ZoomableImage src={modelConfidenceStates} alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  Figma — AI Review Summary (nodes 4070-705 and 4087-2105)
-                </figcaption>
-              </figure>
 
               <H3>Bet 5: make the AI summary scannable</H3>
               <P>
@@ -461,6 +443,24 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
                   UI patterns and content rules for the GenAI Review Summary.
+                </figcaption>
+              </figure>
+              <P>
+                The most consequential AI thinking we did on this project was designing the UI around what the model actually knew, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
+              </P>
+              <P>
+                Katie designed three states for the UI to handle this gracefully: full confidence across all keyword buckets, limited negative confidence (where positives surface clearly but negatives are presented more softly), and high negative confidence (where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it).
+              </P>
+              <P>
+                This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
+              </P>
+              <figure className="my-4">
+                <ZoomableImage src={modelConfidenceStates} alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Figma — AI Review Summary (nodes 4070-705 and 4087-2105)
                 </figcaption>
               </figure>
               <H2 id="launch-reframe">The launch and the reframe</H2>
