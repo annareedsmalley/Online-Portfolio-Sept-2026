@@ -286,7 +286,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </UL>
               <ZoomableImage src={aiThesis} alt="AI thesis framework graphic: six principles — Trust before flash; Transparency about AI is non-negotiable; Model confidence is a design constraint; Reframe success metrics; Show, don't hide, imperfections; Build foundationally, not feature-shaped — arranged in a two-row grid." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
 
-              <H3>My next move: choosing the right designer</H3>
+              <H3>Setup for success</H3>
               <P>
                 My next move was to pick a designer. Who I put on a project tells the team and the org what I think the project is.
               </P>
