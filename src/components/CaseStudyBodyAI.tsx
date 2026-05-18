@@ -365,12 +365,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), and Brand Category Merchants across all four brands. There was also much heavier-than usual involvement from Content Strategy (because everything the model output was content the org had not previously generated.
                 </P>
                 <P>
-                  The challenge was not getting any one of those teams to do their part. The challenge was that none of them had previously worked together at this depth, and two of those teams (Data Science and AI/ML Engineering) had not previously worked closely with the product organization at all. They had a different operating culture: they were used to setting the direction and making the final calls on the things they worked on, rather than having a product manager doing so.
-                </P>
-                <P>
-                  Our product manager was used to doing so. And the friction surfaced predictably. He asked us to be less supportive of the ideas coming from Data Science and AI/ML, because he felt they were stepping on his toes. We told him what he needed to hear, which was also true: we empathized with him, we supported him, and we would keep him in the loop on every decision. And we kept doing what we had been doing: incorporating all voices and bringing all parties into the working sessions where ideas were shaped. That dual move is how we built trust with both sides at the same time.
-                </P>
-                <P>
                   While the project was in flight, Katie ran daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with the content strategist, the brand category merchants, and the product manager.
                 </P>
                 <figure className="my-4">
@@ -382,6 +376,12 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                     Figma — AI Review Summary (node 4578-812)
                   </figcaption>
                 </figure>
+                <P>
+                  The challenge was not getting any one of those teams to do their part. The challenge was that none of them had previously worked together at this depth, and two of those teams (Data Science and AI/ML Engineering) had not previously worked closely with the product organization at all. They had a different operating culture: they were used to setting the direction and making the final calls on the things they worked on, rather than having a product manager doing so.
+                </P>
+                <P>
+                  Our product manager was used to doing so. And the friction surfaced predictably. He asked us to be less supportive of the ideas coming from Data Science and AI/ML, because he felt they were stepping on his toes. We told him what he needed to hear, which was also true: we empathized with him, we supported him, and we would keep him in the loop on every decision. And we kept doing what we had been doing: incorporating all voices and bringing all parties into the working sessions where ideas were shaped. That dual move is how we built trust with both sides at the same time.
+                </P>
               </Section>
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
