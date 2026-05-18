@@ -349,7 +349,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== Strategic Bets ===================== */}
             <Section id="strategic-bets">
-              <H2 id="strategic-bets">Design</H2>
+              <H3>Design</H3>
               <Section id="cross-functional">
                 <h3 id="cross-functional" className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">Leading the cross-functional org</h3>
                 <P>
