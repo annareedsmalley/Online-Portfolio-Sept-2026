@@ -424,12 +424,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Sticky notes grouped into themes: Way Finding, Rewards & Points, Discoverability, Loyalty program/Hub, Program Comprehension, Fun & Ease of Use, Tiering, Motivation, Value/Expectations, Customer Control, Communication, Balancing Shopping Task vs Loyalty Task, Hub/Account, Card Acquisition, and Omni/In Store."
               />
 
-              <Figure
-                src={firstBigWinImg}
-                alt="Gated Experience journey map and product gating screens from Q4 Sprint prototypes"
-                caption="The journey map shows our customer-centered methodology — making customers feel special, savvy, valued and seen — alongside product gating screens from the Q4 Sprint prototypes."
-              />
-
               <H3>The hardest part</H3>
               <P>
                 The hardest part was mapping all of the existing types of accounts and rewards options and making sure the required account merging experience was smooth for all types of account holders. We had to reconcile what would need to happen to create a simple and graceful transition experience for customers in dozens of different scenarios — e.g. "customer has an ecommerce account only and has some rewards earned through the Old Navy MTL program but also has a separate Athleta loyalty account with a different type of reward."
