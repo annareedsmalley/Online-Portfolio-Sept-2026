@@ -30,7 +30,6 @@ const sections: NavSection[] = [
   { id: "ai-thesis", title: "The AI thesis & team" },
   { id: "structuring-work", title: "Structuring the work" },
   { id: "strategic-bets", title: "Design" },
-  { id: "cross-functional", title: "Cross-functional execution" },
   { id: "launch-reframe", title: "The launch & reframe" },
   { id: "scaling", title: "Scaling across four brands" },
   { id: "lasting-impact", title: "Lasting strategic impact" },
