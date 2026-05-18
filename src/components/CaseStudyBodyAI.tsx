@@ -417,9 +417,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 I pushed for this pattern over the simpler alternatives because it carried the trust philosophy in its structure, not just its content. A single summary can be edited to feel positive. A "likes / dislikes" binary feels combative. The three-bucket structure mirrors how customers actually think (there are things I love, things I am unsure about, and things I worry about), and that mirroring is what makes it land as honest.
               </P>
 
-              <H3>Bet 4: design for model confidence, not against it</H3>
+               <H3>Bet 5: design for model confidence, not against it</H3>
 
-              <H3>Bet 5: make the AI summary scannable</H3>
+               <H3>Bet 4: make the AI summary scannable</H3>
               <P>
                 My fifth call was one I had to make repeatedly, and one that did not come from the designer or the content strategist. I pushed for using GenAI not only to produce the text summary and the attribute table, but also to bold a few key words inside the text summary, making it even more scannable. This was not something most of our competitors were doing.
               </P>
