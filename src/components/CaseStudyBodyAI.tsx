@@ -350,6 +350,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             {/* ===================== Strategic Bets ===================== */}
             <Section id="strategic-bets">
               <H3>Design</H3>
+              <figure className="my-4">
+                <ZoomableImage src={otherExplorations} alt="Other design explorations for the AI Review Summary: alternative bucket treatments with pill outlines, sentiment-color-coded keywords paired with category icons, and ratings-at-a-glance variants showing per-attribute bar scores with summary text." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Other design explorations considered before landing on the three-bucket system.
+                </figcaption>
+              </figure>
               <Section id="cross-functional">
                 <h3 id="cross-functional" className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">Leading the cross-functional org</h3>
                 <P>
@@ -374,15 +383,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   </figcaption>
                 </figure>
               </Section>
-              <figure className="my-4">
-                <ZoomableImage src={otherExplorations} alt="Other design explorations for the AI Review Summary: alternative bucket treatments with pill outlines, sentiment-color-coded keywords paired with category icons, and ratings-at-a-glance variants showing per-attribute bar scores with summary text." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  Other design explorations considered before landing on the three-bucket system.
-                </figcaption>
-              </figure>
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
               </P>
