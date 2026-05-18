@@ -75,11 +75,6 @@ const CaseStudyAIReviews = () => {
                 </Reveal>
               ))}
             </div>
-            <Reveal delay={240}>
-              <p className="max-w-xl text-xs text-body leading-relaxed">
-                Cross-functional partners: Data Science, AI/ML Engineering, Product, Platform Engineering, Brand Producers and Category Merchants (×4), UX Research, Content Strategy, Design Systems, UX Leadership
-              </p>
-            </Reveal>
           </div>
 
           <div className="flex justify-center md:col-start-2 md:justify-end">
