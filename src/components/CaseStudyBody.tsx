@@ -581,6 +581,11 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                <P>
                  As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in dead clicks on variants that could not be combined with variants already selected for other attributes.</strong>
                </P>
+              <Figure
+                src={twoSolutionsImg}
+                alt="Two Solutions"
+                caption="Caption of the visual"
+              />
               <P>
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
@@ -609,11 +614,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, <strong>Gap Inc.'s brand promise is not Amazon's brand promise.</strong>
               </P>
-              <Figure
-                src={twoSolutionsImg}
-                alt="Two Solutions"
-                caption="Caption of the visual"
-              />
               <H3>The second solution: comparison table</H3>
 
               <P>
