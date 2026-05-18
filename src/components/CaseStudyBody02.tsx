@@ -419,11 +419,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 The types of customer account states we had to track included: enrollment in Gap Inc. Loyalty or MTL/Encore tiers (Core, Premier, All-Access), credit card holder status (Gap/Barclays/Encore Mastercard for 5x points earning), ecommerce account existence (for login, points accrual across brands, and Loyalty Hub access), and rewards/points balance.
               </P>
-              <Figure
-                src={managingComplexityGroupedImg}
-                alt="Sticky notes grouped into themes: Way Finding, Rewards & Points, Discoverability, Loyalty program/Hub, Program Comprehension, Fun & Ease of Use, Tiering, Motivation, Value/Expectations, Customer Control, Communication, Balancing Shopping Task vs Loyalty Task, Hub/Account, Card Acquisition, and Omni/In Store."
-              />
-
               <H3>The hardest part</H3>
               <P>
                 The hardest part was mapping all of the existing types of accounts and rewards options and making sure the required account merging experience was smooth for all types of account holders. We had to reconcile what would need to happen to create a simple and graceful transition experience for customers in dozens of different scenarios — e.g. "customer has an ecommerce account only and has some rewards earned through the Old Navy MTL program but also has a separate Athleta loyalty account with a different type of reward."
