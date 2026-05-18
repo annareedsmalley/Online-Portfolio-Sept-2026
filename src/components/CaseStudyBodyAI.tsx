@@ -29,7 +29,7 @@ const sections: NavSection[] = [
   { id: "the-situation", title: "The situation" },
   { id: "ai-thesis", title: "The AI thesis & team" },
   { id: "structuring-work", title: "Structuring the work" },
-  { id: "strategic-bets", title: "Design Phase" },
+  { id: "strategic-bets", title: "Design" },
   { id: "cross-functional", title: "Cross-functional execution" },
   { id: "launch-reframe", title: "The launch & reframe" },
   { id: "scaling", title: "Scaling across four brands" },
@@ -349,7 +349,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== Strategic Bets ===================== */}
             <Section id="strategic-bets">
-              <H2 id="strategic-bets">Design Phase</H2>
+              <H2 id="strategic-bets">Design</H2>
               <Section id="cross-functional">
                 <h3 id="cross-functional" className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">Leading the cross-functional org</h3>
                 <P>
