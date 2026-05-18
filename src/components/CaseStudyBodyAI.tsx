@@ -324,7 +324,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
               <H3>Discovery and competitive analysis</H3>
               <P>
-                We started with a deep look at how other retailers were handling AI review summaries: Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
+                Working closely with our UXR team, Katie's next step was looking at how other retailers were handling their AI review summaries, including Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
               </P>
               <figure className="my-4">
                 <ZoomableImage src={competitiveAnalysis} alt="Competitive analysis grid: the four reference retailers (Amazon, Target, NewEgg, Expedia) with annotated callouts on what each got right and where the trust gap lived." className="overflow-hidden w-full h-auto rounded-2xl" />
