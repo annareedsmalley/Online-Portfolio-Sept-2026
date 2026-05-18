@@ -15,6 +15,7 @@ import abResults from "@/assets/cs03/ab-results.png";
 import crossBrandScale from "@/assets/cs03/cross-brand-scale.png";
 import uiPatternsAiSummary from "@/assets/cs03/ui-patterns-ai-summary.png";
 import otherExplorations from "@/assets/cs03/other-explorations.png";
+import otherExplorations2 from "@/assets/cs03/other-explorations-2.png";
 
 interface NavSection {
   id: string;
@@ -384,6 +385,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite: told the customer this is AI, labeled the section, and used a disclaimer to acknowledge the model's limits. This is the trust-first thesis expressed in copy rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
               </P>
+              <figure className="my-4">
+                <ZoomableImage src={otherExplorations2} alt="Other explorations board showing alternative AI review summary layouts including outlined keyword pills, attribute-icon groupings with color-coded sentiment, and ratings-at-a-glance bar score variants." className="overflow-hidden w-full h-auto rounded-2xl" />
+              </figure>
 
               <H3>Bet 3: use a 3-bucket sentiment system</H3>
               <P>
