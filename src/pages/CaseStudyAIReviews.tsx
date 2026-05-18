@@ -15,7 +15,7 @@ const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/designing-tru
 const impacts = [
   {
     label: "A COMPANY FIRST",
-    body: "Shipped Gap Inc.'s first customer-facing Generative AI feature on Athleta and Old Navy in early 2025, with Gap rollout slated based on the success of the launch.",
+    body: "Shipped Gap Inc.'s first customer-facing Generative AI feature on Athleta and Old Navy in early 2025, soon followed by Gap and Banana Republic.",
   },
   {
     label: "$2.5M IN TRUST",
