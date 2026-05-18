@@ -297,9 +297,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 She was also an experienced native app designer when she joined my team. That meant much more of her career had been spent designing for small screens than the rest of my team, who all had experience designing for desktop as well. Mobile is where most of our customers shop, and the constraint of a small screen is where AI either earns its keep or wastes the customer's time. Katie brought the right instincts for that constraint.
               </P>
 
-              <P>
-                Once Katie was on the project, my role was to set the conditions for her to do her best work. She presented her own designs in cross-functional reviews. She led conversations with the AI/ML team and the Data Science team. She drove the UXR plan with our researcher. I did not present her work and I did not speak for her in stakeholder meetings.
-              </P>
+              <P>Once Katie was on the project, my role was to set the conditions for her to do her best work. </P>
               <P>
                 What I did was bridge. Katie was new to Gap Inc., and she had a lot on her plate already, which meant she had not yet built the relationships across Brand, Product, and UX leadership that I had spent years developing. I used those relationships to make her path easier. I made sure she walked into rooms that were already warmed up to her, I translated the political subtext when she needed it, and I backed her up when a stakeholder pushed back on a recommendation we knew was right.
               </P>
