@@ -26,7 +26,7 @@ interface CaseStudyBodyAIProps {
 }
 
 const sections: NavSection[] = [
-  { id: "the-situation", title: "The situation" },
+  { id: "the-situation", title: "Context" },
   { id: "ai-thesis", title: "The AI thesis & team" },
   { id: "structuring-work", title: "Structuring the work" },
   { id: "strategic-bets", title: "Design Phase" },
@@ -227,9 +227,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
           <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
             <PasswordGate>
 
-            {/* ===================== The Situation ===================== */}
+            {/* ===================== Context ===================== */}
             <Section id="the-situation">
-              <H2 id="the-situation">The situation</H2>
+              <H2 id="the-situation">Context</H2>
               <P>
                 Every retailer in 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who had originally proposed using AI to generate review summaries and highlights for customers. So this was a project I had helped seed long before the brief landed on my team.
               </P>
@@ -239,7 +239,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 My team owned the PDP across all four brands, which meant any customer-facing AI on a PDP would route through us. There was a precedent worth noting here. <strong>A separate UX team dedicated to strategic initiatives for Athleta had recently tried and failed to launch an Athleta AI fashion assistant chatbot.</strong> Leadership made the deliberate choice not to give that team the AI review summaries work, even though Athleta was one of the brands most interested in the feature. This work landed on my team instead.
               </P>
-              <H3>My read on the situation</H3>
+              <H3>My read on the context</H3>
               <P>
                 When the brief came in, my first thought was that we were not being asked to ship a feature. We were being asked to set a precedent. This was going to be the first time a Gap Inc. customer would knowingly interact with AI on our site, and whatever pattern we established here would set the bar, both internally and externally, for every AI experience that came after.
               </P>
