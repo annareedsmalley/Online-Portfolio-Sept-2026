@@ -359,8 +359,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Other design explorations considered before landing on the three-bucket system.
                 </figcaption>
               </figure>
-              <Section id="cross-functional">
-              </Section>
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
               </P>
