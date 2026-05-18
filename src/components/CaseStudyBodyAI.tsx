@@ -359,14 +359,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Other design explorations considered before landing on the three-bucket system.
                 </figcaption>
               </figure>
-              <Section id="cross-functional">
-                <P>
-                  The challenge was not getting any one of those teams to do their part. The challenge was that none of them had previously worked together at this depth, and two of those teams (Data Science and AI/ML Engineering) had not previously worked closely with the product organization at all. They had a different operating culture: they were used to setting the direction and making the final calls on the things they worked on, rather than having a product manager doing so.
-                </P>
-                <P>
-                  Our product manager was used to doing so. And the friction surfaced predictably. He asked us to be less supportive of the ideas coming from Data Science and AI/ML, because he felt they were stepping on his toes. We told him what he needed to hear, which was also true: we empathized with him, we supported him, and we would keep him in the loop on every decision. And we kept doing what we had been doing: incorporating all voices and bringing all parties into the working sessions where ideas were shaped. That dual move is how we built trust with both sides at the same time.
-                </P>
-              </Section>
               <P>
                 Once we understood the trust problem, Katie and I aligned on five calls about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision — the kind of call where you have to hold the line through pushback from people who would rather not be there.
               </P>
@@ -543,6 +535,8 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li>The bolded-keywords idea, which originated from me rather than from the designer or content strategist, and which the natural Gap-can't-bold experiment later validated. It is the smallest design decision I am most proud of, in part because it came from a neuroinclusive instinct that turned out to help everyone.</li>
                 <li>A design solution that respected each brand's legitimate fear of presenting their own products poorly, on their own brand website, while holding the line on ethical integrity and customer trust. The brands and the customers both got something they needed.</li>
                 <li>Investing in Katie. Putting a senior designer on a project of this profile, then staying out of her way and letting her headline, is the kind of leadership decision I will keep making.</li>
+                <li>The challenge was not getting any one of those teams to do their part. The challenge was that none of them had previously worked together at this depth, and two of those teams (Data Science and AI/ML Engineering) had not previously worked closely with the product organization at all. They had a different operating culture: they were used to setting the direction and making the final calls on the things they worked on, rather than having a product manager doing so.</li>
+                <li>Our product manager was used to doing so. And the friction surfaced predictably. He asked us to be less supportive of the ideas coming from Data Science and AI/ML, because he felt they were stepping on his toes. We told him what he needed to hear, which was also true: we empathized with him, we supported him, and we would keep him in the loop on every decision. And we kept doing what we had been doing: incorporating all voices and bringing all parties into the working sessions where ideas were shaped. That dual move is how we built trust with both sides at the same time.</li>
               </UL>
             </Section>
             </PasswordGate>
