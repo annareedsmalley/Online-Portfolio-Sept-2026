@@ -360,7 +360,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 </figcaption>
               </figure>
               <Section id="cross-functional">
-                <h3 id="cross-functional" className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">Leading the cross-functional org</h3>
                 <P>
                   A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), and Brand Category Merchants across all four brands. There was also much heavier-than usual involvement from Content Strategy (because everything the model output was content the org had not previously generated.
                 </P>
