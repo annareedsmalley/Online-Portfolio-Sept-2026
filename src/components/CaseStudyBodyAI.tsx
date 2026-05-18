@@ -321,7 +321,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Customers want a synthesis. The question was whether they would trust an AI to do that synthesis honestly.
               </Pullquote>
 
-              <H3>Discovery and competitive analysis</H3>
+              <H3>Discovery</H3>
               <P>
                 Working closely with our UXR team, Katie's next step was looking at how other retailers were handling their AI review summaries, including Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
               </P>
