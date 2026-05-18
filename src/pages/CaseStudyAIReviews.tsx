@@ -33,10 +33,6 @@ const impacts = [
     label: "TEAM ALIGNMENT AT SCALE",
     body: "Coordinated Data Science, AI/ML Engineering, Product, Engineering, UX, UXR, Content Strategy, Brand, and Design Systems around a single customer-facing AI experience.",
   },
-  {
-    label: "CUSTOMER TRUST, VALIDATED",
-    body: "Qualitatively confirmed in moderated UX research, with participants describing the experience as transparent and 'more accurate' than universally positive review summaries elsewhere.",
-  },
 ];
 
 const CaseStudyAIReviews = () => {
