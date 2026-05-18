@@ -361,21 +361,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </figure>
               <Section id="cross-functional">
                 <P>
-                  A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), and Brand Category Merchants across all four brands. There was also much heavier-than usual involvement from Content Strategy (because everything the model output was content the org had not previously generated.
-                </P>
-                <P>
-                  While the project was in flight, Katie ran daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with the content strategist, the brand category merchants, and the product manager.
-                </P>
-                <figure className="my-4">
-                  <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
-                  <figcaption
-                    className="mt-3 font-normal"
-                    style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
-                  >
-                    Figma — AI Review Summary (node 4578-812)
-                  </figcaption>
-                </figure>
-                <P>
                   The challenge was not getting any one of those teams to do their part. The challenge was that none of them had previously worked together at this depth, and two of those teams (Data Science and AI/ML Engineering) had not previously worked closely with the product organization at all. They had a different operating culture: they were used to setting the direction and making the final calls on the things they worked on, rather than having a product manager doing so.
                 </P>
                 <P>
@@ -417,6 +402,21 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 I pushed for this pattern over the simpler alternatives because it carried the trust philosophy in its structure, not just its content. A single summary can be edited to feel positive. A "likes / dislikes" binary feels combative. The three-bucket structure mirrors how customers actually think (there are things I love, things I am unsure about, and things I worry about), and that mirroring is what makes it land as honest.
               </P>
 
+              <P>
+                A feature like this lives or dies on cross-functional execution. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), and Brand Category Merchants across all four brands. There was also much heavier-than usual involvement from Content Strategy (because everything the model output was content the org had not previously generated.
+              </P>
+              <P>
+                While the project was in flight, Katie ran daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with the content strategist, the brand category merchants, and the product manager.
+              </P>
+              <figure className="my-4">
+                <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Figma — AI Review Summary (node 4578-812)
+                </figcaption>
+              </figure>
               <H3>Bet 4: make the AI summary scannable</H3>
               <P>
                 My fifth call was one I had to make repeatedly, and one that did not come from the designer or the content strategist. I pushed for using GenAI not only to produce the text summary and the attribute table, but also to bold a few key words inside the text summary, making it even more scannable. This was not something most of our competitors were doing.
