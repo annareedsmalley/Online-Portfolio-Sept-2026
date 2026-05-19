@@ -38,7 +38,7 @@ const sections: NavSection[] = [
   { id: "leadership-context", title: "Context" },
   { id: "integrated-loyalty", title: "Integrated loyalty" },
   { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty" },
-  { id: "payoff-product-gating", title: "The payoff: product gating" },
+  { id: "payoff-product-gating", title: "Product gating" },
   { id: "reflections", title: "Reflections" },
 ];
 
