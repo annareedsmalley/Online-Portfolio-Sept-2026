@@ -38,7 +38,7 @@ const sections: NavSection[] = [
   { id: "leadership-context", title: "Context" },
   { id: "integrated-loyalty", title: "Integrated loyalty" },
   { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty" },
-  { id: "payoff-product-gating", title: "The payoff: product gating" },
+  { id: "payoff-product-gating", title: "Product gating" },
   { id: "reflections", title: "Reflections" },
 ];
 
@@ -518,7 +518,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== The Payoff: Product Gating ===================== */}
             <Section id="payoff-product-gating">
-              <H2 id="payoff-product-gating">The payoff: product gating (2024–2025)</H2>
+              <H2 id="payoff-product-gating">Product gating (2024–2025)</H2>
 
               <H3>The first big win</H3>
               <P>
