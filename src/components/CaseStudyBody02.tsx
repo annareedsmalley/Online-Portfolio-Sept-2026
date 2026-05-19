@@ -39,6 +39,7 @@ const sections: NavSection[] = [
   { id: "integrated-loyalty", title: "Integrated loyalty" },
   { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty" },
   { id: "payoff-product-gating", title: "Product gating" },
+  { id: "impact", title: "Impact" },
   { id: "reflections", title: "Reflections" },
 ];
 
@@ -556,7 +557,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 src={builtOnce2Img}
                 alt="Add to Bag restricted message tile shared component themed across Gap, Old Navy, Banana Republic, and Athleta"
               />
-              <H3>Impact</H3>
+              <H2 id="impact">Impact</H2>
               <StatBlock value="25%" label="The amount of engineering and design time it now takes to propagate a new experience across all four brands, compared to the time it would have taken last year, before we launched Headless UI." />
               <P>
                 Given the impact of just one campaign, for one brand, the potential is exponential.
