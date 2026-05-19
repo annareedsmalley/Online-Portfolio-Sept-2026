@@ -518,7 +518,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== The Payoff: Product Gating ===================== */}
             <Section id="payoff-product-gating">
-              <H2 id="payoff-product-gating">The payoff: product gating (2024–2025)</H2>
+              <H2 id="payoff-product-gating">Product gating (2024–2025)</H2>
 
               <H3>The first big win</H3>
               <P>
