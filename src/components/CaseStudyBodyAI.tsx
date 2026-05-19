@@ -27,11 +27,10 @@ interface CaseStudyBodyAIProps {
 }
 
 const sections: NavSection[] = [
-  { id: "the-situation", title: "The situation" },
-  { id: "ai-thesis", title: "The AI thesis & team" },
-  { id: "structuring-work", title: "Structuring the work" },
-  { id: "strategic-bets", title: "Design" },
-  { id: "launch-reframe", title: "The launch & reframe" },
+  { id: "the-situation", title: "Context" },
+  { id: "ai-thesis", title: "The AI thesis I walked in with" },
+  { id: "structuring-work", title: "How I structured the team's work" },
+  { id: "launch-reframe", title: "The launch and the reframe" },
   { id: "scaling", title: "Scaling across four brands" },
   { id: "lasting-impact", title: "Lasting strategic impact" },
   { id: "reflections", title: "Reflections" },
