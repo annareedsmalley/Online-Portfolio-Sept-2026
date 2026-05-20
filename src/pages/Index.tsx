@@ -220,7 +220,7 @@ const testimonials = [
   {
     quote:
       "She rebuilt our design org during a year of constant change without losing a single major initiative. Calm, decisive, and deeply trusted by execs.",
-    author: "Jordan K.",
+    author: "Kimberly K.",
     role: "Director of Engineering",
     topic: "Leadership",
   },
