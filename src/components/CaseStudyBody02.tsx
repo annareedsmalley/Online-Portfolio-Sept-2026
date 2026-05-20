@@ -22,7 +22,7 @@ import journeyEnrollImg from "@/assets/cs02/journey-enroll.png";
 import journeyEarnImg from "@/assets/cs02/journey-earn.png";
 import journeyRedeemImg from "@/assets/cs02/journey-redeem.png";
 import preIntegratedLoyaltyImg from "@/assets/cs02/pre-integrated-loyalty.png";
-import twoGapIncFirstsImg from "@/assets/cs02/two-gap-inc-firsts.jpg";
+import twoGapIncFirstsImg from "@/assets/cs02/progressive-sign-in.png";
 import gapCultGaiaNewsroomImg from "@/assets/cs02/gap-cult-gaia-newsroom.png";
 import gapProductGatingPdpImg from "@/assets/cs02/gap-product-gating-pdp.png";
 import gapCultGaiaResultsImg from "@/assets/cs02/gap-cult-gaia-results.png";
@@ -439,7 +439,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <Figure
                 src={twoGapIncFirstsImg}
-                alt="Two Gap Inc. firsts: first time offering free shipping benefits to loyalty accounts, and first time customers could enter their email to check if they already had an account, shown with mobile screens from Gap and Old Navy."
+                alt="Before and after mobile screens showing the progressive sign-in flow: previously a full Create an Account form, now a single email field under One Membership, Four Brands."
               />
 
               <H3>The launch</H3>
