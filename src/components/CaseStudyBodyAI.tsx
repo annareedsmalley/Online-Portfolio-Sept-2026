@@ -15,6 +15,7 @@ import abResults from "@/assets/cs03/ab-results.png";
 import crossBrandScale from "@/assets/cs03/cross-brand-scale.png";
 import uiPatternsAiSummary from "@/assets/cs03/ui-patterns-ai-summary.png";
 import otherExplorations from "@/assets/cs03/other-explorations.png";
+import otherExplorations3 from "@/assets/cs03/other-explorations-3.png";
 
 
 interface NavSection {
@@ -376,6 +377,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite: told the customer this is AI, labeled the section, and used a disclaimer to acknowledge the model's limits. This is the trust-first thesis expressed in copy rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
               </P>
 
+              <figure className="my-4">
+                <ZoomableImage src={otherExplorations3} alt="Early explorations: five card variants of the AI Review Summary showing different ways to surface customer sentiment, including review summary text, keyword pill groups (Likes, Mixed, Dislikes), attribute clusters with counts, and ratings-and-reviews-at-a-glance bar variants." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Figma — Early explorations of sentiment surfacing patterns
+                </figcaption>
+              </figure>
               <H3>Bet 3: use a 3-bucket sentiment system</H3>
               <P>
                 Katie explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a 3-bucket system that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
