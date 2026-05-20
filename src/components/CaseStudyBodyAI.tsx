@@ -10,7 +10,7 @@ import competitiveAnalysis from "@/assets/cs03/competitive-analysis.png";
 import trustFailureModes from "@/assets/cs03/trust-failure-modes.png";
 import threeBucketSentiment from "@/assets/cs03/three-bucket-sentiment.png";
 import modelConfidenceStates from "@/assets/cs03/model-confidence-states.png";
-import keywordCollaboration from "@/assets/cs03/keyword-collaboration.png";
+
 import abResults from "@/assets/cs03/ab-results.png";
 import crossBrandScale from "@/assets/cs03/cross-brand-scale.png";
 import uiPatternsAiSummary from "@/assets/cs03/ui-patterns-ai-summary.png";
