@@ -8,7 +8,7 @@ import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import { caseStudies } from "@/data/caseStudies";
 import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
-import heroVisual from "@/assets/cs03/hero.png";
+
 
 const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/designing-trust-into-ai-feature");
 
@@ -73,15 +73,6 @@ const CaseStudyAIReviews = () => {
             </div>
           </div>
 
-          <div className="flex justify-center md:col-start-2 md:justify-end">
-            <Reveal delay={120}>
-              <img
-                src={heroVisual}
-                alt="The GenAI Review Summary feature on Athleta and Old Navy product pages, with the four Gap Inc. brand wordmarks beneath."
-                className="w-full h-auto rounded-2xl"
-              />
-            </Reveal>
-          </div>
         </div>
       </section>
 
