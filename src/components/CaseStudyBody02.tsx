@@ -17,7 +17,7 @@ import approachedWork1Img from "@/assets/cs02/hui-infographic.png";
 import approachedWork3Img from "@/assets/cs02/approached-work-3.png";
 import firstBigWinImg from "@/assets/cs02/first-big-win.png";
 import firstBigWin2Video from "@/assets/cs02/first-big-win-2.mov";
-import builtOnce2Img from "@/assets/cs02/built-once-2.png";
+import builtOnce2Img from "@/assets/cs02/gated-products-shared-components.png";
 import journeyEnrollImg from "@/assets/cs02/journey-enroll.png";
 import journeyEarnImg from "@/assets/cs02/journey-earn.png";
 import journeyRedeemImg from "@/assets/cs02/journey-redeem.png";
