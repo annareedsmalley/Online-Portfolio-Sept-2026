@@ -58,7 +58,7 @@ const CaseStudyAIReviews = () => {
               </span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
-              The GenAI Review Summary, scaled across all four brands.
+              Gap Inc.'s Gen AI Review Summaries, scaled across four brands.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {[
