@@ -284,7 +284,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li><strong>Show, don't hide, imperfections.</strong> My research told me that customers are sophisticated readers of reviews. They often actively look for negatives — they use them to test whether a product is right for them. An AI summary that scrubs the negatives reads as marketing copy and erodes trust.</li>
                 <li><strong>Build foundationally, not feature-shaped.</strong> Whatever we shipped here had to be designed so the next ten AI features at Gap Inc. could inherit from it: components, sentiment patterns, confidence states, disclosure language. Otherwise we were going to keep paying this design tax forever.</li>
               </UL>
-              <ZoomableImage src={aiThesis} alt="AI thesis framework graphic: six principles — Trust before flash; Transparency about AI is non-negotiable; Model confidence is a design constraint; Reframe success metrics; Show, don't hide, imperfections; Build foundationally, not feature-shaped — arranged in a two-row grid." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
+              <ZoomableImage src={aiThesis} alt="AI feature thesis: four principles — 01 Build trust first, not flash; 02 Transparency about AI is foundational to trust; 03 Model confidence is a design constraint; 05 Show, don't hide, imperfections — laid out as four cards in a row." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
 
               <H3>Staffing + Setup for Success</H3>
               <P>
