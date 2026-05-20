@@ -1,6 +1,7 @@
 import fourBrandsImg from "@/assets/case-study-gap-thumbnail.png";
 import placeholder03 from "@/assets/placeholder-featured-03.png";
 import membershipImg from "@/assets/four-brands-membership-thumbnail.png";
+import aiTrustImg from "@/assets/designing-trust-ai-thumbnail.png";
 
 export interface CaseStudyEntry {
   to: string;
@@ -35,8 +36,8 @@ export const caseStudies: CaseStudyEntry[] = [
     to: "/work/designing-trust-into-ai-feature",
     title: "Designing trust into Gap Inc.'s first customer-facing AI feature",
     tags: "Customer-Facing GenAI",
-    image: placeholder03,
-    imageAlt: "Placeholder: add featured image for Designing trust into Gap Inc.'s first customer-facing AI feature",
+    image: aiTrustImg,
+    imageAlt: "iPhone showing an AI-generated 'What Customers Are Telling Us' review summary",
     arrowColor: "#1B1918",
     titleColor: "#1B1918",
   },
