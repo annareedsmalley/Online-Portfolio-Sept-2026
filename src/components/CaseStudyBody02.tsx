@@ -11,6 +11,7 @@ import managingComplexityGroupedImg from "@/assets/cs02/managing-complexity-grou
 import twoFirstsImg from "@/assets/cs02/two-firsts.png";
 import integratedLoyaltyIdentityImg from "@/assets/cs02/integrated-loyalty-identity.png";
 import results2Img from "@/assets/cs02/results-2.png";
+import launchPressReleaseImg from "@/assets/cs02/launch-press-release.png";
 import approachedWork1Img from "@/assets/cs02/approached-work-1.png";
 import approachedWork3Img from "@/assets/cs02/approached-work-3.png";
 import firstBigWinImg from "@/assets/cs02/first-big-win.png";
@@ -450,8 +451,8 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               </P>
 
               <Figure
-                src={results2Img}
-                alt="Gap Inc. announcement 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' highlighting 19 million new customers and 37 million combined Cardmembers and Rewards members migrated to the new program."
+                src={launchPressReleaseImg}
+                alt="Primary source: Gap Inc. press release 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' (May 26, 2023) highlighting 19 million new customers enrolled in less than 12 months and 37 million combined Cardmembers and Rewards members migrated to the new program."
               />
 
               <H3>The results</H3>
