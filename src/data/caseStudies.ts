@@ -1,5 +1,4 @@
 import fourBrandsImg from "@/assets/case-study-gap-thumbnail.png";
-import fourBrandsMembershipImg from "@/assets/four-brands-one-membership-thumbnail.png";
 import placeholder03 from "@/assets/placeholder-featured-03.png";
 
 export interface CaseStudyEntry {
