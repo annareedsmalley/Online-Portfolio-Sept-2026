@@ -1,5 +1,4 @@
 import fourBrandsImg from "@/assets/case-study-gap-thumbnail.png";
-import fourBrandsMembershipImg from "@/assets/four-brands-one-membership-thumbnail.png";
 import placeholder03 from "@/assets/placeholder-featured-03.png";
 
 export interface CaseStudyEntry {
@@ -17,7 +16,7 @@ export const caseStudies: CaseStudyEntry[] = [
     to: "/work/four-brands-one-membership",
     title: "Building a unified membership platform for four brands at Gap Inc.",
     tags: "AI & Customer Experience",
-    image: fourBrandsMembershipImg,
+    image: placeholder03,
     imageAlt: "Placeholder: add featured image for Building a unified membership platform for four brands at Gap Inc.",
     arrowColor: "#1B1918",
     titleColor: "#1B1918",
