@@ -7,7 +7,7 @@ import { ArchCaseStudyCard } from "@/components/ArchCaseStudyCard";
 import { CaseStudyBody02 } from "@/components/CaseStudyBody02";
 import { ArrowLeft, Briefcase, Calendar, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
-import gapRewardsWelcome from "@/assets/cs02/gap-rewards-welcome-iphone.png";
+
 import { caseStudies } from "@/data/caseStudies";
 import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
@@ -77,13 +77,6 @@ const CaseStudySalesforce = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-6 md:col-start-2 items-center md:items-end">
-            <img
-              src={gapRewardsWelcome}
-              alt="Gap Good Rewards welcome screen on iPhone"
-              className="w-full h-auto rounded-2xl"
-            />
-          </div>
         </div>
       </section>
 
