@@ -13,7 +13,7 @@ import integratedLoyaltyIdentityImg from "@/assets/cs02/integrated-loyalty-ident
 import integratedLoyaltyUmbrellaImg from "@/assets/cs02/integrated-loyalty-umbrella.png";
 import results2Img from "@/assets/cs02/results-2.png";
 import launchPressReleaseImg from "@/assets/cs02/launch-press-release.png";
-import approachedWork1Img from "@/assets/cs02/approached-work-1.png";
+import approachedWork1Img from "@/assets/cs02/hui-infographic.png";
 import approachedWork3Img from "@/assets/cs02/approached-work-3.png";
 import firstBigWinImg from "@/assets/cs02/first-big-win.png";
 import firstBigWin2Video from "@/assets/cs02/first-big-win-2.mov";
@@ -508,7 +508,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               </P>
               <Figure
                 src={approachedWork1Img}
-                alt="Illustration of evolved design approach: unsustainable variance converges to a themed foundation, then diverges into responsible, expressive variance"
+                alt="Headless UI infographic: unsustainable variance converges into one shared system, then diverges into expressive, responsible variance across Gap, Athleta, Banana Republic, and Old Navy"
               />
               <Figure
                 src={approachedWork3Img}
