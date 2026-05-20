@@ -234,10 +234,10 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Every retailer in early 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who proposed using AI to generate review summaries and highlights for customers.
               </P>
               <P>
-                Executive leadership came to us with a brief that was deliberately open: <strong>pilot an AI-generated review summary on the PDP, with any brand that was interested, and see if we could make it succeed</strong>. The technology already existed internally. SCOUT is an LLM-based tool that classifies sentiment, extracts key phrases, identifies recurring themes across thousands of reviews, and generates a concise summary of customer opinions. The ask was: put a UI on it, ship it, and learn.
+                Later in 2024, executive leadership drafted a brief that was deliberately open: <strong>pilot an AI-generated review summary on the PDP, with any brand that was interested, and see if we could make it succeed</strong>. The technology already existed internally. SCOUT is an LLM-based tool that classifies sentiment, extracts key phrases, identifies recurring themes across thousands of reviews, and generates a concise summary of customer opinions. The ask was: put a UI on it, ship it, and learn.
               </P>
               <P>
-                My team owned the PDP across all four brands, which meant any customer-facing AI on a PDP would route through us. There was a precedent worth noting here. <strong>A separate UX team dedicated to strategic initiatives for Athleta had recently tried and failed to launch an Athleta AI fashion assistant chatbot.</strong> Leadership made the deliberate choice not to give that team the AI review summaries work, even though Athleta was one of the brands most interested in the feature. This work landed on my team instead.
+                Soon after, it became clear that Athleta was the brand most interested in Gen AI review summaries. Because of this, leadership could have asked a separate design team dedicated to strategic initiatives for Athleta, to lead this work. However, that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. The decision was made that my team would take on this work.
               </P>
               <H3>My read on the situation</H3>
               <P>
