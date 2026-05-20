@@ -11,7 +11,7 @@ import crossFunctionalAlignment2Img from "@/assets/cross-functional-alignment-2.
 import validatingUserResearchImg from "@/assets/validating-user-research.png";
 import aikidoAmazonPushImg from "@/assets/aikido-amazon-push.png";
 import solutionBComparisonTableImg from "@/assets/solution-b-comparison-table.png";
-import twoSolutionsImg from "@/assets/two-solutions.png";
+import deadLinksOnPdpImg from "@/assets/dead-links-on-pdp.png";
 import guidelinesThatLastedImg from "@/assets/guidelines-that-lasted.png";
 
 interface NavSection {
@@ -581,9 +581,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                  As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in dead clicks on variants that could not be combined with variants already selected for other attributes.</strong>
                </P>
               <Figure
-                src={twoSolutionsImg}
-                alt="Two Solutions"
-                caption="Caption of the visual"
+                src={deadLinksOnPdpImg}
+                alt="Mobile PDP showing dead links on size and Wide Leg variants that could not be combined with other selected attributes."
+                caption="Short, Wide Leg pants have never existed, causing dead links."
               />
               <P>
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
