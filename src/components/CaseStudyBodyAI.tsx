@@ -274,7 +274,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="ai-thesis">
               <H2 id="ai-thesis">The AI thesis I walked in with</H2>
               <P>
-                Before any design work started, I made sure my team and our cross-functional partners understood the lens I was bringing to this. Six principles, which I came back to again and again as we worked:
+                Before any design work started, I made sure my team and our cross-functional partners understood the lens I was bringing to this. Four principles, which I came back to again and again as we worked:
               </P>
               <ZoomableImage src={aiThesis} alt="AI feature thesis: four principles — 01 Build trust first, not flash; 02 Transparency about AI is foundational to trust; 03 Model confidence is a design constraint; 05 Show, don't hide, imperfections — laid out as four cards in a row." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
 
