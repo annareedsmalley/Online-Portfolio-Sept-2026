@@ -10,6 +10,7 @@ import managingComplexityImg from "@/assets/cs02/managing-complexity.png";
 import managingComplexityGroupedImg from "@/assets/cs02/managing-complexity-grouped.png";
 import twoFirstsImg from "@/assets/cs02/two-firsts.png";
 import integratedLoyaltyIdentityImg from "@/assets/cs02/integrated-loyalty-identity.png";
+import integratedLoyaltyUmbrellaImg from "@/assets/cs02/integrated-loyalty-umbrella.png";
 import results2Img from "@/assets/cs02/results-2.png";
 import launchPressReleaseImg from "@/assets/cs02/launch-press-release.png";
 import approachedWork1Img from "@/assets/cs02/approached-work-1.png";
@@ -386,8 +387,8 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 <li><strong>Seamless omnichannel</strong> — Same experience in stores and online, across all brands</li>
               </UL>
               <Figure
-                src={integratedLoyaltyIdentityImg}
-                alt="Integrated Loyalty framework diagram showing three pillars: Program Foundation (unified identity, single points bank, streamlined communication, easy enrollment), Value Proposition & Omni CX (on-demand redemption, recognition, differentiated shipping, cross-brand benefits), and Loyalty Self-Service & Account Management (self-service empowerment, personalized customer care)."
+                src={integratedLoyaltyUmbrellaImg}
+                alt="Integrated loyalty program (MTL & Card) under one umbrella with brand expressions and one value prop: Gap, Banana Republic, Old Navy, and Athleta unified via Account Unification (unified identity across MTL, Card, Ecomm; single points bank; streamlined communication; easy enrollment) and New Program Features (on-demand points redemption, recognition and personalization, differentiated shipping promise, branded and cross-brand benefits)."
               />
 
               <H3>My team's role</H3>
