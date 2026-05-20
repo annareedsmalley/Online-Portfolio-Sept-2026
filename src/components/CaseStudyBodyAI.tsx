@@ -272,6 +272,19 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== AI Thesis & Team ===================== */}
             <Section id="ai-thesis">
+              <H2 id="ai-thesis">The AI thesis I walked in with</H2>
+              <P>
+                Before any design work started, I made sure my team and our cross-functional partners understood the lens I was bringing to this. Six principles, which I came back to again and again as we worked:
+              </P>
+              <UL>
+                <li><strong>Trust before flash.</strong> Not everyone trusts AI by default. Our job was not to show off the model. It was to design something customers would actually want to use, that happened to be AI underneath.</li>
+                <li><strong>Transparency about AI is non-negotiable.</strong> Disclosure that AI is involved is both an ethics commitment and a trust commitment. Customers can tell when something has been generated. Pretending otherwise is what triggers the "what are they hiding?" reflex.</li>
+                <li><strong>Model confidence is a design constraint.</strong> AI is uneven: confident on some products, weak on others. The UI has to gracefully reflect what the model actually knows, and never pretend to be certain.</li>
+                <li><strong>Reframe success metrics.</strong> AI features that help customers make better decisions often do not lift conversion in the short term. They reduce returns, complaints, and support load. We needed to set up the measurement plan to capture the right signal, not the most familiar one.</li>
+                <li><strong>Show, don't hide, imperfections.</strong> My research told me that customers are sophisticated readers of reviews. They often actively look for negatives — they use them to test whether a product is right for them. An AI summary that scrubs the negatives reads as marketing copy and erodes trust.</li>
+                <li><strong>Build foundationally, not feature-shaped.</strong> Whatever we shipped here had to be designed so the next ten AI features at Gap Inc. could inherit from it: components, sentiment patterns, confidence states, disclosure language. Otherwise we were going to keep paying this design tax forever.</li>
+              </UL>
+              <ZoomableImage src={aiThesis} alt="AI feature thesis: four principles — 01 Build trust first, not flash; 02 Transparency about AI is foundational to trust; 03 Model confidence is a design constraint; 05 Show, don't hide, imperfections — laid out as four cards in a row." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
 
               <H3>Staffing + Setup for Success</H3>
               <P>
