@@ -16,7 +16,7 @@ export const caseStudies: CaseStudyEntry[] = [
     to: "/work/four-brands-one-membership",
     title: "Building a unified membership platform for four brands at Gap Inc.",
     tags: "AI & Customer Experience",
-    image: fourBrandsMembershipImg,
+    image: placeholder03,
     imageAlt: "Placeholder: add featured image for Building a unified membership platform for four brands at Gap Inc.",
     arrowColor: "#1B1918",
     titleColor: "#1B1918",
