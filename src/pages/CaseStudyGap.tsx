@@ -9,7 +9,7 @@ import { ArrowLeft, Briefcase, Building2, Clock, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
 import { caseStudies } from "@/data/caseStudies";
 import { useSetCaseStudyTitle } from "@/context/CaseStudyTitleContext";
-import heroVisual from "@/assets/cs01/hero-iphones.avif";
+
 
 const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/cross-brand-product-experience");
 
@@ -65,13 +65,6 @@ const CaseStudyGap = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-6 md:col-start-2 items-center md:items-end">
-            <img
-              src={heroVisual}
-              alt="Two iPhones showing the High-Waisted PowerSoft Crop Pocket Leggings product page with size selection"
-              className="w-full h-auto rounded-2xl"
-            />
-          </div>
         </div>
       </section>
 
