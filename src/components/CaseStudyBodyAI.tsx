@@ -231,7 +231,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="the-situation">
               <H2 id="the-situation">Context</H2>
               <P>
-                Every retailer in 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who had originally proposed using AI to generate review summaries and highlights for customers. So this was a project I had helped seed long before the brief landed on my team.
+                Every retailer in early 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who proposed using AI to generate review summaries and highlights for customers.
               </P>
               <P>
                 Executive leadership came to us with a brief that was deliberately open: <strong>pilot an AI-generated review summary on the PDP, with any brand that was interested, and see if we could make it succeed</strong>. The technology already existed internally. SCOUT is an LLM-based tool that classifies sentiment, extracts key phrases, identifies recurring themes across thousands of reviews, and generates a concise summary of customer opinions. The ask was: put a UI on it, ship it, and learn.
