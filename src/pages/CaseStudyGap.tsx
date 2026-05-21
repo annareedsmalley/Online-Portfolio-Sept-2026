@@ -45,7 +45,7 @@ const CaseStudyGap = () => {
             </Link>
 
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
-              Delivering a multi-variant PDP strategy through{" "}
+              Delivering multi-variant PDP strategy through{" "}
               <span className="text-terracotta">organizational change at Gap Inc.</span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
