@@ -48,7 +48,7 @@ const sections: NavSection[] = [
   { id: "the-framework", title: "The framework", level: 3 },
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
   { id: "the-hardest-part", title: "The hardest part", level: 3 },
-  { id: "two-gap-inc-firsts", title: "Two Gap Inc. firsts", level: 3 },
+  { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
   { id: "the-launch", title: "The launch", level: 3 },
   { id: "the-results", title: "The results", level: 3 },
   { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty (2024)", level: 2 },
@@ -460,7 +460,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 ariaLabel="Product gating interaction loop"
               />
 
-              <H3 id="two-gap-inc-firsts">Two Gap Inc. firsts</H3>
+              <H3 id="two-gap-inc-firsts">An extra, hard fought win: progressive sign in</H3>
               <P>
                 It was also the first time Gap Inc. customers could enter their email address and let us tell them whether they already had an account.
               </P>
