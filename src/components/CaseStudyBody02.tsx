@@ -40,7 +40,7 @@ interface CaseStudyBody02Props {
 
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives", level: 2 },
-  { id: "my-scope", title: "My scope at Gap, Inc.", level: 3 },
+  { id: "my-scope", title: "My read", level: 3 },
   { id: "the-problem", title: "Four brands, one cart, fragmented loyalty", level: 3 },
   { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty (2020–2021)", level: 2 },
   { id: "the-initiative", title: "The initiative", level: 3 },
@@ -343,7 +343,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="leadership-context">
               <H2 id="leadership-context">Context & Objectives</H2>
 
-              <H3 id="my-scope">My scope at Gap, Inc.</H3>
+              <H3 id="my-scope">My read</H3>
               <P>
                 During my tenure at Gap, Inc., I focused on each step of the eCommerce shopping journey, for all four brands:
               </P>
