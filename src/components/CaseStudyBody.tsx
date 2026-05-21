@@ -26,7 +26,7 @@ interface CaseStudyBodyProps {
 // Sticky nav reflects every H2 in the source document, in order.
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives" },
-  { id: "my-approach", title: "Setup & Staffing" },
+  { id: "my-approach", title: "The initiative" },
   { id: "first-battle", title: "Challenge #1" },
   { id: "second-challenge", title: "Challenge #2" },
   { id: "results", title: "Results" },
@@ -406,7 +406,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 It turned out to be both. People were bouncing because they couldn't discover variant options. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
               </P>
-              <H2 id="my-approach">Setup & Staffing</H2>
+              <H2 id="my-approach">The initiative</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
               </P>
@@ -486,7 +486,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== What We Did with the Time ===================== */}
             <Section id="what-we-did">
-              <H3 id="structuring-work">Design Work</H3>
+              <H3 id="structuring-work">My team's role</H3>
               <H4>Validating through user research</H4>
               <P>
                 All of our work so far had led us to our own assumptions. Specifically, we assumed that adding more variant sets could do two things: create cognitive overload create a viewport limitation issue on mobile. (Specifically, changes made to variants at the bottom of the page could cause changes to the product's price and color, but these things would be out of view.) The next step was to find out what happened when we talked to real users.

@@ -43,8 +43,8 @@ const sections: NavSection[] = [
   { id: "my-scope", title: "My read", level: 3 },
   { id: "the-problem", title: "Four brands, one cart, fragmented loyalty", level: 3 },
   { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty (2020–2021)", level: 2 },
-  { id: "the-initiative", title: "Setup & Staffing", level: 3 },
-  { id: "my-teams-role", title: "Design Work", level: 3 },
+  { id: "the-initiative", title: "The initiative", level: 3 },
+  { id: "my-teams-role", title: "My team's role", level: 3 },
   { id: "the-framework", title: "The framework", level: 3 },
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
   { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
@@ -398,7 +398,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="integrated-loyalty">
               <H2 id="integrated-loyalty">Phase 1: Integrated Loyalty (2020–2021)</H2>
 
-              <H3 id="the-initiative">Setup & Staffing</H3>
+              <H3 id="the-initiative">The initiative</H3>
               <P>
                 In 2020, I was asked to lead the Product Design team for "Integrated Loyalty"—a multi-year, cross-functional initiative to create a single loyalty program for all four Gap Inc. brands. The program promised:
               </P>
@@ -413,7 +413,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Integrated loyalty program (MTL & Card) under one umbrella with brand expressions and one value prop: Gap, Banana Republic, Old Navy, and Athleta unified via Account Unification (unified identity across MTL, Card, Ecomm; single points bank; streamlined communication; easy enrollment) and New Program Features (on-demand points redemption, recognition and personalization, differentiated shipping promise, branded and cross-brand benefits)."
               />
 
-              <H3 id="my-teams-role">Design Work</H3>
+              <H3 id="my-teams-role">My team's role</H3>
               <P>
                 In 2020, my team of three designers owned the end-to-end customer experience across authentication—sign up, sign in, and states for recognized, signed-in, and guest users—as well as the web bag, checkout, profile, and post-purchase touchpoints, including email communications. I was the Sr. Manager for the "Web Buy" team — a team of 3 designers that owned authentication (sign up, sign in, and the various experiences around recognized customers vs. signed-in customers vs. unrecognized "guests"), web bag, checkout, profile, and post-purchase experiences including emails.
               </P>
