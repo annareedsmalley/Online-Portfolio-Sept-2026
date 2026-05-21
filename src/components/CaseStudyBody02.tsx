@@ -542,7 +542,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="payoff-product-gating">
               
 
-              <H3 id="the-first-big-win" className="mt-10">Product Gating</H3>
+              <H3 id="the-first-big-win" className="mt-16">Product Gating</H3>
               <P>
                 Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
