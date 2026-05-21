@@ -617,7 +617,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== Two Solutions ===================== */}
             <Section id="two-solutions">
-              <H3 id="two-solutions">The ultimate solution</H3>
+              <H3 id="two-solutions">The final delivery: two options to choose from</H3>
               <P>Rather than mandate a single path, we presented three genuine options:</P>
               <UL>
                 <li>
