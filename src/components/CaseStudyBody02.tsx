@@ -527,7 +527,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 Luckily, later that very same year, Gap Inc. started the process to move our entire web platform to headless UI, using <strong>Next.js and Tailwind</strong>. Soon after, I became the lead of the Product Design team dedicated to this effort.
               </P>
 
-              <H3>How we approached the work</H3>
+              <H3 id="how-we-approached">How we approached the work</H3>
               <P>
                 Our "Unlocking Momentum" strategy framework focused on three principles: <strong>scaling</strong> across new platforms, markets, and brands; <strong>moving fast</strong> through prototyping and testing; and ensuring <strong>consistency</strong> across platforms, devices, and teams.
               </P>
@@ -551,7 +551,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="payoff-product-gating">
               <H2 id="payoff-product-gating">Product gating (2024–2025)</H2>
 
-              <H3>The first big win</H3>
+              <H3 id="the-first-big-win">The first big win</H3>
               <P>
                 Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
@@ -572,7 +572,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Gap x Cult Gaia results: $415K demand, 16% conversion (3x app trend), highest AOS vs prior collabs at $271.90 with 3.1x AOS vs non-collab."
               />
 
-              <H3>Built once, used by all</H3>
+              <H3 id="built-once-used-by-all">Built once, used by all</H3>
               <P>
                 Because Gap used Headless UI to create these 3 new shared components for the product gating experience, it was trivial for the other brands to implement the same program, using their own brand theme.
               </P>
@@ -600,12 +600,12 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="reflections">
               <H2 id="reflections">Reflections</H2>
 
-              <H3>What I'm most proud of</H3>
+              <H3 id="what-im-proud-of">What I'm most proud of</H3>
               <P>
                 I'm proudest of how the work compounded. The integrated loyalty launch gave 19 million customers a simpler relationship with our brands, and the headless platform that followed turned every future loyalty improvement into a four-brand win by default. None of that happens without the cross-functional trust my team built over years of unglamorous reconciliation work.
               </P>
 
-              <H3>What I would do differently</H3>
+              <H3 id="what-id-do-differently">What I would do differently</H3>
               <P>
                 I'd invest in the design token and theming architecture earlier. We spent years rebuilding the same experiences four times before headless UI made brand-specific theming trivial — and I underestimated how much faster every other initiative would move once that foundation existed.
               </P>
