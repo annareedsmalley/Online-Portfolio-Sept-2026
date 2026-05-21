@@ -91,16 +91,6 @@ const Index = () => {
                   >
                     Anna Smalley,
                   </span>
-                  <span
-                    className="pop-in pop-delay-3 inline-block h-[1em] w-[1em] overflow-hidden rounded-full align-middle shadow-[0_18px_40px_-16px_rgba(0,0,0,0.5)]"
-                    style={{ ['--pop-rot' as string]: '6deg' }}
-                  >
-                    <img
-                      src={annaPortrait}
-                      alt="Anna Smalley portrait"
-                      className="block h-full w-full object-cover"
-                    />
-                  </span>
                 </span>
 
                 {/* Line 2: a Senior UX Leader. */}
@@ -181,28 +171,9 @@ const Index = () => {
               </p>
             </div>
           </div>
-
-          {/* Big stats — sticky-note style */}
-          <div className="mt-20 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
-            <BigStat end={15} suffix="+" label="Years leading UX" color="yellow" rotate={-4} />
-            <BigStat end={4} label="Brands unified" color="peach" rotate={3} />
-            <BigStat end={40} suffix="+" label="Designers mentored" color="blue" rotate={-2} />
-            <BigStat end={17} prefix="$" suffix="M" label="Launch failure prevented" color="green" rotate={4} />
-          </div>
         </div>
       </section>
 
-      {/* TESTIMONIALS — interactive sticky-stack */}
-      <section className="bg-background">
-        <div className="mx-auto max-w-content px-6 py-20 md:px-16 md:py-28">
-          <div className="mx-auto mb-14 max-w-2xl text-center">
-            <h2 className="font-serif text-[28px] text-title md:whitespace-nowrap md:text-[40px]">
-              Kind words
-            </h2>
-          </div>
-          <TestimonialGrid items={testimonials} />
-        </div>
-      </section>
 
       <ContactSection />
     </SiteLayout>
