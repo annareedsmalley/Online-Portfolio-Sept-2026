@@ -366,7 +366,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
               </P>
 
-              <H3>The Problem: Unified Cart, Fragmented Loyalty</H3>
+              <H3 id="the-problem">The Problem: Unified Cart, Fragmented Loyalty</H3>
               <P>
                 When I joined Gap Inc. in 2018, the eCommerce platform allowed customers to shop just one of Gap Inc.'s brands, or switch between them. All products a customer added would appear in a shared cart.
               </P>
