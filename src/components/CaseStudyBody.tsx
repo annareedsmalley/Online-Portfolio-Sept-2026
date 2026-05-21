@@ -530,7 +530,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The First Design Solution ===================== */}
             <Section id="first-solution">
-              <H3>The first design solution</H3>
+              <H3>Design Solution A</H3>
               <P>
                 The Sticky Container keeps price, reviews, images, and selected color visible as users scroll through variant options. Paired with product setup guidelines limiting PDPs to a maximum of four variant groups.
               </P>
@@ -588,7 +588,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, <strong>Gap Inc.'s brand promise is not Amazon's brand promise.</strong>
               </P>
-              <H3>The second solution: comparison table</H3>
+              <H3>Design Solution B</H3>
 
               <P>
                 <em>The strategic win — the answer the brands rallied behind.</em>
