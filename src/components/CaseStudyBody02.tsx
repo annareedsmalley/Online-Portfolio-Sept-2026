@@ -404,7 +404,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="integrated-loyalty">
               <H2 id="integrated-loyalty">Integrated loyalty (2020–2021)</H2>
 
-              <H3>The initiative</H3>
+              <H3 id="the-initiative">The initiative</H3>
               <P>
                 In 2020, I was asked to lead the Product Design team for "Integrated Loyalty"—a multi-year, cross-functional initiative to create a single loyalty program for all four Gap Inc. brands. The program promised:
               </P>
