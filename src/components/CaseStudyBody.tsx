@@ -452,37 +452,14 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                  In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
                </P>
                
-              <H3>Cross-functional alignment structure</H3>
               <P>
                 I leveraged the headless UI sprint structure I had already set up for a parallel project, which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a live forum right around the corner where stakeholders could bring up concerns and feel heard.
-              </P>
-              <P>
-                Kimberly led multiple working sessions with stakeholders, engineers, and product managers, serving as a bridge and forcing function for alignment between those groups. She also worked 1:1 with the product manager and with the developers on a daily basis.
-              </P>
-              <P>
-                We used design review and office hour slots with the VP of UX and VP of Product Management to communicate progress and gain approvals, with documentation within Figma of the dates we reviewed and gained approval for what designs and from which specific brands.
               </P>
               <Figure
                 src={crossFunctionalAlignment2Img}
                 alt="Cross-Functional Alignment Structure Image 2"
                 caption="The two-week headless UI sprint cadence I had already established for a parallel project. Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days."
               />
-
-              <P>We had a strategic playbook for how to move stakeholders. It had four parts:</P>
-              <UL>
-                <li>
-                  <strong>Safe Spaces:</strong> We leveraged a standing cross-brand meeting structure where all four brands could engage openly.
-                </li>
-                <li>
-                  <strong>Shared Vocabulary:</strong> We established common language across all four brands before any pitch, making sure everyone was using the same terms for the same things.
-                </li>
-                <li>
-                  <strong>Principles Combined with Demonstrated Proof:</strong> We used prototypes and competitor sites to show, not tell, the risks. Best practices alone didn't carry weight; combined with tangible evidence, they became persuasive.
-                </li>
-                <li>
-                  <strong>Customer Voices:</strong> We put real user research data in front of stakeholders, letting customer reactions speak for themselves.
-                </li>
-              </UL>
             </Section>
 
             <SectionDivider />
