@@ -39,12 +39,30 @@ interface CaseStudyBody02Props {
 }
 
 const sections: NavSection[] = [
-  { id: "leadership-context", title: "Context" },
-  { id: "integrated-loyalty", title: "Integrated loyalty" },
-  { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty" },
-  { id: "payoff-product-gating", title: "Product gating" },
-  { id: "impact", title: "Impact" },
-  { id: "reflections", title: "Reflections" },
+  { id: "leadership-context", title: "Context", level: 2 },
+  { id: "my-scope", title: "My scope at Gap, Inc.", level: 3 },
+  { id: "the-problem", title: "The Problem: Unified Cart, Fragmented Loyalty", level: 3 },
+  { id: "integrated-loyalty", title: "Integrated loyalty (2020–2021)", level: 2 },
+  { id: "the-initiative", title: "The initiative", level: 3 },
+  { id: "my-teams-role", title: "My team's role", level: 3 },
+  { id: "the-framework", title: "The framework", level: 3 },
+  { id: "managing-complexity", title: "Managing the complexity", level: 3 },
+  { id: "the-hardest-part", title: "The hardest part", level: 3 },
+  { id: "two-gap-inc-firsts", title: "Two Gap Inc. firsts", level: 3 },
+  { id: "the-launch", title: "The launch", level: 3 },
+  { id: "the-results", title: "The results", level: 3 },
+  { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty (2024)", level: 2 },
+  { id: "phase-2-begins", title: "Phase 2 begins", level: 3 },
+  { id: "the-answer-was-technology", title: "The answer was technology", level: 3 },
+  { id: "leading-headless-ui", title: "Leading the headless UI migration", level: 3 },
+  { id: "how-we-approached", title: "How we approached the work", level: 3 },
+  { id: "payoff-product-gating", title: "Product gating (2024–2025)", level: 2 },
+  { id: "the-first-big-win", title: "The first big win", level: 3 },
+  { id: "built-once-used-by-all", title: "Built once, used by all", level: 3 },
+  { id: "impact", title: "Impact", level: 2 },
+  { id: "reflections", title: "Reflections", level: 2 },
+  { id: "what-im-proud-of", title: "What I'm most proud of", level: 3 },
+  { id: "what-id-do-differently", title: "What I would do differently", level: 3 },
 ];
 
 // ----- Reusable typographic primitives (identical to CS01) -----
