@@ -413,7 +413,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Integrated loyalty program (MTL & Card) under one umbrella with brand expressions and one value prop: Gap, Banana Republic, Old Navy, and Athleta unified via Account Unification (unified identity across MTL, Card, Ecomm; single points bank; streamlined communication; easy enrollment) and New Program Features (on-demand points redemption, recognition and personalization, differentiated shipping promise, branded and cross-brand benefits)."
               />
 
-              <H3 id="my-teams-role">Design Work</H3>
+              <H3 id="my-teams-role">Discovery</H3>
               <P>
                 In 2020, my team of three designers owned the end-to-end customer experience across authentication—sign up, sign in, and states for recognized, signed-in, and guest users—as well as the web bag, checkout, profile, and post-purchase touchpoints, including email communications. I was the Sr. Manager for the "Web Buy" team — a team of 3 designers that owned authentication (sign up, sign in, and the various experiences around recognized customers vs. signed-in customers vs. unrecognized "guests"), web bag, checkout, profile, and post-purchase experiences including emails.
               </P>
