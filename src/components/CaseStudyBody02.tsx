@@ -560,7 +560,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Gap Newsroom feature: Gap and Cult Gaia Collaboration Celebrates the Beauty and Strength of Today's Modern Goddess"
               />
               <P>
-                This campaign was only possible because of the platform my team had spent the past 10 months building.
+                This product gating feature was one of the first experiences build on the headless UI foundation my had spent the past 10 months designing.
               </P>
               <P>
                 <strong>This led to the biggest single increase in credit card applications in Gap Inc.'s history.</strong>
