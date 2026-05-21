@@ -49,13 +49,13 @@ const sections: NavSection[] = [
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
   { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
   { id: "the-launch", title: "Launch & Results", level: 3 },
-  { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty (2024)", level: 2 },
-  { id: "phase-2-begins", title: "Phase 2 begins", level: 3 },
+  { id: "next-evolution", title: "Phase 2: Scalable Brand Expression (2024)", level: 2 },
+  { id: "phase-2-begins", title: "Loyalty's next challenge", level: 3 },
   { id: "the-answer-was-technology", title: "The answer was technology", level: 3 },
   { id: "leading-headless-ui", title: "Leading the headless UI migration", level: 3 },
   { id: "how-we-approached", title: "How we approached the work", level: 3 },
   { id: "payoff-product-gating", title: "Product gating (2024–2025)", level: 2 },
-  { id: "the-first-big-win", title: "The first big win", level: 3 },
+  { id: "the-first-big-win", title: "Product Gating", level: 3 },
   { id: "built-once-used-by-all", title: "Built once, used by all", level: 3 },
   { id: "impact", title: "Impact", level: 2 },
   { id: "reflections", title: "Reflections", level: 2 },
@@ -497,9 +497,9 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== The Next Evolution ===================== */}
             <Section id="next-evolution">
-              <H2 id="next-evolution">Phase 2: Brand-Specific Loyalty (2024)</H2>
+              <H2 id="next-evolution">Phase 2: Scalable Brand Expression (2024)</H2>
 
-              <H3 id="phase-2-begins">Phase 2 begins</H3>
+              <H3 id="phase-2-begins">Loyalty's next challenge</H3>
               <P>
                 By 2024, it was time to start on the second phase of the Gap Inc Loyalty program.
               </P>
@@ -545,7 +545,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="payoff-product-gating">
               <H2 id="payoff-product-gating">Product gating (2024–2025)</H2>
 
-              <H3 id="the-first-big-win">The first big win</H3>
+              <H3 id="the-first-big-win">Product Gating</H3>
               <P>
                 Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
