@@ -28,8 +28,8 @@ interface CaseStudyBodyAIProps {
 }
 
 const sections: NavSection[] = [
-  { id: "the-situation", title: "Context" },
-  { id: "ai-thesis", title: "The AI thesis I walked in with" },
+  { id: "the-situation", title: "Context & Objectives" },
+  { id: "ai-thesis", title: "Setup & Staffing" },
   { id: "structuring-work", title: "How I structured the team's work" },
   { id: "launch-reframe", title: "The launch and the reframe" },
   { id: "lasting-impact", title: "Lasting strategic impact" },
@@ -228,7 +228,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== The Situation ===================== */}
             <Section id="the-situation">
-              <H2 id="the-situation">Context</H2>
+              <H2 id="the-situation">Context & Objectives</H2>
               <P>
                 Every retailer in early 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who proposed using AI to generate review summaries and highlights for customers.
               </P>
@@ -238,7 +238,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Soon after, it became clear that Athleta was the brand most interested in Gen AI review summaries. Because of this, leadership could have asked a separate design team dedicated to strategic initiatives for Athleta, to lead this work. However, that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. The decision was made that my team would take on this work.
               </P>
-              <H3>My read on the situation</H3>
+              <H3>My read&nbsp;</H3>
               <P>
                 When the brief came in, my first thought was that we were not being asked to ship a feature. We were being asked to set a precedent. This was going to be the first time a Gap Inc. customer would knowingly interact with AI on our site, and whatever pattern we established here would set the bar, both internally and externally, for every AI experience that came after.
               </P>
@@ -271,7 +271,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== AI Thesis & Team ===================== */}
             <Section id="ai-thesis">
-              <H2 id="ai-thesis">The AI thesis I walked in with</H2>
+              <H2 id="ai-thesis">Setup & Staffing</H2>
               <P>
                 Before any design work started, I made sure my team and our cross-functional partners understood the lens I was bringing to this. Four principles, which I came back to again and again as we worked:
               </P>
