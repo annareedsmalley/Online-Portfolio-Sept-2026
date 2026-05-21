@@ -60,21 +60,6 @@ const Index = () => {
 
             {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
             <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
-              {/* Sticky note — floated well off to the side so it never overlaps the title.
-                  Only shown on xl+ where there's enough horizontal room. */}
-              <div
-                className="absolute top-1/2 z-20 hidden -translate-y-1/2 xl:block"
-                style={{ left: '-180px' }}
-              >
-                <StickyNote color="pink" rotate={-8} size="md" hoverLift={false}>
-                  <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
-                    Currently
-                  </p>
-                  <p className="mt-1 font-serif text-[14px] leading-snug text-title">
-                    Open to advisory<br />engagements →
-                  </p>
-                </StickyNote>
-              </div>
 
               <h1 className="font-serif text-[clamp(36px,6.4vw,100px)] leading-[1.05] text-white">
                 {/* Line 1: I'm Anna Smalley, [headshot] */}
