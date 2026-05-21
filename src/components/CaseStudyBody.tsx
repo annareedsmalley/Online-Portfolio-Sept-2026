@@ -451,7 +451,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                <P>
                  In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
                </P>
-               <H4>[Image of Baymard best practices]</H4>
+               
               <H3>Cross-functional alignment structure</H3>
               <P>
                 I leveraged the headless UI sprint structure I had already set up for a parallel project, which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a live forum right around the corner where stakeholders could bring up concerns and feel heard.
