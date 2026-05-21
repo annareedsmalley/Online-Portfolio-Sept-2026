@@ -90,8 +90,8 @@ const UL = ({ children }: { children: ReactNode }) => (
   </ul>
 );
 
-const Figure = ({ src, alt, caption, bgColor }: { src: string; alt: string; caption?: string; bgColor?: string }) => (
-  <figure className="flex flex-col">
+const Figure = ({ src, alt, caption, bgColor, className }: { src: string; alt: string; caption?: string; bgColor?: string; className?: string }) => (
+  <figure className={`flex flex-col ${className ?? ""}`}>
     <ZoomableImage
       src={src}
       alt={alt}
