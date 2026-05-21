@@ -298,7 +298,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                     {studyTitle}
                   </a>
                   <ul className="flex flex-col gap-1">
-                    {sections.map((s) => {
+                    {sections.filter((s) => s.level !== 3).map((s) => {
                       const isActive = active === s.id;
                       const isLevel3 = s.level === 3;
                       return (
