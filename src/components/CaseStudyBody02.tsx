@@ -523,6 +523,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <Figure
                 src={approachedWork1Img}
                 alt="Headless UI infographic: unsustainable variance converges into one shared system, then diverges into expressive, responsible variance across Gap, Athleta, Banana Republic, and Old Navy"
+                className="mt-6"
               />
               <P>
                 We followed a Converge/Diverge process — Audit, Analyze, Synthesize, Theme — and sequenced component rewrites accordingly. A Figma "Variables" / design token architecture let primitive tokens flow through semantic tokens to component-level tokens, enabling brand theming.
