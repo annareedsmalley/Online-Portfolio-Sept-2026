@@ -238,7 +238,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Soon after, it became clear that Athleta was the brand most interested in Gen AI review summaries. Because of this, leadership could have asked a separate design team dedicated to strategic initiatives for Athleta, to lead this work. However, that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. The decision was made that my team would take on this work.
               </P>
-              <H3>My scope at Gap Inc&nbsp;</H3>
+              <H3>Discovery&nbsp;</H3>
               <P>
                 When the brief came in, my first thought was that we were not being asked to ship a feature. We were being asked to set a precedent. This was going to be the first time a Gap Inc. customer would knowingly interact with AI on our site, and whatever pattern we established here would set the bar, both internally and externally, for every AI experience that came after.
               </P>
