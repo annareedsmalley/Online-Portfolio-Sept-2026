@@ -491,6 +491,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== What We Did with the Time ===================== */}
             <Section id="what-we-did">
+              <H2 id="structuring-work">Design Work</H2>
               <H3>Validating through user research</H3>
               <P>
                 All of our work so far had led us to our own assumptions. Specifically, we assumed that adding more variant sets could do two things: create cognitive overload create a viewport limitation issue on mobile. (Specifically, changes made to variants at the bottom of the page could cause changes to the product's price and color, but these things would be out of view.) The next step was to find out what happened when we talked to real users.
