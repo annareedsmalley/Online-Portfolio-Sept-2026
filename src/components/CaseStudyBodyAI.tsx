@@ -520,7 +520,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="reflections">
               <H2 id="reflections">Reflections</H2>
 
-              <H3>What I'm proud of</H3>
               <UL>
                 <li>Reframing the success conversation when conversion came back flat and returns came back down. That moment, more than any individual design decision, is what made this project a foundation rather than a one-off.</li>
                 <li>Holding the line on trust architecture (especially the negatives, the disclaimer, and the model-confidence states) through the inevitable pressure to make the feature feel "more positive" or "more confident" than the underlying data justified.</li>
