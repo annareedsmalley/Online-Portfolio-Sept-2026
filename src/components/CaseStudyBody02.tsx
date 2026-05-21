@@ -444,7 +444,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 The types of customer account states we had to track included: enrollment in Gap Inc. Loyalty or MTL/Encore tiers (Core, Premier, All-Access), credit card holder status (Gap/Barclays/Encore Mastercard for 5x points earning), ecommerce account existence (for login, points accrual across brands, and Loyalty Hub access), and rewards/points balance.
               </P>
-              <H3 id="two-gap-inc-firsts">An extra, hard fought win: progressive sign in</H3>
 
               <VideoFigure
                 src={firstBigWin2Video}
