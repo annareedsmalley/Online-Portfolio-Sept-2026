@@ -277,7 +277,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </P>
               <ZoomableImage src={aiThesis} alt="AI feature thesis: four principles — 01 Build trust first, not flash; 02 Transparency about AI is foundational to trust; 03 Model confidence is a design constraint; 05 Show, don't hide, imperfections — laid out as four cards in a row." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
 
-              <H3>Staffing + Setup for Success</H3>
+              
               <P>
                 My next move was to pick a designer. Who I put on a project tells the team and the org what I think the project is.
               </P>
