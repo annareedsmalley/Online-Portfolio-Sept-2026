@@ -17,7 +17,7 @@ export const CaseStudyListRow = ({
 }: CaseStudyListRowProps) => (
   <Link
     to={to}
-    className="group relative mb-5 block rounded-xl bg-sand transition-colors duration-200 hover:bg-[#FDF8E4] md:mb-6"
+    className="group relative mb-5 block rounded-xl bg-sand transition-colors duration-200 hover:bg-[#EFE6D6] md:mb-6"
   >
     <div className="relative flex flex-col gap-4 rounded-xl px-5 py-10 md:flex-row md:items-center md:justify-between md:gap-6 md:px-6 md:py-12">
 
