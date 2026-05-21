@@ -567,11 +567,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               </P>
               <StatBlock value="604%" label="The percentage increase in the number of credit card applications Gap received in one day." />
 
-              <Figure
-                src={gapCultGaiaResultsImg}
-                alt="Gap x Cult Gaia results: $415K demand, 16% conversion (3x app trend), highest AOS vs prior collabs at $271.90 with 3.1x AOS vs non-collab."
-              />
-
               <H3 id="built-once-used-by-all">Built once, used by all</H3>
               <P>
                 Because Gap used Headless UI to create these 3 new shared components for the product gating experience, it was trivial for the other brands to implement the same program, using their own brand theme.
