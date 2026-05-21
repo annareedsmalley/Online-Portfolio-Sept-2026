@@ -25,7 +25,7 @@ interface CaseStudyBodyProps {
 
 // Sticky nav reflects every H2 in the source document, in order.
 const sections: NavSection[] = [
-  { id: "leadership-context", title: "Context" },
+  { id: "leadership-context", title: "Context & Objectives" },
   { id: "my-approach", title: "My Approach" },
   { id: "structuring-work", title: "Definition and Structure" },
   { id: "first-battle", title: "The first challenge" },
@@ -367,7 +367,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== Leadership Context ===================== */}
             <Section id="leadership-context">
-              <H2 id="leadership-context">Context</H2>
+              <H2 id="leadership-context">Context & Objectives</H2>
 
               <H3>The situation</H3>
               <P>

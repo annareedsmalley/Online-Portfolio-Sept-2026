@@ -39,7 +39,7 @@ interface CaseStudyBody02Props {
 }
 
 const sections: NavSection[] = [
-  { id: "leadership-context", title: "Context", level: 2 },
+  { id: "leadership-context", title: "Context & Objectives", level: 2 },
   { id: "my-scope", title: "My scope at Gap, Inc.", level: 3 },
   { id: "the-problem", title: "The Problem: Unified Cart, Fragmented Loyalty", level: 3 },
   { id: "integrated-loyalty", title: "Integrated loyalty (2020–2021)", level: 2 },
@@ -347,7 +347,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== Context ===================== */}
             <Section id="leadership-context">
-              <H2 id="leadership-context">Context</H2>
+              <H2 id="leadership-context">Context & Objectives</H2>
 
               <H3 id="my-scope">My scope at Gap, Inc.</H3>
               <P>
