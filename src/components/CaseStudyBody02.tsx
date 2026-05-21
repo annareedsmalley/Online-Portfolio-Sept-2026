@@ -69,10 +69,10 @@ const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
   </h2>
 );
 
-const H3 = ({ id, children }: { id?: string; children: ReactNode }) => (
+const H3 = ({ id, children, className }: { id?: string; children: ReactNode; className?: string }) => (
   <h3
     id={id}
-    className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2"
+    className={`scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2 ${className ?? ""}`}
   >
     {children}
   </h3>
@@ -542,7 +542,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="payoff-product-gating">
               
 
-              <H3 id="the-first-big-win">Product Gating</H3>
+              <H3 id="the-first-big-win" className="mt-10">Product Gating</H3>
               <P>
                 Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
