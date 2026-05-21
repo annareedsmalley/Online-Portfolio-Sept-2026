@@ -400,6 +400,12 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 I was navigating a complex web of stakeholders: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
               </P>
+              <P>
+                The brands came to us saying "add more variant sets to PDPs." They didn't initially explain why. It was just "we want people to be able to get to other variants from the PDP." Our first step wasn't competitive analysis or prototyping. It was asking: what are you really trying to solve? Is this a customer problem, a business problem, or both?
+              </P>
+              <P>
+                It turned out to be both. People were bouncing because they couldn't discover variant options. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
+              </P>
               <H2 id="my-approach">Setup & Staffing</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
@@ -441,13 +447,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
              <Section id="structuring-work">
                <H2 id="structuring-work">Design Work</H2>
 
-               <H3>Discovery Phase</H3>
-              <P>
-                The brands came to us saying "add more variant sets to PDPs." They didn't initially explain why. It was just "we want people to be able to get to other variants from the PDP." Our first step wasn't competitive analysis or prototyping. It was asking: what are you really trying to solve? Is this a customer problem, a business problem, or both?
-              </P>
-              <P>
-                It turned out to be both. People were bouncing because they couldn't discover variant options. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
-              </P>
                <P>
                  In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
                </P>
