@@ -8,7 +8,7 @@ export const Footer = () => (
           Contact
         </Link>
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/anna-smalley-uxlead/"
           target="_blank"
           rel="noopener noreferrer"
           className="font-sans text-sm text-[#FAF8F5] hover:text-terracotta"
