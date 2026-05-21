@@ -41,7 +41,7 @@ const Index = () => {
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
               <h1 className="font-serif text-[32px] leading-[1.1] text-white">
-                I'm <span>Anna Smalley</span>, a senior UX leader
+                Oh hi - I'm <span>Anna Smalley</span>, a senior UX leader
               </h1>
             <img
               src={annaPortrait}
@@ -83,7 +83,7 @@ const Index = () => {
                     className="pop-in pop-delay-1 inline-block"
                     style={{ ['--pop-rot' as string]: '0deg' }}
                   >
-                    I'm
+                    Oh hi - I'm
                   </span>
                   <span
                     className="pop-in pop-delay-2 inline-block"
