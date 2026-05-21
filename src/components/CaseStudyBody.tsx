@@ -26,8 +26,8 @@ interface CaseStudyBodyProps {
 // Sticky nav reflects every H2 in the source document, in order.
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives" },
-  { id: "my-approach", title: "My Approach" },
-  { id: "structuring-work", title: "Definition and Structure" },
+  { id: "my-approach", title: "Setup & Staffing" },
+  { id: "structuring-work", title: "Design Work" },
   { id: "first-battle", title: "The first challenge" },
   { id: "second-challenge", title: "The second challenge" },
   { id: "team-leadership-impact", title: "Impact" },
@@ -400,7 +400,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 I was navigating a complex web of stakeholders: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
               </P>
-              <H2 id="my-approach">My Approach</H2>
+              <H2 id="my-approach">Setup & Staffing</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
               </P>
@@ -437,9 +437,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             <SectionDivider />
 
-             {/* ===================== Definition and Structure ===================== */}
+             {/* ===================== Design Work ===================== */}
              <Section id="structuring-work">
-               <H2 id="structuring-work">Definition and Structure</H2>
+               <H2 id="structuring-work">Design Work</H2>
 
                <H3>Discovery Phase</H3>
               <P>
