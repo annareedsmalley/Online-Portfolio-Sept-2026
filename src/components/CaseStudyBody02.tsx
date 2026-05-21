@@ -349,7 +349,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="leadership-context">
               <H2 id="leadership-context">Context</H2>
 
-              <H3>My scope at Gap, Inc.</H3>
+              <H3 id="my-scope">My scope at Gap, Inc.</H3>
               <P>
                 During my tenure at Gap, Inc., I focused on each step of the eCommerce shopping journey, for all four brands:
               </P>
