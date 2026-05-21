@@ -5,10 +5,9 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useCaseStudyTitle } from "@/context/CaseStudyTitleContext";
 
-const links = [
+const links: { label: string; to: string; hashTarget?: string; external?: boolean }[] = [
   { label: "Case Studies", to: "/#work", hashTarget: "work" },
   { label: "About", to: "/#about", hashTarget: "about" },
-  
   { label: "Contact", to: "/#contact", hashTarget: "contact" },
 ];
 
