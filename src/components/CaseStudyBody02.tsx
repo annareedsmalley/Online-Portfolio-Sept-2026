@@ -44,7 +44,7 @@ const sections: NavSection[] = [
   { id: "the-problem", title: "Four brands, one cart, fragmented loyalty", level: 3 },
   { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty (2020–2021)", level: 2 },
   { id: "the-initiative", title: "Setup & Staffing", level: 3 },
-  { id: "my-teams-role", title: "Design Work", level: 3 },
+  { id: "my-teams-role", title: "Discovery", level: 3 },
   { id: "the-framework", title: "The framework", level: 3 },
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
   { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
