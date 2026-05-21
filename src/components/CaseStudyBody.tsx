@@ -444,12 +444,10 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <SectionDivider />
 
              {/* ===================== Design Work ===================== */}
-             <Section id="structuring-work">
-               <H2 id="structuring-work">Design Work</H2>
-
-               <P>
-                 In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
-               </P>
+            <Section id="structuring-work">
+              <P>
+                In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
+              </P>
                
               <P>
                 I leveraged the headless UI sprint structure I had already set up for a parallel project, which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a live forum right around the corner where stakeholders could bring up concerns and feel heard.
