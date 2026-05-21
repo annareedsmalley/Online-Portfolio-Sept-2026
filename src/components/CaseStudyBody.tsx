@@ -30,7 +30,7 @@ const sections: NavSection[] = [
   { id: "structuring-work", title: "Design Work" },
   { id: "first-battle", title: "Challenge #1" },
   { id: "second-challenge", title: "Challenge #2" },
-  { id: "team-leadership-impact", title: "Impact" },
+  { id: "team-leadership-impact", title: "Lasting Strategic Impact" },
   { id: "reflections", title: "Reflections" },
 ];
 
@@ -658,7 +658,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 We didn't have to say "I told you so." The whole point of the aikido approach was that brands would learn on their own terms, and they did.
               </P>
 
-              <H2 id="team-leadership-impact">Impact</H2>
+              <H2 id="team-leadership-impact">Lasting Strategic Impact</H2>
               <H3>Product and business impact</H3>
               <UL>
                 <li>
