@@ -49,7 +49,6 @@ const sections: NavSection[] = [
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
   { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
   { id: "the-launch", title: "Launch & Results", level: 3 },
-  { id: "the-results", title: "The results", level: 3 },
   { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty (2024)", level: 2 },
   { id: "phase-2-begins", title: "Phase 2 begins", level: 3 },
   { id: "the-answer-was-technology", title: "The answer was technology", level: 3 },
@@ -480,7 +479,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Primary source: Gap Inc. press release 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' (May 26, 2023) highlighting 19 million new customers enrolled in less than 12 months and 37 million combined Cardmembers and Rewards members migrated to the new program."
               />
 
-              <H3 id="the-results">The results</H3>
               <P>
                 By 2022, customers had created 19 million new Gap Inc loyalty accounts.
               </P>
