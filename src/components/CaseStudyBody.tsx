@@ -28,8 +28,8 @@ const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives" },
   { id: "my-approach", title: "Setup & Staffing" },
   { id: "structuring-work", title: "Design Work" },
-  { id: "first-battle", title: "The first challenge" },
-  { id: "second-challenge", title: "The second challenge" },
+  { id: "first-battle", title: "Challenge #1" },
+  { id: "second-challenge", title: "Challenge #2" },
   { id: "team-leadership-impact", title: "Impact" },
   { id: "reflections", title: "Reflections" },
 ];
@@ -463,7 +463,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The First Battle: Buying Time ===================== */}
             <Section id="first-battle">
-              <H2 id="first-battle">The first challenge</H2>
+              <H2 id="first-battle">Challenge #1</H2>
 
               <P>
                 Our challenge was to ask the right questions and get answers quickly to determine feasibility. We had one week's worth of competitive analysis, prototypes, and best practices research. We needed to convince stakeholders that three weeks wasn't enough, that engineering should pause, and assumptions needed to be challenged.
@@ -551,7 +551,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
              {/* ===================== The Second Challenge ===================== */}
              <Section id="second-challenge">
-               <H2 id="second-challenge">The second challenge</H2>
+               <H2 id="second-challenge">Challenge #2</H2>
                <P>
                  As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in dead clicks on variants that could not be combined with variants already selected for other attributes.
                </P>
