@@ -32,7 +32,7 @@ const sections: NavSection[] = [
   { id: "ai-thesis", title: "Setup & Staffing" },
   { id: "structuring-work", title: "Design Work" },
   { id: "launch-reframe", title: "Launch & Results" },
-  { id: "lasting-impact", title: "Lasting strategic impact" },
+  { id: "lasting-impact", title: "Lasting Strategic Impact" },
   { id: "reflections", title: "Reflections" },
 ];
 
