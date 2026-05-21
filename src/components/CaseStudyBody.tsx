@@ -632,7 +632,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 Brands have two patterns to choose from depending on their products and data. The Comparison Table is the more comprehensive solution where data and product fit allow, while the Stacked Selector remains available for simpler product setups. Either way, brands have guidelines for A/B testing to determine what works best.
               </P>
-              <H3>Results</H3>
+              <H2 id="results">Results</H2>
               <P>
                 We gave every brand the same framework, the same guidelines, and the same choice. What happened next proved the approach worked.
               </P>
@@ -714,12 +714,12 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="reflections">
               <H2 id="reflections">Reflections</H2>
 
-              <H3>What I would do differently</H3>
+              
               <P>
                 More design studio workshops. We ran at least one hands-on brainstorming workshop with the central team (product, engineering, UX) and it was incredibly useful for alignment. If there's one thing I would do differently, it would be running more of these, and bringing the brands into them earlier. Co-creation builds faster alignment than presentation.
               </P>
 
-              <H3>What I'm proud of</H3>
+              
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
                 <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
