@@ -30,7 +30,9 @@ import gapCultGaiaResultsImg from "@/assets/cs02/gap-cult-gaia-results.png";
 interface NavSection {
   id: string;
   title: string;
+  level?: number;
 }
+
 
 interface CaseStudyBody02Props {
   studyTitle: string;
