@@ -17,9 +17,10 @@ export const CaseStudyListRow = ({
 }: CaseStudyListRowProps) => (
   <Link
     to={to}
-    className="group relative mb-4 block transition-colors duration-200 hover:bg-sand md:mb-0"
+    className="group relative mb-4 block rounded-xl border border-title/10 transition-colors duration-200 hover:bg-sand md:mb-3"
   >
-    <div className="relative flex flex-col gap-4 rounded-xl bg-sand px-5 py-10 md:flex-row md:items-center md:justify-between md:gap-6 md:rounded-none md:bg-transparent md:px-6 md:py-12">
+    <div className="relative flex flex-col gap-4 rounded-xl px-5 py-10 md:flex-row md:items-center md:justify-between md:gap-6 md:px-6 md:py-12">
+
       <div className="relative z-20 flex w-full flex-col gap-1.5 md:w-[54%]">
         <h3 className="font-serif text-xl leading-snug text-title md:text-2xl">
           {title}
