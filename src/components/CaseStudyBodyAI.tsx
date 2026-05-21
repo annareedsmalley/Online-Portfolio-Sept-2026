@@ -488,7 +488,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== Lasting Strategic Impact ===================== */}
             <Section id="lasting-impact">
-              <H2 id="lasting-impact">Lasting strategic impact</H2>
+              <H2 id="lasting-impact">Lasting Strategic Impact</H2>
               <P>
                 What I am most proud of from this project is not the feature itself, although the business value speaks for itself. What I am most proud of is what the feature seeded.
               </P>
