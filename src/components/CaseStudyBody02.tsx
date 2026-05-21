@@ -47,7 +47,7 @@ const sections: NavSection[] = [
   { id: "my-teams-role", title: "Design Work", level: 3 },
   { id: "the-framework", title: "The framework", level: 3 },
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
-  { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
+  { id: "the-launch", title: "Launch & Results", level: 3 },
   { id: "the-launch", title: "Launch & Results", level: 3 },
   { id: "next-evolution", title: "Phase 2: Scalable Brand Expression (2024–2025)", level: 2 },
   { id: "phase-2-begins", title: "Loyalty's next challenge", level: 3 },
@@ -444,7 +444,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 The types of customer account states we had to track included: enrollment in Gap Inc. Loyalty or MTL/Encore tiers (Core, Premier, All-Access), credit card holder status (Gap/Barclays/Encore Mastercard for 5x points earning), ecommerce account existence (for login, points accrual across brands, and Loyalty Hub access), and rewards/points balance.
               </P>
-              <H3 id="two-gap-inc-firsts">An extra, hard fought win: progressive sign in</H3>
 
               <VideoFigure
                 src={firstBigWin2Video}
