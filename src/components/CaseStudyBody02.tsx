@@ -466,7 +466,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Before and after mobile screens showing the progressive sign-in flow: previously a full Create an Account form, now a single email field under One Membership, Four Brands."
               />
 
-              <H3 id="the-launch">The launch</H3>
+              <H3 id="the-launch">Launch & Results</H3>
               <P>Then, in 2021…</P>
               <P>
                 <strong>We did it! We launched our new cross-brand, Integrated Loyalty Program.</strong>
