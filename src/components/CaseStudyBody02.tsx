@@ -41,8 +41,8 @@ interface CaseStudyBody02Props {
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives", level: 2 },
   { id: "my-scope", title: "My scope at Gap, Inc.", level: 3 },
-  { id: "the-problem", title: "The Problem: Unified Cart, Fragmented Loyalty", level: 3 },
-  { id: "integrated-loyalty", title: "Integrated loyalty (2020–2021)", level: 2 },
+  { id: "the-problem", title: "Four brands, one cart, fragmented loyalty", level: 3 },
+  { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty (2020–2021)", level: 2 },
   { id: "the-initiative", title: "The initiative", level: 3 },
   { id: "my-teams-role", title: "My team's role", level: 3 },
   { id: "the-framework", title: "The framework", level: 3 },
@@ -366,7 +366,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
               </P>
 
-              <H3 id="the-problem">The Problem: Unified Cart, Fragmented Loyalty</H3>
+              <H3 id="the-problem">Four brands, one cart, fragmented loyalty</H3>
               <P>
                 When I joined Gap Inc. in 2018, the eCommerce platform allowed customers to shop just one of Gap Inc.'s brands, or switch between them. All products a customer added would appear in a shared cart.
               </P>
@@ -402,7 +402,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== Integrated Loyalty ===================== */}
             <Section id="integrated-loyalty">
-              <H2 id="integrated-loyalty">Integrated loyalty (2020–2021)</H2>
+              <H2 id="integrated-loyalty">Phase 1: Integrated Loyalty (2020–2021)</H2>
 
               <H3 id="the-initiative">The initiative</H3>
               <P>
