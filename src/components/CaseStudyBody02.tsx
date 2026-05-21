@@ -78,8 +78,8 @@ const H3 = ({ id, children }: { id?: string; children: ReactNode }) => (
   </h3>
 );
 
-const P = ({ children }: { children: ReactNode }) => (
-  <p className="body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+const P = ({ children, className }: { children: ReactNode; className?: string }) => (
+  <p className={`body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title ${className ?? ""}`}>
     {children}
   </p>
 );
@@ -525,12 +525,13 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Headless UI infographic: unsustainable variance converges into one shared system, then diverges into expressive, responsible variance across Gap, Athleta, Banana Republic, and Old Navy"
                 className="mt-6"
               />
-              <P>
+              <P className="mt-6">
                 We followed a Converge/Diverge process — Audit, Analyze, Synthesize, Theme — and sequenced component rewrites accordingly. A Figma "Variables" / design token architecture let primitive tokens flow through semantic tokens to component-level tokens, enabling brand theming.
               </P>
               <Figure
                 src={approachedWork3Img}
                 alt="New foundational PDP buy box template preview across Athleta, Banana Republic, Gap, and Old Navy"
+                className="mt-6"
               />
 
             </Section>
@@ -549,7 +550,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 src={gapCultGaiaNewsroomImg}
                 alt="Gap Newsroom feature: Gap and Cult Gaia Collaboration Celebrates the Beauty and Strength of Today's Modern Goddess"
               />
-              <P>
+              <P className="mt-6">
                 This product gating feature was one of the first experiences build on the headless UI foundation my had spent the past 10 months designing.
               </P>
               <P>
