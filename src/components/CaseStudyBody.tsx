@@ -578,7 +578,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
              <Section id="second-challenge">
                <H2 id="second-challenge">The second challenge</H2>
                <P>
-                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: <strong>the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in dead clicks on variants that could not be combined with variants already selected for other attributes.</strong>
+                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in dead clicks on variants that could not be combined with variants already selected for other attributes.
                </P>
               <Figure
                 src={deadLinksOnPdpImg}
