@@ -470,7 +470,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Before and after mobile screens showing the progressive sign-in flow: previously a full Create an Account form, now a single email field under One Membership, Four Brands."
               />
 
-              <H3>The launch</H3>
+              <H3 id="the-launch">The launch</H3>
               <P>Then, in 2021…</P>
               <P>
                 <strong>We did it! We launched our new cross-brand, Integrated Loyalty Program.</strong>
@@ -484,7 +484,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Primary source: Gap Inc. press release 'Gap Inc. Announces Launch of New Integrated Rewards Program: One Membership. Four Brands.' (May 26, 2023) highlighting 19 million new customers enrolled in less than 12 months and 37 million combined Cardmembers and Rewards members migrated to the new program."
               />
 
-              <H3>The results</H3>
+              <H3 id="the-results">The results</H3>
               <P>
                 By 2022, customers had created 19 million new Gap Inc loyalty accounts.
               </P>
@@ -505,7 +505,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="next-evolution">
               <H2 id="next-evolution">Phase 2: Brand-Specific Loyalty (2024)</H2>
 
-              <H3>Phase 2 begins</H3>
+              <H3 id="phase-2-begins">Phase 2 begins</H3>
               <P>
                 By 2024, it was time to start on the second phase of the Gap Inc Loyalty program.
               </P>
@@ -514,7 +514,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 Retain the simplicity and power of a single, shared loyalty program while also applying brand-specific styling to each customer's loyalty experience?
               </Pullquote>
 
-              <H3>The answer was technology</H3>
+              <H3 id="the-answer-was-technology">The answer was technology</H3>
               <P>
                 As it turned out, the answer to this How Might We resided in… Technology.
               </P>
@@ -522,7 +522,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 This is because, prior to 2024, Gap Inc.'s eCommerce UI was not "headless." In other words, applying a different look & feel to the same underlying experience meant rebuilding that experience four times.
               </P>
 
-              <H3>Leading the headless UI migration</H3>
+              <H3 id="leading-headless-ui">Leading the headless UI migration</H3>
               <P>
                 Luckily, later that very same year, Gap Inc. started the process to move our entire web platform to headless UI, using <strong>Next.js and Tailwind</strong>. Soon after, I became the lead of the Product Design team dedicated to this effort.
               </P>
