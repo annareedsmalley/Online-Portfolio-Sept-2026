@@ -93,7 +93,7 @@ const CaseStudyGap = () => {
       </section>
 
       {/* CASE STUDY BODY */}
-      <CaseStudyBody studyTitle="Leading a cross-brand product experience strategy" />
+      <CaseStudyBody studyTitle="Delivering multi-variant PDP strategy through organizational change at Gap Inc." />
 
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">
