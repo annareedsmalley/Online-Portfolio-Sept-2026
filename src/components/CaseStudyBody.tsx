@@ -26,7 +26,7 @@ interface CaseStudyBodyProps {
 // Sticky nav reflects every H2 in the source document, in order.
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives" },
-  { id: "my-approach", title: "The initiative" },
+  { id: "my-approach", title: "Setup & Staffing" },
   { id: "first-battle", title: "Challenge #1" },
   { id: "second-challenge", title: "Challenge #2" },
   { id: "results", title: "Results" },
@@ -406,7 +406,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               <div className="h-8" />
 
-              <H2 id="my-approach">The initiative</H2>
+              <H2 id="my-approach">Setup & Staffing</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
               </P>
