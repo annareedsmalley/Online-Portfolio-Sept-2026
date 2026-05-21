@@ -369,7 +369,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="leadership-context">
               <H2 id="leadership-context">Context & Objectives</H2>
 
-              <H3>The situation</H3>
               <P>
                 This project began as a brand-owned initiative, scoped as an Old Navy-only effort. Within the brand world at Gap Inc., that meant something specific: there was no brief, no strategy, and no stakeholder alignment. Old Navy had a vision, they wanted it implemented, and the impact on customers was assumed to be positive without needing interrogation. No user research. No design involvement in the scoping.
               </P>
@@ -382,7 +381,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 caption="The brand's vision was to replicate the in-store experience of seeing all variant options."
               />
 
-              <H3>Here's what I walked into:</H3>
               <P>
                 Years of brand requests for multi-variant PDPs, and zero design work had been done. Engineering had already given an estimate and timeline. <strong>Handoff was three weeks away.</strong> And Old Navy had a <strong>$17 million marketing campaign</strong> riding on that timeline.
               </P>
@@ -390,7 +388,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Leadership had scoped multi-variant PDPs as straightforward UI. "Just add selectors to the page; should be simple." It wasn't. This was a classic worst-case scenario for a UX team: <strong>engineering estimates and solution assumptions made without design input.</strong>
               </P>
 
-              <H3>My read on the situation</H3>
               <P>
                 When I first assessed the project, I immediately thought: "Uh oh, I hope this doesn't end up being something where we have to bring in the VP of UX to interface with brand executives." I had observed and heard stories of similar situations where disagreements between the central organization and the brand organizations escalated quickly. My read was we'd need to get very close to the brands very quickly and earn their trust if we wanted to avoid escalation.
               </P>
