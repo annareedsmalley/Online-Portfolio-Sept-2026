@@ -91,16 +91,6 @@ const Index = () => {
                   >
                     Anna Smalley,
                   </span>
-                  <span
-                    className="pop-in pop-delay-3 inline-block h-[1em] w-[1em] overflow-hidden rounded-full align-middle shadow-[0_18px_40px_-16px_rgba(0,0,0,0.5)]"
-                    style={{ ['--pop-rot' as string]: '6deg' }}
-                  >
-                    <img
-                      src={annaPortrait}
-                      alt="Anna Smalley portrait"
-                      className="block h-full w-full object-cover"
-                    />
-                  </span>
                 </span>
 
                 {/* Line 2: a Senior UX Leader. */}
