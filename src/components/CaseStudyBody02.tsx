@@ -51,16 +51,12 @@ const sections: NavSection[] = [
   { id: "the-launch", title: "Launch & Results", level: 3 },
   { id: "next-evolution", title: "Phase 2: Scalable Brand Expression (2024)", level: 2 },
   { id: "phase-2-begins", title: "Loyalty's next challenge", level: 3 },
-  { id: "the-answer-was-technology", title: "The answer was technology", level: 3 },
+  
   { id: "leading-headless-ui", title: "Leading the headless UI migration", level: 3 },
-  { id: "how-we-approached", title: "How we approached the work", level: 3 },
-  { id: "payoff-product-gating", title: "Product gating (2024–2025)", level: 2 },
   { id: "the-first-big-win", title: "Product Gating", level: 3 },
   { id: "built-once-used-by-all", title: "Built once, used by all", level: 3 },
   { id: "impact", title: "Impact", level: 2 },
   { id: "reflections", title: "Reflections", level: 2 },
-  { id: "what-im-proud-of", title: "What I'm most proud of", level: 3 },
-  { id: "what-id-do-differently", title: "What I would do differently", level: 3 },
 ];
 
 // ----- Reusable typographic primitives (identical to CS01) -----
@@ -508,7 +504,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 Retain the simplicity and power of a single, shared loyalty program while also applying brand-specific styling to each customer's loyalty experience?
               </Pullquote>
 
-              <H3 id="the-answer-was-technology">The answer was technology</H3>
+              
               <P>
                 As it turned out, the answer to this How Might We resided in… Technology.
               </P>
@@ -521,7 +517,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 Luckily, later that very same year, Gap Inc. started the process to move our entire web platform to headless UI, using <strong>Next.js and Tailwind</strong>. Soon after, I became the lead of the Product Design team dedicated to this effort.
               </P>
 
-              <H3 id="how-we-approached">How we approached the work</H3>
+              
               <P>
                 Our "Unlocking Momentum" strategy framework focused on three principles: <strong>scaling</strong> across new platforms, markets, and brands; <strong>moving fast</strong> through prototyping and testing; and ensuring <strong>consistency</strong> across platforms, devices, and teams.
               </P>
@@ -543,7 +539,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== The Payoff: Product Gating ===================== */}
             <Section id="payoff-product-gating">
-              <H2 id="payoff-product-gating">Product gating (2024–2025)</H2>
+              
 
               <H3 id="the-first-big-win">Product Gating</H3>
               <P>
@@ -585,12 +581,12 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="reflections">
               <H2 id="reflections">Reflections</H2>
 
-              <H3 id="what-im-proud-of">What I'm most proud of</H3>
+              
               <P>
                 I'm proudest of how the work compounded. The integrated loyalty launch gave 19 million customers a simpler relationship with our brands, and the headless platform that followed turned every future loyalty improvement into a four-brand win by default. None of that happens without the cross-functional trust my team built over years of unglamorous reconciliation work.
               </P>
 
-              <H3 id="what-id-do-differently">What I would do differently</H3>
+              
               <P>
                 I'd invest in the design token and theming architecture earlier. We spent years rebuilding the same experiences four times before headless UI made brand-specific theming trivial — and I underestimated how much faster every other initiative would move once that foundation existed.
               </P>
