@@ -403,6 +403,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <P>
                 It turned out to be both. People were bouncing because they couldn't discover variant options. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
               </P>
+
+              <div className="h-8" />
+
               <H2 id="my-approach">The initiative</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
