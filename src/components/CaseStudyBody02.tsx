@@ -389,7 +389,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Four brands, four loyalty programs: Navyist Rewards, Gap Good Rewards, Banana Republic Rewards, and Athleta Rewards shown with their respective non-card and credit card tiers."
                 caption="Four brands. Four programs. One confused customer — the pre-integrated loyalty landscape across Gap Inc."
               />
-              <P><strong>"Where are my rewards? What is going on here?"</strong></P>
+              
             </Section>
 
             <SectionDivider />
