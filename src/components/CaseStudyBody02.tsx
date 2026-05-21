@@ -69,10 +69,10 @@ const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
   </h2>
 );
 
-const H3 = ({ id, children }: { id?: string; children: ReactNode }) => (
+const H3 = ({ id, children, className }: { id?: string; children: ReactNode; className?: string }) => (
   <h3
     id={id}
-    className="scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2"
+    className={`scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2 ${className ?? ""}`}
   >
     {children}
   </h3>
