@@ -443,7 +443,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Redeem journey: in-store and online flows from Browse to Points Deducted"
               />
 
-              <H3>Managing the complexity</H3>
+              <H3 id="managing-complexity">Managing the complexity</H3>
               <P>
                 To reach these goals, we worked through a massive amount of complexity. The challenge required deep cross-functional and cross-brand alignment, because the experience for the first version of the integrated loyalty program was going to be almost identical across brands.
               </P>
