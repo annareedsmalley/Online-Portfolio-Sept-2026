@@ -46,7 +46,7 @@ const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
   </h2>
 );
 
-const H3 = ({ children }: { children: ReactNode }) => (
+const H3 = ({ id, children }: { id?: string; children: ReactNode }) => (
   <h3 className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">
     {children}
   </h3>
@@ -472,7 +472,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== Scaling ===================== */}
             <Section id="scaling">
-              <H2 id="scaling">Scaling across four brands</H2>
+              <H3 id="scaling">Scaling across four brands</H3>
               <P>
                 Once we had the trust and returns story validated at Old Navy and Athleta, the next problem was scale. Four brands, each with its own visual identity, its own merchandising priorities, and its own opinions about what AI should and should not say to its customers.
               </P>
