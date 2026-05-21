@@ -48,7 +48,7 @@ const sections: NavSection[] = [
   { id: "the-framework", title: "The framework", level: 3 },
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
   { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
-  { id: "the-launch", title: "The launch", level: 3 },
+  { id: "the-launch", title: "Launch & Results", level: 3 },
   { id: "the-results", title: "The results", level: 3 },
   { id: "next-evolution", title: "Phase 2: Brand-Specific Loyalty (2024)", level: 2 },
   { id: "phase-2-begins", title: "Phase 2 begins", level: 3 },
@@ -466,7 +466,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Before and after mobile screens showing the progressive sign-in flow: previously a full Create an Account form, now a single email field under One Membership, Four Brands."
               />
 
-              <H3 id="the-launch">The launch</H3>
+              <H3 id="the-launch">Launch & Results</H3>
               <P>Then, in 2021…</P>
               <P>
                 <strong>We did it! We launched our new cross-brand, Integrated Loyalty Program.</strong>
