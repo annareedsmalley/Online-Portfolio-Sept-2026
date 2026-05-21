@@ -49,7 +49,7 @@ const sections: NavSection[] = [
   { id: "managing-complexity", title: "Managing the complexity", level: 3 },
   { id: "two-gap-inc-firsts", title: "An extra, hard fought win: progressive sign in", level: 3 },
   { id: "the-launch", title: "Launch & Results", level: 3 },
-  { id: "next-evolution", title: "Phase 2: Scalable Brand Expression (2024)", level: 2 },
+  { id: "next-evolution", title: "Phase 2: Scalable Brand Expression (2024–2025)", level: 2 },
   { id: "phase-2-begins", title: "Loyalty's next challenge", level: 3 },
   
   { id: "leading-headless-ui", title: "Leading the headless UI migration", level: 3 },
@@ -493,7 +493,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== The Next Evolution ===================== */}
             <Section id="next-evolution">
-              <H2 id="next-evolution">Phase 2: Scalable Brand Expression (2024)</H2>
+              <H2 id="next-evolution">Phase 2: Scalable Brand Expression (2024–2025)</H2>
 
               <H3 id="phase-2-begins">Loyalty's next challenge</H3>
               <P>
