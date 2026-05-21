@@ -27,9 +27,9 @@ interface CaseStudyBodyProps {
 const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives" },
   { id: "my-approach", title: "Setup & Staffing" },
-  { id: "structuring-work", title: "Design Work" },
   { id: "first-battle", title: "Challenge #1" },
   { id: "second-challenge", title: "Challenge #2" },
+  { id: "results", title: "Results" },
   { id: "team-leadership-impact", title: "Lasting Strategic Impact" },
   { id: "reflections", title: "Reflections" },
 ];
