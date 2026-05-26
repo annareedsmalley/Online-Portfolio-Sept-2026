@@ -233,7 +233,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Every retailer in early 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of PMs, engineers, and UX leaders who proposed using <strong>AI to generate summaries of product reviews</strong> for customers.
               </P>
               <P>
-                Later in 2024, executive leadership drafted a deliberately open brief: <strong>pilot an AI-generated review summary on the PDP, with any brand that was interested, and see if we could make it succeed</strong>. The underlying tech already existed internally — <strong>SCOUT</strong>, an LLM-based tool that:
+                Later in 2024, executive leadership drafted a deliberately open brief: <strong>pilot an AI-generated review summary on the PDP, with any brand</strong> that was interested, and see if we could make it succeed. The underlying tech already existed internally — SCOUT, an LLM-based tool that:
               </P>
               <ul className="my-4 ml-6 list-disc space-y-2 font-sans text-[17px] leading-[1.7] text-body">
                 <li>Classifies sentiment across thousands of reviews</li>
