@@ -168,59 +168,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
       <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-24">
         <div
           ref={containerRef}
-          className={`grid grid-cols-1 gap-16 ${unlocked ? "lg:grid-cols-[35fr_65fr]" : ""}`}
+          className="grid grid-cols-1 gap-16"
         >
-          {unlocked && (
-            <aside className="relative hidden lg:block">
-              <div className="sticky top-28 w-full" style={{ maxWidth: 412 }}>
-                <nav
-                  aria-label="Case study sections"
-                  className="w-full rounded-2xl border border-sand bg-sand/50 p-6"
-                  style={{ maxWidth: 412 }}
-                >
-                  <a
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      window.scrollTo({ top: 0, behavior: "smooth" });
-                      history.replaceState(null, "", window.location.pathname);
-                    }}
-                    className="mb-3 block font-sans text-[15px] font-semibold tracking-wide leading-snug text-title hover:text-terracotta transition-colors"
-                  >
-                    {studyTitle}
-                  </a>
-                  <ul className="flex flex-col gap-1">
-                    {sections.map((s) => {
-                      const isActive = active === s.id;
-                      return (
-                        <li key={s.id} className="min-w-0">
-                          <a
-                            href={`#${s.id}`}
-                            onClick={(e) => {
-                              e.preventDefault();
-                              const el = document.getElementById(s.id);
-                              if (el) {
-                                const y = el.getBoundingClientRect().top + window.scrollY - 80;
-                                window.scrollTo({ top: y, behavior: "smooth" });
-                                history.replaceState(null, "", `#${s.id}`);
-                              }
-                            }}
-                            className={`block rounded-md px-3 py-2 font-sans text-[13px] font-semibold leading-snug tracking-wide transition-colors ${
-                              isActive
-                                ? "bg-background text-terracotta"
-                                : "text-title/70 hover:text-terracotta"
-                            }`}
-                          >
-                            {s.title}
-                          </a>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </nav>
-              </div>
-            </aside>
-          )}
+
 
           {/* RIGHT: content */}
           <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
