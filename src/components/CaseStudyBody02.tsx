@@ -42,7 +42,7 @@ const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives", level: 2 },
   { id: "my-scope", title: "My scope at Gap Inc", level: 3 },
   { id: "the-problem", title: "Four brands, one cart, fragmented loyalty", level: 3 },
-  { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty (2020–2021)", level: 2 },
+  { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty Initiative (2020–2021)", level: 2 },
   { id: "the-initiative", title: "Setup & Staffing", level: 3 },
   { id: "my-teams-role", title: "Discovery", level: 3 },
   { id: "the-framework", title: "The framework", level: 3 },
@@ -52,7 +52,7 @@ const sections: NavSection[] = [
   { id: "next-evolution", title: "Phase 2: Scalable Brand Expression (2024–2025)", level: 2 },
   { id: "phase-2-begins", title: "Loyalty's next challenge", level: 3 },
   
-  { id: "leading-headless-ui", title: "Leading the headless UI migration", level: 3 },
+  { id: "leading-headless-ui", title: "Leading the Brandable Foundation (Headless UI) migration", level: 3 },
   { id: "the-first-big-win", title: "Product Gating", level: 3 },
   { id: "built-once-used-by-all", title: "Built once, used by all", level: 3 },
   { id: "impact", title: "Impact", level: 2 },
@@ -354,7 +354,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 <li>Cart & Checkout</li>
                 <li>Shipping & Store Pickup</li>
                 <li>Login & Account</li>
-                <li>Loyalty & Rewards</li>
+                <li>Integrated Loyalty Initiative & Rewards</li>
               </UL>
               <P>
                 I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
@@ -396,11 +396,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== Integrated Loyalty ===================== */}
             <Section id="integrated-loyalty">
-              <H2 id="integrated-loyalty">Phase 1: Integrated Loyalty (2020–2021)</H2>
+              <H2 id="integrated-loyalty">Phase 1: Integrated Loyalty Initiative (2020–2021)</H2>
 
               
               <P>
-                In 2020, I was asked to lead the Product Design team for "Integrated Loyalty"—a multi-year, cross-functional initiative to create a single loyalty program for all four Gap Inc. brands. The program promised:
+                In 2020, I was asked to lead the Product Design team for the "Integrated Loyalty Initiative"—a multi-year, cross-functional initiative to create a single loyalty program for all four Gap Inc. brands. The program promised:
               </P>
               <UL>
                 <li><strong>Unified rewards structure</strong> — Earn and redeem across all four brands with a single account</li>
