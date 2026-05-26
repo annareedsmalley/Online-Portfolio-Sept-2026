@@ -508,7 +508,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 As it turned out, the answer to this How Might We resided in… Technology.
               </P>
               <P>
-                This is because, prior to 2024, Gap Inc.'s eCommerce UI was not "headless." In other words, applying a different look & feel to the same underlying experience meant rebuilding that experience four times.
+                This is because, prior to 2024, Gap Inc.'s eCommerce UI was not a "Brandable Foundation (Headless UI)." In other words, applying a different look & feel to the same underlying experience meant rebuilding that experience four times.
               </P>
 
               <H3 id="leading-headless-ui">Leading the headless UI migration</H3>
