@@ -230,40 +230,51 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="the-situation">
               <H2 id="the-situation">Context & Objectives</H2>
               <P>
-                Every retailer in early 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of product managers, engineers, and UX leaders who proposed using AI to generate review summaries and highlights for customers.
+                Every retailer in early 2024 was racing to put Generative AI in front of customers. Inside Gap Inc., I was part of the cross-functional leadership group of PMs, engineers, and UX leaders who proposed using AI to <strong>generate review summaries and highlights</strong> for customers.
               </P>
               <P>
-                Later in 2024, executive leadership drafted a brief that was deliberately open: <strong>pilot an AI-generated review summary on the PDP, with any brand that was interested, and see if we could make it succeed</strong>. The technology already existed internally. SCOUT is an LLM-based tool that classifies sentiment, extracts key phrases, identifies recurring themes across thousands of reviews, and generates a concise summary of customer opinions. The ask was: put a UI on it, ship it, and learn.
+                Later in 2024, executive leadership drafted a deliberately open brief: <strong>pilot an AI-generated review summary on the PDP, with any brand that was interested, and see if we could make it succeed</strong>. The underlying tech already existed internally — <strong>SCOUT</strong>, an LLM-based tool that:
+              </P>
+              <ul className="my-4 ml-6 list-disc space-y-2 font-sans text-[17px] leading-[1.7] text-body">
+                <li>Classifies sentiment across thousands of reviews</li>
+                <li>Extracts key phrases and recurring themes</li>
+                <li>Generates a concise summary of customer opinions</li>
+              </ul>
+              <P>
+                The ask was simple: <strong>put a UI on it, ship it, and learn.</strong>
               </P>
               <P>
-                Soon after, it became clear that Athleta was the brand most interested in Gen AI review summaries. Because of this, leadership could have asked a separate design team dedicated to strategic initiatives for Athleta, to lead this work. However, that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. The decision was made that my team would take on this work.
+                Athleta quickly emerged as the brand most interested. Leadership could have handed this to Athleta's dedicated strategic initiatives design team — but that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. <strong>The work landed on my team instead.</strong>
               </P>
               <H3>Discovery&nbsp;</H3>
               <P>
-                When the brief came in, my first thought was that we were not being asked to ship a feature. We were being asked to set a precedent. This was going to be the first time a Gap Inc. customer would knowingly interact with AI on our site, and whatever pattern we established here would set the bar, both internally and externally, for every AI experience that came after.
+                My first thought when the brief came in: <strong>we were not being asked to ship a feature. We were being asked to set a precedent.</strong> This would be the first time a Gap Inc. customer knowingly interacted with AI on our site, and whatever pattern we established would set the bar — internally and externally — for every AI experience that came after.
+              </P>
+              <P>That changed the stakes. If this shipped slick but untrustworthy, we wouldn't just lose the feature — we'd <strong>poison the well for AI at Gap Inc. for years</strong>. Every future team would have to overcome that gravity.</P>
+              <P>
+                I also had to dispel a familiar reflex early: the <strong>"this will be easy, let's just copy Amazon"</strong> notion floating around the room. I'd seen, more than once, what happens when PMs, engineers, and brand leaders assume copying Amazon will work for our customers. It doesn't.
               </P>
               <P>
-                That changed the stakes. If this feature shipped and customers found it slick but untrustworthy, we would not just lose the feature. We would poison the well for AI at Gap Inc. for years. Customers would associate "Gap Inc. AI" with the same vague unease they already felt about AI in general. And the next team trying to ship an AI feature would have to overcome that gravity.
+                My job was to help leadership see that this feature would shape our customers' <strong>first impression of Gap Inc. AI</strong>, making rigorous UX research on trust and transparency more important than ever. We invested heavily:
               </P>
-              <P>
-                There was also a familiar reflex I needed to dispel early. Similar to the assumption that nearly derailed the multivariant PDP project, there was a "this will be easy, let's just copy Amazon" notion floating around the room. By this point I had seen, more than once, what happened when product managers, engineers, and brand leaders assumed that copying Amazon would work for our customers. I knew it would not.
-              </P>
-              <P>
-                My job was to help leadership understand that this feature would create our customers' first impression of how Gap Inc. brands deploy AI, which made rigorous UX research around customer feelings about AI, trust, and transparency in product reviews more important than ever. We invested heavily in that research, running a foundational exploratory study in March 2024 followed by design testing in July 2024, and those studies became the spine of every design decision that followed.
-              </P>
+              <ul className="my-4 ml-6 list-disc space-y-2 font-sans text-[17px] leading-[1.7] text-body">
+                <li><strong>March 2024</strong> — foundational exploratory study</li>
+                <li><strong>July 2024</strong> — design testing</li>
+              </ul>
+              <P>Those studies became the spine of every design decision that followed.</P>
               <Pullquote color="yellow" rotate={-2} kicker="The Stakes">
                 We were not being asked to ship a feature. We were being asked to set a precedent.
               </Pullquote>
 
               <H3>Deciding to say yes</H3>
               <P>
-                My team had a full roadmap. <strong>Saying yes to leading this meant taking on a project where the design problem was downstream of a much bigger problem about how Gap Inc. would think about AI.</strong> That was exactly why I said yes.
+                My team had a full roadmap. <strong>Saying yes meant taking on a project where the design problem was downstream of a much bigger problem about how Gap Inc. would think about AI.</strong> That was exactly why I said yes.
               </P>
               <P>
-                There was a version of this where the design team showed up after the fact, tidying up the UI on whatever Brand and AI/ML had already built. I have seen that movie before. The design ends up looking right but the experience is wrong, and by the time anyone notices, it is shipping. I wanted us upstream.
+                There's a version of this where design shows up after the fact, tidying up whatever Brand and AI/ML already built. I've seen that movie — the design looks right but the experience is wrong, and by the time anyone notices, it's shipping. <strong>I wanted us upstream.</strong>
               </P>
               <P>
-                What I did not want to do was simply add another project to my Sr. Designer's plate. The decision I actually made was to invest more of my own time into supporting her on this project, and on her other projects in parallel, so she had the runway to do this well. When I ran the plan by her, she was enthusiastic. Customer-facing AI was already high on her own list of career goals.
+                What I didn't want was to simply add another project to my Sr. Designer's plate. Instead, I committed to <strong>investing more of my own time</strong> supporting her — on this project and her others in parallel — so she had the runway to do it well. When I ran the plan by her, she was enthusiastic: customer-facing AI was already high on her own list of career goals.
               </P>
             </Section>
 
