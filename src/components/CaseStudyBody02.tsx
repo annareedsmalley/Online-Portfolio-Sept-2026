@@ -42,7 +42,7 @@ const sections: NavSection[] = [
   { id: "leadership-context", title: "Context & Objectives", level: 2 },
   { id: "my-scope", title: "My scope at Gap Inc", level: 3 },
   { id: "the-problem", title: "Four brands, one cart, fragmented loyalty", level: 3 },
-  { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty (2020–2021)", level: 2 },
+  { id: "integrated-loyalty", title: "Phase 1: Integrated Loyalty Initiative (2020–2021)", level: 2 },
   { id: "the-initiative", title: "Setup & Staffing", level: 3 },
   { id: "my-teams-role", title: "Discovery", level: 3 },
   { id: "the-framework", title: "The framework", level: 3 },
@@ -52,7 +52,7 @@ const sections: NavSection[] = [
   { id: "next-evolution", title: "Phase 2: Scalable Brand Expression (2024–2025)", level: 2 },
   { id: "phase-2-begins", title: "Loyalty's next challenge", level: 3 },
   
-  { id: "leading-headless-ui", title: "Leading the headless UI migration", level: 3 },
+  { id: "leading-headless-ui", title: "Leading the Brandable Foundation (Headless UI) migration", level: 3 },
   { id: "the-first-big-win", title: "Product Gating", level: 3 },
   { id: "built-once-used-by-all", title: "Built once, used by all", level: 3 },
   { id: "impact", title: "Impact", level: 2 },
@@ -354,7 +354,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 <li>Cart & Checkout</li>
                 <li>Shipping & Store Pickup</li>
                 <li>Login & Account</li>
-                <li>Loyalty & Rewards</li>
+                <li>Integrated Loyalty Initiative & Rewards</li>
               </UL>
               <P>
                 I didn't just work on loyalty in isolation; I touched every part of the journey, which gave me a unique perspective on how loyalty connects to the full shopping experience.
@@ -396,11 +396,11 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
             {/* ===================== Integrated Loyalty ===================== */}
             <Section id="integrated-loyalty">
-              <H2 id="integrated-loyalty">Phase 1: Integrated Loyalty (2020–2021)</H2>
+              <H2 id="integrated-loyalty">Phase 1: Integrated Loyalty Initiative (2020–2021)</H2>
 
               
               <P>
-                In 2020, I was asked to lead the Product Design team for "Integrated Loyalty"—a multi-year, cross-functional initiative to create a single loyalty program for all four Gap Inc. brands. The program promised:
+                In 2020, I was asked to lead the Product Design team for the "Integrated Loyalty Initiative"—a multi-year, cross-functional initiative to create a single loyalty program for all four Gap Inc. brands. The program promised:
               </P>
               <UL>
                 <li><strong>Unified rewards structure</strong> — Earn and redeem across all four brands with a single account</li>
@@ -463,7 +463,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <H3 id="the-launch">Launch & Results</H3>
               <P>Then, in 2021…</P>
               <P>
-                <strong>We did it! We launched our new cross-brand, Integrated Loyalty Program.</strong>
+                <strong>We did it! We launched our new cross-brand, Integrated Loyalty Launch.</strong>
               </P>
               <P>
                 Ever since then, all customers have been able to use a single account, in stores and online, to access all Gap Inc. loyalty program benefits, all of which apply to all four brands.
@@ -478,7 +478,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 By 2022, customers had created 19 million new Gap Inc loyalty accounts.
               </P>
               <P>
-                Within the first year of launch, the integrated loyalty program drove significant customer growth and adoption across brands.
+                Within the first year of launch, the Integrated Loyalty Initiative drove significant customer growth and adoption across brands.
               </P>
               <P>
                 By 2021, Gap Inc. reported enrolling more than 19 million new customers in less than 12 months, with total participation reaching 37 million members across cardholders and rewards users.
@@ -508,7 +508,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 As it turned out, the answer to this How Might We resided in… Technology.
               </P>
               <P>
-                This is because, prior to 2024, Gap Inc.'s eCommerce UI was not "headless." In other words, applying a different look & feel to the same underlying experience meant rebuilding that experience four times.
+                This is because, prior to 2024, Gap Inc.'s eCommerce UI was not a "Brandable Foundation (Headless UI)." In other words, applying a different look & feel to the same underlying experience meant rebuilding that experience four times.
               </P>
 
               <H3 id="leading-headless-ui">Leading the headless UI migration</H3>
@@ -522,7 +522,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               </P>
               <Figure
                 src={approachedWork1Img}
-                alt="Headless UI infographic: unsustainable variance converges into one shared system, then diverges into expressive, responsible variance across Gap, Athleta, Banana Republic, and Old Navy"
+                alt="Brandable Foundation (Headless UI) infographic: unsustainable variance converges into one shared system, then diverges into expressive, responsible variance across Gap, Athleta, Banana Republic, and Old Navy"
                 className="mt-6"
               />
               <P className="mt-6">
@@ -544,14 +544,14 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <H3 id="the-first-big-win" className="mt-16">Product Gating</H3>
               <P>
-                Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
+                Soon after the Brandable Foundation (Headless UI) PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
               <Figure
                 src={gapCultGaiaNewsroomImg}
                 alt="Gap Newsroom feature: Gap and Cult Gaia Collaboration Celebrates the Beauty and Strength of Today's Modern Goddess"
               />
               <P className="mt-6">
-                This product gating feature was one of the first experiences build on the headless UI foundation my had spent the past 10 months designing.
+                This product gating feature was one of the first experiences build on the Brandable Foundation (Headless UI) foundation my had spent the past 10 months designing.
               </P>
               <P>
                 <strong>This led to the biggest single increase in credit card applications in Gap Inc.'s history.</strong>
@@ -560,7 +560,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <H3 id="built-once-used-by-all">Built once, used by all</H3>
               <P>
-                Because Gap used Headless UI to create these 3 new shared components for the product gating experience, it was trivial for the other brands to implement the same program, using their own brand theme.
+                Because Gap used Brandable Foundation (Headless UI) to create these 3 new shared components for the product gating experience, it was trivial for the other brands to implement the same program, using their own brand theme.
               </P>
               <KeyInsight color="green" rotate={-3}>
                 Build once, theme four times. The platform investment quietly compounded with every brand campaign that followed.
@@ -570,7 +570,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 alt="Add to Bag restricted message tile shared component themed across Gap, Old Navy, Banana Republic, and Athleta"
               />
               <H2 id="impact">Impact</H2>
-              <StatBlock value="25%" label="The amount of engineering and design time it now takes to propagate a new experience across all four brands, compared to the time it would have taken last year, before we launched Headless UI." />
+              <StatBlock value="25%" label="The amount of engineering and design time it now takes to propagate a new experience across all four brands, compared to the time it would have taken last year, before we launched Brandable Foundation (Headless UI)." />
               <P>
                 Given the impact of just one campaign, for one brand, the potential is exponential.
               </P>
@@ -584,12 +584,12 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               
               <P>
-                I'm proudest of how the work compounded. The integrated loyalty launch gave 19 million customers a simpler relationship with our brands, and the headless platform that followed turned every future loyalty improvement into a four-brand win by default. None of that happens without the cross-functional trust my team built over years of unglamorous reconciliation work.
+                I'm proudest of how the work compounded. The Integrated Loyalty Launch gave 19 million customers a simpler relationship with our brands, and the headless platform that followed turned every future loyalty improvement into a four-brand win by default. None of that happens without the cross-functional trust my team built over years of unglamorous reconciliation work.
               </P>
 
               
               <P>
-                I'd invest in the design token and theming architecture earlier. We spent years rebuilding the same experiences four times before headless UI made brand-specific theming trivial — and I underestimated how much faster every other initiative would move once that foundation existed.
+                I'd invest in the design token and theming architecture earlier. We spent years rebuilding the same experiences four times before Brandable Foundation (Headless UI) made brand-specific theming trivial — and I underestimated how much faster every other initiative would move once that foundation existed.
               </P>
             </Section>
             </PasswordGate>
