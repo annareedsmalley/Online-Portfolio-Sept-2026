@@ -24,7 +24,7 @@ const impacts = [
   },
   {
     label: "75% OF A THEMEABLE FOUNDATIONAL UI ROLLED OUT IN 10 MONTHS",
-    body: "Including 100% of PLP and PDP pages",
+    body: "Including 100% of Product Listing and Product Detail pages for Gap Inc.'s four brands",
   },
   {
     label: "TWO GAP INC. FIRSTS:",
