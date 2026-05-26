@@ -373,7 +373,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 This project began as a brand-owned initiative, scoped as an Old Navy-only effort. Within the brand world at Gap Inc., that meant something specific: there was no brief, no strategy, and no stakeholder alignment. Old Navy had a vision, they wanted it implemented, and the impact on customers was assumed to be positive without needing interrogation. No user research. No design involvement in the scoping.
               </P>
               <P>
-                Then a leadership decision changed everything. Gap Inc. was moving to a <strong>Brandable Foundation (Headless UI) architecture</strong>, and new principles were being established: brands could no longer build anything that couldn't be used by all four brands. Everything would be built on the shared platform, with differences in behavior and functionality per brand managed through the design system. That meant this was no longer Old Navy's project. It was a platform initiative. And that meant it landed on my team.
+                Then a leadership decision changed everything. Gap Inc. was moving to a <strong>headless UI architecture</strong>, and new principles were being established: brands could no longer build anything that couldn't be used by all four brands. Everything would be built on the shared platform, with differences in behavior and functionality per brand managed through the design system. That meant this was no longer Old Navy's project. It was a platform initiative. And that meant it landed on my team.
               </P>
               <Figure
                 src={theSituationImg}
@@ -450,12 +450,12 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
                
               <P>
-                I leveraged the Brandable Foundation (Headless UI) sprint structure I had already set up for a parallel project, which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a live forum right around the corner where stakeholders could bring up concerns and feel heard.
+                I leveraged the headless UI sprint structure I had already set up for a parallel project, which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a live forum right around the corner where stakeholders could bring up concerns and feel heard.
               </P>
               <Figure
                 src={crossFunctionalAlignment2Img}
                 alt="Cross-Functional Alignment Structure Image 2"
-                caption="The two-week Brandable Foundation (Headless UI) sprint cadence I had already established for a parallel project. Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days."
+                caption="The two-week headless UI sprint cadence I had already established for a parallel project. Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days."
               />
             </Section>
 

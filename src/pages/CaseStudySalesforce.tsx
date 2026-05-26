@@ -16,14 +16,14 @@ const otherCaseStudies = caseStudies.filter((c) => c.to !== "/work/four-brands-o
 const impacts = [
   {
     label: "19M new loyalty accounts",
-    body: "Created after the Integrated Loyalty Initiative launched in 2021",
+    body: "Created after the unified program launched in 2021",
   },
   {
     label: "604% SPIKE IN CREDIT CARD APPLICATIONS",
     body: "From a single product gating campaign enabled by the platform Anna's team built",
   },
   {
-    label: "75% OF THE BRANDABLE FOUNDATION (HEADLESS UI) MIGRATION COMPLETED IN 10 MONTHS",
+    label: "75% OF THE HEADLESS UI MIGRATION COMPLETED IN 10 MONTHS",
     body: "Including 100% of PLP and PDP pages",
   },
   {
@@ -53,7 +53,7 @@ const CaseStudySalesforce = () => {
             </Link>
 
             <h3 className="font-label text-sm font-semibold uppercase tracking-[0.15em] text-terracotta md:text-base">
-              Brandable Foundation (Headless UI) & UX Strategy · 2020–2025
+              Loyalty & UX Strategy · 2020–2025
             </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Building a unified membership platform{" "}
@@ -62,7 +62,7 @@ const CaseStudySalesforce = () => {
               </span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
-              Led the design team that unified Gap Inc.'s fragmented loyalty programs across four brands—then led the Brandable Foundation (Headless UI) transformation that unlocked a product gating strategy so successful, the other three brands could replicate it at a fraction of the original effort.
+              Led the design team that unified Gap Inc.'s fragmented loyalty programs across four brands—then led the headless UI transformation that unlocked a product gating strategy so successful, the other three brands could replicate it at a fraction of the original effort.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {[

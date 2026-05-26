@@ -17,7 +17,7 @@ export const caseStudies: CaseStudyEntry[] = [
   {
     to: "/work/four-brands-one-membership",
     title: "Building a unified membership platform for four brands at Gap Inc.",
-    tags: "Brandable Foundation (Headless UI)",
+    tags: "Loyalty & Headless UI",
     image: membershipImg,
     imageAlt: "Two iPhones showing Gap product pages with size and variant selection",
     arrowColor: "#1B1918",
