@@ -244,7 +244,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 The ask was simple: <strong>put a UI on it, ship it, and learn.</strong>
               </P>
               <P>
-                Athleta quickly emerged as the brand most interested. Leadership could have handed this to Athleta's dedicated strategic initiatives design team — but that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. <strong>The work landed on my team instead.</strong>
+                Athleta quickly emerged as the brand most interested. Leadership could have handed this to Athleta's dedicated strategic initiatives design team — but that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. <strong>As a result, I was asked if my team could do this work.</strong>
               </P>
               <H3>Discovery&nbsp;</H3>
               <P>
