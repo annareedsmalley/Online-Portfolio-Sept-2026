@@ -373,7 +373,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 This project began as a brand-owned initiative, scoped as an Old Navy-only effort. Within the brand world at Gap Inc., that meant something specific: there was no brief, no strategy, and no stakeholder alignment. Old Navy had a vision, they wanted it implemented, and the impact on customers was assumed to be positive without needing interrogation. No user research. No design involvement in the scoping.
               </P>
               <P>
-                Then a leadership decision changed everything. Gap Inc. was moving to a <strong>headless UI architecture</strong>, and new principles were being established: brands could no longer build anything that couldn't be used by all four brands. Everything would be built on the shared platform, with differences in behavior and functionality per brand managed through the design system. That meant this was no longer Old Navy's project. It was a platform initiative. And that meant it landed on my team.
+                Then a leadership decision changed everything. Gap Inc. was moving to a <strong>"headless UI" architecture</strong>, and new principles were being established: brands could no longer build anything that couldn't be used by all four brands. Everything would be built on the shared platform, with differences in behavior and functionality per brand managed through the design system. That meant this was no longer Old Navy's project. It was a platform initiative. And that meant it landed on my team.
               </P>
               <Figure
                 src={theSituationImg}
