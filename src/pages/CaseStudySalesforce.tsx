@@ -23,7 +23,7 @@ const impacts = [
     body: "From a single product gating campaign enabled by the platform Anna's team built",
   },
   {
-    label: "75% OF THE HEADLESS UI MIGRATION COMPLETED IN 10 MONTHS",
+    label: "75% OF A THEMEABLE FOUNDATIONAL UI ROLLED OUT IN 10 MONTHS",
     body: "Including 100% of PLP and PDP pages",
   },
   {
