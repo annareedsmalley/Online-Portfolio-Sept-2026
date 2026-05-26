@@ -455,7 +455,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <Figure
                 src={crossFunctionalAlignment2Img}
                 alt="Cross-Functional Alignment Structure Image 2"
-                caption="The two-week sprint cadence I had already established for a parallel project (designing foundational, themeable UI components for use by all four brands). Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days."
+                caption={'The two-week sprint cadence I had already established for Gap Inc\'s "headless UI" migration (designing foundational, themeable UI components for all four brands). Each week included cross-brand reviews, brand feedback loops, office hours, and design-to-dev handoff, ensuring stakeholders always had a forum within days.'}
               />
             </Section>
 
