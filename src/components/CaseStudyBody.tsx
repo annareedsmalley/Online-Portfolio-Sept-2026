@@ -601,7 +601,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 </li>
               </UL>
               <P>
-                We didn't have to say "I told you so." The whole point of the aikido approach was that brands would learn on their own terms, and they did.
+                We didn't have to say "I told you so." The whole point of the aikido approach was that brands would <strong>learn on their own terms</strong>, and they did.
               </P>
 
               <H2 id="team-leadership-impact">Lasting Strategic Impact</H2>
