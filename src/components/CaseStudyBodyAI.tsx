@@ -344,9 +344,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite:
               </P>
               <UL>
-                <li><strong>told the customer this is AI</strong>,</li>
-                <li>labeled the section,</li>
-                <li>and used a disclaimer to acknowledge the model's limits.</li>
+                <li>Told the customer this is AI.</li>
+                <li>Labeled the section clearly.</li>
+                <li>Used a disclaimer to acknowledge the model's limits.</li>
               </UL>
               <P>
                 This is the trust-first thesis expressed in copy rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
