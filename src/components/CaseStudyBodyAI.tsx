@@ -303,7 +303,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </figure>
 
               <P>
-                We ran a phased UXR program over the project. The discovery phase confirmed what we suspected: customers actively look for negative reviews. They use them to test whether a product is right for them. They distrust unalloyed praise. They distrust AI. They want to see how a product fails before they trust it to succeed.
+                We ran a phased UXR program over the project. The discovery phase confirmed what we suspected: <strong>customers actively look for negative reviews</strong>. They use them to test whether a product is right for them. They distrust unalloyed praise. They distrust AI. They want to see how a product fails before they trust it to succeed.
               </P>
               <ResearchQuote
                 quote="I feel like this brand really is being transparent. I don't get the feeling they're only publishing certain reviews, but that they're literally taking customers' voices and putting it here."
