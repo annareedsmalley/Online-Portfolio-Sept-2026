@@ -299,7 +299,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                           active === s.id ? "text-terracotta" : "text-title/70"
                         }`}
                       >
-                        {String.fromCharCode(97 + i)}
+                        {s.title}
                       </a>
                     </li>
                   ))}
