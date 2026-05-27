@@ -409,9 +409,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <H3 id="the-launch">Launch & Results</H3>
               <P>Then, in 2021, we did it!&nbsp;We launched our new cross-brand, Integrated Loyalty Program.</P>
               <P>
-                <strong>We did it! We launched our new cross-brand, Integrated Loyalty Program.</strong>
-              </P>
-              <P>
                 Ever since then, all customers have been able to use a single account, in stores and online, to access all Gap Inc. loyalty program benefits, all of which apply to all four brands.
               </P>
 
