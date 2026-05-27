@@ -30,7 +30,7 @@ interface CaseStudyBodyAIProps {
 const sections: NavSection[] = [
   { id: "the-situation", title: "Context & Objectives" },
   { id: "ai-thesis", title: "Setup & Staffing" },
-  { id: "structuring-work", title: "My team's role" },
+  { id: "structuring-work", title: "Design Work" },
   { id: "launch-reframe", title: "Launch & Results" },
   { id: "lasting-impact", title: "Lasting Strategic Impact" },
   { id: "reflections", title: "Reflections" },
@@ -258,7 +258,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 What I did was bridge. Katie was new to Gap Inc., and she had a lot on her plate already, which meant she had not yet built the relationships across Brand, Product, and UX leadership that I had spent years developing. I used those relationships to make her path easier. I made sure she walked into rooms that were already warmed up to her, I translated the political subtext when she needed it, and I backed her up when a stakeholder pushed back on a recommendation we knew was right.
               </P>
-              <H2 id="structuring-work">My team's role</H2>
+              <H2 id="structuring-work">Design Work</H2>
 
               <P>
                 The brief came in as "pilot an AI-generated review summary." <strong>Katie's first job was to refuse that framing politely, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?</strong>
