@@ -466,7 +466,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="lasting-impact">
               <H2 id="lasting-impact">Lasting Strategic Impact</H2>
               <P>
-                What I am most proud of from this project is not the feature itself, although the business value speaks for itself. What I am most proud of is what the feature seeded.
+                What I am most proud of from this project is not the feature itself, although the business value speaks for itself. What I am most proud of is <strong>what the feature seeded</strong>.
               </P>
               <P>
                 The success of this work contributed directly to the creation of Gap Inc.'s dedicated Office of AI, a function that exists, in part, because we proved out a way for AI to ship to customers responsibly and successfully. The patterns we established here (transparency, AI disclaimers, model-confidence-aware UI, sentiment buckets, returns as a leading trust signal) became the company's working reference for how AI features get built.
