@@ -267,7 +267,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== Structuring the Work ===================== */}
             <Section id="structuring-work">
-              <P>
+              <div className="mt-4" />
                 What I did was <strong>bridge</strong>. Katie was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
               </P>
               <ul className="body-text list-disc pl-6 space-y-2">
