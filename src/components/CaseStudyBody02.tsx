@@ -356,7 +356,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <Figure
                 src={integratedLoyaltyUmbrellaImg}
                 alt="Integrated loyalty program (MTL & Card) under one umbrella with brand expressions and one value prop: Gap, Banana Republic, Old Navy, and Athleta unified via Account Unification (unified identity across MTL, Card, Ecomm; single points bank; streamlined communication; easy enrollment) and New Program Features (on-demand points redemption, recognition and personalization, differentiated shipping promise, branded and cross-brand benefits)."
-                className="mt-6"
+                className="mt-3"
               />
 
               <H3 id="my-teams-role">Setup & Staffing</H3>
