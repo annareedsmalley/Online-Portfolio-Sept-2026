@@ -224,10 +224,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
               <H3>Deciding to say yes</H3>
               <P>
-                My team had a full roadmap. <strong>Saying yes meant taking on a project where the design problem was downstream of a much bigger problem about how Gap Inc. would think about AI.</strong> That was exactly why I said yes.
-              </P>
-              <P>
-                There's a version of this where design shows up after the fact, tidying up whatever Brand and AI/ML already built. I've seen that movie — the design looks right but the experience is wrong, and by the time anyone notices, it's shipping. <strong>I wanted us upstream.</strong>
+                My team had a full roadmap. However, saying yes meant taking on a project where the design problem was downstream of a much bigger problem: <strong>how Gap Inc. would think about AI.</strong> There's a version of this where design shows up after the fact, tidying up whatever Brand and AI/ML already built. I've seen that movie — the design looks right but the experience is wrong, and by the time anyone notices, it's shipping. <strong>I wanted us upstream.</strong>
               </P>
               <P>
                 What I didn't want was to simply add another project to my Sr. Designer's plate. Instead, I committed to <strong>investing more of my own time</strong> supporting her — on this project and her others in parallel — so she had the runway to do it well. When I ran the plan by her, she was enthusiastic: customer-facing AI was already high on her own list of career goals.
