@@ -407,7 +407,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               />
 
               <H3 id="the-launch">Launch & Results</H3>
-              <P>Then, in 2021…</P>
+              <P>Then, in 2021, we did it!&nbsp;We launched our new cross-brand, Integrated Loyalty Program.</P>
               <P>
                 <strong>We did it! We launched our new cross-brand, Integrated Loyalty Program.</strong>
               </P>
