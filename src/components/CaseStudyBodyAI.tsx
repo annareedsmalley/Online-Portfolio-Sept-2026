@@ -415,10 +415,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 The most consequential AI thinking we did on this project was designing the UI around what the model actually knew, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
               </P>
               <P>
-                Katie designed three states for the UI to handle this gracefully: full confidence across all keyword buckets, limited negative confidence (where positives surface clearly but negatives are presented more softly), and high negative confidence (where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it).
+                Katie designed three states for the UI to handle this gracefully:
               </P>
+              <UL>
+                <li><strong>full confidence</strong> across all keyword buckets,</li>
+                <li><strong>limited negative confidence</strong> (where positives surface clearly but negatives are presented more softly),</li>
+                <li>and <strong>high negative confidence</strong> (where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it).</li>
+              </UL>
               <P>
-                This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
+                This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what <strong>AI-aware design</strong> means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
               </P>
               <figure className="my-4">
                 <ZoomableImage src={modelConfidenceStates} alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence." className="overflow-hidden w-full h-auto rounded-2xl" />
