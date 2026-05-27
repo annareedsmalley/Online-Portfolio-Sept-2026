@@ -423,7 +423,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li>High negative confidence, where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it.</li>
               </UL>
               <P>
-                This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
+                This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We <strong>designed a UI that responds to the model</strong>. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
               </P>
               <figure className="my-4">
                 <ZoomableImage src={modelConfidenceStates} alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence." className="overflow-hidden w-full h-auto rounded-2xl" />
