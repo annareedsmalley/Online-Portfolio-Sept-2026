@@ -232,7 +232,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== AI Thesis & Team ===================== */}
             <Section id="ai-thesis">
-              <H2 id="ai-thesis">The initiative</H2>
+              <H2 id="ai-thesis">Setup & Staffing</H2>
               <P>
                 Before any design work started, I made sure my team and our cross-functional partners understood the lens I was bringing to this. Four principles, which I came back to again and again as we worked:
               </P>
