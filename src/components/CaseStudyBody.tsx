@@ -620,7 +620,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               <H3>Guidelines that lasted</H3>
               <P>
-                Company-wide grouping guidelines adopted as official policy across all four brands for future product decisions.
+                Company-wide grouping guidelines adopted as <strong>official policy across all four brands</strong> for future product decisions.
               </P>
               <UL>
                 <li>Merchant Job Aids updated to reflect grouping guidelines for site merchants loading products.</li>
