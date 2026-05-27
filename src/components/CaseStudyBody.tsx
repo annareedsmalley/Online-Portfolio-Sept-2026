@@ -489,7 +489,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Based on the research, the team developed <strong>Solution A: a Sticky Container</strong> that solved the out-of-viewport problem, keeping key elements like price, reviews, images, and selected color visible as users scrolled, paired with <strong>Product Setup Guidelines</strong> that addressed cognitive overload by limiting variant complexity.
               </P>
               <P>
-                We also developed <strong>ARIA text alerting users when the page refreshes and resetting the cursor</strong>, an accessibility consideration built into the solution from the start.
+                We also developed ARIA text alerting users when the page refreshes and resetting the cursor, an accessibility consideration built into the solution from the start.
               </P>
             </Section>
 
