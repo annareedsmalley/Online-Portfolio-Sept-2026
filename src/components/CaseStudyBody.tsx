@@ -573,7 +573,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 <li><strong>Option 3: An alternative path</strong> - a new pattern that doesn't require 100% coverage.</li>
               </UL>
               <P>
-                This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
+                This was the <strong>aikido approach</strong> at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
               </P>
               <P>
                 Brands have two patterns to choose from depending on their products and data. The Comparison Table is the more comprehensive solution where data and product fit allow, while the Stacked Selector remains available for simpler product setups. Either way, brands have guidelines for A/B testing to determine what works best.
