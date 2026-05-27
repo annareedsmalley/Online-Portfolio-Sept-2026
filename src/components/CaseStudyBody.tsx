@@ -462,10 +462,10 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               />
 
               <P>
-                My intuition told me that the solution as it was being handed to us would cause cognitive overload for neurotypical users, so it seemed especially important to get the perspective of people who already face barriers to comprehension when using websites and apps like ours.
+                My intuition told me that the solution as it was being handed to us would cause cognitive overload for neurotypical users, so it seemed especially important to get the perspective of <strong>people who already face barriers to comprehension</strong> when using websites and apps like ours.
               </P>
               <P>
-                I guided the team to take the same stimuli we were sharing with our UXR team and also share them with Gap Inc.'s third-party accessibility partner, the Center for Accessible Technology (C4AT). This way, C4AT could conduct research with customers with disabilities at the same time as the UXR team was running studies with their standard pool of participants.
+                I guided the team to take the same stimuli we were sharing with our UXR team and also share them with Gap Inc.'s third-party accessibility partner, the <strong>Center for Accessible Technology (C4AT)</strong>. This way, C4AT could conduct research with customers with disabilities at the same time as the UXR team was running studies with their standard pool of participants.
               </P>
               <P>
                 We got results that made us feel more confident in our approach than if we had only done UXR with the "standard" pool of participants.
