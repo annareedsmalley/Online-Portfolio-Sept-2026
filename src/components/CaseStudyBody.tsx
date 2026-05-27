@@ -532,7 +532,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
               <P>
-                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, <strong>Gap Inc.'s brand promise is not Amazon's brand promise.</strong>
+                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, Gap Inc.'s brand promise is not Amazon's brand promise.
               </P>
               <H3>Design Solution B</H3>
 
@@ -541,13 +541,13 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
 
               <P>
-                The brands accepted the path forward. <strong>Athleta was the first brand to choose Option 3</strong>, and gave us the time to build it.
+                The brands accepted the path forward. Athleta was the first brand to choose Option 3, and gave us the time to build it.
               </P>
               <P>
                 The result was a <strong>Comparison Table</strong>: a shared pattern that all four brands could align on, showing related products side by side (e.g., Straight vs. Wide Leg vs. Ankle) with key attributes compared. <strong>No 100% coverage required.</strong>
               </P>
               <P>
-                What made this possible was solving the underlying cross-brand data problem. By establishing clear grouping guidelines and getting merchants and engineers aligned on variant structure, we created the conditions for a pattern that works across every brand's catalog — not just one.
+                What made this possible was solving the underlying <strong>cross-brand data problem</strong>. By establishing clear grouping guidelines and getting merchants and engineers aligned on variant structure, we created the conditions for a pattern that works across every brand's catalog — not just one.
               </P>
               <P>
                 The Comparison Table was validated through user research and is now in development. In the end, the benefit of the data crisis was that we now had two solutions to pick from. We wouldn't have had to do this if the data crisis hadn't happened. This is <strong>design amplification</strong>: designing for an edge case yielded something useful for everyone.
