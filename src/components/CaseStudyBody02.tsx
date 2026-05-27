@@ -360,10 +360,10 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <H3 id="my-teams-role">Setup & Staffing</H3>
               <P>
-                In 2020, my team of three designers owned the end-to-end customer experience across authentication—sign up, sign in, and states for recognized, signed-in, and guest users—as well as the web bag, checkout, profile, and post-purchase touchpoints, including email communications. I was the Sr. Manager for the "Web Buy" team — a team of 3 designers that owned authentication (sign up, sign in, and the various experiences around recognized customers vs. signed-in customers vs. unrecognized "guests"), web bag, checkout, profile, and post-purchase experiences including emails.
+                In 2020, my team of three designers owned the <strong>end-to-end customer experience across authentication</strong>—sign up, sign in, and states for recognized, signed-in, and guest users—as well as the web bag, checkout, profile, and post-purchase touchpoints, including email communications. I was the Sr. Manager for the "Web Buy" team — a team of 3 designers that owned authentication (sign up, sign in, and the various experiences around recognized customers vs. signed-in customers vs. unrecognized "guests"), web bag, checkout, profile, and post-purchase experiences including emails.
               </P>
               <P>
-                I led UX design for all non-marketing web experiences within the integrated loyalty initiative across all brands. We owned the end-to-end loyalty experience across the shopping journey, while the App Buy team extended our patterns to mobile. We also partnered closely with the loyalty marketing team to guide content and ensure consistency across touchpoints. I was responsible for making all changes to all of these surfaces needed for the integrated loyalty program. We designed the UX for all of the loyalty program touchpoints a customer would encounter in a standard shopping journey, besides marketing assets for the program. However, we worked closely with the loyalty marketing team to guide the content of those assets.
+                I <strong>led UX design for all non-marketing web experiences</strong> within the integrated loyalty initiative across all brands. We owned the end-to-end loyalty experience across the shopping journey, while the App Buy team extended our patterns to mobile. We also <strong>partnered closely with the loyalty marketing team</strong> to guide content and ensure consistency across touchpoints. I was responsible for making all changes to all of these surfaces needed for the integrated loyalty program. We designed the UX for all of the loyalty program touchpoints a customer would encounter in a standard shopping journey, besides marketing assets for the program. However, we worked closely with the loyalty marketing team to guide the content of those assets.
               </P>
               <H3 id="the-framework">The framework</H3>
               <P>
@@ -384,11 +384,12 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               <H3 id="managing-complexity">Managing the complexity</H3>
               <P>
-                To reach these goals, we worked through a massive amount of complexity. The challenge required deep cross-functional and cross-brand alignment, because the experience for the first version of the integrated loyalty program was going to be almost identical across brands.
+                To reach these goals, we worked through a <strong>massive amount of complexity</strong>. The challenge required <strong>deep cross-functional and cross-brand alignment</strong>, because the experience for the first version of the integrated loyalty program was going to be almost identical across brands.
               </P>
               <P>
                 The types of customer account states we had to track included: enrollment in Gap Inc. Loyalty or MTL/Encore tiers (Core, Premier, All-Access), credit card holder status (Gap/Barclays/Encore Mastercard for 5x points earning), ecommerce account existence (for login, points accrual across brands, and Loyalty Hub access), and rewards/points balance.
               </P>
+
 
               <VideoFigure
                 src={firstBigWin2Video}
