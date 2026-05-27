@@ -246,14 +246,21 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
               
               <P>
-                My next move was to pick a designer. Who I put on a project tells the team and the org what I think the project is.
+                My next move was to <strong>pick a designer</strong>. Who I put on a project tells the team and the org what I think the project is.
               </P>
               <P>
-                I chose Katie. Her background made her unusually well suited for AI work. She has an MS in Human Factors and is a systems thinker by temperament. She is the kind of designer who treats a UI as the visible surface of a much larger machine. That mental model is exactly what an AI feature requires. Most designers treat an AI feature as a UI problem; Katie treats it as a system problem with a UI on top.
+                I chose <strong>Katie</strong>. Her background made her unusually well suited for AI work:
               </P>
+              <ul className="body-text list-disc pl-6 space-y-2">
+                <li><strong>MS in Human Factors</strong> and a systems thinker by temperament.</li>
+                <li>Treats a UI as <strong>the visible surface of a larger machine</strong> — exactly the mental model AI requires.</li>
+                <li>Most designers see AI as a UI problem; Katie sees it as <strong>a system problem with a UI on top</strong>.</li>
+                <li>Experienced <strong>native app designer</strong>, with more of her career spent on small screens than the rest of my team.</li>
+              </ul>
               <P>
-                She was also an experienced native app designer when she joined my team. That meant much more of her career had been spent designing for small screens than the rest of my team, who all had experience designing for desktop as well. Mobile is where most of our customers shop, and the constraint of a small screen is where AI either earns its keep or wastes the customer's time. Katie brought the right instincts for that constraint.
+                That last point mattered: <strong>mobile is where most of our customers shop</strong>, and the small screen is where AI either earns its keep or wastes the customer's time.
               </P>
+
             </Section>
 
             <SectionDivider />
@@ -262,8 +269,14 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="structuring-work">
               
               <P>
-                What I did was bridge. Katie was new to Gap Inc., and she had a lot on her plate already, which meant she had not yet built the relationships across Brand, Product, and UX leadership that I had spent years developing. I used those relationships to make her path easier. I made sure she walked into rooms that were already warmed up to her, I translated the political subtext when she needed it, and I backed her up when a stakeholder pushed back on a recommendation we knew was right.
+                What I did was <strong>bridge</strong>. Katie was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
               </P>
+              <ul className="body-text list-disc pl-6 space-y-2">
+                <li>Made sure she <strong>walked into rooms already warmed up</strong> to her.</li>
+                <li><strong>Translated the political subtext</strong> when she needed it.</li>
+                <li><strong>Backed her up</strong> when stakeholders pushed back on a recommendation we knew was right.</li>
+              </ul>
+
               <H2 id="structuring-work">Design Work</H2>
 
               <P>
