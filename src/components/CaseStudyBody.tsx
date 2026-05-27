@@ -56,8 +56,8 @@ const H4 = ({ children }: { children: ReactNode }) => (
   </h4>
 );
 
-const P = ({ children }: { children: ReactNode }) => (
-  <p className="body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+const P = ({ children, className }: { children: ReactNode; className?: string }) => (
+  <p className={`body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title ${className ?? ""}`}>
     {children}
   </p>
 );
