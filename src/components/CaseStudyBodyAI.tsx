@@ -289,7 +289,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
               <H3>Discovery</H3>
               <P>
-                Working closely with our UXR team, Katie's next step was looking at how other retailers were handling their AI review summaries, including Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
+                Working closely with our UXR team, Katie's next step was looking at how other retailers were handling their AI review summaries, including Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find <strong>the place where every existing implementation was thin: trust</strong>. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was <strong>honest about a product's limitations</strong>.
               </P>
 
               <figure className="my-4">
@@ -303,7 +303,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </figure>
 
               <P>
-                We ran a phased UXR program over the project. The discovery phase confirmed what we suspected: customers actively look for negative reviews. They use them to test whether a product is right for them. They distrust unalloyed praise. They distrust AI. They want to see how a product fails before they trust it to succeed.
+                We ran a phased UXR program over the project. The discovery phase confirmed what we suspected: <strong>customers actively look for negative reviews</strong>. They use them to test whether a product is right for them. They distrust unalloyed praise. They distrust AI. They want to see how a product fails before they trust it to succeed.
               </P>
               <ResearchQuote
                 quote="I feel like this brand really is being transparent. I don't get the feeling they're only publishing certain reviews, but that they're literally taking customers' voices and putting it here."
@@ -318,7 +318,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="strategic-bets">
               <H3>Design</H3>
               <P>
-                Once we understood the trust problem, Katie and I aligned on five principles about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision.&nbsp;
+                Once we understood the trust problem, Katie and I aligned on <strong>five principles</strong> about what the design had to do, before exploring individual UI patterns. Each of these was a <strong>leadership decision more than a design decision</strong>.&nbsp;
               </P>
 
               <H4>Principle 1: show negative sentiment, don't hide it</H4>
@@ -426,13 +426,13 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 We launched on Athleta and Old Navy in early 2025. The A/B test was set up to measure conversion, add-to-bag, and return rates.
               </P>
               <P>
-                When the results came back, conversion was up 0.7%. Add-to-bag was up by a similar amount. By the standards most AI feature launches are evaluated against, that is essentially flat. Most teams in our position would have called it a wash, asked for more time to optimize, or quietly let the feature slide.
+                When the results came back, conversion was up 0.7%. Add-to-bag was up by a similar amount. By the standards most AI feature launches are evaluated against, that is <strong>essentially flat</strong>. Most teams in our position would have called it a wash, asked for more time to optimize, or quietly let the feature slide.
               </P>
               <P>
-                The data we had been waiting for was not in the conversion column. It was in the returns column. Returns were down 0.9%, which on the volume Old Navy and Athleta were doing translated to roughly $2.5M in annualized value, with Athleta alone projected at ~$4.4M in returns revenue value for 2025.
+                The data we had been waiting for was not in the conversion column. It was in <strong>the returns column</strong>. Returns were down 0.9%, which on the volume Old Navy and Athleta were doing translated to <strong>roughly $2.5M in annualized value</strong>, with Athleta alone projected at ~$4.4M in returns revenue value for 2025.
               </P>
               <P>
-                Reducing returns was already a top Gap Inc. priority before this project. Online return rate had been a persistent and expensive problem, and the company had attempted to bring it down through multiple prior initiatives, including different approaches to fit finders, product descriptions, and model photography. None of those had moved the number meaningfully. This was the first thing that did.
+                Reducing returns was already a top Gap Inc. priority before this project. Online return rate had been a persistent and expensive problem, and the company had attempted to bring it down through multiple prior initiatives, including different approaches to fit finders, product descriptions, and model photography. None of those had moved the number meaningfully. <strong>This was the first thing that did.</strong>
               </P>
               <P>
                 That was the case I made to leadership, and the case is durable on three counts. First, reducing returns saves the company a substantial amount of money. Second, reducing returns is a major sustainability win: every avoided return is avoided waste, energy, water, and the broader environmental cost of producing and re-shipping apparel. And third, return rate is an indirect but tangible measure of whether customers got what they wanted from us. Lower returns means more customers buying things they want to keep. That is what an e-commerce experience is supposed to do.
@@ -452,7 +452,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Once we had the trust and returns story validated at Old Navy and Athleta, the next problem was scale. Four brands, each with its own visual identity, its own merchandising priorities, and its own opinions about what AI should and should not say to its customers.
               </P>
               <P>
-                I had been here before. One thing that was clear from my 6+ years of experience at Gap Inc was that the only way to scale across four brands without burning out is to build the underlying experience as a foundational design system component, with brand expression layered on top through theming. We treated the GenAI Review Summary the same way. The trust patterns (the buckets, the disclaimer, the model-confidence states) were locked at the foundational layer, and the brand styling lived on top.
+                I had been here before. One thing that was clear from my 6+ years of experience at Gap Inc was that the only way to scale across four brands without burning out is to build the underlying experience as a <strong>foundational design system component</strong>, with brand expression layered on top through theming. We treated the GenAI Review Summary the same way. The trust patterns (the buckets, the disclaimer, the model-confidence states) were locked at the foundational layer, and the brand styling lived on top.
               </P>
               <P>
                 That gave each brand the room to feel like itself without putting the trust architecture up for renegotiation. Brands could choose how to theme the component. They could choose, in narrow cases, to suppress the buckets for a specific product or to opt out of bolded keywords. What they could not choose was whether to disclose the AI or whether to acknowledge negatives at all. Those defaults held, and the data on returns and trust held with them.
@@ -466,10 +466,10 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="lasting-impact">
               <H2 id="lasting-impact">Lasting Strategic Impact</H2>
               <P>
-                What I am most proud of from this project is not the feature itself, although the business value speaks for itself. What I am most proud of is what the feature seeded.
+                What I am most proud of from this project is not the feature itself, although the business value speaks for itself. What I am most proud of is <strong>what the feature seeded</strong>.
               </P>
               <P>
-                The success of this work contributed directly to the creation of Gap Inc.'s dedicated Office of AI, a function that exists, in part, because we proved out a way for AI to ship to customers responsibly and successfully. The patterns we established here (transparency, AI disclaimers, model-confidence-aware UI, sentiment buckets, returns as a leading trust signal) became the company's working reference for how AI features get built.
+                The success of this work contributed directly to the creation of Gap Inc.'s dedicated <strong>Office of AI</strong>, a function that exists, in part, because we proved out a way for AI to ship to customers responsibly and successfully. The patterns we established here (transparency, AI disclaimers, model-confidence-aware UI, sentiment buckets, returns as a leading trust signal) became <strong>the company's working reference for how AI features get built</strong>.
               </P>
               <Pullquote color="blue" rotate={2} kicker="The Compounding Effect">
                 That is what foundational work is supposed to do. One project pays for the next ten.
