@@ -56,8 +56,8 @@ const H4 = ({ children }: { children: ReactNode }) => (
   </h4>
 );
 
-const P = ({ children }: { children: ReactNode }) => (
-  <p className="body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+const P = ({ children, className }: { children: ReactNode; className?: string }) => (
+  <p className={`body-text text-[16px] leading-[1.5] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title ${className ?? ""}`}>
     {children}
   </p>
 );
@@ -395,7 +395,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
              {/* ===================== Design Work ===================== */}
             <Section id="structuring-work">
-              <P>
+              <P className="mt-8">
                 In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
               </P>
                
@@ -519,7 +519,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== Accessibility: Round Two ===================== */}
             <Section id="accessibility-round-two">
-              <P>
+              <P className="mt-8">
                 Once again, we won the extra time to design and test possible solutions with customers. Because it had gone so well the first time and added nothing to the timeline, we ran <strong>parallel accessibility research</strong> again with C4AT during this second phase. This time the results were even more robust.
               </P>
             </Section>
@@ -528,7 +528,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
-              <P>
+              <P className="mt-8">
                 Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
               <P>
