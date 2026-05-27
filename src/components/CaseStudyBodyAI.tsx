@@ -344,9 +344,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite:
               </P>
               <UL>
-                <li><strong>told the customer this is AI</strong>,</li>
-                <li>labeled the section,</li>
-                <li>and used a disclaimer to acknowledge the model's limits.</li>
+                <li>Told the customer this is AI.</li>
+                <li>Labeled the section clearly.</li>
+                <li>Used a disclaimer to acknowledge the model's limits.</li>
               </UL>
               <P>
                 This is the trust-first thesis expressed in copy rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
@@ -418,9 +418,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Katie designed three states for the UI to handle this gracefully:
               </P>
               <UL>
-                <li><strong>full confidence</strong> across all keyword buckets,</li>
-                <li><strong>limited negative confidence</strong> (where positives surface clearly but negatives are presented more softly),</li>
-                <li>and <strong>high negative confidence</strong> (where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it).</li>
+                <li>Full confidence across all keyword buckets.</li>
+                <li>Limited negative confidence, where positives surface clearly but negatives are presented more softly.</li>
+                <li>High negative confidence, where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it.</li>
               </UL>
               <P>
                 This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
