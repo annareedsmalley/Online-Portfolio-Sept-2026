@@ -358,14 +358,14 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               <H2 id="my-approach">Setup & Staffing</H2>
               <P>
-                The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
+                The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to <strong>influence something big and important</strong>.
               </P>
               <P>
                 We knew that if we didn't invest in trying to turn the ship around, it would come back to us in a way that would be much more unpleasant: cleaning up after a mess instead of designing a solid, validated solution in the first place. One that customers and the business would benefit from. And that we would benefit from, in terms of earning trust and respect from the brands and our other partners within the central org
               </P>
 
               <P>
-                My first move was selecting the right designer. I chose Kimberly, a junior designer I had inherited from another team who was currently operating at a senior level.
+                My first move was <strong>selecting the right designer</strong>. I chose Kimberly, a junior designer I had inherited from another team who was currently operating at a senior level.
               </P>
               <P>
                 Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew they were doing senior-level work and wanted to promote them, and knew it would be an uphill battle without a high-profile story to tell.
