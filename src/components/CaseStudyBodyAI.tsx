@@ -196,7 +196,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Athleta quickly emerged as the brand most interested. Leadership could have handed this to Athleta's dedicated strategic initiatives design team — but that team had recently tried and failed to launch an Athleta AI fashion assistant chatbot. <strong>As a result, I was asked if my team could do it.</strong>
               </P>
-              <H3>Discovery&nbsp;</H3>
+              <H3>My read</H3>
               <P>
                 My first thought when the brief came in: <strong>we were not being asked to ship a feature. We were being asked to set a precedent.</strong> This would be the first time a Gap Inc. customer knowingly interacted with AI on our site, and whatever pattern we established would set the bar — internally and externally — for every AI experience that came after.
               </P>
