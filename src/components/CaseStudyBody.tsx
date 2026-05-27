@@ -588,7 +588,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                   <strong>Banana Republic</strong> adopted a clean variant structure, grouping only logically coexisting variants (Skinny / Slim / Straight / Athletic). <strong>No dead clicks. No confused customers.</strong>
                 </li>
                 <li>
-                  <strong>Athleta</strong> launched with length-based groupings (7/8 / Full / Capri / Crop), going live on <strong>7/23 with 11 product groups containing 27 style variants</strong>. The experience performed as designed.
+                  <strong>Athleta</strong> launched with length-based groupings (7/8 / Full / Capri / Crop), going live on 7/23 with 11 product groups containing 27 style variants. The experience performed as designed.
                 </li>
               </UL>
               <P><strong>Brands that didn't:</strong></P>
