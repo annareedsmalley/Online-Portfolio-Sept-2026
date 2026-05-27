@@ -438,22 +438,22 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="what-we-did">
               <H3 id="structuring-work">Discovery</H3>
               <P>
-                All of our work so far had led us to our own assumptions. Specifically, we assumed that adding more variant sets could do two things: create cognitive overload create a viewport limitation issue on mobile. (Specifically, changes made to variants at the bottom of the page could cause changes to the product's price and color, but these things would be out of view.) The next step was to find out what happened when we talked to real users.
+                All of our work so far had led us to our own assumptions. Specifically, we assumed that adding more variant sets could do two things: create <strong>cognitive overload</strong> create a viewport limitation issue on mobile. (Specifically, changes made to variants at the bottom of the page could cause changes to the product's price and color, but these things would be out of view.) The next step was to find out what happened when we talked to real users.
               </P>
               <P>
-                Our user research confirmed a critical gap: customers were struggling to discover and compare product variants on PDPs.
+                Our user research confirmed a critical gap: customers were <strong>struggling to discover and compare product variants</strong> on PDPs.
               </P>
               <P>
-                We ran two phases of research. The <strong>Phase 1 alternate options study (N=15, unmoderated, females aged 24–49, recent Gap Inc. shoppers, mobile web)</strong> tested three prototype designs for variant discovery.
+                We ran two phases of research. The Phase 1 alternate options study (N=15, unmoderated, females aged 24–49, recent Gap Inc. shoppers, mobile web) tested three prototype designs for variant discovery.
               </P>
               <P>
-                A critical insight emerged: <strong>shoppers do not consider, and often do not comprehend, the issue we were trying to solve with MVG.</strong> Their suggested solutions only accounted for changing a single attribute within a multi-attribute style.
+                A critical insight emerged: shoppers do not consider, and often do not comprehend, the issue we were trying to solve with MVG. Their suggested solutions only accounted for changing a single attribute within a multi-attribute style.
               </P>
               <P>
-                The <strong>Phase 2 study (N=9, moderated, 45-minute sessions, females aged 29–58, P12M Old Navy shoppers)</strong> went deeper into color grouping, price visibility, sizing, and attribute ordering.
+                The Phase 2 study (N=9, moderated, 45-minute sessions, females aged 29–58, P12M Old Navy shoppers) went deeper into color grouping, price visibility, sizing, and attribute ordering.
               </P>
               <P>
-                The takeaway was: customers have strong mental models about how products should be organized, and when variant groupings violate those mental models, confusion and frustration follow quickly. Price grouping, attribute ordering, and measurement consistency all emerged as non-negotiable from the customer's perspective.
+                The takeaway was: customers have <strong>strong mental models</strong> about how products should be organized, and when variant groupings violate those mental models, confusion and frustration follow quickly. Price grouping, attribute ordering, and measurement consistency all emerged as non-negotiable from the customer's perspective.
               </P>
               <Figure
                 src={validatingUserResearchImg}
