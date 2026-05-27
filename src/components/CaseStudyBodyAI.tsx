@@ -412,7 +412,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </figure>
               <H4>Principle 5: design for model confidence, not against it</H4>
               <P>
-                The most consequential AI thinking we did on this project was designing the UI around what the model actually knew, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
+                The most consequential AI thinking we did on this project was <strong>designing the UI around what the model actually knew</strong>, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
               </P>
               <P>
                 Katie designed three states for the UI to handle this gracefully:
