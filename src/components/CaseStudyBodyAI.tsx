@@ -426,7 +426,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 We launched on Athleta and Old Navy in early 2025. The A/B test was set up to measure conversion, add-to-bag, and return rates.
               </P>
               <P>
-                When the results came back, conversion was up 0.7%. Add-to-bag was up by a similar amount. By the standards most AI feature launches are evaluated against, that is essentially flat. Most teams in our position would have called it a wash, asked for more time to optimize, or quietly let the feature slide.
+                When the results came back, conversion was up 0.7%. Add-to-bag was up by a similar amount. By the standards most AI feature launches are evaluated against, that is <strong>essentially flat</strong>. Most teams in our position would have called it a wash, asked for more time to optimize, or quietly let the feature slide.
               </P>
               <P>
                 The data we had been waiting for was not in the conversion column. It was in the returns column. Returns were down 0.9%, which on the volume Old Navy and Athleta were doing translated to roughly $2.5M in annualized value, with Athleta alone projected at ~$4.4M in returns revenue value for 2025.
