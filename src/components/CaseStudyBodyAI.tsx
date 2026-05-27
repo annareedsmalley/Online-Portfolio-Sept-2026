@@ -275,13 +275,13 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <H2 id="structuring-work">Design Work</H2>
 
               <P>
-                The brief came in as "pilot an AI-generated review summary." <strong>Katie's first job was to refuse that framing politely, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?</strong>
+                The brief came in as "pilot an AI-generated review summary." Katie's first job was to <strong>refuse that framing politely</strong>, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?
               </P>
               <P>
-                What she found, working with UXR and looking at our existing review data, reframed the project. Customers who engage with reviews are 10% more likely to convert. But on PDPs with thousands of reviews, decision fatigue causes drop-off. Customers want a synthesis. The question was not whether AI summarization was useful. It clearly was. The question was whether customers would trust an AI to do that synthesis honestly.
+                What she found, working with UXR and looking at our existing review data, reframed the project. Customers who engage with reviews are <strong>10% more likely to convert</strong>. But on PDPs with thousands of reviews, decision fatigue causes drop-off. Customers want a synthesis. The question was not whether AI summarization was useful. It clearly was. The question was whether customers would <strong>trust an AI to do that synthesis honestly</strong>.
               </P>
               <P>
-                The answer from the research was a flashing yellow light: customers do not trust AI to be neutral. They assume the company is hiding something, they suspect the AI is biased toward selling, and they second-guess any purchase decision an AI nudged them toward. This was the design problem under the design problem.
+                The answer from the research was a flashing yellow light: customers do not trust AI to be neutral. They assume the company is hiding something, they suspect the AI is biased toward selling, and they second-guess any purchase decision an AI nudged them toward. This was <strong>the design problem under the design problem</strong>.
               </P>
               <Pullquote color="pink" rotate={2} kicker="The real question">
                 Customers want a synthesis. The question was whether they would trust an AI to do that synthesis honestly.
@@ -291,6 +291,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Working closely with our UXR team, Katie's next step was looking at how other retailers were handling their AI review summaries, including Amazon, Target, NewEgg, and Expedia. The point was not to copy patterns. The point was to find the place where every existing implementation was thin: trust. Most existing AI review experiences felt either too cheerful (Amazon's summaries that read like marketing copy) or too confusing (color systems and iconography that customers could not parse). The gap in the market was an AI summary that was honest about a product's limitations.
               </P>
+
               <figure className="my-4">
                 <ZoomableImage src={competitiveAnalysis} alt="Competitive analysis grid: the four reference retailers (Amazon, Target, NewEgg, Expedia) with annotated callouts on what each got right and where the trust gap lived." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
