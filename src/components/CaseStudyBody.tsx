@@ -320,7 +320,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <H2 id="leadership-context">Context & Objectives</H2>
 
               <P>
-                This project began as a brand-owned initiative, scoped as an Old Navy-only effort. Within the brand world at Gap Inc., that meant something specific: there was no brief, no strategy, and no stakeholder alignment. Old Navy had a vision, they wanted it implemented, and the impact on customers was assumed to be positive without needing interrogation. No user research. No design involvement in the scoping.
+                This project began as a brand-owned initiative, scoped as an Old Navy-only effort. Within the brand world at Gap Inc., that meant something specific: there was <strong>no brief, no strategy, and no stakeholder alignment</strong>. Old Navy had a vision, they wanted it implemented, and the impact on customers was assumed to be positive without needing interrogation. No user research. No design involvement in the scoping.
               </P>
               <P>
                 Then a leadership decision changed everything. Gap Inc. was moving to a <strong>"headless UI" architecture</strong>, and new principles were being established: brands could no longer build anything that couldn't be used by all four brands. Everything would be built on the shared platform, with differences in behavior and functionality per brand managed through the design system. That meant this was no longer Old Navy's project. It was a platform initiative. And that meant it landed on my team.
@@ -335,37 +335,37 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Years of brand requests for multi-variant PDPs, and zero design work had been done. Engineering had already given an estimate and timeline. <strong>Handoff was three weeks away.</strong> And Old Navy had a <strong>$17 million marketing campaign</strong> riding on that timeline.
               </P>
               <P>
-                Leadership had scoped multi-variant PDPs as straightforward UI. "Just add selectors to the page; should be simple." It wasn't. This was a classic worst-case scenario for a UX team: <strong>engineering estimates and solution assumptions made without design input.</strong>
+                Leadership had scoped multi-variant PDPs as straightforward UI. "Just add selectors to the page; should be simple." It wasn't. This was a classic worst-case scenario for a UX team: engineering estimates and solution assumptions made without design input.
               </P>
 
               <P>
-                When I first assessed the project, I immediately thought: "Uh oh, I hope this doesn't end up being something where we have to bring in the VP of UX to interface with brand executives." I had observed and heard stories of similar situations where disagreements between the central organization and the brand organizations escalated quickly. My read was we'd need to get very close to the brands very quickly and earn their trust if we wanted to avoid escalation.
+                When I first assessed the project, I immediately thought: "Uh oh, I hope this doesn't end up being something where we have to bring in the VP of UX to interface with brand executives." I had observed and heard stories of similar situations where disagreements between the central organization and the brand organizations escalated quickly. My read was we'd need to get very close to the brands very quickly and <strong>earn their trust</strong> if we wanted to avoid escalation.
               </P>
               <P>
-                In addition to the design problem, this was a leadership challenge of navigating organizational politics, brand autonomy tensions, and a $17 million marketing campaign that Old Navy had planned on a fixed timeline based on untested assumptions.
+                In addition to the design problem, this was a <strong>leadership challenge</strong> of navigating organizational politics, brand autonomy tensions, and a $17 million marketing campaign that Old Navy had planned on a fixed timeline based on untested assumptions.
               </P>
               <P>
-                I was navigating a complex web of stakeholders: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
+                I was navigating a <strong>complex web of stakeholders</strong>: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
               </P>
               <P>
-                The brands came to us saying "add more variant sets to PDPs." They didn't initially explain why. It was just "we want people to be able to get to other variants from the PDP." Our first step wasn't competitive analysis or prototyping. It was asking: what are you really trying to solve? Is this a customer problem, a business problem, or both?
+                The brands came to us saying "add more variant sets to PDPs." They didn't initially explain why. It was just "we want people to be able to get to other variants from the PDP." Our first step wasn't competitive analysis or prototyping. It was asking: <strong>what are you really trying to solve?</strong> Is this a customer problem, a business problem, or both?
               </P>
               <P>
-                It turned out to be both. People were bouncing because they couldn't discover variant options. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
+                It turned out to be both. People were <strong>bouncing because they couldn't discover variant options</strong>. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
               </P>
 
               <div className="h-8" />
 
               <H2 id="my-approach">Setup & Staffing</H2>
               <P>
-                The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to influence something big and important.
+                The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to <strong>influence something big and important</strong>.
               </P>
               <P>
                 We knew that if we didn't invest in trying to turn the ship around, it would come back to us in a way that would be much more unpleasant: cleaning up after a mess instead of designing a solid, validated solution in the first place. One that customers and the business would benefit from. And that we would benefit from, in terms of earning trust and respect from the brands and our other partners within the central org
               </P>
 
               <P>
-                My first move was selecting the right designer. I chose Kimberly, a junior designer I had inherited from another team who was currently operating at a senior level.
+                My first move was <strong>selecting the right designer</strong>. I chose Kimberly, a junior designer I had inherited from another team who was currently operating at a senior level.
               </P>
               <P>
                 Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew they were doing senior-level work and wanted to promote them, and knew it would be an uphill battle without a high-profile story to tell.
@@ -374,7 +374,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 One gap I knew I needed to fill was that Kimberly had spent most of her Gap Inc career on the non-branded side of the journey (cart, checkout, profile, fulfillment) where the experience is the same regardless of brand. She wasn't as accustomed to the political dynamics of brand-differentiated work, where every brand wants special treatment and tensions can escalate quickly.
               </P>
               <P>
-                My second move was to strategize directly with Kimberly, bringing her into the thinking about what needed to be done, which had everything to do with establishing trust with the brands quickly. I knew this would require relationship building and neutral demonstrations: showing, not telling, why the assumed simple solution would not be in any brand's interest to build without more thought and validation.
+                My second move was to strategize directly with Kimberly, bringing her into the thinking about what needed to be done, which had everything to do with establishing trust with the brands quickly. I knew this would require relationship building and neutral demonstrations: <strong>showing, not telling</strong>, why the assumed simple solution would not be in any brand's interest to build without more thought and validation.
               </P>
 
               <P>
@@ -400,7 +400,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
                
               <P>
-                I leveraged the sprint structure I had already set up for a parallel project (Gap Inc's "headless UI" migration), which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a live forum right around the corner where stakeholders could bring up concerns and feel heard.
+                I leveraged the sprint structure I had already set up for a parallel project (Gap Inc's "headless UI" migration), which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a <strong>live forum right around the corner</strong> where stakeholders could bring up concerns and feel heard.
               </P>
               <Figure
                 src={crossFunctionalAlignment2Img}
@@ -419,13 +419,13 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Our challenge was to ask the right questions and get answers quickly to determine feasibility. We had one week's worth of competitive analysis, prototypes, and best practices research. We needed to convince stakeholders that three weeks wasn't enough, that engineering should pause, and assumptions needed to be challenged.
               </P>
               <P>
-                We rallied: "Your assumptions need to be challenged. We need time to put this in front of customers, look at best practices, and review competitors."
+                We rallied: <strong>"Your assumptions need to be challenged.</strong> We need time to put this in front of customers, look at best practices, and review competitors."
               </P>
               <P>
-                Then we brought the evidence. The best practices were clear: <strong>do not add more than 1 to 2 variant selector types to a PDP.</strong> The reality? A single product could have <strong>5 selector types (Size, Length, Rise, Leg Style, Stretch) creating 72 possible combinations.</strong> And with <strong>70% of shoppers on mobile</strong>, viewing only a partial page at any given moment, adding even one or two variant selectors created cognitive overload and invisible updates.
+                Then we brought the evidence. The best practices were clear: do not add more than 1 to 2 variant selector types to a PDP. The reality? A single product could have 5 selector types (Size, Length, Rise, Leg Style, Stretch) creating 72 possible combinations. And with <strong>70% of shoppers on mobile</strong>, viewing only a partial page at any given moment, adding even one or two variant selectors created cognitive overload and invisible updates.
               </P>
               <P>
-                Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced 15+ Figma prototypes across 4 brands and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination. Prototypes became our primary tool for stakeholder alignment throughout the project. This was a deliberate strategic choice: instead of telling brands their assumptions were wrong, we showed them.
+                Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced <strong>15+ Figma prototypes across 4 brands</strong> and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination. Prototypes became our primary tool for stakeholder alignment throughout the project. This was a deliberate strategic choice: instead of telling brands their assumptions were wrong, we showed them.
               </P>
               <P>
                 All of our efforts (bringing brands along, competitive evidence, prototypes as proof) paid off. <strong>Everyone approved. We bought the time.</strong>
@@ -438,22 +438,22 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="what-we-did">
               <H3 id="structuring-work">Discovery</H3>
               <P>
-                All of our work so far had led us to our own assumptions. Specifically, we assumed that adding more variant sets could do two things: create cognitive overload create a viewport limitation issue on mobile. (Specifically, changes made to variants at the bottom of the page could cause changes to the product's price and color, but these things would be out of view.) The next step was to find out what happened when we talked to real users.
+                All of our work so far had led us to our own assumptions. Specifically, we assumed that adding more variant sets could do two things: create <strong>cognitive overload</strong> create a viewport limitation issue on mobile. (Specifically, changes made to variants at the bottom of the page could cause changes to the product's price and color, but these things would be out of view.) The next step was to find out what happened when we talked to real users.
               </P>
               <P>
-                Our user research confirmed a critical gap: customers were struggling to discover and compare product variants on PDPs.
+                Our user research confirmed a critical gap: customers were <strong>struggling to discover and compare product variants</strong> on PDPs.
               </P>
               <P>
-                We ran two phases of research. The <strong>Phase 1 alternate options study (N=15, unmoderated, females aged 24–49, recent Gap Inc. shoppers, mobile web)</strong> tested three prototype designs for variant discovery.
+                We ran two phases of research. The Phase 1 alternate options study (N=15, unmoderated, females aged 24–49, recent Gap Inc. shoppers, mobile web) tested three prototype designs for variant discovery.
               </P>
               <P>
-                A critical insight emerged: <strong>shoppers do not consider, and often do not comprehend, the issue we were trying to solve with MVG.</strong> Their suggested solutions only accounted for changing a single attribute within a multi-attribute style.
+                A critical insight emerged: shoppers do not consider, and often do not comprehend, the issue we were trying to solve with MVG. Their suggested solutions only accounted for changing a single attribute within a multi-attribute style.
               </P>
               <P>
-                The <strong>Phase 2 study (N=9, moderated, 45-minute sessions, females aged 29–58, P12M Old Navy shoppers)</strong> went deeper into color grouping, price visibility, sizing, and attribute ordering.
+                The Phase 2 study (N=9, moderated, 45-minute sessions, females aged 29–58, P12M Old Navy shoppers) went deeper into color grouping, price visibility, sizing, and attribute ordering.
               </P>
               <P>
-                The takeaway was: customers have strong mental models about how products should be organized, and when variant groupings violate those mental models, confusion and frustration follow quickly. Price grouping, attribute ordering, and measurement consistency all emerged as non-negotiable from the customer's perspective.
+                The takeaway was: customers have <strong>strong mental models</strong> about how products should be organized, and when variant groupings violate those mental models, confusion and frustration follow quickly. Price grouping, attribute ordering, and measurement consistency all emerged as non-negotiable from the customer's perspective.
               </P>
               <Figure
                 src={validatingUserResearchImg}
@@ -462,10 +462,10 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               />
 
               <P>
-                My intuition told me that the solution as it was being handed to us would cause cognitive overload for neurotypical users, so it seemed especially important to get the perspective of people who already face barriers to comprehension when using websites and apps like ours.
+                My intuition told me that the solution as it was being handed to us would cause cognitive overload for neurotypical users, so it seemed especially important to get the perspective of <strong>people who already face barriers to comprehension</strong> when using websites and apps like ours.
               </P>
               <P>
-                I guided the team to take the same stimuli we were sharing with our UXR team and also share them with Gap Inc.'s third-party accessibility partner, the Center for Accessible Technology (C4AT). This way, C4AT could conduct research with customers with disabilities at the same time as the UXR team was running studies with their standard pool of participants.
+                I guided the team to take the same stimuli we were sharing with our UXR team and also share them with Gap Inc.'s third-party accessibility partner, the <strong>Center for Accessible Technology (C4AT)</strong>. This way, C4AT could conduct research with customers with disabilities at the same time as the UXR team was running studies with their standard pool of participants.
               </P>
               <P>
                 We got results that made us feel more confident in our approach than if we had only done UXR with the "standard" pool of participants.
@@ -489,7 +489,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Based on the research, the team developed <strong>Solution A: a Sticky Container</strong> that solved the out-of-viewport problem, keeping key elements like price, reviews, images, and selected color visible as users scrolled, paired with <strong>Product Setup Guidelines</strong> that addressed cognitive overload by limiting variant complexity.
               </P>
               <P>
-                We also developed <strong>ARIA text alerting users when the page refreshes and resetting the cursor</strong>, an accessibility consideration built into the solution from the start.
+                We also developed ARIA text alerting users when the page refreshes and resetting the cursor, an accessibility consideration built into the solution from the start.
               </P>
             </Section>
 
@@ -499,7 +499,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
              <Section id="second-challenge">
                <H2 id="second-challenge">Challenge #2</H2>
                <P>
-                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in dead clicks on variants that could not be combined with variants already selected for other attributes.
+                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in <strong>dead clicks</strong> on variants that could not be combined with variants already selected for other attributes.
                </P>
               <Figure
                 src={deadLinksOnPdpImg}
@@ -510,7 +510,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
               <P>
-                We deployed the playbook again. We established shared vocabulary, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
+                We deployed the playbook again. We established <strong>shared vocabulary</strong>, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
               </P>
 
             </Section>
@@ -520,7 +520,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             {/* ===================== Accessibility: Round Two ===================== */}
             <Section id="accessibility-round-two">
               <P>
-                Once again, we won the extra time to design and test possible solutions with customers. Because it had gone so well the first time and added nothing to the timeline, we ran parallel accessibility research again with C4AT during this second phase. This time the results were even more robust.
+                Once again, we won the extra time to design and test possible solutions with customers. Because it had gone so well the first time and added nothing to the timeline, we ran <strong>parallel accessibility research</strong> again with C4AT during this second phase. This time the results were even more robust.
               </P>
             </Section>
 
@@ -532,7 +532,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
               <P>
-                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, <strong>Gap Inc.'s brand promise is not Amazon's brand promise.</strong>
+                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, Gap Inc.'s brand promise is not Amazon's brand promise.
               </P>
               <H3>Design Solution B</H3>
 
@@ -541,13 +541,13 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
 
               <P>
-                The brands accepted the path forward. <strong>Athleta was the first brand to choose Option 3</strong>, and gave us the time to build it.
+                The brands accepted the path forward. Athleta was the first brand to choose Option 3, and gave us the time to build it.
               </P>
               <P>
                 The result was a <strong>Comparison Table</strong>: a shared pattern that all four brands could align on, showing related products side by side (e.g., Straight vs. Wide Leg vs. Ankle) with key attributes compared. <strong>No 100% coverage required.</strong>
               </P>
               <P>
-                What made this possible was solving the underlying cross-brand data problem. By establishing clear grouping guidelines and getting merchants and engineers aligned on variant structure, we created the conditions for a pattern that works across every brand's catalog — not just one.
+                What made this possible was solving the underlying <strong>cross-brand data problem</strong>. By establishing clear grouping guidelines and getting merchants and engineers aligned on variant structure, we created the conditions for a pattern that works across every brand's catalog — not just one.
               </P>
               <P>
                 The Comparison Table was validated through user research and is now in development. In the end, the benefit of the data crisis was that we now had two solutions to pick from. We wouldn't have had to do this if the data crisis hadn't happened. This is <strong>design amplification</strong>: designing for an edge case yielded something useful for everyone.
@@ -573,7 +573,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 <li><strong>Option 3: An alternative path</strong> - a new pattern that doesn't require 100% coverage.</li>
               </UL>
               <P>
-                This was the aikido approach at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
+                This was the <strong>aikido approach</strong> at its purest: we shared all information openly and let any brand experiment who wanted to. The numbers told the story.
               </P>
               <P>
                 Brands have two patterns to choose from depending on their products and data. The Comparison Table is the more comprehensive solution where data and product fit allow, while the Stacked Selector remains available for simpler product setups. Either way, brands have guidelines for A/B testing to determine what works best.
@@ -588,7 +588,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                   <strong>Banana Republic</strong> adopted a clean variant structure, grouping only logically coexisting variants (Skinny / Slim / Straight / Athletic). <strong>No dead clicks. No confused customers.</strong>
                 </li>
                 <li>
-                  <strong>Athleta</strong> launched with length-based groupings (7/8 / Full / Capri / Crop), going live on <strong>7/23 with 11 product groups containing 27 style variants</strong>. The experience performed as designed.
+                  <strong>Athleta</strong> launched with length-based groupings (7/8 / Full / Capri / Crop), going live on 7/23 with 11 product groups containing 27 style variants. The experience performed as designed.
                 </li>
               </UL>
               <P><strong>Brands that didn't:</strong></P>
@@ -601,7 +601,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 </li>
               </UL>
               <P>
-                We didn't have to say "I told you so." The whole point of the aikido approach was that brands would learn on their own terms, and they did.
+                We didn't have to say "I told you so." The whole point of the aikido approach was that brands would <strong>learn on their own terms</strong>, and they did.
               </P>
 
               <H2 id="team-leadership-impact">Lasting Strategic Impact</H2>
@@ -620,7 +620,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               <H3>Guidelines that lasted</H3>
               <P>
-                Company-wide grouping guidelines adopted as official policy across all four brands for future product decisions.
+                Company-wide grouping guidelines adopted as <strong>official policy across all four brands</strong> for future product decisions.
               </P>
               <UL>
                 <li>Merchant Job Aids updated to reflect grouping guidelines for site merchants loading products.</li>
@@ -638,7 +638,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                   Raised the confidence and profile of a junior designer. I got approval from the VP of UX to promote Kimberly, largely because of the visibility and impact of their work on this project. Kimberly has since been able to use their case study for this work to get a senior role at a big tech company.
                 </li>
                 <li>
-                  Proved out the Surfies/Brandies team model on a high-stakes, politically complex project, validating the team structure I had designed.
+                  Proved out the <strong>Surfies/Brandies team model</strong> on a high-stakes, politically complex project, validating the team structure I had designed.
                 </li>
                 <li>
                   Set a precedent for brand-to-platform transitions. We demonstrated what it looks like when formerly brand-owned initiatives are transferred to the central team: the UX browse team moves quickly to understand where the brands are trying to go, meets them where they are, then collaboratively works on solutions to the actual problem they're trying to solve.
