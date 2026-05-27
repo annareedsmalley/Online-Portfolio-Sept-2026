@@ -395,7 +395,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
              {/* ===================== Design Work ===================== */}
             <Section id="structuring-work">
-              <P>
+              <P className="mt-8">
                 In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
               </P>
                
