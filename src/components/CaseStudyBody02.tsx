@@ -288,7 +288,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               >
                 Building a unified membership platform for four brands at Gap Inc.
               </button>
-              <ul className="flex flex-col gap-2">
+              <ul className="flex flex-col gap-2 border-l border-title/20 pl-4">
                 {sections
                   .filter((s) => s.level === 2)
                   .map((s, i) => (
