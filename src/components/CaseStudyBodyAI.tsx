@@ -418,9 +418,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Katie designed three states for the UI to handle this gracefully:
               </P>
               <UL>
-                <li><strong>full confidence</strong> across all keyword buckets,</li>
-                <li><strong>limited negative confidence</strong> (where positives surface clearly but negatives are presented more softly),</li>
-                <li>and <strong>high negative confidence</strong> (where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it).</li>
+                <li>Full confidence across all keyword buckets.</li>
+                <li>Limited negative confidence, where positives surface clearly but negatives are presented more softly.</li>
+                <li>High negative confidence, where the negative pattern surfaces clearly, because hiding a real signal is worse than showing it.</li>
               </UL>
               <P>
                 This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We designed a UI that responds to the model. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
