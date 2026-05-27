@@ -195,7 +195,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                         active === s.id ? "text-terracotta" : "text-title/70"
                       }`}
                     >
-                      Section {i + 1}
+                      {s.title}
                     </a>
                   </li>
                 ))}
