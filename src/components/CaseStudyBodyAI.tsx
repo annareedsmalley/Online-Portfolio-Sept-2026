@@ -326,7 +326,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 The instinct from Brand was understandable: an AI summary that says "customers found this product runs small" or "the fabric pills" sounds like negative marketing copy. The instinct from craft was to soften it, smooth it, surface it in the lightest possible way.
               </P>
               <P>
-                Katie and I held the opposite line. The whole point of the feature was to build trust, and the research was emphatic that customers earn their trust by seeing what is wrong with a product, not by seeing what is right. We were going to surface negatives clearly, in a dedicated bucket, with the same visual weight as the positives.
+                Katie and I held the opposite line. The whole point of the feature was to <strong>build trust</strong>, and the research was emphatic that customers earn their trust by seeing what is wrong with a product, not by seeing what is right. We were going to surface negatives clearly, in a dedicated bucket, with the same visual weight as the positives.
               </P>
               <P>
                 Old Navy pushed back hardest. They were worried that letting customers easily identify what other customers disliked about their products would reflect negatively on customers' impressions of brand quality. Rather than override them, we offered a path: a feature flag that would let them turn off the bucketed keyword display and show only the text AI summary, for all products. They took the offer and launched without the buckets. Their return rate did not go down as much as the brands that showed both the attribute buckets and the AI text summary. After seeing the data, Old Navy turned the buckets back on.
