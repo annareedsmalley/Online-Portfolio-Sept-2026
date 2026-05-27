@@ -374,7 +374,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 One gap I knew I needed to fill was that Kimberly had spent most of her Gap Inc career on the non-branded side of the journey (cart, checkout, profile, fulfillment) where the experience is the same regardless of brand. She wasn't as accustomed to the political dynamics of brand-differentiated work, where every brand wants special treatment and tensions can escalate quickly.
               </P>
               <P>
-                My second move was to strategize directly with Kimberly, bringing her into the thinking about what needed to be done, which had everything to do with establishing trust with the brands quickly. I knew this would require relationship building and neutral demonstrations: showing, not telling, why the assumed simple solution would not be in any brand's interest to build without more thought and validation.
+                My second move was to strategize directly with Kimberly, bringing her into the thinking about what needed to be done, which had everything to do with establishing trust with the brands quickly. I knew this would require relationship building and neutral demonstrations: <strong>showing, not telling</strong>, why the assumed simple solution would not be in any brand's interest to build without more thought and validation.
               </P>
 
               <P>
