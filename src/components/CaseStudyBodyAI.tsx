@@ -349,7 +349,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li>Used a disclaimer to acknowledge the model's limits.</li>
               </UL>
               <P>
-                This is the trust-first thesis expressed in copy rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
+                This is the <strong>trust-first thesis expressed in copy</strong> rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
               </P>
 
               <figure className="my-4">
