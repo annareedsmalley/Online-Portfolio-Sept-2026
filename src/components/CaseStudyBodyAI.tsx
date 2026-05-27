@@ -255,11 +255,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li><strong>MS in Human Factors</strong> and a systems thinker by temperament.</li>
                 <li>Treats a UI as <strong>the visible surface of a larger machine</strong> — exactly the mental model AI requires.</li>
                 <li>Most designers see AI as a UI problem; Katie sees it as <strong>a system problem with a UI on top</strong>.</li>
-                <li>Experienced <strong>native app designer</strong>, with more of her career spent on small screens than the rest of my team.</li>
+                <li>Experienced <strong>native app designer</strong>, with more of her career spent on small screens than the rest of my team. This mattered because mobile is where most of Gap eCommerce customers shop, and small screens is where AI either earns its keep or becomes a costly waste of space.</li>
               </ul>
-              <P>
-                That last point mattered: <strong>mobile is where most of our customers shop</strong>, and the small screen is where AI either earns its keep or wastes the customer's time.
-              </P>
+
 
             </Section>
 
@@ -269,7 +267,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="structuring-work">
               <div className="mt-4" />
               <P>
-                What I did was <strong>bridge</strong>. Katie was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
+                After bringing Katie in, what I did for her was <strong>bridge</strong>. Katie was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
               </P>
               <ul className="body-text list-disc pl-6 space-y-2">
                 <li>Made sure she <strong>walked into rooms already warmed up</strong> to her.</li>
