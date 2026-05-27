@@ -306,7 +306,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Once we understood the trust problem, Katie and I aligned on five principles about what the design had to do, before exploring individual UI patterns. Each of these was a leadership decision more than a design decision.&nbsp;
               </P>
 
-              <H3>Principle 1: show negative sentiment, don't hide it</H3>
+              <H2>Principle 1: show negative sentiment, don't hide it</H2>
               <P>
                 The instinct from Brand was understandable: an AI summary that says "customers found this product runs small" or "the fabric pills" sounds like negative marketing copy. The instinct from craft was to soften it, smooth it, surface it in the lightest possible way.
               </P>
@@ -324,7 +324,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 attribution="UX Research participant. The customer logic behind keeping the Dislikes bucket visible even when empty. UXR also found that keeping the Dislikes bucket and showing 'No Trending Dislikes' was interpreted as the brand maintaining integrity for their customers' product experience. And most participants perceived Mixed Reviews as a credibility signal: a brand willing to acknowledge mixed feedback was a brand they trusted more."
               />
 
-              <H3>Principle 2: add an AI disclaimer</H3>
+              <H2>Principle 2: add an AI disclaimer</H2>
               <P>
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite: told the customer this is AI, labeled the section, and used a disclaimer to acknowledge the model's limits. This is the trust-first thesis expressed in copy rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
               </P>
@@ -338,7 +338,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Figma — Early explorations of sentiment surfacing patterns
                 </figcaption>
               </figure>
-              <H3>Principle 3: use a 3-bucket sentiment system</H3>
+              <H2>Principle 3: use a 3-bucket sentiment system</H2>
               <P>
                 Katie explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a 3-bucket system that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
               </P>
@@ -361,7 +361,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Figma — AI Review Summary (node 4578-812)
                 </figcaption>
               </figure>
-              <H3>Principle 4: make the AI summary scannable</H3>
+              <H2>Principle 4: make the AI summary scannable</H2>
               <P>
                 My fifth call was one I had to make repeatedly, and one that did not come from the designer or the content strategist. I pushed for using GenAI not only to produce the text summary and the attribute table, but also to bold a few key words inside the text summary, making it even more scannable. This was not something most of our competitors were doing.
               </P>
@@ -387,7 +387,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   UI patterns and content rules for the GenAI Review Summary.
                 </figcaption>
               </figure>
-              <H3>Principle 5: design for model confidence, not against it</H3>
+              <H2>Principle 5: design for model confidence, not against it</H2>
               <P>
                 The most consequential AI thinking we did on this project was designing the UI around what the model actually knew, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
               </P>
