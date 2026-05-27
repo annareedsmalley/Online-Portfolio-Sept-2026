@@ -276,9 +276,36 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
       <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-24">
         <div
           ref={containerRef}
-          className="grid grid-cols-1 gap-16"
+          className="grid grid-cols-1 gap-12 md:grid-cols-[1fr_2fr] md:gap-16"
         >
-
+          {/* LEFT: sticky table of contents */}
+          <aside className="hidden md:block">
+            <nav className="sticky top-28 flex flex-col gap-4">
+              <button
+                type="button"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                className="text-left font-serif text-[20px] leading-[1.2] text-title transition-colors hover:text-terracotta"
+              >
+                Building a unified membership platform for four brands at Gap Inc.
+              </button>
+              <ul className="flex flex-col gap-2">
+                {sections
+                  .filter((s) => s.level === 2)
+                  .map((s, i) => (
+                    <li key={s.id}>
+                      <a
+                        href={`#${s.id}`}
+                        className={`font-label text-sm uppercase tracking-wider transition-colors hover:text-terracotta ${
+                          active === s.id ? "text-terracotta" : "text-title/70"
+                        }`}
+                      >
+                        {String.fromCharCode(97 + i)}
+                      </a>
+                    </li>
+                  ))}
+              </ul>
+            </nav>
+          </aside>
 
           {/* RIGHT: content */}
           <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
