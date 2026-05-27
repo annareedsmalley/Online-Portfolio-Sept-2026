@@ -499,7 +499,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
              <Section id="second-challenge">
                <H2 id="second-challenge">Challenge #2</H2>
                <P>
-                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in dead clicks on variants that could not be combined with variants already selected for other attributes.
+                 As we were sharing UXR findings, engineering discovered a critical technical issue in parallel testing: the products that brands had submitted for POC testing did not always have 100% cross-variant coverage. This resulted in <strong>dead clicks</strong> on variants that could not be combined with variants already selected for other attributes.
                </P>
               <Figure
                 src={deadLinksOnPdpImg}
@@ -510,7 +510,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
               <P>
-                We deployed the playbook again. We established shared vocabulary, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
+                We deployed the playbook again. We established <strong>shared vocabulary</strong>, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
               </P>
 
             </Section>
