@@ -638,7 +638,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                   Raised the confidence and profile of a junior designer. I got approval from the VP of UX to promote Kimberly, largely because of the visibility and impact of their work on this project. Kimberly has since been able to use their case study for this work to get a senior role at a big tech company.
                 </li>
                 <li>
-                  Proved out the Surfies/Brandies team model on a high-stakes, politically complex project, validating the team structure I had designed.
+                  Proved out the <strong>Surfies/Brandies team model</strong> on a high-stakes, politically complex project, validating the team structure I had designed.
                 </li>
                 <li>
                   Set a precedent for brand-to-platform transitions. We demonstrated what it looks like when formerly brand-owned initiatives are transferred to the central team: the UX browse team moves quickly to understand where the brands are trying to go, meets them where they are, then collaboratively works on solutions to the actual problem they're trying to solve.
