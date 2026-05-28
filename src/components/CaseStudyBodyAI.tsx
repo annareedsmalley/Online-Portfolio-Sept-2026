@@ -64,7 +64,7 @@ const P = ({ children }: { children: ReactNode }) => (
 );
 
 const UL = ({ children }: { children: ReactNode }) => (
-  <ul className="body-text flex list-disc flex-col gap-1 pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+  <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
     {children}
   </ul>
 );
