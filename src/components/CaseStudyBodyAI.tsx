@@ -64,7 +64,7 @@ const P = ({ children }: { children: ReactNode }) => (
 );
 
 const UL = ({ children }: { children: ReactNode }) => (
-  <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+  <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
     {children}
   </ul>
 );
@@ -216,7 +216,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Later in 2024, executive leadership drafted a deliberately open brief: <strong>pilot an AI-generated review summary on the PDP, with any brand</strong> that was interested, and see if we could make it succeed. The underlying tech already existed internally — SCOUT, an LLM-based tool that:
               </P>
-              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title my-4">
+              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title my-4">
                 <li>Classifies sentiment across thousands of reviews</li>
                 <li>Extracts key phrases and recurring themes</li>
                 <li>Generates a concise summary of customer opinions</li>
@@ -238,7 +238,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 My job was to help leadership see that this feature would shape our customers' <strong>first impression of Gap Inc. AI</strong>, making rigorous UX research on trust and transparency more important than ever. We invested heavily:
               </P>
-              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title my-4">
+              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title my-4">
                 <li><strong>March 2024</strong> — foundational exploratory study</li>
                 <li><strong>July 2024</strong> — design testing</li>
               </ul>
@@ -273,7 +273,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 I chose <strong>Katie</strong>. Her background made her unusually well suited for AI work:
               </P>
-              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li><strong>MS in Human Factors</strong> and a systems thinker by temperament.</li>
                 <li>Treats a UI as <strong>the visible surface of a larger machine</strong> — exactly the mental model AI requires.</li>
                 <li>Most designers see AI as a UI problem; Katie sees it as <strong>a system problem with a UI on top</strong>.</li>
@@ -291,7 +291,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 After bringing Katie in, what I did for her was <strong>bridge</strong>. Katie was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
               </P>
-              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.7] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
+              <ul className="body-text flex list-disc flex-col space-y-2 pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li>Made sure she <strong>walked into rooms already warmed up</strong> to her.</li>
                 <li><strong>Translated the political subtext</strong> when she needed it.</li>
                 <li><strong>Backed her up</strong> when stakeholders pushed back on a recommendation we knew was right.</li>
