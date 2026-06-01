@@ -317,7 +317,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 className="text-left font-serif text-[20px] leading-[1.2] text-title transition-colors hover:text-terracotta"
               >
-                Delivering multi-variant PDP strategy through organizational change at Gap Inc.
+                Delivering multi-variant PDP strategy through <strong className="font-semibold">organizational change at Gap Inc.</strong>
               </button>
               <ul className="flex flex-col gap-2 border-l border-border pl-4">
                 {sections.map((s, i) => (
