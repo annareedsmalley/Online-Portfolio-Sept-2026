@@ -558,6 +558,10 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               
               <P>
+                I am greatly fulfilled by my role in uniting disparate cross-functional groups to deliver this monumental modernization of Gap Inc.'s eCommerce platform — an achievement that successfully evolved a tangled, legacy system into a cohesive and scalable foundation for all four brands.
+              </P>
+
+              <P>
                 While our open, shared office hours were eventually hailed as a transformative practice, I would implement this operating rhythm at the project's inception rather than as a corrective measure. Proactively building that psychologically safe space for real-time collaboration between engineering and design from the kickoff would have likely accelerated the first ten months of the Headless UI migration.
               </P>
 
