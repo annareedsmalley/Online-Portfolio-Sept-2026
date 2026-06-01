@@ -51,6 +51,9 @@ const CaseStudyAIReviews = () => {
               Back to work
             </Link>
 
+            <h3 className="font-label text-sm font-semibold uppercase tracking-[0.15em] text-terracotta md:text-base">
+              Customer-Facing GenAI · 2024–2025
+            </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Designing trust into{" "}
               <span className="text-terracotta">
