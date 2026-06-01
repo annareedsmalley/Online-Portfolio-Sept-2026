@@ -592,7 +592,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                     CROSS-FUNCTIONAL TRUST
                   </p>
                   <p className="mt-2 font-serif text-[15px] leading-snug text-title">
-                    Years of unglamorous reconciliation work built the design, engineering and product trust that made the shared platform possible.
+                    A full year of unglamorous reconciliation work built the design, engineering and product trust that made the shared platform possible.
                   </p>
                 </StickyNote>
               </div>
