@@ -44,6 +44,9 @@ const CaseStudyGap = () => {
               Back to work
             </Link>
 
+            <h3 className="font-label text-sm font-semibold uppercase tracking-[0.15em] text-terracotta md:text-base">
+              CROSS-BRAND PRODUCT STRATEGY · 2020–2025
+            </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Delivering multi-variant PDP strategy through{" "}
               <span className="text-terracotta">organizational change at Gap Inc.</span>
