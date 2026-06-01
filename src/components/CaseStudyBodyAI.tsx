@@ -541,11 +541,34 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 If I could do one thing differently, I would use this project to formalize neuroinclusive scannability as a platform standard. Because the data collected during this project showed that the brand unable to implement the bolding of key words saw smaller reductions in returns, I wish I had proposed that the inclusion of more than one font weight should become an accessibility requirement for all brand themes.
               </P>
 
-              <UL>
-                <li>Holding the line on trust architecture (especially the negatives, the disclaimer, and the model-confidence states) through the inevitable pressure to make the feature feel "more positive" or "more confident" than the underlying data justified.</li>
-                <li>A design solution that respected each brand's legitimate fear of presenting their own products poorly, on their own brand website, while holding the line on ethical integrity and customer trust. The brands and the customers both got something they needed.</li>
-                <li>During this project, the product manager asked us to be less supportive of the ideas coming from Data Science and AI/ML, because he felt they were stepping on his toes. We told him what he needed to hear, which was also true: we empathized with him, we supported him, and we would keep him in the loop on every decision. And we kept doing what we had been doing: incorporating all voices and bringing all parties into the working sessions where ideas were shaped. That dual move is how we built trust with both sides at the same time.</li>
-              </UL>
+              <P>Other points of pride include:</P>
+
+              <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
+                <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
+                  <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                    TRUST ARCHITECTURE
+                  </p>
+                  <p className="mt-2 font-serif text-[15px] leading-snug text-title">
+                    Held the line on negatives, disclaimers, and model-confidence states despite pressure to make the feature feel more positive or confident than the underlying data justified.
+                  </p>
+                </StickyNote>
+                <StickyNote color="pink" rotate={3} size="md" className="w-full max-w-[260px]">
+                  <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                    BRAND + CUSTOMER ALIGNMENT
+                  </p>
+                  <p className="mt-2 font-serif text-[15px] leading-snug text-title">
+                    Crafted a solution that respected each brand's fear of showing imperfect products while protecting customer trust. Brands and customers both got what they needed.
+                  </p>
+                </StickyNote>
+                <StickyNote color="blue" rotate={-2} size="md" className="w-full max-w-[260px]">
+                  <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                    CROSS-FUNCTIONAL TRUST
+                  </p>
+                  <p className="mt-2 font-serif text-[15px] leading-snug text-title">
+                    When a PM felt threatened by Data Science and AI/ML voices, we empathized and kept him looped in—while still bringing all parties into the work.
+                  </p>
+                </StickyNote>
+              </div>
             </Section>
             </PasswordGate>
           </article>
