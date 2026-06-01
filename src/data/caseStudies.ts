@@ -25,7 +25,7 @@ export const caseStudies: CaseStudyEntry[] = [
   },
   {
     to: "/work/cross-brand-product-experience",
-    title: "Leading a cross-brand product experience strategy through organizational change at Gap Inc.",
+    title: "Delivering multi-variant PDP strategy through organizational change at Gap Inc.",
     tags: "Cross-Brand Product Strategy",
     image: fourBrandsImg,
     imageAlt: "Athleta, Old Navy, Banana Republic, and Gap mobile product pages side by side",
