@@ -565,6 +565,33 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 I'm especially proud of the following:
               </P>
+
+              <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
+                <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
+                  <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                    ONE MEMBERSHIP, FOUR BRANDS
+                  </p>
+                  <p className="mt-2 font-serif text-[15px] leading-snug text-title">
+                    Unified 19 million customers under a single rewards program, replacing four fragmented loyalty experiences with one simpler relationship.
+                  </p>
+                </StickyNote>
+                <StickyNote color="pink" rotate={3} size="md" className="w-full max-w-[260px]">
+                  <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                    COMPOUNDING PLATFORM
+                  </p>
+                  <p className="mt-2 font-serif text-[15px] leading-snug text-title">
+                    The headless foundation turned every future loyalty improvement into a four-brand win by default, with 25% of the previous build cost.
+                  </p>
+                </StickyNote>
+                <StickyNote color="blue" rotate={-2} size="md" className="w-full max-w-[260px]">
+                  <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
+                    CROSS-FUNCTIONAL TRUST
+                  </p>
+                  <p className="mt-2 font-serif text-[15px] leading-snug text-title">
+                    Years of unglamorous reconciliation work built the design, engineering and product trust that made the shared platform possible.
+                  </p>
+                </StickyNote>
+              </div>
             </Section>
             </PasswordGate>
           </article>
