@@ -16,7 +16,7 @@ export interface CaseStudyEntry {
 export const caseStudies: CaseStudyEntry[] = [
   {
     to: "/work/four-brands-one-membership",
-    title: "Building a unified membership platform for four brands at Gap Inc.",
+    title: "Building a unified membership platform for four brands",
     tags: "Loyalty & Foundational Component Design",
     image: membershipImg,
     imageAlt: "Two iPhones showing Gap product pages with size and variant selection",
