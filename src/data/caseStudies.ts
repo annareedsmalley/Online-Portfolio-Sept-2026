@@ -35,7 +35,7 @@ export const caseStudies: CaseStudyEntry[] = [
   {
     to: "/work/designing-trust-into-ai-feature",
     title: "Designing trust into Gap Inc.'s first customer-facing AI feature",
-    tags: "Customer Reviews & GenAI",
+    tags: "GenAI & Customer Reviews",
     image: aiTrustImg,
     imageAlt: "iPhone showing an AI-generated 'What Customers Are Telling Us' review summary",
     arrowColor: "#1B1918",
