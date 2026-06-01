@@ -682,8 +682,14 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               
               <P>
-                I'm incredibly proud of how I led my team through this challenging experience, and of the work we delivered. If there's anything I would do differently, it's that I would encourage more design studio workshops. We ran at least one hands-on brainstorming workshop with the central team (product, engineering, UX) and it was incredibly useful for alignment. Co-creation always builds faster alignment than presentation.\n\n\nI'm particularly proud of the following:&nbsp;
+                I'm incredibly proud of how I led my team through this challenging experience, and of the work we delivered. If there's anything I would do differently, it's that I would encourage more design studio workshops. We ran at least one hands-on brainstorming workshop with the central team (product, engineering, UX) and it was incredibly useful for alignment. Co-creation always builds faster alignment than presentation.
               </P>
+
+              <P>
+                I'm particularly proud of the following:
+              </P>
+
+              
 
               
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
