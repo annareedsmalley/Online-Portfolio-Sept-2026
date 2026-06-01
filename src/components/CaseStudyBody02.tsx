@@ -576,7 +576,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                     RESPONSIBLE BRAND EXPRESSION
                   </p>
                   <p className="mt-2 font-serif text-[15px] leading-snug text-title">
-                    I ensured that every foundational component had UX best practices and accessibility hard-coded into its DNA. This guaranteed that no matter which brand expression was layered on top, every customer was served by a high-quality, inclusive experience.
+                    I ensured that every shared component had accessibility hard-coded into its DNA, meaning that regardless of brand, all customers would be included.
                   </p>
                 </StickyNote>
                 <StickyNote color="pink" rotate={3} size="md" className="w-full max-w-[260px]">
