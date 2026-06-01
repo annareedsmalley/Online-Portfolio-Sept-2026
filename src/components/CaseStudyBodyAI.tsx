@@ -184,7 +184,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 className="text-left font-serif text-[20px] leading-[1.2] text-title transition-colors hover:text-terracotta"
               >
-                {studyTitle}
+                Designing trust into <strong className="font-semibold">Gap Inc.'s first customer-facing AI feature</strong>
               </button>
               <ul className="flex flex-col gap-2 border-l border-border pl-4">
                 {sections.map((s, i) => (
