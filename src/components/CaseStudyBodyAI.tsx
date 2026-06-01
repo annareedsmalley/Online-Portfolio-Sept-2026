@@ -534,7 +534,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <H2 id="reflections">Reflections</H2>
 
               <P>
-                If I could do one thing differently, I would use this project to formalize neuroinclusive scannability as a platform standard. I advocated for bolding keywords within summaries to support users with cognitive differences like ADHD or dyslexia, and when one brand's typography theme made this approach impossible, data showed that the feature was less successful for that brand. This validated the need for brand style guides that met higher accessibility standards in themselves, including providing more than one font weight.
+                In terms of my leadership during this project, I'm most proud of the following three things:
               </P>
 
               <UL>
