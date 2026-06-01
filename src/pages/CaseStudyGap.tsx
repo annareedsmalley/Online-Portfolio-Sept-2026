@@ -29,7 +29,7 @@ const impacts = [
 ];
 
 const CaseStudyGap = () => {
-  useSetCaseStudyTitle("Leading a cross-brand product experience strategy");
+  useSetCaseStudyTitle("Delivering multi-variant PDP strategy through organizational change at Gap Inc.");
   return (
     <SiteLayout>
       {/* HERO */}
