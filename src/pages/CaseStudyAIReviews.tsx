@@ -52,7 +52,7 @@ const CaseStudyAIReviews = () => {
             </Link>
 
             <h3 className="font-label text-sm font-semibold uppercase tracking-[0.15em] text-terracotta md:text-base">
-              CUSTOMER-FACING GEN AI · 2024–2025
+              CUSTOMER REVIEWS & GEN AI · 2024–2025
             </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Designing trust into{" "}
