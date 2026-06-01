@@ -567,7 +567,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               
               <P>
-                Overall, I'm especially proud of the following:
+                Leading this initiative was especially rewarding because it allowed me to align measurable business impact with my own longstanding commitment to sustainability: by significantly reducing returns, we achieved a major win for the environment by minimizing the waste and environmental costs inherent in apparel production and re-shipping.
               </P>
 
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
