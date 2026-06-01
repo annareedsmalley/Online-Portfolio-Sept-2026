@@ -537,6 +537,10 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 In terms of my leadership during this project, I'm most proud of the following three things:
               </P>
 
+              <P>
+                If I could do one thing differently, I would use this project to formalize neuroinclusive scannability as a platform standard. Because the data collected during this project showed that the brand unable to implement the bolding of key words saw smaller reductions in returns, I wish I had proposed that the inclusion of more than one font weight should become an accessibility requirement for all brand themes.
+              </P>
+
               <UL>
                 <li>Holding the line on trust architecture (especially the negatives, the disclaimer, and the model-confidence states) through the inevitable pressure to make the feature feel "more positive" or "more confident" than the underlying data justified.</li>
                 <li>A design solution that respected each brand's legitimate fear of presenting their own products poorly, on their own brand website, while holding the line on ethical integrity and customer trust. The brands and the customers both got something they needed.</li>
