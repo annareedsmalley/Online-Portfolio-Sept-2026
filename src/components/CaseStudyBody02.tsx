@@ -286,7 +286,10 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                 className="text-left font-serif text-[20px] leading-[1.2] text-title transition-colors hover:text-terracotta"
               >
-                Building a unified rewards platform for Old Navy, Gap, Banana Republic and Athleta
+                Building a unified rewards platform for{" "}
+                <strong className="font-semibold">
+                  Old Navy, Gap, Banana Republic and Athleta
+                </strong>
               </button>
               <ul className="flex flex-col gap-2 border-l border-title/20 pl-4">
                 {sections
