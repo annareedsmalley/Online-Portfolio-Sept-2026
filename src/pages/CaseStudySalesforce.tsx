@@ -37,7 +37,7 @@ const impacts = [
 ];
 
 const CaseStudySalesforce = () => {
-  useSetCaseStudyTitle("Building a unified membership platform for Old Navy, Gap, Banana Republic and Athleta");
+  useSetCaseStudyTitle("Building a unified rewards platform for Old Navy, Gap, Banana Republic and Athleta");
   return (
     <SiteLayout>
       {/* HERO */}
@@ -56,7 +56,7 @@ const CaseStudySalesforce = () => {
               LOYALTY & FOUNDATIONAL COMPONENT DESIGN · 2020–2025
             </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
-              Building a unified membership platform{" "}
+              Building a unified rewards platform{" "}
               <span className="text-terracotta">
                 for Old Navy, Gap, Banana Republic and Athleta
               </span>
@@ -140,7 +140,7 @@ const CaseStudySalesforce = () => {
       </section>
 
       {/* CASE STUDY BODY */}
-      <CaseStudyBody02 studyTitle="Building a unified membership platform" />
+      <CaseStudyBody02 studyTitle="Building a unified rewards platform" />
 
       {/* OTHER CASE STUDIES */}
       <section className="bg-background">
