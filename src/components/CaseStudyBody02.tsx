@@ -563,7 +563,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               
               <P>
-                I'd invest in the design token and theming architecture earlier. We spent years rebuilding the same experiences four times before headless UI made brand-specific theming trivial — and I underestimated how much faster every other initiative would move once that foundation existed.
+                I'm especially proud of the following:
               </P>
             </Section>
             </PasswordGate>
