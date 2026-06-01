@@ -558,7 +558,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
               
               <P>
-                I'm proudest of how the work compounded. The integrated loyalty launch gave 19 million customers a simpler relationship with our brands, and the headless platform that followed turned every future loyalty improvement into a four-brand win by default. None of that happens without the cross-functional trust my team built over years of unglamorous reconciliation work.
+                While our open, shared office hours were eventually hailed as a transformative practice, I would implement this operating rhythm at the project's inception rather than as a corrective measure. Proactively building that psychologically safe space for real-time collaboration between engineering and design from the kickoff would have likely accelerated the first ten months of the Headless UI migration.
               </P>
 
               
