@@ -573,10 +573,10 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
                 <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
-                    MY TEAM SHINED
+                    RESPONSIBLE BRAND EXPRESSION
                   </p>
                   <p className="mt-2 font-serif text-[15px] leading-snug text-title">
-                    I kept the team small and empowered each designer to own a critical surface end-to-end, giving them direct relationships with engineering and product partners that accelerated their growth and impact.
+                    I ensured that every foundational component had UX best practices and accessibility hard-coded into its DNA. This guaranteed that no matter which brand expression was layered on top, every customer was served by a high-quality, inclusive experience.
                   </p>
                 </StickyNote>
                 <StickyNote color="pink" rotate={3} size="md" className="w-full max-w-[260px]">
