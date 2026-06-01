@@ -16,7 +16,7 @@ export interface CaseStudyEntry {
 export const caseStudies: CaseStudyEntry[] = [
   {
     to: "/work/four-brands-one-membership",
-    title: "Building a unified membership platform for Old Navy, Gap, Banana Republic and Athleta",
+    title: "Building a unified rewards platform for Old Navy, Gap, Banana Republic and Athleta",
     tags: "Loyalty & Foundational Component Design",
     image: membershipImg,
     imageAlt: "Two iPhones showing Gap product pages with size and variant selection",
