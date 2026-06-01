@@ -562,12 +562,12 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               </P>
 
               <P>
-                While our open, shared office hours were eventually hailed as a transformative practice, I would implement this operating rhythm at the project's inception rather than as a corrective measure. Proactively building that psychologically safe space for real-time collaboration between engineering and design from the kickoff would have likely accelerated the first ten months of the Headless UI migration.
+                If I were to do one thing differently, I would more clearly define the division of 'unifying' responsibilities with my Product Management partners. UX ended up carrying much of the load for cross-functional and cross-brand alignment. While I am proud of that leadership, I would advocate for a more formal partnership structure to ensure that the designers’ focus remains on systemic logic and customer needs rather than navigating the bulk of organizational logistics.
               </P>
 
               
               <P>
-                I'm especially proud of the following:
+                Overall, I'm especially proud of the following:
               </P>
 
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
