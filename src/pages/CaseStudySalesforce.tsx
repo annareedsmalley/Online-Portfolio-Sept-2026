@@ -37,7 +37,7 @@ const impacts = [
 ];
 
 const CaseStudySalesforce = () => {
-  useSetCaseStudyTitle("Building a unified membership platform for four distinct brands");
+  useSetCaseStudyTitle("Building a unified membership platform for four brands at Gap Inc.");
   return (
     <SiteLayout>
       {/* HERO */}
