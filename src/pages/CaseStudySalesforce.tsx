@@ -56,9 +56,9 @@ const CaseStudySalesforce = () => {
               LOYALTY & FOUNDATIONAL COMPONENT DESIGN · 2020–2025
             </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
-              Building a unified rewards platform{" "}
+              Building a unified rewards platform for{" "}
               <span className="text-terracotta">
-                for Old Navy, Gap, Banana Republic and Athleta
+                Old Navy, Gap, Banana Republic and Athleta
               </span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
