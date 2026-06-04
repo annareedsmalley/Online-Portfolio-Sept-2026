@@ -97,7 +97,7 @@ const Index = () => {
       {/* CASE STUDIES */}
       <section id="work" className="scroll-mt-20 bg-background">
         <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-16">
-          <h2 className="font-serif text-[28px] text-title md:text-[40px]">
+          <h2 className="font-serif text-[24px] text-title md:text-[36px]">
             Recent work
           </h2>
 
