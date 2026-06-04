@@ -61,7 +61,7 @@ const Index = () => {
             {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
             <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
 
-                <h1 className="font-serif text-[clamp(36px,6.4vw,72px)] leading-[1.05] text-white">
+                <h1 className="font-serif text-[clamp(32px,5.5vw,64px)] font-normal leading-[1.05] text-white">
                 {/* Line 1: I'm Anna Smalley, [headshot] */}
                 <span className="flex flex-nowrap items-center justify-center gap-x-5 whitespace-nowrap">
                   <span
