@@ -40,7 +40,7 @@ const Index = () => {
           <div className="relative">
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
-              <h1 className="font-serif text-[32px] leading-[1.1] text-white">
+              <h1 className="font-serif text-[28px] font-normal leading-[1.1] text-white">
                 Hi there - I'm <span>Anna Smalley</span>, a senior UX leader.
               </h1>
             <img
@@ -61,7 +61,7 @@ const Index = () => {
             {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
             <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
 
-                <h1 className="font-serif text-[clamp(36px,6.4vw,72px)] leading-[1.05] text-white">
+                <h1 className="font-serif text-[clamp(32px,5.5vw,64px)] font-normal leading-[1.05] text-white">
                 {/* Line 1: I'm Anna Smalley, [headshot] */}
                 <span className="flex flex-nowrap items-center justify-center gap-x-5 whitespace-nowrap">
                   <span
