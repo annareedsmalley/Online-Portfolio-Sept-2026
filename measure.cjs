@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   await page.setViewport({ width: 1920, height: 1080 });
   await page.goto('https://id-preview--1556721c-a4cf-46fc-b315-97d221661888.lovable.app', { waitUntil: 'networkidle2' });
-  await page.waitForTimeout(2000);
+  await new Promise(r => setTimeout(r, 2000));
   const result = await page.evaluate(() => {
     const ps = document.querySelectorAll('p');
     let target = null;
