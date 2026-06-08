@@ -18,10 +18,10 @@ const Index = () => {
             <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] text-accent md:text-[14px]">
               Design Leader · Team Builder · Accessibility Advocate
             </p>
-            <h1 className="mt-8 font-serif text-[40px] leading-[1.02] text-title md:mt-10 md:text-[clamp(56px,8vw,96px)]">
+            <h1 className="mt-6 max-w-[66%] font-serif text-[32px] leading-[1.05] text-title md:mt-8 md:text-[clamp(40px,5vw,64px)]">
               Building Teams That Build For All
             </h1>
-            <p className="body-text mt-8 max-w-4xl text-xl leading-[1.5] md:mt-10 md:text-[30px] md:leading-[1.4]">
+            <p className="body-text mt-6 max-w-[66%] text-base leading-[1.5] md:mt-8 md:text-[20px] md:leading-[1.5]">
               Oh hi. I'm Anna Smalley — a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Walmart, Gap and Salesforce. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
             </p>
           </Reveal>
