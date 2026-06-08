@@ -88,6 +88,20 @@ const Index = () => {
         </div>
       </section>
 
+      {/* INTRO */}
+      <section className="bg-background">
+        <div className="mx-auto max-w-content px-6 py-16 md:px-16 md:py-24">
+          <Reveal>
+            <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] text-accent md:text-[14px]">
+              Design Leader · Team Builder · Accessibility Advocate
+            </p>
+            <p className="body-text mt-8 max-w-4xl text-xl leading-[1.5] md:text-[30px] md:leading-[1.4]">
+              Oh hi. I'm Anna Smalley — a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Walmart, Gap and Salesforce. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
       {/* CASE STUDIES */}
       <section id="work" className="scroll-mt-20 bg-background">
         <div className="mx-auto max-w-content px-6 py-12 md:px-16 md:py-16">
