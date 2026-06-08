@@ -40,8 +40,8 @@ const Index = () => {
           <div className="relative">
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
-              <h1 className="font-serif text-[32px] leading-[1.1] text-white">
-                Hi there - I'm <span>Anna Smalley</span>, a senior UX leader.
+              <h1 className="font-serif text-[40px] leading-[1.05] text-white">
+                Building Teams That Build For All
               </h1>
             <img
               src={annaPortrait}
