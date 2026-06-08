@@ -87,10 +87,10 @@ export const Nav = () => {
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-50 border-b backdrop-blur-sm",
-        "border-transparent",
+        onHero ? "border-transparent" : "border-border",
       )}
       style={{
-        backgroundColor: onHero ? "transparent" : "#f9f2e7",
+        backgroundColor: onHero ? "transparent" : "#FAF8F5",
         transition: open ? "none" : "background-color 300ms ease, color 300ms ease, border-color 300ms ease",
       }}
     >
