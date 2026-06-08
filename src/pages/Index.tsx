@@ -14,12 +14,12 @@ const Index = () => {
       {/* HERO — eyebrow, headline, intro on light background */}
       <section className="bg-background hero-enter">
         <div className="mx-auto max-w-content px-6 pb-4 pt-4 md:px-16 md:pb-5 md:pt-5">
-          <Reveal>
+          <Reveal className="lg:pl-[12%]">
             <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] text-accent md:text-[14px]">
               DESIGN LEADER · TEAM BUILDER · ACCESSIBILITY CHAMPION
             </p>
             <h1 className="mt-6 max-w-[66%] font-serif text-[32px] leading-[1.05] text-title md:mt-8 md:text-[clamp(40px,5vw,64px)]">
-              Building Teams That Build For All
+              Building Teams<br />That Build For All
             </h1>
             <p className="body-text mt-6 max-w-[66%] text-base md:mt-8 md:text-lg">
               Oh hi! I'm Anna Smalley — a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
