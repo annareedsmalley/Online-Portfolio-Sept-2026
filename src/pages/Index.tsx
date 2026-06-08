@@ -22,7 +22,7 @@ const Index = () => {
               Building Teams That Build For All
             </h1>
             <p className="body-text mt-6 max-w-[66%] text-base leading-[1.5] md:mt-8 md:text-[20px] md:leading-[1.5]">
-              Oh hi. I'm Anna Smalley — a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Walmart, Gap and Salesforce. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
+              Oh hi. I'm Anna Smalley — a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
             </p>
           </Reveal>
         </div>
