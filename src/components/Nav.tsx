@@ -118,7 +118,8 @@ export const Nav = () => {
           }}
           className={cn(
             "inline-block transition-opacity hover:opacity-80",
-            "text-title"
+            "text-title",
+            "px-4 py-1.5"
           )}
           aria-label="Anna Smalley — home"
         >
