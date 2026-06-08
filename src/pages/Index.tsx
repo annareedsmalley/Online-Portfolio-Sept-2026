@@ -40,8 +40,8 @@ const Index = () => {
           <div className="relative">
             {/* MOBILE-FRIENDLY: simple stack */}
             <div className="flex flex-col items-center gap-8 text-center md:hidden">
-              <h1 className="font-serif text-[32px] leading-[1.1] text-white">
-                Hi there - I'm <span>Anna Smalley</span>, a senior UX leader.
+              <h1 className="font-serif text-[40px] leading-[1.05] text-white">
+                Building Teams That Build For All
               </h1>
             <img
               src={annaPortrait}
@@ -61,36 +61,44 @@ const Index = () => {
             {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
             <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
 
-                <h1 className="font-serif text-[clamp(36px,6.4vw,72px)] leading-[1.05] text-white">
-                {/* Line 1: I'm Anna Smalley, [headshot] */}
+                <h1 className="font-serif text-[clamp(40px,7vw,80px)] leading-[1.05] text-white">
+                {/* Line 1: Building Teams */}
                 <span className="flex flex-nowrap items-center justify-center gap-x-5 whitespace-nowrap">
                   <span
                     className="pop-in pop-delay-1 inline-block"
                     style={{ ['--pop-rot' as string]: '0deg' }}
                   >
-                    Hi there - I'm
-                  </span>
-                  <span
-                    className="pop-in pop-delay-2 inline-block"
-                    style={{ ['--pop-rot' as string]: '0deg' }}
-                  >
-                    Anna Smalley,
+                    Building Teams
                   </span>
                 </span>
 
-                {/* Line 2: a Senior UX Leader. */}
+                {/* Line 2: That Build For All */}
                 <span className="mt-3 flex flex-wrap items-center justify-center gap-x-5 gap-y-3">
                   <span
-                    className="pop-in pop-delay-5 inline-block whitespace-nowrap"
+                    className="pop-in pop-delay-3 inline-block whitespace-nowrap"
                     style={{ ['--pop-rot' as string]: '0deg' }}
                   >
-                    a senior UX leader.
+                    That Build For All
                   </span>
                 </span>
               </h1>
             </div>
 
           </div>
+        </div>
+      </section>
+
+      {/* INTRO */}
+      <section className="bg-background">
+        <div className="mx-auto max-w-content px-6 py-16 md:px-16 md:py-24">
+          <Reveal>
+            <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] text-accent md:text-[14px]">
+              Design Leader · Team Builder · Accessibility Advocate
+            </p>
+            <p className="body-text mt-8 max-w-4xl text-xl leading-[1.5] md:text-[30px] md:leading-[1.4]">
+              Oh hi. I'm Anna Smalley — a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Walmart, Gap and Salesforce. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
+            </p>
+          </Reveal>
         </div>
       </section>
 
