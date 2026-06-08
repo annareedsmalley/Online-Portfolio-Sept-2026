@@ -118,7 +118,7 @@ export const Nav = () => {
           }}
           className={cn(
             "inline-block text-title hover:text-terracotta",
-            "px-4 py-1.5"
+            "pl-0 pr-4 py-1.5"
           )}
           aria-label="Anna Smalley — home"
           style={{ transition: "color 300ms ease, opacity 200ms ease" }}
