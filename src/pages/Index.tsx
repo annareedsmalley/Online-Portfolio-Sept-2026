@@ -47,7 +47,7 @@ const Index = () => {
 
       {/* ABOUT */}
       <section id="about" className="bg-background">
-        <div className="mx-auto max-w-content px-6 pt-5 pb-8 md:px-16 md:pt-7 md:pb-10">
+        <div className="mx-auto max-w-content px-6 pt-5 pb-16 md:px-16 md:pt-7 md:pb-20">
           <div className="grid gap-12 md:grid-cols-12 md:gap-16">
             <div className="md:col-span-5">
               <div className="overflow-hidden rounded-3xl">
