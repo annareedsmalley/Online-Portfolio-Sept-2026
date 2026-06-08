@@ -96,7 +96,7 @@ export const Nav = () => {
     >
       <div
         className={cn(
-          "relative z-50 mx-auto flex max-w-content items-center justify-between overflow-hidden px-6 transition-[height,opacity] duration-300 ease-out",
+          "relative z-50 mx-auto flex max-w-content items-center justify-between overflow-hidden px-6 md:px-16 transition-[height,opacity] duration-300 ease-out",
           collapseMainBar ? "h-0 opacity-0 md:h-16 md:opacity-100" : "h-16 opacity-100"
         )}
         aria-hidden={collapseMainBar ? true : undefined}
