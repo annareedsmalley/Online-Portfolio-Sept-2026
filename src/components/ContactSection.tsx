@@ -64,7 +64,7 @@ export const ContactSection = () => {
         </g>
       </svg>
 
-      <div className="relative z-10 mx-auto max-w-content px-6 pt-7 pb-20 md:px-16 md:pt-9 md:pb-28">
+      <div className="relative z-10 mx-auto max-w-content px-6 pt-14 pb-20 md:px-16 md:pt-[72px] md:pb-28">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center md:gap-10">
           <div>
             <h2 className="font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
