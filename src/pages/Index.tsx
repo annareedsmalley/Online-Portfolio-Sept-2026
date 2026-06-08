@@ -11,91 +11,17 @@ import { caseStudies } from "@/data/caseStudies";
 const Index = () => {
   return (
     <SiteLayout>
-      {/* HERO — playful collage on terracotta */}
-      <section
-        className="relative -mt-16 overflow-hidden hero-enter pt-16"
-        style={{ backgroundColor: "#C55829" }}
-      >
-        {/* Faint arch background */}
-        <svg
-          className="pointer-events-none absolute inset-0 h-full w-full"
-          viewBox="0 0 1440 916"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          aria-hidden="true"
-        >
-          <g opacity="0.07" style={{ mixBlendMode: "hard-light" }}>
-            <path
-              className="hero-arch-path"
-              d="M-125 987.101V443.262C-125 381.544 -74.9678 331.512 -13.25 331.512C48.4678 331.512 98.5 381.544 98.5 443.262V670.594C98.5 764.012 174.23 839.741 267.647 839.741H353.165C399.353 839.741 436.795 877.184 436.795 923.371C436.795 969.558 474.237 1007 520.424 1007H944.224C1017.68 1007 1077.22 947.216 1077.22 873.762C1077.22 800.571 1136.56 741 1209.75 741H1226.48C1290.43 741 1342.27 792.841 1342.27 856.79V876.718C1342.27 929.661 1385.19 972.58 1438.14 972.58C1491.08 972.58 1534 929.661 1534 876.718V461.068C1534 371.149 1461.11 298.255 1371.19 298.255C1281.27 298.255 1208.37 225.361 1208.37 135.442V-191"
-              stroke="#FFFFFF"
-              strokeWidth="100"
-            />
-          </g>
-        </svg>
-
-        {/* Collage stage */}
-        <div className="relative z-10 mx-auto max-w-content px-6 pb-16 pt-14 md:px-16 md:pb-20 md:pt-16">
-          <div className="relative">
-            {/* MOBILE-FRIENDLY: simple stack */}
-            <div className="flex flex-col items-center gap-8 text-center md:hidden">
-              <h1 className="font-serif text-[40px] leading-[1.05] text-white">
-                Building Teams That Build For All
-              </h1>
-            <img
-              src={annaPortrait}
-              alt="Anna Smalley portrait"
-              className="h-40 w-40 rounded-full object-cover shadow-[0_18px_40px_-12px_rgba(0,0,0,0.4)]"
-            />
-            <StickyNote color="pink" rotate={-4} size="md" hoverLift={false}>
-              <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
-                Currently
-              </p>
-              <p className="mt-1 font-serif text-[15px] leading-snug text-title">
-                Open to advisory<br />engagements →
-              </p>
-            </StickyNote>
-          </div>
-
-            {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
-            <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
-
-                <h1 className="font-serif text-[clamp(40px,7vw,80px)] leading-[1.05] text-white">
-                {/* Line 1: Building Teams */}
-                <span className="flex flex-nowrap items-center justify-center gap-x-5 whitespace-nowrap">
-                  <span
-                    className="pop-in pop-delay-1 inline-block"
-                    style={{ ['--pop-rot' as string]: '0deg' }}
-                  >
-                    Building Teams
-                  </span>
-                </span>
-
-                {/* Line 2: That Build For All */}
-                <span className="mt-3 flex flex-wrap items-center justify-center gap-x-5 gap-y-3">
-                  <span
-                    className="pop-in pop-delay-3 inline-block whitespace-nowrap"
-                    style={{ ['--pop-rot' as string]: '0deg' }}
-                  >
-                    That Build For All
-                  </span>
-                </span>
-              </h1>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* INTRO */}
-      <section className="bg-background">
-        <div className="mx-auto max-w-content px-6 py-16 md:px-16 md:py-24">
+      {/* HERO — eyebrow, headline, intro on light background */}
+      <section className="bg-background hero-enter">
+        <div className="mx-auto max-w-content px-6 pb-12 pt-16 md:px-16 md:pb-16 md:pt-24">
           <Reveal>
             <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] text-accent md:text-[14px]">
               Design Leader · Team Builder · Accessibility Advocate
             </p>
-            <p className="body-text mt-8 max-w-4xl text-xl leading-[1.5] md:text-[30px] md:leading-[1.4]">
+            <h1 className="mt-8 font-serif text-[40px] leading-[1.02] text-title md:mt-10 md:text-[clamp(56px,8vw,96px)]">
+              Building Teams That Build For All
+            </h1>
+            <p className="body-text mt-8 max-w-4xl text-xl leading-[1.5] md:mt-10 md:text-[30px] md:leading-[1.4]">
               Oh hi. I'm Anna Smalley — a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Walmart, Gap and Salesforce. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
             </p>
           </Reveal>
