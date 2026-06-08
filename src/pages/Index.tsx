@@ -61,30 +61,24 @@ const Index = () => {
             {/* DESKTOP COLLAGE — two-line title with inline headshot + side sticky note */}
             <div className="relative mx-auto hidden w-full max-w-[1000px] md:block">
 
-                <h1 className="font-serif text-[clamp(36px,6.4vw,72px)] leading-[1.05] text-white">
-                {/* Line 1: I'm Anna Smalley, [headshot] */}
+                <h1 className="font-serif text-[clamp(40px,7vw,80px)] leading-[1.05] text-white">
+                {/* Line 1: Building Teams */}
                 <span className="flex flex-nowrap items-center justify-center gap-x-5 whitespace-nowrap">
                   <span
                     className="pop-in pop-delay-1 inline-block"
                     style={{ ['--pop-rot' as string]: '0deg' }}
                   >
-                    Hi there - I'm
-                  </span>
-                  <span
-                    className="pop-in pop-delay-2 inline-block"
-                    style={{ ['--pop-rot' as string]: '0deg' }}
-                  >
-                    Anna Smalley,
+                    Building Teams
                   </span>
                 </span>
 
-                {/* Line 2: a Senior UX Leader. */}
+                {/* Line 2: That Build For All */}
                 <span className="mt-3 flex flex-wrap items-center justify-center gap-x-5 gap-y-3">
                   <span
-                    className="pop-in pop-delay-5 inline-block whitespace-nowrap"
+                    className="pop-in pop-delay-3 inline-block whitespace-nowrap"
                     style={{ ['--pop-rot' as string]: '0deg' }}
                   >
-                    a senior UX leader.
+                    That Build For All
                   </span>
                 </span>
               </h1>
