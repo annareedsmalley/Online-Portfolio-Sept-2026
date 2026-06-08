@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.setViewport({ width: 1920, height: 1080 });
-  await page.goto('https://id-preview--1556721c-a4cf-46fc-b315-97d221661888.lovable.app', { waitUntil: 'networkidle2' });
+  await page.goto('https://annasmalley.com', { waitUntil: 'networkidle2' });
   await new Promise(r => setTimeout(r, 2000));
   const result = await page.evaluate(() => {
     const ps = document.querySelectorAll('p');
@@ -14,7 +14,7 @@ const puppeteer = require('puppeteer');
         break;
       }
     }
-    if (!target) return { error: 'not found', ps: ps.length };
+    if (!target) return { error: 'not found', ps: ps.length, html: document.body.innerHTML.substring(0, 500) };
     const style = window.getComputedStyle(target);
     const width = target.getBoundingClientRect().width;
     const range = document.createRange();
