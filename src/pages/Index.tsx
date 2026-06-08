@@ -46,8 +46,8 @@ const Index = () => {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="bg-sand">
-        <div className="mx-auto max-w-content px-6 py-20 md:px-16 md:py-28">
+      <section id="about" className="bg-background">
+        <div className="mx-auto max-w-content px-6 py-5 md:px-16 md:py-7">
           <div className="grid gap-12 md:grid-cols-12 md:gap-16">
             <div className="md:col-span-5">
               <div className="overflow-hidden rounded-3xl">
