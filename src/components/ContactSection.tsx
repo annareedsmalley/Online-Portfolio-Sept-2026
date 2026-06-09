@@ -87,7 +87,7 @@ export const ContactSection = () => {
             </p>
           </div>
 
-          <div className="w-full max-w-xl mx-auto">
+          <div className="w-full max-w-[28rem] mx-auto">
             <form onSubmit={onSubmit} noValidate className="flex flex-col gap-4 text-left">
               <Field
                 id="name"
@@ -114,7 +114,7 @@ export const ContactSection = () => {
                 error={errors.message}
               />
 
-              <div>
+              <div className="flex justify-end">
                 <button
                   type="submit"
                   disabled={submitting}
