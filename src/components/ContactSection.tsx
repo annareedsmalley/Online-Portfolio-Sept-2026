@@ -120,7 +120,7 @@ export const ContactSection = () => {
                   disabled={submitting}
                   className="inline-flex items-center justify-center gap-2 rounded-md bg-navy px-6 py-2.5 font-sans text-sm font-medium text-primary-foreground transition-colors hover:bg-navy/85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-50"
                 >
-                  {submitting ? "Sending…" : "Send message"}
+                  {submitting ? "Sending…" : "Send"}
                   <ArrowRight className="h-4 w-4" />
                 </button>
               </div>
