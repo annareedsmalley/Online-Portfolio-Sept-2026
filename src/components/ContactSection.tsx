@@ -181,11 +181,11 @@ const TextareaField = ({ id, label, value, onChange, error }: TextareaProps) => 
       name={id}
       value={value}
       onChange={onChange}
-      rows={6}
+      rows={5}
       placeholder=" "
       aria-invalid={!!error}
       aria-describedby={error ? `${id}-error` : undefined}
-      className="peer block w-full resize-y rounded-lg border border-border bg-white px-4 pt-5 pb-3 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
+      className="peer block w-full resize-y rounded-md border border-border bg-white px-3 pt-4 pb-2 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
     />
     <label
       htmlFor={id}
