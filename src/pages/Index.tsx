@@ -62,7 +62,7 @@ const Index = () => {
               </div>
             </div>
             <div className="md:col-span-7">
-              <h2 className="font-serif text-[32px] text-title md:text-[48px]">
+              <h2 className="font-serif text-[24px] text-title md:text-[36px]">
                 About me
               </h2>
               <p className="body-text mt-6 text-base md:text-lg">
