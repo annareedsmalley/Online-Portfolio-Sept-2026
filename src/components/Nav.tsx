@@ -123,7 +123,7 @@ export const Nav = () => {
           aria-label="Anna Smalley — home"
           style={{ transition: "color 300ms ease, opacity 200ms ease" }}
         >
-          <span className="font-inter text-xl font-normal md:text-2xl">Anna Smalley</span>
+          <span className="font-display text-xl font-normal md:text-2xl">Anna Smalley</span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
