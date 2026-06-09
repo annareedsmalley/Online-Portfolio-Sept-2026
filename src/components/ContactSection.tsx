@@ -154,7 +154,7 @@ const Field = ({ id, label, value, onChange, error, type = "text", autoComplete 
       placeholder=" "
       aria-invalid={!!error}
       aria-describedby={error ? `${id}-error` : undefined}
-      className="peer block w-full rounded-lg border border-border bg-white px-4 pt-4 pb-3 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
+      className="peer block w-full rounded-md border border-border bg-white px-3 pt-3 pb-1.5 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
     />
     <label
       htmlFor={id}
