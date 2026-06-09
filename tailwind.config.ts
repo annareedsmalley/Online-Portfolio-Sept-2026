@@ -17,6 +17,7 @@ export default {
         serif: ['Manrope', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         sans: ['Montserrat', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         label: ['Roboto', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Playfair Display', 'ui-serif', 'Georgia', 'serif'],
       },
       colors: {
         border: "hsl(var(--border))",
