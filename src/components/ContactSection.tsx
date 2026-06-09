@@ -88,41 +88,43 @@ export const ContactSection = () => {
           </div>
 
           <div className="w-full max-w-xl mx-auto">
-            <div className="rounded-2xl border border-border bg-white/70 p-8 backdrop-blur-sm md:p-10 text-left">
-              <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3">
-                <Field
-                  id="name"
-                  label="Your name"
-                  value={form.name}
-                  onChange={onChange("name")}
-                  error={errors.name}
-                  autoComplete="name"
-                />
-                <Field
-                  id="email"
-                  label="Email"
-                  type="email"
-                  value={form.email}
-                  onChange={onChange("email")}
-                  error={errors.email}
-                  autoComplete="email"
-                />
-                <TextareaField
-                  id="message"
-                  label="Message"
-                  value={form.message}
-                  onChange={onChange("message")}
-                  error={errors.message}
-                />
+            <form onSubmit={onSubmit} noValidate className="flex flex-col gap-4 text-left">
+              <Field
+                id="name"
+                label="Your name"
+                value={form.name}
+                onChange={onChange("name")}
+                error={errors.name}
+                autoComplete="name"
+              />
+              <Field
+                id="email"
+                label="Email"
+                type="email"
+                value={form.email}
+                onChange={onChange("email")}
+                error={errors.email}
+                autoComplete="email"
+              />
+              <TextareaField
+                id="message"
+                label="Message"
+                value={form.message}
+                onChange={onChange("message")}
+                error={errors.message}
+              />
 
-                <div>
-                  <ActionButton type="submit" variant="primary" size="md" disabled={submitting} className="w-full bg-navy hover:bg-navy/85 text-primary-foreground">
-                    {submitting ? "Sending…" : "Send message"}
-                    <ArrowRight className="h-4 w-4" />
-                  </ActionButton>
-                </div>
-              </form>
-            </div>
+              <div>
+                <button
+                  type="submit"
+                  disabled={submitting}
+                  className="inline-flex items-center justify-center gap-2 rounded-md bg-navy px-6 py-2.5 font-sans text-sm font-medium text-primary-foreground transition-colors hover:bg-navy/85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-50"
+                >
+                  {submitting ? "Sending…" : "Send message"}
+                  <ArrowRight className="h-4 w-4" />
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
