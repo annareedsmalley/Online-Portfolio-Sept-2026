@@ -68,7 +68,7 @@ export const ContactSection = () => {
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 rounded-lg border border-title/[0.08] bg-background/55 px-8 py-12 text-center shadow-[0_1px_1px_hsl(var(--text-title)/0.03),0_16px_40px_-20px_hsl(var(--text-title)/0.14)] backdrop-blur-[2px] md:gap-10 md:px-16 md:py-16">
           <div>
             <h2 className="font-serif text-[24px] text-title md:text-[36px]">
-              Let's talk
+              Let's <span style={{ color: '#c2363a' }}>talk</span>
             </h2>
             <p className="body-text mt-4 max-w-[28rem] text-base md:text-lg">
               <span>If you're in the <strong className="font-semibold">SF Bay Area</strong>, I especially love meeting up in person.</span>
