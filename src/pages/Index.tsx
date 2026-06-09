@@ -13,7 +13,7 @@ const Index = () => {
     <SiteLayout>
       {/* HERO — eyebrow, headline, intro on light background */}
       <section className="bg-background hero-enter">
-        <div className="mx-auto max-w-content px-6 pb-4 pt-4 md:px-16 md:pb-5 md:pt-5">
+        <div className="mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 pb-4 pt-4 md:px-16 md:pb-5 md:pt-5">
           <Reveal>
             <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] md:text-[14px]" style={{ color: '#c2363a' }}>
               DESIGN LEADER · TEAM BUILDER · ACCESSIBILITY CHAMPION
