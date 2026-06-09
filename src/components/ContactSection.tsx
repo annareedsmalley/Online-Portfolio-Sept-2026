@@ -67,13 +67,13 @@ export const ContactSection = () => {
       <div className="relative z-10 mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 pt-14 pb-20 md:px-16 md:pt-[72px] md:pb-28">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 rounded-lg border border-title/[0.08] bg-background/55 px-8 py-12 text-center shadow-[0_1px_1px_hsl(var(--text-title)/0.03),0_16px_40px_-20px_hsl(var(--text-title)/0.14)] backdrop-blur-[2px] md:gap-10 md:px-16 md:py-16">
           <div>
-            <h2 className="font-serif font-normal text-[24px] text-title md:text-[36px] max-w-[28rem]">
+            <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px] max-w-[28rem]">
               Let's talk
             </h2>
-            <p className="body-text mt-5 max-w-[28rem] text-base md:text-lg">
+            <p className="font-inter text-body leading-[1.5] mt-5 max-w-[28rem] text-base md:text-lg">
               If you're in the <strong className="font-medium text-title">SF Bay Area</strong>, I especially love meeting up in person.
             </p>
-            <p className="body-text mt-3 max-w-[28rem] text-base md:text-lg">
+            <p className="font-inter text-body leading-[1.5] mt-3 max-w-[28rem] text-base md:text-lg">
               <span>Send me a message on&nbsp;</span>
               <a
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"
@@ -118,7 +118,7 @@ export const ContactSection = () => {
                 <button
                   type="submit"
                   disabled={submitting}
-                  className="inline-flex items-center justify-center gap-1.5 rounded-md bg-navy px-4 py-2.5 font-sans text-sm font-medium text-primary-foreground transition-colors hover:bg-navy/85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-50"
+                  className="inline-flex items-center justify-center gap-1.5 rounded-md bg-navy px-4 py-2.5 font-inter text-sm font-medium text-primary-foreground transition-colors hover:bg-navy/85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-50"
                 >
                   {submitting ? "Sending…" : "Send"}
                   <ArrowRight className="h-4 w-4" />
@@ -154,7 +154,7 @@ const Field = ({ id, label, value, onChange, error, type = "text", autoComplete 
       placeholder=" "
       aria-invalid={!!error}
       aria-describedby={error ? `${id}-error` : undefined}
-      className="peer block w-full rounded-md border border-border bg-white px-3 pt-3 pb-1.5 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
+      className="peer block w-full rounded-md border border-border bg-white px-3 pt-3 pb-1.5 font-inter text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
     />
     <label
       htmlFor={id}
@@ -185,7 +185,7 @@ const TextareaField = ({ id, label, value, onChange, error }: TextareaProps) => 
       placeholder=" "
       aria-invalid={!!error}
       aria-describedby={error ? `${id}-error` : undefined}
-      className="peer block w-full resize-y rounded-md border border-border bg-white px-3 pt-4 pb-2 font-sans text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
+      className="peer block w-full resize-y rounded-md border border-border bg-white px-3 pt-4 pb-2 font-inter text-[15px] text-title outline-none transition-colors focus:border-terracotta focus:shadow-[inset_0_0_0_1px_hsl(var(--terracotta))]"
     />
     <label
       htmlFor={id}

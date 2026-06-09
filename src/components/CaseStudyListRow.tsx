@@ -22,10 +22,10 @@ export const CaseStudyListRow = ({
     <div className="relative flex flex-col gap-4 rounded-xl px-5 py-10 md:flex-row md:items-center md:justify-between md:gap-6 md:px-6 md:py-12">
 
       <div className="relative z-20 flex w-full flex-col gap-1.5 md:w-[54%]">
-        <h3 className="font-serif text-xl leading-snug text-title md:text-2xl">
+        <h3 className="font-inter text-xl leading-snug text-title md:text-2xl">
           {title}
         </h3>
-        <p className="font-sans text-[13px] text-[#56514D]">
+        <p className="font-inter text-[13px] text-[#56514D]">
           {tags}
         </p>
       </div>
