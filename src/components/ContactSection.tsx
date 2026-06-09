@@ -71,7 +71,7 @@ export const ContactSection = () => {
               Let's <span style={{ color: '#c2363a' }}>talk</span>
             </h2>
             <p className="body-text mt-4 max-w-[28rem] text-base md:text-lg">
-              <span>If you're in the <strong className="font-semibold">SF Bay Area</strong>, I especially love meeting up in person.</span>
+              <span>If you're in the <strong className="font-medium">SF Bay Area</strong>, I especially love meeting up in person.</span>
             </p>
             <p className="body-text mt-3 max-w-xl text-base md:text-lg">
               <span>Send me a message on&nbsp;</span>
