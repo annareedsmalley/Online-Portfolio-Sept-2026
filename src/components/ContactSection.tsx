@@ -70,9 +70,10 @@ export const ContactSection = () => {
             <h2 className="font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
               I'd love to hear from you
             </h2>
-            <p className="body-text mt-5 max-w-xl text-base md:text-lg">
+            <p className="body-text max-w-xl text-base md:text-lg">
               <span>If you're in the SF Bay Area, I'd especially love to meet up in person.</span>
-              <br />
+            </p>
+            <p className="body-text mt-3 max-w-xl text-base md:text-lg">
               <span>Message me on </span>
               <a
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"
