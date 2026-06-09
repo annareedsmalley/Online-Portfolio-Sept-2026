@@ -79,7 +79,7 @@ export const ContactSection = () => {
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-title underline-offset-4 hover:underline"
+                className="font-medium text-title underline underline-offset-4 transition-colors hover:text-terracotta"
               >
                 LinkedIn
               </a>
