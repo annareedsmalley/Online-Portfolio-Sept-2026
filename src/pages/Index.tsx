@@ -21,8 +21,8 @@ const Index = () => {
             <h1 className="mt-6 max-w-[66%] font-serif text-[32px] leading-[1.05] text-title md:mt-8 md:text-[clamp(40px,5vw,64px)]">
               Building Teams<br />That Build For All
             </h1>
-            <p className="body-text mt-6 max-w-[66%] text-base md:mt-8 md:text-lg lg:max-w-[58%] xl:max-w-[53%]">
-              Oh hi - I'm Anna Smalley, a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. My deepest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.
+            <p className="body-text mt-6 max-w-[66%] text-base md:mt-8 md:text-lg lg:max-w-[58%] xl:max-w-[53%] whitespace-pre-line">
+              {`Oh hi - I'm Anna Smalley, a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. \n\n\nMy greatest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone.\n \nI'm based in the SF Bay Area, and I'm currently looking for a mission-driven team to lead or support while we build something great.`}
             </p>
           </Reveal>
         </div>
