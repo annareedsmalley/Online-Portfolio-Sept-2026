@@ -18,10 +18,10 @@ const Index = () => {
             <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] md:text-[14px]" style={{ color: '#c2363a' }}>
               DESIGN LEADER · TEAM BUILDER · ACCESSIBILITY CHAMPION
             </p>
-            <h1 className="mt-6 max-w-[75%] font-display font-normal text-[32px] leading-[1.05] text-title md:mt-8 md:text-[clamp(40px,6.5vw,84px)]">
+            <h1 className="mt-6 max-w-[75%] font-display font-normal text-[32px] leading-[1.05] text-title md:mt-8 md:text-[clamp(40px,6.5vw,68px)]">
               Building Teams<br />That Build For All
             </h1>
-            <p className="body-text mt-6 max-w-[58%] text-base md:mt-8 md:text-lg whitespace-pre-line">
+            <p className="body-text mt-6 max-w-[63%] text-base md:mt-8 md:text-lg whitespace-pre-line">
               {`Oh hi - I'm Anna Smalley, a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. My greatest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone. I'm based in the SF Bay Area, and I'm currently looking for a mission-driven, joyful team that prioritizes inclusion.`}
             </p>
           </Reveal>
