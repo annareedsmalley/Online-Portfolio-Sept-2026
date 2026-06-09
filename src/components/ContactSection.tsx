@@ -71,7 +71,7 @@ export const ContactSection = () => {
               I'd love to hear from you
             </h2>
             <p className="body-text mt-5 max-w-xl text-base md:text-lg">
-              Please message me on{" "}
+              <span>Please message me on </span>
               <a
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"
                 target="_blank"
@@ -79,8 +79,8 @@ export const ContactSection = () => {
                 className="font-medium text-title underline-offset-4 hover:underline"
               >
                 LinkedIn
-              </a>{" "}
-              or use the form below.
+              </a>
+              <span> or use the form below.</span>
             </p>
           </div>
 
