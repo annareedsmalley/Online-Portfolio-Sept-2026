@@ -82,7 +82,7 @@ export const ContactSection = () => {
               >
                 LinkedIn
               </a>
-              <span> or use the form below.</span>
+              <span> or right here.</span>
             </p>
           </div>
 
