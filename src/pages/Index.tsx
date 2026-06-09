@@ -15,7 +15,7 @@ const Index = () => {
       <section className="bg-background hero-enter">
         <div className="mx-auto max-w-content px-6 pb-4 pt-4 md:px-16 md:pb-5 md:pt-5">
           <Reveal>
-            <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] text-accent md:text-[14px]">
+            <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] md:text-[14px]" style={{ color: '#c2363a' }}>
               DESIGN LEADER · TEAM BUILDER · ACCESSIBILITY CHAMPION
             </p>
             <h1 className="mt-6 max-w-[66%] font-serif text-[32px] leading-[1.05] text-title md:mt-8 md:text-[clamp(40px,5vw,64px)]">
