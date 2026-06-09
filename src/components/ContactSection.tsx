@@ -71,7 +71,7 @@ export const ContactSection = () => {
               Let's Talk
             </h2>
             <p className="body-text max-w-xl text-base md:text-lg">
-              <span>If you're in the SF Bay Area, I'd especially love to meet up in person.</span>
+              <span>If you're in the SF Bay Area, I especially love meeting up in person.</span>
             </p>
             <p className="body-text mt-3 max-w-xl text-base md:text-lg">
               <span>Message me on </span>
