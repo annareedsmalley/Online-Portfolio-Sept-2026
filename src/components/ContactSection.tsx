@@ -70,7 +70,7 @@ export const ContactSection = () => {
             <h2 className="font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
               Let's Talk
             </h2>
-            <p className="body-text max-w-[28rem] text-base md:text-lg">
+            <p className="body-text mt-4 max-w-[28rem] text-base md:text-lg">
               <span>If you're in the SF Bay Area, I especially love meeting up in person.</span>
             </p>
             <p className="body-text mt-3 max-w-xl text-base md:text-lg">
