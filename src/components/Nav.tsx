@@ -123,7 +123,7 @@ export const Nav = () => {
           aria-label="Anna Smalley — home"
           style={{ transition: "color 300ms ease, opacity 200ms ease" }}
         >
-          <span className="font-serif text-xl font-bold md:text-2xl">Anna Smalley</span>
+          <span className="font-inter text-xl font-bold md:text-2xl">Anna Smalley</span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
@@ -134,7 +134,7 @@ export const Nav = () => {
               ? "text-terracotta"
               : "text-title hover:text-terracotta";
             const baseClasses = cn(
-              "font-sans text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
+              "font-inter text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
               colorClass,
               ringClass,
             );
