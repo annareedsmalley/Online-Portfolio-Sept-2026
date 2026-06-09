@@ -74,7 +74,7 @@ export const ContactSection = () => {
               <span>If you're in the SF Bay Area, I especially love meeting up in person.</span>
             </p>
             <p className="body-text mt-3 max-w-xl text-base md:text-lg">
-              <span>Message me on </span>
+              <span>Send me a message on&nbsp;</span>
               <a
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"
                 target="_blank"
