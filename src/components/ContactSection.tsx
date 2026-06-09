@@ -68,10 +68,10 @@ export const ContactSection = () => {
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center md:gap-10">
           <div>
             <h2 className="font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
-              Let's <span className="text-terracotta-hero">talk</span>
+              I'd love to hear from you
             </h2>
             <p className="body-text mt-5 max-w-xl text-base md:text-lg">
-              I'd love to hear from you! Please reach out on{" "}
+              Please message me on{" "}
               <a
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"
                 target="_blank"
@@ -80,7 +80,7 @@ export const ContactSection = () => {
               >
                 LinkedIn
               </a>{" "}
-              or fill out the form to send me a message.
+              or use the form below.
             </p>
           </div>
 
