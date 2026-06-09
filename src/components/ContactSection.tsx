@@ -88,7 +88,7 @@ export const ContactSection = () => {
           </div>
 
           <div className="w-full max-w-xl mx-auto">
-            <div className="rounded-2xl bg-white p-8 shadow-sm md:p-10 text-left">
+            <div className="rounded-2xl border border-border bg-white/70 p-8 backdrop-blur-sm md:p-10 text-left">
               <form onSubmit={onSubmit} noValidate className="flex flex-col gap-3">
                 <Field
                   id="name"
@@ -116,7 +116,7 @@ export const ContactSection = () => {
                 />
 
                 <div>
-                  <ActionButton type="submit" variant="primary" size="lg" disabled={submitting} className="w-full bg-terracotta-hero hover:bg-terracotta-hero/90">
+                  <ActionButton type="submit" variant="primary" size="md" disabled={submitting} className="w-full bg-navy hover:bg-navy/85 text-primary-foreground">
                     {submitting ? "Sending…" : "Send message"}
                     <ArrowRight className="h-4 w-4" />
                   </ActionButton>
