@@ -68,7 +68,7 @@ export const ContactSection = () => {
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 text-center md:gap-10">
           <div>
             <h2 className="font-serif text-[44px] leading-[1.1] text-title md:text-[56px]">
-              I'd love to hear from you
+              Let's Talk
             </h2>
             <p className="body-text max-w-xl text-base md:text-lg">
               <span>If you're in the SF Bay Area, I'd especially love to meet up in person.</span>
