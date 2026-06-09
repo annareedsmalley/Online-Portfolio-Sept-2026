@@ -18,6 +18,7 @@ export default {
         sans: ['Montserrat', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         label: ['Roboto', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         display: ['Playfair Display', 'ui-serif', 'Georgia', 'serif'],
+        inter: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

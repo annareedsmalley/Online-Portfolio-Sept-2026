@@ -15,13 +15,13 @@ const Index = () => {
       <section className="bg-background hero-enter">
         <div className="mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 pb-4 pt-12 md:px-16 md:pb-5 md:pt-16">
           <Reveal>
-            <p className="font-label text-[12px] font-semibold uppercase tracking-[0.16em] md:text-[14px]" style={{ color: '#c2363a' }}>
+            <p className="font-inter text-[12px] font-semibold uppercase tracking-[0.16em] md:text-[14px]" style={{ color: '#c2363a' }}>
               DESIGN LEADER · TEAM BUILDER · ACCESSIBILITY CHAMPION
             </p>
             <h1 className="mt-6 max-w-[75%] font-display font-normal text-[32px] leading-[1.05] text-title md:mt-8 md:text-[clamp(40px,6.5vw,68px)]">
               Building Teams<br />That Build For All
             </h1>
-            <p className="body-text mt-6 max-w-[58%] text-base md:mt-8 md:text-lg whitespace-pre-line">
+            <p className="font-inter text-body leading-[1.5] mt-6 max-w-[58%] text-base md:mt-8 md:text-lg whitespace-pre-line">
               {`Oh hi - I'm Anna Smalley, a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. My greatest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone. I'm based in the SF Bay Area, and I'm currently looking for a mission-driven, joyful team that prioritizes inclusion.`}
             </p>
           </Reveal>
@@ -31,7 +31,7 @@ const Index = () => {
       {/* CASE STUDIES */}
       <section id="work" className="scroll-mt-20 bg-background">
         <div className="mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 py-1.5 md:px-16 md:py-2">
-          <h2 className="font-serif font-normal text-[24px] text-title md:text-[36px]">
+          <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px]">
             Recent work
           </h2>
 
@@ -62,16 +62,16 @@ const Index = () => {
               </div>
             </div>
             <div className="md:col-span-7">
-              <h2 className="font-serif font-normal text-[24px] text-title md:text-[36px]">
+              <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px]">
                 About me
               </h2>
-              <p className="body-text mt-6 text-base md:text-lg">
+              <p className="font-inter text-body leading-[1.5] mt-6 text-base md:text-lg">
                 I'm a UX design leader with deep experience in eCommerce, a strong reputation for building collaborative, high-impact cross-functional partnerships, and an unwavering commitment to inclusion and accessibility - both in design work itself and in the way I lead teams.
               </p>
-              <p className="body-text mt-4 text-base md:text-lg">
+              <p className="font-inter text-body leading-[1.5] mt-4 text-base md:text-lg">
                 Recently, I have also become profoundly excited about the potential of agentic AI to supercharge inclusion, especially neuroinclusive and accessibility-first design.
               </p>
-              <p className="body-text mt-4 text-base md:text-lg">
+              <p className="font-inter text-body leading-[1.5] mt-4 text-base md:text-lg">
                 As a result, I'm currently seeking a leadership role in UX Design, UX Strategy, Design Operations or Accessibility. In this role, I hope to help shape an organization's agentic AI transformation, guiding it towards achieving something great: making that organization's products and services far more inclusive, far faster.
               </p>
             </div>
