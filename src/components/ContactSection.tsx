@@ -70,10 +70,10 @@ export const ContactSection = () => {
             <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px] max-w-[28rem]">
               Let's talk
             </h2>
-            <p className="font-inter text-body leading-[1.5] mt-5 max-w-[28rem] text-base md:text-lg">
+            <p className="font-inter text-body leading-[1.5] mt-8 max-w-[28rem] text-[15px] md:text-base">
               If you're in the <strong className="font-medium text-title">SF Bay Area</strong>, I especially love meeting up in person.
             </p>
-            <p className="font-inter text-body leading-[1.5] mt-3 max-w-[28rem] text-base md:text-lg">
+            <p className="font-inter text-body leading-[1.5] mt-3 max-w-[28rem] text-[15px] md:text-base">
               <span>Send me a message on&nbsp;</span>
               <a
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"

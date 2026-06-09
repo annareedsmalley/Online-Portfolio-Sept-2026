@@ -134,7 +134,7 @@ export const Nav = () => {
               ? "text-terracotta"
               : "text-title hover:text-terracotta";
             const baseClasses = cn(
-              "font-inter text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
+              "font-inter text-sm font-medium inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
               colorClass,
               ringClass,
             );
