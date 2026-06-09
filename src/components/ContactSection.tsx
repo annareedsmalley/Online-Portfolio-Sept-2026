@@ -82,7 +82,7 @@ export const ContactSection = () => {
               >
                 LinkedIn
               </a>
-              <span> or right here.</span>
+              <span> or below</span>
             </p>
           </div>
 
