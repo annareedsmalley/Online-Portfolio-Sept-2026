@@ -73,6 +73,7 @@ export default {
       },
       maxWidth: {
         content: "1312px",
+        nav: "1792px",
       },
       keyframes: {
         "accordion-down": { from: { height: "0" }, to: { height: "var(--radix-accordion-content-height)" } },

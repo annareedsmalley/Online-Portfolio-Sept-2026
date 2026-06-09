@@ -96,7 +96,7 @@ export const Nav = () => {
     >
       <div
         className={cn(
-          "relative z-50 mx-auto flex max-w-content items-center justify-between overflow-hidden px-6 md:px-16 transition-[height,opacity] duration-300 ease-out",
+          "relative z-50 mx-auto flex max-w-nav items-center justify-between overflow-hidden px-6 md:px-16 transition-[height,opacity] duration-300 ease-out",
           collapseMainBar ? "h-0 opacity-0 md:h-16 md:opacity-100" : "h-16 opacity-100"
         )}
         aria-hidden={collapseMainBar ? true : undefined}
@@ -200,7 +200,7 @@ export const Nav = () => {
             type="button"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             aria-label={`${caseStudyTitle} — scroll to top`}
-            className="mx-auto flex h-10 w-full max-w-content items-center px-6 text-left"
+            className="mx-auto flex h-10 w-full max-w-nav items-center px-6 text-left"
           >
             <span className="truncate font-serif text-[14px] font-semibold text-title">
               {caseStudyTitle}
