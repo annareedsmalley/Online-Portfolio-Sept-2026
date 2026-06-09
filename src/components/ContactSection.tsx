@@ -99,7 +99,7 @@ export const ContactSection = () => {
               />
               <Field
                 id="email"
-                label="Email"
+                label="Your email"
                 type="email"
                 value={form.email}
                 onChange={onChange("email")}
