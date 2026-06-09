@@ -22,7 +22,7 @@ const Index = () => {
               Building Teams<br />That Build For All
             </h1>
             <p className="body-text mt-6 max-w-[75%] text-base md:mt-8 md:text-lg whitespace-pre-line">
-              {`Oh hi - I'm Anna Smalley, a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. My greatest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone. I'm based in the SF Bay Area, and I'm currently looking for a mission-driven team that prioritizes people.`}
+              {`Oh hi - I'm Anna Smalley, a design leader with 17+ years turning cross-functional groups into high-performing, happy teams and shipping 50+ products across Gap Inc, Salesforce and Walmart. My greatest passion is universal design: starting with the people most often excluded, then creating experiences that end up better for everyone. I'm based in the SF Bay Area, and I'm currently looking for a mission-driven team that prioritizes joyful creativity.`}
             </p>
           </Reveal>
         </div>
