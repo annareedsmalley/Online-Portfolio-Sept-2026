@@ -82,7 +82,7 @@
 
 @layer components {
   .kicker {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.12em;
@@ -91,7 +91,7 @@
   }
 
   .body-text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
     color: hsl(var(--text-body));
     line-height: 1.5;
   }
