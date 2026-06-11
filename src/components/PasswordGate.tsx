@@ -46,8 +46,8 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
 
   return (
     <div className="w-full">
-      <div className="mx-auto flex w-full max-w-xl flex-col items-center gap-4 rounded-2xl border border-border bg-sand/40 p-6">
-        <h3 className="font-serif text-[18px] font-normal leading-[1.3] text-title md:text-[20px] text-center">
+      <div className="mx-auto flex w-full max-w-xl flex-col items-start gap-4 rounded-2xl border border-border bg-sand/40 p-6">
+        <h3 className="font-serif text-[18px] font-normal leading-[1.3] text-title md:text-[20px] text-left">
           To read more, please enter password.
         </h3>
 
@@ -65,7 +65,7 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
               if (error) setError(null);
             }}
             placeholder="Password"
-            className="w-1/2 self-center rounded-md border border-border bg-background px-4 py-3 font-sans text-[15px] text-title placeholder:text-title/40 focus:border-terracotta focus:outline-none focus:ring-2 focus:ring-terracotta/30"
+            className="w-1/2 self-start rounded-md border border-border bg-background px-4 py-3 font-sans text-[15px] text-title placeholder:text-title/40 focus:border-terracotta focus:outline-none focus:ring-2 focus:ring-terracotta/30"
             aria-invalid={error ? "true" : "false"}
             aria-describedby={error ? "case-study-password-error" : undefined}
           />
