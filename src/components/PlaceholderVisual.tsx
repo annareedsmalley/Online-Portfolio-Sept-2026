@@ -42,7 +42,7 @@ export const PlaceholderVisual = ({
           <p
             className="font-normal"
             style={{
-              fontFamily: "'Montserrat', sans-serif",
+              fontFamily: "'Inter', sans-serif",
               fontSize: "11px",
               color: "#56514D",
             }}
@@ -56,7 +56,7 @@ export const PlaceholderVisual = ({
       <figcaption
         className="mt-2 font-normal"
         style={{
-          fontFamily: "'Montserrat', sans-serif",
+          fontFamily: "'Inter', sans-serif",
           fontSize: "12px",
           color: "#56514D",
           marginTop: "8px",
