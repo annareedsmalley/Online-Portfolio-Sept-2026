@@ -14,11 +14,13 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ['Manrope', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        sans: ['Montserrat', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        label: ['Roboto', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-        display: ['Playfair Display', 'ui-serif', 'Georgia', 'serif'],
+        // Inter everywhere except H1/H2 (those keep Manrope, enforced in index.css).
+        serif: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        label: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         inter: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        heading: ['Manrope', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
