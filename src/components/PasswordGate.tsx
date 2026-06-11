@@ -51,7 +51,7 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
           To read more, please enter password.
         </h3>
 
-        <form onSubmit={handleSubmit} className="flex w-full flex-col gap-3">
+        <form onSubmit={handleSubmit} className="flex w-full flex-col gap-8">
           <label htmlFor="case-study-password" className="sr-only">
             Password
           </label>
