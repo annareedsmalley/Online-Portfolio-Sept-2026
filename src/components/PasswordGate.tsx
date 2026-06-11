@@ -47,9 +47,9 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
   return (
     <div className="w-full">
       <div className="mx-auto flex w-full max-w-xl flex-col items-center gap-4 rounded-2xl border border-border bg-sand/40 p-6">
-        <h2 className="font-serif text-[18px] font-normal leading-[1.3] text-title md:text-[20px] text-center">
+        <h3 className="font-serif text-[18px] font-normal leading-[1.3] text-title md:text-[20px] text-center">
           To read more, please enter password.
-        </h2>
+        </h3>
 
         <form onSubmit={handleSubmit} className="flex w-full flex-col gap-3">
           <label htmlFor="case-study-password" className="sr-only">
@@ -80,7 +80,7 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
           )}
           <button
             type="submit"
-            className="self-center rounded-md bg-terracotta px-5 py-3 font-label text-xs uppercase tracking-wider text-background transition-colors hover:bg-terracotta/90 focus:outline-none focus:ring-2 focus:ring-terracotta/40"
+            className="self-end rounded-md bg-terracotta px-5 py-3 font-label text-xs uppercase tracking-wider text-background transition-colors hover:bg-terracotta/90 focus:outline-none focus:ring-2 focus:ring-terracotta/40"
           >
             Unlock case study
           </button>
