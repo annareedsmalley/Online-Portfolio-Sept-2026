@@ -100,7 +100,7 @@ const ResearchQuote = ({ quote, attribution }: { quote: string; attribution: str
     <figcaption
       className="mt-3 font-normal"
       style={{
-        fontFamily: "'Montserrat', sans-serif",
+        fontFamily: "'Inter', sans-serif",
         fontSize: "12px",
         color: "#56514D",
       }}
@@ -321,7 +321,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <ZoomableImage src={competitiveAnalysis} alt="Competitive analysis grid: the four reference retailers (Amazon, Target, NewEgg, Expedia) with annotated callouts on what each got right and where the trust gap lived." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
                   March 2024 GenAI Reviews Summary UXR report
                 </figcaption>
@@ -381,7 +381,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <ZoomableImage src={otherExplorations3} alt="Early explorations: five card variants of the AI Review Summary showing different ways to surface customer sentiment, including review summary text, keyword pill groups (Likes, Mixed, Dislikes), attribute clusters with counts, and ratings-and-reviews-at-a-glance bar variants." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
                   Figma — Early explorations of sentiment surfacing patterns
                 </figcaption>
@@ -404,7 +404,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
                   Figma — AI Review Summary (node 4578-812)
                 </figcaption>
@@ -430,7 +430,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
                   UI patterns and content rules for the GenAI Review Summary.
                 </figcaption>
@@ -454,7 +454,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <ZoomableImage src={modelConfidenceStates} alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
-                  style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "12px", color: "#56514D" }}
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
                   Figma — AI Review Summary (nodes 4070-705 and 4087-2105)
                 </figcaption>

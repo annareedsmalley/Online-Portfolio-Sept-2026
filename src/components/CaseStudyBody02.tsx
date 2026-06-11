@@ -102,7 +102,7 @@ const Figure = ({ src, alt, caption, bgColor, className }: { src: string; alt: s
       <figcaption
         className="mt-2 font-normal"
         style={{
-          fontFamily: "'Montserrat', sans-serif",
+          fontFamily: "'Inter', sans-serif",
           fontSize: "12px",
           color: "#56514D",
           marginTop: "8px",
@@ -164,7 +164,7 @@ const VideoFigure = ({ src, ariaLabel, caption }: { src: string; ariaLabel: stri
         <figcaption
           className="mt-2 font-normal"
           style={{
-            fontFamily: "'Montserrat', sans-serif",
+            fontFamily: "'Inter', sans-serif",
             fontSize: "12px",
             color: "#56514D",
             marginTop: "8px",
