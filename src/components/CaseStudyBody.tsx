@@ -643,20 +643,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 </li>
               </UL>
 
-              <H3>Guidelines that lasted</H3>
-              <P>
-                Company-wide grouping guidelines adopted as <strong>official policy across all four brands</strong> for future product decisions.
-              </P>
-              <UL>
-                <li>Merchant Job Aids updated to reflect grouping guidelines for site merchants loading products.</li>
-                <li>Sticky Container pattern adopted into the design system library for future use across products.</li>
-              </UL>
-              <Figure
-                src={guidelinesThatLastedImg}
-                alt="Guidelines That Lasted"
-                caption="Caption of the visual"
-              />
-
               <H3>Team and leadership impact</H3>
               <UL>
                 <li>
@@ -672,6 +658,20 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                   Set a new precedent for at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
                 </li>
               </UL>
+
+              <H3>Guidelines that lasted</H3>
+              <P>
+                Company-wide grouping guidelines adopted as <strong>official policy across all four brands</strong> for future product decisions.
+              </P>
+              <UL>
+                <li>Merchant Job Aids updated to reflect grouping guidelines for site merchants loading products.</li>
+                <li>Sticky Container pattern adopted into the design system library for future use across products.</li>
+              </UL>
+              <Figure
+                src={guidelinesThatLastedImg}
+                alt="Guidelines That Lasted"
+                caption="Caption of the visual"
+              />
             </Section>
 
             <SectionDivider />
