@@ -35,10 +35,10 @@ const sections: NavSection[] = [
 ];
 
 // ----- Reusable typographic primitives -----
-const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
+const H2 = ({ id, children, className }: { id: string; children: ReactNode; className?: string }) => (
   <h2
     id={id}
-    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-10 -mb-1"
+    className={`scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-10 -mb-1 ${className ?? ""}`}
   >
     {children}
   </h2>
