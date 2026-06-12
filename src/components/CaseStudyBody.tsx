@@ -544,7 +544,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== Accessibility: Round Two ===================== */}
             <Section id="accessibility-round-two">
-              <P>
+              <P className="mt-4">
                 Once again, we won the extra time to design and test possible solutions with customers. Because it had gone so well the first time and added nothing to the timeline, we ran <strong>parallel accessibility research</strong> again with C4AT during this second phase. This time the results were even more robust.
               </P>
             </Section>
@@ -553,7 +553,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
-              <P>
+              <P className="mt-4">
                 Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
               <P>
