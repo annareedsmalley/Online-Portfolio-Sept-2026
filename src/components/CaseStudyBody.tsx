@@ -337,7 +337,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
           </aside>
 
           {/* RIGHT: content */}
-          <article className="flex min-w-0 flex-col gap-4 [&_section:first-of-type_h2]:mt-0 [&_h2+h3]:mt-0 [&_h3+h4]:mt-0">
+          <article className="flex min-w-0 flex-col gap-4 [&_section:first-of-type_h2:first-of-type]:mt-0 [&_h2+h3]:mt-6 [&_h3+h4]:mt-0">
             <PasswordGate>
 
             {/* ===================== Leadership Context ===================== */}
@@ -381,7 +381,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
 
 
-              <H2 id="my-approach" className="mt-16">Setup & Staffing</H2>
+              <H2 id="my-approach">Setup & Staffing</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to <strong>influence something big and important</strong>.
               </P>
