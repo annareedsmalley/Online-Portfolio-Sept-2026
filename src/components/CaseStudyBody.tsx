@@ -45,7 +45,7 @@ const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
 );
 
 const H3 = ({ children, id }: { children: ReactNode; id?: string }) => (
-  <h3 id={id} className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">
+  <h3 id={id} className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-4 mb-4">
     {children}
   </h3>
 );
