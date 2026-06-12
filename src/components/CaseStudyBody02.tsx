@@ -63,7 +63,7 @@ const sections: NavSection[] = [
 const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
   <h2
     id={id}
-    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-12"
+    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-10 -mb-1"
   >
     {children}
   </h2>
@@ -72,7 +72,7 @@ const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
 const H3 = ({ id, children, className }: { id?: string; children: ReactNode; className?: string }) => (
   <h3
     id={id}
-    className={`scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mb-2 ${className ?? "mt-6"}`}
+    className={`scroll-mt-28 font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-7 -mb-1 ${className ?? ""}`}
   >
     {children}
   </h3>
@@ -311,7 +311,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
           </aside>
 
           {/* RIGHT: content */}
-          <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
+          <article className="flex min-w-0 flex-col gap-4 [&_section:first-of-type_h2:first-of-type]:mt-0 [&_h2+h3]:mt-6 [&_h3+h4]:mt-0">
             <PasswordGate>
 
             {/* ===================== Context ===================== */}
@@ -516,7 +516,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
             <Section id="payoff-product-gating">
               
 
-              <H3 id="the-first-big-win" className="mt-16">Product Gating</H3>
+              <H3 id="the-first-big-win">Product Gating</H3>
               <P>
                 Soon after the Headless UI PDP was completed, the Gap brand tried product gating for the first time, granting Gap Inc. credit card holders exclusive access to products from the <strong>Gap x Cult Gaia</strong> line.
               </P>
