@@ -38,20 +38,20 @@ const sections: NavSection[] = [
 const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
   <h2
     id={id}
-    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-12"
+    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-8 mb-8"
   >
     {children}
   </h2>
 );
 
 const H3 = ({ children, id }: { children: ReactNode; id?: string }) => (
-  <h3 id={id} className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">
+  <h3 id={id} className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-4 mb-4">
     {children}
   </h3>
 );
 
 const H4 = ({ children }: { children: ReactNode }) => (
-  <h4 className="font-serif text-[18px] leading-[1.25] text-title md:text-[20px] mt-6 mb-2">
+  <h4 className="font-serif text-[18px] leading-[1.25] text-title md:text-[20px] mt-3 mb-3">
     {children}
   </h4>
 );
@@ -337,7 +337,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
           </aside>
 
           {/* RIGHT: content */}
-          <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
+          <article className="flex min-w-0 flex-col gap-4 [&_section:first-of-type_h2]:mt-0">
             <PasswordGate>
 
             {/* ===================== Leadership Context ===================== */}
@@ -379,7 +379,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 It turned out to be both. People were <strong>bouncing because they couldn't discover variant options</strong>. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
               </P>
 
-              <div className="h-8" />
+
 
               <H2 id="my-approach">Setup & Staffing</H2>
               <P>
@@ -420,7 +420,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
              {/* ===================== Design Work ===================== */}
             <Section id="structuring-work">
-              <P className="mt-8">
+              <P>
                 In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
               </P>
                
@@ -544,7 +544,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== Accessibility: Round Two ===================== */}
             <Section id="accessibility-round-two">
-              <P className="mt-4">
+              <P>
                 Once again, we won the extra time to design and test possible solutions with customers. Because it had gone so well the first time and added nothing to the timeline, we ran <strong>parallel accessibility research</strong> again with C4AT during this second phase. This time the results were even more robust.
               </P>
             </Section>
@@ -553,7 +553,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
-              <P className="mt-4">
+              <P>
                 Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
               <P>
