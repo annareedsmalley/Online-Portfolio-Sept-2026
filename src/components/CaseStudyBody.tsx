@@ -38,20 +38,20 @@ const sections: NavSection[] = [
 const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
   <h2
     id={id}
-    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-8 mb-8"
+    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-10 -mb-1"
   >
     {children}
   </h2>
 );
 
 const H3 = ({ children, id }: { children: ReactNode; id?: string }) => (
-  <h3 id={id} className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-4 mb-4">
+  <h3 id={id} className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-7 -mb-1">
     {children}
   </h3>
 );
 
 const H4 = ({ children }: { children: ReactNode }) => (
-  <h4 className="font-serif text-[18px] leading-[1.25] text-title md:text-[20px] mt-3 mb-3">
+  <h4 className="font-serif text-[18px] leading-[1.25] text-title md:text-[20px] mt-5 -mb-1">
     {children}
   </h4>
 );
