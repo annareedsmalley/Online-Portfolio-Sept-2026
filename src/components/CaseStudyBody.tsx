@@ -379,7 +379,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 It turned out to be both. People were <strong>bouncing because they couldn't discover variant options</strong>. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
               </P>
 
-              <div className="h-8" />
+
 
               <H2 id="my-approach">Setup & Staffing</H2>
               <P>
