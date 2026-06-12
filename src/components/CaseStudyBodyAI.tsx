@@ -297,7 +297,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li><strong>Backed her up</strong> when stakeholders pushed back on a recommendation we knew was right.</li>
               </ul>
 
-              <H2 id="structuring-work">Design Work</H2>
+              <H2 id="structuring-work">The Work</H2>
 
               <P>
                 The brief came in as "pilot an AI-generated review summary." Katie's first job was to <strong>refuse that framing politely</strong>, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?
