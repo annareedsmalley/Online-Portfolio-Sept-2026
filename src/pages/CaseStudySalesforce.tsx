@@ -62,7 +62,7 @@ const CaseStudySalesforce = () => {
               </span>
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
-              Led the design team that unified the fragmented loyalty programs of Gap Inc.'s four brands, then directed a foundational design transformation that established a foundational, themeable UI components for each brand. As a final outcome, this work unlocked a wildly successful product gating strategy that could be scaled across each brand at a fraction of the original effort.
+              Led design for the unification of Gap Inc.'s four fragmented loyalty programs, then directed a foundational design transformation that established foundational, themeable UI components for the entire Gap Inc platform. As a final outcome, this work unlocked a wildly successful product gating strategy that could be scaled across each brand at a fraction of the original effort.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {[
