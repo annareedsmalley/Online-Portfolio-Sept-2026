@@ -38,7 +38,7 @@ const sections: NavSection[] = [
 const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
   <h2
     id={id}
-    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-12"
+    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-8 mb-8"
   >
     {children}
   </h2>
