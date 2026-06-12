@@ -381,7 +381,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
 
 
-              <H2 id="my-approach">Setup & Staffing</H2>
+              <H2 id="my-approach" className="mt-16">Setup & Staffing</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to <strong>influence something big and important</strong>.
               </P>
