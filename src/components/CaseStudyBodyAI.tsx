@@ -216,7 +216,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Later in 2024, executive leadership drafted a deliberately open brief: <strong>pilot an AI-generated review summary on the PDP, with any brand</strong> that was interested, and see if we could make it succeed. The underlying tech already existed internally — SCOUT, an LLM-based tool that:
               </P>
-              <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title my-4">
+              <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li>Classifies sentiment across thousands of reviews</li>
                 <li>Extracts key phrases and recurring themes</li>
                 <li>Generates a concise summary of customer opinions</li>
@@ -238,7 +238,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 My job was to help leadership see that this feature would shape our customers' <strong>first impression of Gap Inc. AI</strong>, making rigorous UX research on trust and transparency more important than ever. We invested heavily:
               </P>
-              <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title my-4">
+              <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li><strong>March 2024</strong> — foundational exploratory study</li>
                 <li><strong>July 2024</strong> — design testing</li>
               </ul>
