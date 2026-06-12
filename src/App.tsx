@@ -23,15 +23,17 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <CaseStudyTitleProvider>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/work/cross-brand-product-experience" element={<CaseStudyGap />} />
-            <Route path="/work/four-brands-one-membership" element={<CaseStudySalesforce />} />
-            <Route path="/work/designing-trust-into-ai-feature" element={<CaseStudyAIReviews />} />
+          <ErrorBoundary>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/work/cross-brand-product-experience" element={<CaseStudyGap />} />
+              <Route path="/work/four-brands-one-membership" element={<CaseStudySalesforce />} />
+              <Route path="/work/designing-trust-into-ai-feature" element={<CaseStudyAIReviews />} />
 
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </ErrorBoundary>
         </CaseStudyTitleProvider>
       </BrowserRouter>
     </TooltipProvider>
