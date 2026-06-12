@@ -39,20 +39,20 @@ const sections: NavSection[] = [
 const H2 = ({ id, children }: { id?: string; children: ReactNode }) => (
   <h2
     id={id}
-    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-12"
+    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-10 -mb-1"
   >
     {children}
   </h2>
 );
 
 const H3 = ({ id, children }: { id?: string; children: ReactNode }) => (
-  <h3 className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-6 mb-2">
+  <h3 className="font-serif text-[22px] leading-[1.25] text-title md:text-[26px] mt-7 -mb-1">
     {children}
   </h3>
 );
 
 const H4 = ({ id, children }: { id?: string; children: ReactNode }) => (
-  <h4 className="font-serif text-[18px] leading-[1.3] text-title md:text-[20px] mt-6 mb-2">
+  <h4 className="font-serif text-[18px] leading-[1.3] text-title md:text-[20px] mt-5 -mb-1">
     {children}
   </h4>
 );
@@ -204,7 +204,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
           </aside>
 
           {/* RIGHT: content */}
-          <article className="flex min-w-0 flex-col gap-0 [&_section:first-of-type_h2]:mt-0">
+          <article className="flex min-w-0 flex-col gap-4 [&_section:first-of-type_h2:first-of-type]:mt-0 [&_h2+h3]:mt-6 [&_h3+h4]:mt-0">
             <PasswordGate>
 
             {/* ===================== The Situation ===================== */}
