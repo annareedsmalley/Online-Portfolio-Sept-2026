@@ -35,10 +35,10 @@ const sections: NavSection[] = [
 ];
 
 // ----- Reusable typographic primitives -----
-const H2 = ({ id, children }: { id: string; children: ReactNode }) => (
+const H2 = ({ id, children, className }: { id: string; children: ReactNode; className?: string }) => (
   <h2
     id={id}
-    className="scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-10 -mb-1"
+    className={`scroll-mt-28 font-serif text-[28px] leading-[1.15] text-title md:text-[40px] mt-10 -mb-1 ${className ?? ""}`}
   >
     {children}
   </h2>
@@ -381,7 +381,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
 
 
-              <H2 id="my-approach">Setup & Staffing</H2>
+              <H2 id="my-approach" className="mt-16">Setup & Staffing</H2>
               <P>
                 The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to <strong>influence something big and important</strong>.
               </P>
@@ -643,20 +643,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 </li>
               </UL>
 
-              <H3>Guidelines that lasted</H3>
-              <P>
-                Company-wide grouping guidelines adopted as <strong>official policy across all four brands</strong> for future product decisions.
-              </P>
-              <UL>
-                <li>Merchant Job Aids updated to reflect grouping guidelines for site merchants loading products.</li>
-                <li>Sticky Container pattern adopted into the design system library for future use across products.</li>
-              </UL>
-              <Figure
-                src={guidelinesThatLastedImg}
-                alt="Guidelines That Lasted"
-                caption="Caption of the visual"
-              />
-
               <H3>Team and leadership impact</H3>
               <UL>
                 <li>
@@ -672,6 +658,20 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                   Set a new precedent for at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
                 </li>
               </UL>
+
+              <H3>Guidelines that lasted</H3>
+              <P>
+                Company-wide grouping guidelines adopted as <strong>official policy across all four brands</strong> for future product decisions.
+              </P>
+              <UL>
+                <li>Merchant Job Aids updated to reflect grouping guidelines for site merchants loading products.</li>
+                <li>Sticky Container pattern adopted into the design system library for future use across products.</li>
+              </UL>
+              <Figure
+                src={guidelinesThatLastedImg}
+                alt="Guidelines That Lasted"
+                caption="Caption of the visual"
+              />
             </Section>
 
             <SectionDivider />
