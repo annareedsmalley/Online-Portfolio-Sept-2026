@@ -11,6 +11,7 @@ import CaseStudySalesforce from "./pages/CaseStudySalesforce.tsx";
 import CaseStudyAIReviews from "./pages/CaseStudyAIReviews.tsx";
 import { ScrollToTop } from "./components/ScrollToTop.tsx";
 import { CaseStudyTitleProvider } from "./context/CaseStudyTitleContext";
+import { ErrorBoundary } from "./components/ErrorBoundary.tsx";
 
 const queryClient = new QueryClient();
 
