@@ -112,7 +112,7 @@ export const ContactSection = () => {
       </svg>
 
       <div className="relative z-10 mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 pt-16 pb-20 md:px-16 md:pt-20 md:pb-28">
-        <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 rounded-lg border border-title/[0.08] bg-[hsl(40,42%,93%)] px-8 py-12 text-center shadow-[0_1px_1px_hsl(var(--text-title)/0.03),0_16px_40px_-20px_hsl(var(--text-title)/0.14)] md:gap-10 md:px-16 md:py-16">
+        <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 rounded-lg border border-title/[0.08] bg-[hsl(40,21%,93%)] px-8 py-12 text-center shadow-[0_1px_1px_hsl(var(--text-title)/0.03),0_16px_40px_-20px_hsl(var(--text-title)/0.14)] md:gap-10 md:px-16 md:py-16">
           <div>
             <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px] max-w-[28rem]">
               Let's talk
