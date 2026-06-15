@@ -54,13 +54,43 @@ export const ContactSection = () => {
         preserveAspectRatio="xMidYMid slice"
         aria-hidden="true"
       >
-        <rect width="1440" height="1024" fill="#FBF6EF" />
-        <g opacity="0.04" style={{ mixBlendMode: "hard-light" }}>
-          <path
-            d="M86 1063.11V503.212C86 450.514 128.72 407.794 181.418 407.794C234.116 407.794 276.836 450.514 276.836 503.212V811.612C276.836 869.16 323.488 915.811 381.035 915.811H401.64C447.807 915.811 485.234 953.238 485.234 999.406C485.234 1045.57 522.66 1083 568.828 1083H868.345C964.54 1083 1042.52 1005.02 1042.52 908.823V849.967C1042.52 786.276 1094.15 734.645 1157.84 734.645C1221.53 734.645 1273.16 786.276 1273.16 849.967V965.177C1273.16 1011.25 1310.51 1048.59 1356.58 1048.59C1402.65 1048.59 1440 1011.25 1440 965.177V516.227C1440 437.981 1376.57 374.551 1298.32 374.551C1220.08 374.551 1156.65 311.12 1156.65 232.874V-114.5"
-            stroke="#AA4D18"
-            strokeWidth="100"
-          />
+        <defs>
+          {/* Warm golden afternoon light filtering through redwoods */}
+          <linearGradient id="contact-sky" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stopColor="#F6E2B8" />
+            <stop offset="0.42" stopColor="#FAF1DD" />
+            <stop offset="0.78" stopColor="#F4EFE3" />
+            <stop offset="1" stopColor="#E4E7D6" />
+          </linearGradient>
+          {/* Low sun glow — warm golden afternoon */}
+          <radialGradient id="contact-sun" cx="0.82" cy="0.16" r="0.7" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#FBE8A6" stopOpacity="0.85" />
+            <stop offset="0.45" stopColor="#F4D98C" stopOpacity="0.32" />
+            <stop offset="1" stopColor="#F4D98C" stopOpacity="0" />
+          </radialGradient>
+          {/* Forest fern haze rising from the ground */}
+          <linearGradient id="contact-fern" x1="0" y1="1" x2="0" y2="0" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#3D7A5A" stopOpacity="0.20" />
+            <stop offset="1" stopColor="#3D7A5A" stopOpacity="0" />
+          </linearGradient>
+        </defs>
+
+        <rect width="1440" height="1024" fill="url(#contact-sky)" />
+        <rect width="1440" height="1024" fill="url(#contact-sun)" />
+        <rect width="1440" height="1024" fill="url(#contact-fern)" />
+
+        {/* Redwood trunks — warm bark, light filtering between them */}
+        <g style={{ mixBlendMode: "multiply" }}>
+          <rect x="120" y="-40" width="78" height="1120" rx="20" fill="#A85A33" opacity="0.07" />
+          <rect x="360" y="-80" width="62" height="1160" rx="16" fill="#8A4A26" opacity="0.06" />
+          <rect x="1010" y="-60" width="70" height="1140" rx="18" fill="#A85A33" opacity="0.06" />
+          <rect x="1268" y="-40" width="88" height="1120" rx="22" fill="#8A4A26" opacity="0.07" />
+        </g>
+
+        {/* Light shafts raking across — golden afternoon */}
+        <g style={{ mixBlendMode: "soft-light" }} opacity="0.5">
+          <path d="M980 -120L1280 -120L640 1140L420 1140Z" fill="#FBE8A6" />
+          <path d="M1180 -120L1340 -120L900 1140L780 1140Z" fill="#FBE8A6" />
         </g>
       </svg>
 
