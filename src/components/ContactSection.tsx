@@ -73,24 +73,48 @@ export const ContactSection = () => {
             <stop offset="0" stopColor="#3D7A5A" stopOpacity="0.20" />
             <stop offset="1" stopColor="#3D7A5A" stopOpacity="0" />
           </linearGradient>
+          {/* Soft organic glow for light pools */}
+          <radialGradient id="contact-glow" cx="0.5" cy="0.5" r="0.5">
+            <stop offset="0" stopColor="#FBE8A6" stopOpacity="0.35" />
+            <stop offset="1" stopColor="#FBE8A6" stopOpacity="0" />
+          </radialGradient>
         </defs>
 
         <rect width="1440" height="1024" fill="url(#contact-sky)" />
         <rect width="1440" height="1024" fill="url(#contact-sun)" />
         <rect width="1440" height="1024" fill="url(#contact-fern)" />
 
-        {/* Redwood trunks — warm bark, light filtering between them */}
-        <g style={{ mixBlendMode: "multiply" }}>
-          <rect x="120" y="-40" width="78" height="1120" rx="20" fill="#A85A33" opacity="0.07" />
-          <rect x="360" y="-80" width="62" height="1160" rx="16" fill="#8A4A26" opacity="0.06" />
-          <rect x="1010" y="-60" width="70" height="1140" rx="18" fill="#A85A33" opacity="0.06" />
-          <rect x="1268" y="-40" width="88" height="1120" rx="22" fill="#8A4A26" opacity="0.07" />
+        {/* Rolling hills — soft ground curves */}
+        <g opacity="0.12">
+          <path d="M-80 920C180 860 400 980 680 930C960 880 1180 840 1520 900V1100H-80Z" fill="#5A3A1F" />
+          <path d="M-80 980C260 920 540 1010 860 960C1180 910 1340 940 1520 980V1100H-80Z" fill="#3D2B15" opacity="0.6" />
         </g>
 
-        {/* Light shafts raking across — golden afternoon */}
-        <g style={{ mixBlendMode: "soft-light" }} opacity="0.5">
-          <path d="M980 -120L1280 -120L640 1140L420 1140Z" fill="#FBE8A6" />
-          <path d="M1180 -120L1340 -120L900 1140L780 1140Z" fill="#FBE8A6" />
+        {/* Redwood trunks — organic curved bark shapes */}
+        <g style={{ mixBlendMode: "multiply" }} opacity="0.55">
+          <path d="M158 -40C198 160 138 460 178 660C198 760 218 860 198 1120H102C122 860 82 760 102 660C142 460 82 160 122 -40H158Z" fill="#A85A33" opacity="0.14" />
+          <path d="M390 -80C422 140 374 440 406 640C422 740 438 840 422 1160H342C358 840 322 740 338 640C370 440 322 140 354 -80H390Z" fill="#8A4A26" opacity="0.12" />
+          <path d="M1045 -60C1085 150 1025 450 1065 650C1085 750 1105 850 1085 1140H995C1015 850 975 750 995 650C1035 450 975 150 1015 -60H1045Z" fill="#A85A33" opacity="0.12" />
+          <path d="M1310 -40C1358 160 1298 460 1338 660C1358 760 1378 860 1358 1120H1258C1278 860 1238 760 1258 660C1298 460 1238 160 1286 -40H1310Z" fill="#8A4A26" opacity="0.14" />
+        </g>
+
+        {/* Light shafts — soft curved rays drifting through the trees */}
+        <g style={{ mixBlendMode: "soft-light" }} opacity="0.4">
+          <path d="M1020 -120C1120 200 880 600 680 1140H520C720 600 960 200 860 -120Z" fill="#FBE8A6" />
+          <path d="M1220 -120C1320 240 1080 640 880 1140H760C960 640 1200 240 1100 -120Z" fill="#FBE8A6" />
+        </g>
+
+        {/* Dappled light pools on the forest floor */}
+        <g opacity="0.5">
+          <ellipse cx="320" cy="940" rx="180" ry="40" fill="url(#contact-glow)" />
+          <ellipse cx="720" cy="980" rx="220" ry="48" fill="url(#contact-glow)" opacity="0.7" />
+          <ellipse cx="1120" cy="920" rx="160" ry="36" fill="url(#contact-glow)" opacity="0.6" />
+        </g>
+
+        {/* Soft drifting mist */}
+        <g opacity="0.25">
+          <path d="M-80 680C240 620 480 740 720 680C960 620 1200 560 1520 620V780C1200 720 960 840 720 780C480 720 240 660 -80 720Z" fill="#FAF1DD" />
+          <path d="M-80 800C280 740 520 860 760 800C1000 740 1240 680 1520 740V860C1240 800 1000 920 760 860C520 800 280 740 -80 800Z" fill="#F4EFE3" opacity="0.6" />
         </g>
       </svg>
 
