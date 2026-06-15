@@ -73,49 +73,29 @@ export const ContactSection = () => {
             <stop offset="0" stopColor="#3D7A5A" stopOpacity="0.20" />
             <stop offset="1" stopColor="#3D7A5A" stopOpacity="0" />
           </linearGradient>
-          {/* Soft organic glow for light pools */}
-          <radialGradient id="contact-glow" cx="0.5" cy="0.5" r="0.5">
-            <stop offset="0" stopColor="#FBE8A6" stopOpacity="0.35" />
+          {/* Soft warm glow pooling low in the scene */}
+          <radialGradient id="contact-warm-low" cx="0.3" cy="0.85" r="0.65" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#FBE8A6" stopOpacity="0.18" />
             <stop offset="1" stopColor="#FBE8A6" stopOpacity="0" />
+          </radialGradient>
+          {/* Creamy mid-tone atmospheric haze */}
+          <radialGradient id="contact-cream-mid" cx="0.65" cy="0.55" r="0.55" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#FAF1DD" stopOpacity="0.22" />
+            <stop offset="1" stopColor="#FAF1DD" stopOpacity="0" />
+          </radialGradient>
+          {/* Subtle amber wash */}
+          <radialGradient id="contact-amber-soft" cx="0.15" cy="0.35" r="0.6" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#F4D98C" stopOpacity="0.14" />
+            <stop offset="1" stopColor="#F4D98C" stopOpacity="0" />
           </radialGradient>
         </defs>
 
         <rect width="1440" height="1024" fill="url(#contact-sky)" />
         <rect width="1440" height="1024" fill="url(#contact-sun)" />
         <rect width="1440" height="1024" fill="url(#contact-fern)" />
-
-        {/* Rolling hills — soft ground curves */}
-        <g opacity="0.12">
-          <path d="M-80 920C180 860 400 980 680 930C960 880 1180 840 1520 900V1100H-80Z" fill="#5A3A1F" />
-          <path d="M-80 980C260 920 540 1010 860 960C1180 910 1340 940 1520 980V1100H-80Z" fill="#3D2B15" opacity="0.6" />
-        </g>
-
-        {/* Redwood trunks — organic curved bark shapes */}
-        <g style={{ mixBlendMode: "multiply" }} opacity="0.55">
-          <path d="M158 -40C198 160 138 460 178 660C198 760 218 860 198 1120H102C122 860 82 760 102 660C142 460 82 160 122 -40H158Z" fill="#A85A33" opacity="0.14" />
-          <path d="M390 -80C422 140 374 440 406 640C422 740 438 840 422 1160H342C358 840 322 740 338 640C370 440 322 140 354 -80H390Z" fill="#8A4A26" opacity="0.12" />
-          <path d="M1045 -60C1085 150 1025 450 1065 650C1085 750 1105 850 1085 1140H995C1015 850 975 750 995 650C1035 450 975 150 1015 -60H1045Z" fill="#A85A33" opacity="0.12" />
-          <path d="M1310 -40C1358 160 1298 460 1338 660C1358 760 1378 860 1358 1120H1258C1278 860 1238 760 1258 660C1298 460 1238 160 1286 -40H1310Z" fill="#8A4A26" opacity="0.14" />
-        </g>
-
-        {/* Light shafts — soft curved rays drifting through the trees */}
-        <g style={{ mixBlendMode: "soft-light" }} opacity="0.4">
-          <path d="M1020 -120C1120 200 880 600 680 1140H520C720 600 960 200 860 -120Z" fill="#FBE8A6" />
-          <path d="M1220 -120C1320 240 1080 640 880 1140H760C960 640 1200 240 1100 -120Z" fill="#FBE8A6" />
-        </g>
-
-        {/* Dappled light pools on the forest floor */}
-        <g opacity="0.5">
-          <ellipse cx="320" cy="940" rx="180" ry="40" fill="url(#contact-glow)" />
-          <ellipse cx="720" cy="980" rx="220" ry="48" fill="url(#contact-glow)" opacity="0.7" />
-          <ellipse cx="1120" cy="920" rx="160" ry="36" fill="url(#contact-glow)" opacity="0.6" />
-        </g>
-
-        {/* Soft drifting mist */}
-        <g opacity="0.25">
-          <path d="M-80 680C240 620 480 740 720 680C960 620 1200 560 1520 620V780C1200 720 960 840 720 780C480 720 240 660 -80 720Z" fill="#FAF1DD" />
-          <path d="M-80 800C280 740 520 860 760 800C1000 740 1240 680 1520 740V860C1240 800 1000 920 760 860C520 800 280 740 -80 800Z" fill="#F4EFE3" opacity="0.6" />
-        </g>
+        <rect width="1440" height="1024" fill="url(#contact-warm-low)" />
+        <rect width="1440" height="1024" fill="url(#contact-cream-mid)" />
+        <rect width="1440" height="1024" fill="url(#contact-amber-soft)" />
       </svg>
 
       <div className="relative z-10 mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 pt-16 pb-20 md:px-16 md:pt-20 md:pb-28">
@@ -133,7 +113,7 @@ export const ContactSection = () => {
                 href="https://www.linkedin.com/in/anna-smalley-uxlead/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-title underline underline-offset-4 transition-colors hover:text-terracotta"
+                className="font-medium text-title underline underline-offset-4 transition-colors hover:text-[hsl(355,72%,52%)]"
               >
                 LinkedIn
               </a>
