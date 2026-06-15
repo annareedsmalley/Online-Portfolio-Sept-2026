@@ -204,7 +204,7 @@ const KeyInsight = ({ children, color = "blue", rotate = 2 }: { children: ReactN
 );
 
 const StatBlock = ({ value, label }: { value: string; label: string }) => (
-  <div className="my-4 flex flex-col gap-2">
+  <div className="flex flex-col gap-2">
     <span className="font-serif text-[64px] leading-none text-terracotta md:text-[88px]">{value}</span>
     <span className="body-text text-[14px] md:text-[15px]">{label}</span>
   </div>
