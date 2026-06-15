@@ -88,9 +88,22 @@ export const ContactSection = () => {
             <stop offset="0" stopColor="#A8C9A0" stopOpacity="0.12" />
             <stop offset="1" stopColor="#A8C9A0" stopOpacity="0" />
           </radialGradient>
+          {/* Cool sage-pine green — deepens the shaded lower-right, away from the light */}
+          <radialGradient id="contact-green-deep" cx="0.88" cy="0.92" r="0.85" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#5E8C72" stopOpacity="0.30" />
+            <stop offset="0.5" stopColor="#6E9C82" stopOpacity="0.16" />
+            <stop offset="1" stopColor="#6E9C82" stopOpacity="0" />
+          </radialGradient>
+          {/* Same cool green drifting across mid-scene to tie the palette together */}
+          <radialGradient id="contact-green-mid" cx="0.55" cy="0.6" r="0.6" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#6E9C82" stopOpacity="0.14" />
+            <stop offset="1" stopColor="#6E9C82" stopOpacity="0" />
+          </radialGradient>
         </defs>
 
         <rect width="1440" height="1024" fill="url(#contact-sky)" />
+        <rect width="1440" height="1024" fill="url(#contact-green-deep)" />
+        <rect width="1440" height="1024" fill="url(#contact-green-mid)" />
         <rect width="1440" height="1024" fill="url(#contact-sun)" />
         <rect width="1440" height="1024" fill="url(#contact-fern)" />
         <rect width="1440" height="1024" fill="url(#contact-warm-low)" />
