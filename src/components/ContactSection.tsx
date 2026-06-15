@@ -55,18 +55,18 @@ export const ContactSection = () => {
         aria-hidden="true"
       >
         <defs>
-          {/* Warm golden afternoon light filtering through redwoods */}
+          {/* Warm afternoon light filtering through redwoods */}
           <linearGradient id="contact-sky" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stopColor="#F6E2B8" />
-            <stop offset="0.42" stopColor="#FAF1DD" />
+            <stop offset="0" stopColor="#E0EBD0" />
+            <stop offset="0.42" stopColor="#EFF4E0" />
             <stop offset="0.78" stopColor="#F4EFE3" />
             <stop offset="1" stopColor="#E4E7D6" />
           </linearGradient>
-          {/* Low sun glow — warm golden afternoon */}
-          <radialGradient id="contact-sun" cx="0.82" cy="0.16" r="0.7" gradientUnits="objectBoundingBox">
-            <stop offset="0" stopColor="#FBE8A6" stopOpacity="0.85" />
-            <stop offset="0.45" stopColor="#F4D98C" stopOpacity="0.32" />
-            <stop offset="1" stopColor="#F4D98C" stopOpacity="0" />
+          {/* Green-ting strategy light glow — top-left */}
+          <radialGradient id="contact-sun" cx="0.18" cy="0.16" r="0.7" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#C8D9B0" stopOpacity="0.85" />
+            <stop offset="0.45" stopColor="#A8C9A0" stopOpacity="0.32" />
+            <stop offset="1" stopColor="#A8C9A0" stopOpacity="0" />
           </radialGradient>
           {/* Forest fern haze rising from the ground */}
           <linearGradient id="contact-fern" x1="0" y1="1" x2="0" y2="0" gradientUnits="objectBoundingBox">
@@ -74,19 +74,19 @@ export const ContactSection = () => {
             <stop offset="1" stopColor="#3D7A5A" stopOpacity="0" />
           </linearGradient>
           {/* Soft warm glow pooling low in the scene */}
-          <radialGradient id="contact-warm-low" cx="0.3" cy="0.85" r="0.65" gradientUnits="objectBoundingBox">
-            <stop offset="0" stopColor="#FBE8A6" stopOpacity="0.18" />
-            <stop offset="1" stopColor="#FBE8A6" stopOpacity="0" />
+          <radialGradient id="contact-warm-low" cx="0.75" cy="0.85" r="0.65" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#C8D9B0" stopOpacity="0.14" />
+            <stop offset="1" stopColor="#C8D9B0" stopOpacity="0" />
           </radialGradient>
           {/* Creamy mid-tone atmospheric haze */}
-          <radialGradient id="contact-cream-mid" cx="0.65" cy="0.55" r="0.55" gradientUnits="objectBoundingBox">
-            <stop offset="0" stopColor="#FAF1DD" stopOpacity="0.22" />
-            <stop offset="1" stopColor="#FAF1DD" stopOpacity="0" />
+          <radialGradient id="contact-cream-mid" cx="0.35" cy="0.55" r="0.55" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#EFF4E0" stopOpacity="0.22" />
+            <stop offset="1" stopColor="#EFF4E0" stopOpacity="0" />
           </radialGradient>
-          {/* Subtle amber wash */}
-          <radialGradient id="contact-amber-soft" cx="0.15" cy="0.35" r="0.6" gradientUnits="objectBoundingBox">
-            <stop offset="0" stopColor="#F4D98C" stopOpacity="0.14" />
-            <stop offset="1" stopColor="#F4D98C" stopOpacity="0" />
+          {/* Subtle green-amber wash */}
+          <radialGradient id="contact-amber-soft" cx="0.85" cy="0.35" r="0.6" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#A8C9A0" stopOpacity="0.12" />
+            <stop offset="1" stopColor="#A8C9A0" stopOpacity="0" />
           </radialGradient>
         </defs>
 
