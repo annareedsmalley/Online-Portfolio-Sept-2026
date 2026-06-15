@@ -88,9 +88,22 @@ export const ContactSection = () => {
             <stop offset="0" stopColor="#A8C9A0" stopOpacity="0.12" />
             <stop offset="1" stopColor="#A8C9A0" stopOpacity="0" />
           </radialGradient>
+          {/* Cool sage-pine green — deepens the shaded lower-right, away from the light */}
+          <radialGradient id="contact-green-deep" cx="0.88" cy="0.92" r="0.85" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#5E8C72" stopOpacity="0.30" />
+            <stop offset="0.5" stopColor="#6E9C82" stopOpacity="0.16" />
+            <stop offset="1" stopColor="#6E9C82" stopOpacity="0" />
+          </radialGradient>
+          {/* Same cool green drifting across mid-scene to tie the palette together */}
+          <radialGradient id="contact-green-mid" cx="0.55" cy="0.6" r="0.6" gradientUnits="objectBoundingBox">
+            <stop offset="0" stopColor="#6E9C82" stopOpacity="0.14" />
+            <stop offset="1" stopColor="#6E9C82" stopOpacity="0" />
+          </radialGradient>
         </defs>
 
         <rect width="1440" height="1024" fill="url(#contact-sky)" />
+        <rect width="1440" height="1024" fill="url(#contact-green-deep)" />
+        <rect width="1440" height="1024" fill="url(#contact-green-mid)" />
         <rect width="1440" height="1024" fill="url(#contact-sun)" />
         <rect width="1440" height="1024" fill="url(#contact-fern)" />
         <rect width="1440" height="1024" fill="url(#contact-warm-low)" />
@@ -99,7 +112,7 @@ export const ContactSection = () => {
       </svg>
 
       <div className="relative z-10 mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 pt-16 pb-20 md:px-16 md:pt-20 md:pb-28">
-        <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 rounded-lg border border-title/[0.08] bg-background/55 px-8 py-12 text-center shadow-[0_1px_1px_hsl(var(--text-title)/0.03),0_16px_40px_-20px_hsl(var(--text-title)/0.14)] backdrop-blur-[2px] md:gap-10 md:px-16 md:py-16">
+        <div className="mx-auto flex max-w-2xl flex-col items-center gap-8 rounded-lg border border-title/[0.08] bg-[hsl(40,42%,93%)] px-8 py-12 text-center shadow-[0_1px_1px_hsl(var(--text-title)/0.03),0_16px_40px_-20px_hsl(var(--text-title)/0.14)] md:gap-10 md:px-16 md:py-16">
           <div>
             <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px] max-w-[28rem]">
               Let's talk
