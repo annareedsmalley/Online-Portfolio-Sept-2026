@@ -47,7 +47,7 @@ export const ContactSection = () => {
   return (
     <section id="contact" className="relative overflow-hidden bg-background scroll-mt-16">
       <svg
-        className="pointer-events-none absolute inset-0 z-0 h-full w-full"
+        className="pointer-events-none absolute inset-0 z-0 h-full w-full hidden md:block"
         viewBox="0 0 1440 1024"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
