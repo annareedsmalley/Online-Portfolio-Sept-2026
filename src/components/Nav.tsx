@@ -129,14 +129,12 @@ export const Nav = () => {
         <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => {
             const active = isActive(l.to);
-            const ringClass = active ? "border-terracotta" : "border-transparent";
             const colorClass = active
               ? "text-terracotta"
               : "text-title hover:text-terracotta";
             const baseClasses = cn(
-              "font-inter text-sm font-medium inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
+              "font-inter text-sm font-medium inline-flex items-center",
               colorClass,
-              ringClass,
             );
             return l.external ? (
               <a
