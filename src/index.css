@@ -180,8 +180,8 @@
   /* Contact-section green gradient — layered light-source greens for hover states */
   .contact-gradient {
     background-image:
-      radial-gradient(ellipse 70% 60% at 18% 16%, hsl(86 35% 85% / 0.22) 0%, transparent 55%),
-      linear-gradient(165deg, hsl(82 34% 95%) 0%, hsl(78 34% 96%) 45%, hsl(90 28% 93%) 78%, hsl(100 24% 89%) 100%);
+      radial-gradient(ellipse 70% 60% at 18% 16%, hsl(86 35% 76% / 0.30) 0%, transparent 55%),
+      linear-gradient(165deg, hsl(82 30% 88%) 0%, hsl(78 30% 90%) 45%, hsl(90 26% 86%) 78%, hsl(100 22% 83%) 100%);
   }
 }
 
