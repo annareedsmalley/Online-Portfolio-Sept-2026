@@ -17,15 +17,16 @@ export const CaseStudyListRow = ({
 }: CaseStudyListRowProps) => (
   <Link
     to={to}
-    className="group relative mb-5 block rounded-xl bg-sand transition-colors duration-200 hover:bg-[#EFE6D6] md:mb-6"
+    className="group relative mb-5 block rounded-xl bg-sand transition-colors duration-200 md:mb-6"
   >
+    <div className="pointer-events-none absolute inset-0 rounded-xl opacity-0 transition-opacity duration-200 group-hover:opacity-100 contact-gradient" />
     <div className="relative flex flex-col gap-4 rounded-xl px-5 py-10 md:flex-row md:items-center md:justify-between md:gap-6 md:px-6 md:py-12">
 
       <div className="relative z-20 flex w-full flex-col gap-1.5 md:w-[54%]">
         <h3 className="font-inter font-normal text-xl leading-snug text-title md:text-2xl">
           {title}
         </h3>
-        <p className="font-inter text-[13px] text-[#56514D]">
+        <p className="font-inter text-[13px] text-[#56514D] transition-colors duration-200 group-hover:text-title">
           {tags}
         </p>
       </div>
