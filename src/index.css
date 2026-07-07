@@ -11,9 +11,9 @@
     --bg-default: 36 33% 97%;       /* #FAF8F5 warm off-white */
     --bg-sand: 40 29% 94%;          /* #F4F1EB warm sand */
     --bg-blue: 217 35% 89%;         /* #D6E0EE soft blue-grey */
-    --accent-hero: 19 85% 45%;         /* #D45011 hero background — more saturated */
-    --accent: 18 66% 47%;            /* #C55829 primary orange */
-    --accent-hover: 18 66% 37%;      /* deeper orange for hover states */
+    --accent-hero: 358 56% 49%;         /* #c2363a hero background */
+    --accent: 358 56% 49%;            /* #c2363a primary methadone */
+    --accent-hover: 358 56% 39%;      /* deeper methadone for hover states */
     --accent-deep: 341 52% 13%;      /* #32101B dark brown */
     --navy: 211 56% 11%;            /* #0D1B2A dark navy */
     --text-title: 30 8% 9%;         /* #1B1918 near black */
@@ -41,7 +41,7 @@
     --accent-color: var(--accent);
     --accent-foreground: var(--bg-default);
 
-    --destructive: 0 70% 45%;
+    --destructive: 358 56% 49%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 33 22% 86%;
