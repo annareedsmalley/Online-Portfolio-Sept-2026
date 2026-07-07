@@ -48,8 +48,8 @@ const Index = () => {
       {/* ABOUT */}
       <section id="about" className="bg-background">
         <div className="mx-auto max-w-content xl:max-w-[min(1312px,70vw)] px-6 pt-5 pb-6 md:px-16 md:pt-7 md:pb-20">
-          <div className="grid gap-12 md:grid-cols-12 md:gap-16">
-            <div className="order-2 md:order-1 md:col-span-5">
+          <div className="grid gap-12 md:grid-cols-[5fr_7fr] md:gap-16 lg:grid-cols-12">
+            <div className="order-2 md:order-1 lg:col-span-5">
               <div className="overflow-hidden rounded-3xl">
                 <img
                   src={annaPortrait}
@@ -61,7 +61,7 @@ const Index = () => {
                 />
               </div>
             </div>
-            <div className="order-1 md:order-2 md:col-span-7">
+            <div className="order-1 md:order-2 lg:col-span-7">
               <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px]">
                 About me
               </h2>
