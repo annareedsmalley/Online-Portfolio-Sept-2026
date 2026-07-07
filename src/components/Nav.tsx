@@ -211,7 +211,7 @@ export const Nav = () => {
         <div className="md:hidden">
           <nav
             className={cn(
-              "relative z-50 flex flex-col gap-2 px-6 py-6",
+              "relative z-50 flex flex-col gap-1 px-6 pb-6 pt-0",
               onHero ? "border-border bg-background" : "border-border bg-background",
             )}
           >
@@ -223,7 +223,7 @@ export const Nav = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setOpen(false)}
-                className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
+                className="font-serif text-[16px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </a>
@@ -232,7 +232,7 @@ export const Nav = () => {
                   key={l.to}
                   href={l.to}
                   onClick={(e) => handleHashClick(e, l.hashTarget!)}
-                  className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
+                  className="font-serif text-[16px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </a>
@@ -240,7 +240,7 @@ export const Nav = () => {
                 <Link
                   key={l.to}
                   to={l.to}
-                  className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
+                  className="font-serif text-[16px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </Link>
