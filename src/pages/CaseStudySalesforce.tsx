@@ -37,7 +37,7 @@ const impacts = [
 ];
 
 const CaseStudySalesforce = () => {
-  useSetCaseStudyTitle("Building a unified rewards platform for Old Navy, Gap, Banana Republic and Athleta");
+  useSetCaseStudyTitle("Building a unified rewards platform for Old Navy, Gap, BR and Athleta");
   return (
     <SiteLayout>
       {/* HERO */}
@@ -57,7 +57,7 @@ const CaseStudySalesforce = () => {
             </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
               Building a unified rewards platform for{" "}
-              <span className="text-terracotta">Old Navy, Gap, Banana Republic </span>
+              <span className="text-terracotta">Old Navy, Gap, BR&nbsp;</span>
               and
               <span className="text-terracotta"> Athleta</span>
             </h1>
