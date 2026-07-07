@@ -65,7 +65,7 @@ export const PasswordGate = ({ children }: PasswordGateProps) => {
               if (error) setError(null);
             }}
             placeholder="Password"
-            className="w-full self-start rounded-md border border-border bg-background px-4 py-3 font-sans text-[15px] text-title placeholder:text-title/40 focus:border-terracotta focus:outline-none focus:ring-2 focus:ring-terracotta/30"
+            className="w-full self-start rounded-md border border-border bg-background px-4 py-3 font-sans text-[15px] text-title placeholder:text-title/40 focus:border-title/30 focus:outline-none focus:ring-1 focus:ring-title/10"
             aria-invalid={error ? "true" : "false"}
             aria-describedby={error ? "case-study-password-error" : undefined}
           />
