@@ -129,14 +129,12 @@ export const Nav = () => {
         <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => {
             const active = isActive(l.to);
-            const ringClass = active ? "border-terracotta" : "border-transparent";
             const colorClass = active
               ? "text-terracotta"
               : "text-title hover:text-terracotta";
             const baseClasses = cn(
-              "font-inter text-sm font-medium inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
+              "font-inter text-sm font-medium inline-flex items-center",
               colorClass,
-              ringClass,
             );
             return l.external ? (
               <a
@@ -213,7 +211,7 @@ export const Nav = () => {
         <div className="md:hidden">
           <nav
             className={cn(
-              "relative z-50 flex flex-col gap-2 px-6 py-6",
+              "relative z-50 flex flex-col gap-1 px-6 pb-6 pt-0",
               onHero ? "border-border bg-background" : "border-border bg-background",
             )}
           >
@@ -225,7 +223,7 @@ export const Nav = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setOpen(false)}
-                className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
+                className="font-serif text-[16px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </a>
@@ -234,7 +232,7 @@ export const Nav = () => {
                   key={l.to}
                   href={l.to}
                   onClick={(e) => handleHashClick(e, l.hashTarget!)}
-                  className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
+                  className="font-serif text-[16px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </a>
@@ -242,7 +240,7 @@ export const Nav = () => {
                 <Link
                   key={l.to}
                   to={l.to}
-                  className="font-serif text-[20px] text-title py-3 hover:text-terracotta"
+                  className="font-serif text-[16px] text-title py-3 hover:text-terracotta"
                 >
                   {l.label}
                 </Link>
