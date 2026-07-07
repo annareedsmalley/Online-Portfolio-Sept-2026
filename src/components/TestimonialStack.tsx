@@ -14,7 +14,7 @@ interface CardStyle {
 }
 
 const palette: CardStyle[] = [
-  { bg: "hsl(18 66% 47%)", fg: "hsl(36 33% 97%)", meta: "hsla(36, 33%, 97%, 0.75)" },
+  { bg: "hsl(358 56% 49%)", fg: "hsl(36 33% 97%)", meta: "hsla(36, 33%, 97%, 0.75)" },
   { bg: "hsl(40 29% 94%)", fg: "hsl(30 8% 9%)", meta: "hsla(30, 8%, 9%, 0.6)" },
   { bg: "hsl(341 52% 13%)", fg: "hsl(36 33% 97%)", meta: "hsla(36, 33%, 97%, 0.7)" },
 ];
