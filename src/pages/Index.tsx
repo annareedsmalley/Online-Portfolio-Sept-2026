@@ -61,7 +61,7 @@ const Index = () => {
                 />
               </div>
             </div>
-            <div className="md:col-span-7">
+            <div className="order-1 md:order-2 md:col-span-7">
               <h2 className="font-inter font-normal text-[24px] text-title md:text-[36px]">
                 About me
               </h2>
