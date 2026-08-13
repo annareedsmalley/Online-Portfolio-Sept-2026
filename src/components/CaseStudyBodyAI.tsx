@@ -243,7 +243,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li><strong>July 2024</strong> — design testing</li>
               </ul>
               <P>Those studies became the spine of every design decision that followed.</P>
-              <Pullquote color="yellow" rotate={-2} kicker="The Stakes">
+              <Pullquote color="sage" rotate={-2} kicker="The Stakes">
                 We were not being asked to ship a feature. We were being asked to set a precedent.
               </Pullquote>
 
@@ -308,7 +308,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 The answer from the research was a flashing yellow light: customers do not trust AI to be neutral. They assume the company is hiding something, they suspect the AI is biased toward selling, and they second-guess any purchase decision an AI nudged them toward. This was <strong>the design problem under the design problem</strong>.
               </P>
-              <Pullquote color="pink" rotate={2} kicker="The real question">
+              <Pullquote color="blush" rotate={2} kicker="The real question">
                 Customers want a synthesis. The question was whether they would trust an AI to do that synthesis honestly.
               </Pullquote>
 
@@ -475,7 +475,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 That was the case I made to leadership, and the case is durable on three counts. First, reducing returns saves the company a substantial amount of money. Second, reducing returns is a <strong>major sustainability win</strong>: every avoided return is avoided waste, energy, water, and the broader environmental cost of producing and re-shipping apparel. And third, return rate is an indirect but tangible measure of whether customers got what they wanted from us. Lower returns means more customers buying things they want to keep. That is what an e-commerce experience is supposed to do.
               </P>
-              <Pullquote color="green" rotate={-3} kicker="The Reframe">
+              <Pullquote color="sage" rotate={-3} kicker="The Reframe">
                 The feature was working. It was just working on a different axis than we had initially measured.
               </Pullquote>
               <ZoomableImage src={abResults} alt="A/B results panel: 'What we expected to move' shows conversion rate +0.7% and add-to-bag +0.7% (essentially flat); 'What actually moved' shows return rate -0.9% (significant reduction), $2.5M annualized value across Athleta and Old Navy, and $4.4M projected returns value at Athleta." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
@@ -509,7 +509,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 The success of this work contributed directly to the creation of Gap Inc.'s dedicated <strong>Office of AI</strong>, a function that exists, in part, because we proved out a way for AI to ship to customers responsibly and successfully. The patterns we established here (transparency, AI disclaimers, model-confidence-aware UI, sentiment buckets, returns as a leading trust signal) became <strong>the company's working reference for how AI features get built</strong>.
               </P>
-              <Pullquote color="blue" rotate={2} kicker="The Compounding Effect">
+              <Pullquote color="blush" rotate={2} kicker="The Compounding Effect">
                 That is what foundational work is supposed to do. One project pays for the next ten.
               </Pullquote>
 
