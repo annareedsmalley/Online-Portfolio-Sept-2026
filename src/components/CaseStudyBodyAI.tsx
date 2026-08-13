@@ -488,7 +488,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 For Banana Republic, the feeling was that the appearance of bolded words was off-brand, and we accepted this perspective. However, the reason for Gap's pushback was that the Gap brand theme only contained one font weight, so bolding was technically not possible. Lucky for us, that accident gave us a natural comparison point. Across the brands that did include bolding, <strong>the feature reduced returns more</strong>. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
               </P>
-              <ZoomableImage src={crossBrandScale} alt="Cross-brand scale visual: the GenAI Review Summary applied across Old Navy, Gap, Banana Republic, and Athleta product pages, showing a consistent trust architecture with brand-specific theming." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
+              <figure className="my-4">
+                <ZoomableImage src={crossBrandScale} alt="Cross-brand scale visual: the GenAI Review Summary applied across Old Navy, Gap, Banana Republic, and Athleta product pages, showing a consistent trust architecture with brand-specific theming." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  The Gen AI review summaries feature at first launch for all four Gap Inc. brands
+                </figcaption>
+              </figure>
             </Section>
 
             <SectionDivider />
