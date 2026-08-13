@@ -29,7 +29,7 @@ interface CaseStudyBodyAIProps {
 
 const sections: NavSection[] = [
   { id: "the-situation", title: "Context & Objectives" },
-  { id: "ai-thesis", title: "Setup & Staffing" },
+  { id: "ai-thesis", title: "Setup for Success" },
   { id: "structuring-work", title: "Design Work" },
   { id: "launch-reframe", title: "Launch & Results" },
   { id: "lasting-impact", title: "Lasting Strategic Impact" },
