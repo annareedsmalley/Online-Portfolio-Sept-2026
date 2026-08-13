@@ -395,6 +395,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Early explorations of sentiment surfacing patterns, including exploring different presentations per brand
                 </figcaption>
               </figure>
+              <figure className="my-4">
+                <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Attribute mapping worksheet we used to collaborate with our content strategy, data science and brand merchandising partners
+                </figcaption>
+              </figure>
               <H3>Design Delivery</H3>
               <figure className="my-4">
                 <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
