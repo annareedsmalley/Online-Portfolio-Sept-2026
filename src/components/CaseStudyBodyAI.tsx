@@ -263,12 +263,13 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <H2 id="ai-thesis">Setup & Staffing</H2>
 
               <P>
-                I chose <strong>Katie</strong>. Her background made her unusually well suited for AI work:
+                As an added bonus to this approach, Katie's background made her unusually well suited for AI work:
               </P>
               <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
-                <li><strong>MS in Human Factors</strong> and a systems thinker by temperament.</li>
-                <li>Treats a UI as <strong>the visible surface of a larger machine</strong> — exactly the mental model AI requires.</li>
-                <li>Most designers see AI as a UI problem; Katie sees it as <strong>a system problem with a UI on top</strong>.</li>
+                <li><strong>She had an MS in Human Factors</strong> and was a systems thinker by temperament.</li>
+                <li>She always treated UI as <strong>the visible surface of a larger machine</strong> — exactly the mental model AI requires.</li>
+                <li>
+                </li>
                 <li>Experienced <strong>native app designer</strong>, with more of her career spent on small screens than the rest of my team. This mattered because mobile is where most of Gap eCommerce customers shop, and small screens is where AI either earns its keep or becomes a costly waste of space.</li>
               </ul>
 
