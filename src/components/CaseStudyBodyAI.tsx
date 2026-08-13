@@ -76,7 +76,7 @@ const Pullquote = ({
   kicker = "Key Idea",
 }: {
   children: ReactNode;
-  color?: "yellow" | "pink" | "blue" | "green" | "peach";
+  color?: "yellow" | "pink" | "blue" | "green" | "peach" | "sage" | "beige" | "blush";
   rotate?: number;
   kicker?: string;
 }) => (
