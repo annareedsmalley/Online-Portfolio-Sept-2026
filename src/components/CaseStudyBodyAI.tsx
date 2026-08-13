@@ -422,7 +422,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Attribute mapping worksheet we used to collaborate with our content strategy, data science and brand merchandising partners
                 </figcaption>
               </figure>
-              <H3>Design Delivery</H3>
+              <H3>Refinement, Customization & Delivery</H3>
               <P>
                 There was pushback from Banana Republic and Gap on the concept. The implementation for the Gap brand ended up not including bolding for a different reason: the Gap brand design system only contains one font weight, so bolding was technically not possible in that theme. That accident gave us a natural comparison point. Across the brands that did include bolding, <strong>the feature reduced returns more</strong>. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
               </P>
