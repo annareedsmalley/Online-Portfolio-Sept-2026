@@ -343,17 +343,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Katie and I held the opposite line. The whole point of the feature was to <strong>build trust</strong>, and the research was emphatic that customers earn their trust by seeing what is wrong with a product, not by seeing what is right. We were going to surface negatives clearly, in a dedicated bucket, with the same visual weight as the positives.
               </P>
-              <P>
-                Old Navy pushed back hardest. They were worried that letting customers easily identify what other customers disliked about their products would reflect negatively on customers' impressions of brand quality. Rather than override them, we offered a path: a feature flag that would let them turn off the bucketed keyword display and show only the text AI summary, for all products. They took the offer and launched without the buckets. Their return rate did not go down as much as the brands that showed both the attribute buckets and the AI text summary. <strong>After seeing the data, Old Navy turned the buckets back on.</strong>
-              </P>
-              <P>
-                We made one further accommodation. For any product where the only attributes the model surfaced were negative, with no trending mixed or positive attributes, we gave brands the option to <strong>hide the buckets for that specific product</strong> and show only the text summary. It was a way to respect each brand's concern about how their own products were represented on their own site, without compromising the trust architecture for the products where the model could actually paint a balanced picture.
-              </P>
-              <ResearchQuote
-                quote="I'd want to still see the Dislikes [bucket] because if I went to another product that had Dislikes and then I go to this one and it's not there, then it's like 'are dislikes so bad they're hiding it from me?'"
-                attribution="UX Research participant. The customer logic behind keeping the Dislikes bucket visible even when empty. UXR also found that keeping the Dislikes bucket and showing 'No Trending Dislikes' was interpreted as the brand maintaining integrity for their customers' product experience. And most participants perceived Mixed Reviews as a credibility signal: a brand willing to acknowledge mixed feedback was a brand they trusted more."
-              />
-
               <H4>Principle 2: add an AI disclaimer</H4>
               <P>
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite:
