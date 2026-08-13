@@ -544,7 +544,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>Other points of pride include:</P>
 
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
-                <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="sage" rotate={-4} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     TRUST ARCHITECTURE
                   </p>
@@ -552,7 +552,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                     Held the line on negatives, disclaimers, and model-confidence states despite pressure to make the feature feel more positive or confident than the underlying data justified.
                   </p>
                 </StickyNote>
-                <StickyNote color="pink" rotate={3} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="beige" rotate={3} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     BRAND + CUSTOMER ALIGNMENT
                   </p>
@@ -560,7 +560,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                     Crafted a solution that respected each brand's fear of showing imperfect products while protecting customer trust. Brands and customers both got what they needed.
                   </p>
                 </StickyNote>
-                <StickyNote color="blue" rotate={-2} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="blush" rotate={-2} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     CROSS-FUNCTIONAL TRUST
                   </p>
