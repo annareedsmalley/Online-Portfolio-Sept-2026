@@ -381,15 +381,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             {/* ===================== Cross-Functional Execution ===================== */}
             {/* ===================== Launch & Reframe ===================== */}
             <Section id="launch-reframe">
-              <figure className="my-4">
-                <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  UI patterns and content rules for the GenAI Review Summary.
-                </figcaption>
-              </figure>
               <H4>Principle 5: design for model confidence, not against it</H4>
               <P>
                 The most consequential AI thinking we did on this project was <strong>designing the UI around what the model actually knew</strong>, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
