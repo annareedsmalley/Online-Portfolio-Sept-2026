@@ -263,7 +263,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <H2 id="ai-thesis">Setup & Staffing</H2>
 
               <P>
-                As an added bonus to this approach, Katie's background made her unusually well suited for AI work:
+                As an added bonus to offering this work to Katie, her background made her unusually well suited for customer-facing AI:
               </P>
               <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li><strong>She had an MS in Human Factors</strong> and was a systems thinker by temperament.</li>
