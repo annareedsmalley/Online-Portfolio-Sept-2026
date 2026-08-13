@@ -373,7 +373,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
-                  Figma — AI Review Summary (node 4578-812)
+                  Attribute mapping worksheet we used to collaborate with our content strategy, data science and brand merchandising partners
                 </figcaption>
               </figure>
               <H4>Principle 4: make the AI summary scannable</H4>
