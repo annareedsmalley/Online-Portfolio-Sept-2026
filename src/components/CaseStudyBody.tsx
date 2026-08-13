@@ -693,7 +693,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
-                <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="beige" rotate={-4} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     AIKIDO APPROACH
                   </p>
@@ -701,7 +701,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                     Shared all information openly and let any brand experiment who wanted to. The numbers told the story.
                   </p>
                 </StickyNote>
-                <StickyNote color="pink" rotate={3} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="blush" rotate={3} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     Strategic relationships
                   </p>
@@ -709,7 +709,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                     Investing in the relationships that made all the difference when stakes were highest.
                   </p>
                 </StickyNote>
-                <StickyNote color="blue" rotate={-2} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="sage" rotate={-2} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     ELEVATING TALENT
                   </p>
