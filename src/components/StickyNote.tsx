@@ -12,7 +12,7 @@ const colorMap: Record<StickyColor, string> = {
   peach: "#F8C9A4",
   sage: "#C8D5BE",
   beige: "#EEE0C9",
-  blush: "#F3AAA8",
+  blush: "#FCEDE4",
 };
 
 const sizeMap: Record<StickySize, string> = {
