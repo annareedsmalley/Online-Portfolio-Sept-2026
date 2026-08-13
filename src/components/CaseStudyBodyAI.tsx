@@ -410,6 +410,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   UI patterns and content rules for the GenAI Review Summary.
                 </figcaption>
               </figure>
+              <P>
+                Next, Katie worked closely with content strategy, the data science team, and brand merchandisers from Athleta and Old Navy to make sure this three-bucket overview accurately represented customer sentiment. As a result, all teams achieved confidence in the model's ability to serve an accurate overview in a way customers would understand. In addition, her willingness to make this a highly collaborative process built up trust with all involved.
+              </P>
               <figure className="my-4">
                 <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
