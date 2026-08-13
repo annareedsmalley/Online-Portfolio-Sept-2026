@@ -565,10 +565,6 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                 If I were to do one thing differently, I would more clearly define the division of 'unifying' responsibilities with my Product Management partners. UX ended up carrying much of the load for cross-functional and cross-brand alignment. While I am proud of that leadership, I would advocate for a more formal partnership structure to ensure that the designers’ focus remains on systemic logic and customer needs rather than navigating the bulk of organizational logistics.
               </P>
 
-              
-              <P>
-                Leading this initiative was especially rewarding because it allowed me to align measurable business impact with my personal commitment to sustainability: by significantly reducing returns, we were able to reduce the waste and environmental costs inherent in apparel production.
-              </P>
 
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
                 <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
