@@ -356,15 +356,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 This is the <strong>trust-first thesis expressed in copy</strong> rather than in structure, and it drew almost no pushback, which was itself a signal that the org was further along than I had expected on the ethics of AI disclosure.
               </P>
 
-              <figure className="my-4">
-                <ZoomableImage src={otherExplorations3} alt="Early explorations: five card variants of the AI Review Summary showing different ways to surface customer sentiment, including review summary text, keyword pill groups (Likes, Mixed, Dislikes), attribute clusters with counts, and ratings-and-reviews-at-a-glance bar variants." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  Early explorations of sentiment surfacing patterns, including exploring different presentations per brand
-                </figcaption>
-              </figure>
               <H4>Principle 3: use a 3-bucket sentiment system</H4>
               <P>
                 Katie explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a <strong>3-bucket system</strong> that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
