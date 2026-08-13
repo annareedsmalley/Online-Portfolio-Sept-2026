@@ -404,10 +404,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Early explorations of sentiment surfacing patterns, including exploring different presentations per brand
                 </figcaption>
               </figure>
-              <ResearchQuote
-                quote="I'd want to still see the Dislikes [bucket] because if I went to another product that had Dislikes and then I go to this one and it's not there, then it's like 'are dislikes so bad they're hiding it from me?'"
-                attribution="UX Research participant. The customer logic behind keeping the Dislikes bucket visible even when empty. UXR also found that keeping the Dislikes bucket and showing 'No Trending Dislikes' was interpreted as the brand maintaining integrity for their customers' product experience. And most participants perceived Mixed Reviews as a credibility signal: a brand willing to acknowledge mixed feedback was a brand they trusted more."
-              />
               <H3>Design Delivery</H3>
               <figure className="my-4">
                 <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
@@ -435,6 +431,10 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 This is the part of the design I am most proud of from an AI standpoint. Most teams ship a single UI and let the model fight with it. We <strong>designed a UI that responds to the model</strong>. That is what AI-aware design means in practice, and it is the thing that should make any future AI work at Gap Inc. cheaper to ship.
               </P>
+              <ResearchQuote
+                quote="I'd want to still see the Dislikes [bucket] because if I went to another product that had Dislikes and then I go to this one and it's not there, then it's like 'are dislikes so bad they're hiding it from me?'"
+                attribution="UX Research participant. The customer logic behind keeping the Dislikes bucket visible even when empty. UXR also found that keeping the Dislikes bucket and showing 'No Trending Dislikes' was interpreted as the brand maintaining integrity for their customers' product experience. And most participants perceived Mixed Reviews as a credibility signal: a brand willing to acknowledge mixed feedback was a brand they trusted more."
+              />
               <figure className="my-4">
                 <ZoomableImage src={modelConfidenceStates} alt="Model-confidence states diagram showing three UI variants side by side: Full Confidence (Likes, Mixed Reviews, and Dislikes buckets all populated), Limited Negatives (Dislikes shows 'No Trending Dislikes'), and High Negative Signal (review summary only, no buckets), with annotations explaining how layout, language, and emphasis shift with model confidence." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
