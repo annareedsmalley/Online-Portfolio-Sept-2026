@@ -566,7 +566,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                     CROSS-FUNCTIONAL TRUST
                   </p>
                   <p className="mt-2 font-serif text-[15px] leading-snug text-title">
-                    When a PM felt threatened by Data Science and AI/ML voices, we empathized and kept him looped in—while still bringing all parties into the work.
+                    We included everyone, no matter what. One example: when a PM felt threatened by Data Science and AI/ML voices, we empathized and kept him looped in—while still bringing all parties into the work.
                   </p>
                 </StickyNote>
               </div>
