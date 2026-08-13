@@ -404,10 +404,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   Early explorations of sentiment surfacing patterns, including exploring different presentations per brand
                 </figcaption>
               </figure>
-              <ResearchQuote
-                quote="I'd want to still see the Dislikes [bucket] because if I went to another product that had Dislikes and then I go to this one and it's not there, then it's like 'are dislikes so bad they're hiding it from me?'"
-                attribution="UX Research participant. The customer logic behind keeping the Dislikes bucket visible even when empty. UXR also found that keeping the Dislikes bucket and showing 'No Trending Dislikes' was interpreted as the brand maintaining integrity for their customers' product experience. And most participants perceived Mixed Reviews as a credibility signal: a brand willing to acknowledge mixed feedback was a brand they trusted more."
-              />
               <H3>Design Delivery</H3>
               <figure className="my-4">
                 <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
