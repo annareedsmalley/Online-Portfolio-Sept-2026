@@ -424,6 +424,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </figure>
               <H3>Refinement, Customization & Delivery</H3>
               <P>
+                Old Navy pushed back hardest. They were worried that letting customers easily identify what other customers disliked about their products would reflect negatively on customers' impressions of brand quality. Rather than override them, we offered a path: a feature flag that would let them turn off the bucketed keyword display and show only the text AI summary, for all products. They took the offer and launched without the buckets. Their return rate did not go down as much as the brands that showed both the attribute buckets and the AI text summary. <strong>After seeing the data, Old Navy turned the buckets back on.</strong>
+              </P>
+              <P>
                 Katie designed three states for the UI to handle this gracefully:
               </P>
               <UL>
