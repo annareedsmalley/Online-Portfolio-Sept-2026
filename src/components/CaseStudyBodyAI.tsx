@@ -333,7 +333,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="strategic-bets">
               <H3>Design</H3>
               <P>
-                Once we understood the trust problem, Katie and I aligned on <strong>five principles</strong> about what the design had to do, before exploring individual UI patterns. Each of these was a <strong>leadership decision more than a design decision</strong>.&nbsp;
+                Once we understood the trust problem, Katie and I aligned on <strong>five principles</strong> about what the design had to do, before exploring individual UI patterns. Once we agreed on their importance,&nbsp;<strong>we used them to guide the cross-functional team</strong>.&nbsp;
               </P>
 
               <H4>Principle 1: show negative sentiment, don't hide it</H4>
