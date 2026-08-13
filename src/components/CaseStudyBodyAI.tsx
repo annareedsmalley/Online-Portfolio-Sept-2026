@@ -260,7 +260,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== AI Thesis & Team ===================== */}
             <Section id="ai-thesis">
-              <H2 id="ai-thesis">Setup & Staffing</H2>
+              <H2 id="ai-thesis">Setup for Success</H2>
 
               <P>
                 As an added bonus to offering this work to Katie, her background made her unusually well suited for customer-facing AI:
