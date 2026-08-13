@@ -387,6 +387,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </P>
               <H3>Design Exploration and UXR</H3>
               <P>
+                With our guiding principle established, the next step was creating design explorations and running usability and preference testing against them with our UXR team.
+              </P>
+              <P>
                 Katie explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a <strong>3-bucket system</strong> that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
               </P>
               <figure className="my-4">
