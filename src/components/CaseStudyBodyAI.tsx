@@ -451,9 +451,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Old Navy pushed back hardest. They were worried that letting customers easily identify what other customers disliked about their products would reflect negatively on customers' impressions of brand quality. Rather than override them, we offered a path: a feature flag that would let them turn off the bucketed keyword display and show only the text AI summary, for all products. They took the offer and launched without the buckets. Their return rate did not go down as much as the brands that showed both the attribute buckets and the AI text summary. <strong>After seeing the data, Old Navy turned the buckets back on.</strong>
               </P>
               <P>
-                There was pushback from Banana Republic and Gap on the concept. The implementation for the Gap brand ended up not including bolding for a different reason: the Gap brand design system only contains one font weight, so bolding was technically not possible in that theme. That accident gave us a natural comparison point. Across the brands that did include bolding, <strong>the feature reduced returns more</strong>. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
-              </P>
-              <P>
                 We made one further accommodation. For any product where the only attributes the model surfaced were negative, with no trending mixed or positive attributes, we gave brands the option to <strong>hide the buckets for that specific product</strong> and show only the text summary. It was a way to respect each brand's concern about how their own products were represented on their own site, without compromising the trust architecture for the products where the model could actually paint a balanced picture.
               </P>
               <H2 id="launch-reframe">Launch & Results</H2>
@@ -485,6 +482,9 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </P>
               <P>
                 That gave each brand the room to feel like itself without putting the trust architecture up for renegotiation. Brands could choose how to theme the component. They could choose, in narrow cases, to suppress the buckets for a specific product or to opt out of bolded keywords. What they could not choose was whether to disclose the AI or whether to acknowledge negatives at all. <strong>Those defaults held</strong>, and the data on returns and trust held with them.
+              </P>
+              <P>
+                There was pushback from Banana Republic and Gap on the concept. The implementation for the Gap brand ended up not including bolding for a different reason: the Gap brand design system only contains one font weight, so bolding was technically not possible in that theme. That accident gave us a natural comparison point. Across the brands that did include bolding, <strong>the feature reduced returns more</strong>. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
               </P>
               <ZoomableImage src={crossBrandScale} alt="Cross-brand scale visual: the GenAI Review Summary applied across Old Navy, Gap, Banana Republic, and Athleta product pages, showing a consistent trust architecture with brand-specific theming." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
             </Section>
