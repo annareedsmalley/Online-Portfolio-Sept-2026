@@ -362,7 +362,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
-                  Early explorations of sentiment surfacing patterns, including exploring different presentations per brand\u00a0
+                  Early explorations of sentiment surfacing patterns, including exploring different presentations per brand
                 </figcaption>
               </figure>
               <H4>Principle 3: use a 3-bucket sentiment system</H4>
