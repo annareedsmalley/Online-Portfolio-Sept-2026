@@ -322,7 +322,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </P>
               <ResearchQuote
                 quote="I feel like this brand really is being transparent. I don't get the feeling they're only publishing certain reviews, but that they're literally taking customers' voices and putting it here."
-                attribution="UX Research participant, competitive usability test — the kind of customer reaction we were designing for."
+                attribution="UX Research participant, competitive usability test — the kind of customer reaction we hoped to achieve."
               />
               <ZoomableImage src={trustFailureModes} alt="Discovery research findings card titled Trust Failure Modes: 1) Assume the company is hiding something, 2) Distrust AI as biased toward selling, 3) Second-guess any AI-influenced purchase decision." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
             </Section>
