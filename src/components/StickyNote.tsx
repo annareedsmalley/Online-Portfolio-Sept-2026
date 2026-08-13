@@ -1,7 +1,7 @@
 import { forwardRef, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
-type StickyColor = "yellow" | "pink" | "blue" | "green" | "peach";
+type StickyColor = "yellow" | "pink" | "blue" | "green" | "peach" | "sage" | "beige" | "blush";
 type StickySize = "sm" | "md" | "lg";
 
 const colorMap: Record<StickyColor, string> = {
@@ -10,6 +10,9 @@ const colorMap: Record<StickyColor, string> = {
   blue: "#B6D7E8",
   green: "#C7E5B4",
   peach: "#F8C9A4",
+  sage: "#C8D5BE",
+  beige: "#EEE0C9",
+  blush: "#F3AAA8",
 };
 
 const sizeMap: Record<StickySize, string> = {
