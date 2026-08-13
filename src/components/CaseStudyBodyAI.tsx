@@ -29,7 +29,7 @@ interface CaseStudyBodyAIProps {
 
 const sections: NavSection[] = [
   { id: "the-situation", title: "Context & Objectives" },
-  { id: "ai-thesis", title: "Setup & Staffing" },
+  { id: "ai-thesis", title: "Setup for Success" },
   { id: "structuring-work", title: "Design Work" },
   { id: "launch-reframe", title: "Launch & Results" },
   { id: "lasting-impact", title: "Lasting Strategic Impact" },
@@ -260,7 +260,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
             {/* ===================== AI Thesis & Team ===================== */}
             <Section id="ai-thesis">
-              <H2 id="ai-thesis">Setup & Staffing</H2>
+              <H2 id="ai-thesis">Setup for Success</H2>
 
               <P>
                 As an added bonus to offering this work to Katie, her background made her unusually well suited for customer-facing AI:
