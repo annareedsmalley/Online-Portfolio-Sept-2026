@@ -387,21 +387,21 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </P>
               <H3>Design Exploration and UXR</H3>
               <figure className="my-4">
-                <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  Attribute mapping worksheet we used to collaborate with our content strategy, data science and brand merchandising partners
-                </figcaption>
-              </figure>
-              <figure className="my-4">
                 <ZoomableImage src={otherExplorations3} alt="Early explorations: five card variants of the AI Review Summary showing different ways to surface customer sentiment, including review summary text, keyword pill groups (Likes, Mixed, Dislikes), attribute clusters with counts, and ratings-and-reviews-at-a-glance bar variants." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
                   Early explorations of sentiment surfacing patterns, including exploring different presentations per brand
+                </figcaption>
+              </figure>
+              <figure className="my-4">
+                <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Attribute mapping worksheet we used to collaborate with our content strategy, data science and brand merchandising partners
                 </figcaption>
               </figure>
               <H3>Design Delivery</H3>
