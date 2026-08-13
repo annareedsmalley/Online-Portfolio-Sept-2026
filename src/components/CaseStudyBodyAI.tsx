@@ -374,9 +374,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 The instinct behind it came from a <strong>neuroinclusive lens</strong>. Visual text scannability is a strong UX principle for everyone, but it is crucial for many folks with dyslexia, ADHD, autism, and other cognitive and reading differences. Designing for that need also tends to make text easier for everyone.
               </P>
-              <P>
-                There was pushback from Banana Republic and Gap on the concept. The implementation for the Gap brand ended up not including bolding for a different reason: the Gap brand design system only contains one font weight, so bolding was technically not possible in that theme. That accident gave us a natural comparison point. Across the brands that did include bolding, <strong>the feature reduced returns more</strong>. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
-              </P>
             </Section>
 
             <SectionDivider />
