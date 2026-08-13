@@ -177,7 +177,7 @@ const VideoFigure = ({ src, ariaLabel, caption }: { src: string; ariaLabel: stri
   );
 };
 
-const Pullquote = ({ children, color = "yellow", rotate = -2 }: { children: ReactNode; color?: "yellow" | "pink" | "blue" | "green" | "peach"; rotate?: number }) => (
+const Pullquote = ({ children, color = "blush", rotate = -2 }: { children: ReactNode; color?: "yellow" | "pink" | "blue" | "green" | "peach" | "sage" | "beige" | "blush"; rotate?: number }) => (
   <div className="my-6">
     <StickyNote color={color} rotate={rotate} size="lg" className="max-w-[520px]">
       <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
@@ -190,7 +190,7 @@ const Pullquote = ({ children, color = "yellow", rotate = -2 }: { children: Reac
   </div>
 );
 
-const KeyInsight = ({ children, color = "blue", rotate = 2 }: { children: ReactNode; color?: "yellow" | "pink" | "blue" | "green" | "peach"; rotate?: number }) => (
+const KeyInsight = ({ children, color = "sage", rotate = 2 }: { children: ReactNode; color?: "yellow" | "pink" | "blue" | "green" | "peach" | "sage" | "beige" | "blush"; rotate?: number }) => (
   <div className="my-6">
     <StickyNote color={color} rotate={rotate} size="lg" className="max-w-[420px]">
       <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
@@ -567,7 +567,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
 
 
               <div className="mt-6 grid grid-cols-1 items-start justify-items-center gap-x-6 gap-y-10 sm:grid-cols-3">
-                <StickyNote color="yellow" rotate={-4} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="beige" rotate={-4} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     RESPONSIBLE BRAND EXPRESSION
                   </p>
@@ -575,7 +575,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                     I ensured that every shared component had accessibility hard-coded into its DNA, meaning that regardless of brand, all customers would be included.
                   </p>
                 </StickyNote>
-                <StickyNote color="pink" rotate={3} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="blush" rotate={3} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     COMPOUNDING PLATFORM
                   </p>
@@ -583,7 +583,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
                     The headless foundation turned every future loyalty improvement into a four-brand win by default, with 25% of the previous build cost.
                   </p>
                 </StickyNote>
-                <StickyNote color="blue" rotate={-2} size="md" className="w-full max-w-[260px]">
+                <StickyNote color="sage" rotate={-2} size="md" className="w-full max-w-[260px]">
                   <p className="font-sans text-[10px] font-semibold uppercase tracking-[0.16em] text-title/70">
                     CROSS-FUNCTIONAL TRUST
                   </p>
