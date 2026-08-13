@@ -262,10 +262,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="ai-thesis">
               <H2 id="ai-thesis">Setup & Staffing</H2>
 
-              
-              <P>
-                My next move was to <strong>pick a designer</strong>. Who I put on a project tells the team and the org what I think the project is.
-              </P>
               <P>
                 I chose <strong>Katie</strong>. Her background made her unusually well suited for AI work:
               </P>
