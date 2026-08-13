@@ -536,7 +536,7 @@ export const CaseStudyBody02 = ({ studyTitle }: CaseStudyBody02Props) => {
               <P>
                 Because Gap used Headless UI to create these 3 new shared components for the product gating experience, it was trivial for the other brands to implement the same program, using their own brand theme.
               </P>
-              <KeyInsight color="green" rotate={-3}>
+              <KeyInsight color="sage" rotate={-3}>
                 Build once, theme four times. The platform investment quietly compounded with every brand campaign that followed.
               </KeyInsight>
               <Figure
