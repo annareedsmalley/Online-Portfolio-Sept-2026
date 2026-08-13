@@ -56,8 +56,7 @@ const CaseStudySalesforce = () => {
               LOYALTY & FOUNDATIONAL COMPONENT DESIGN · 2020–2025
             </h3>
             <h1 className="font-serif text-[28px] leading-[1.1] text-title md:text-[44px] lg:text-[48px]">
-              Building a <span className="text-terracotta">unified rewards</span> platform for{" "}
-              <span className="text-terracotta">four distinct brands</span>
+              Building a <span className="text-terracotta">unified rewards platform</span> for four distinct brands
             </h1>
             <p className="body-text max-w-xl text-base md:text-lg">
               Led design for the unification of Gap Inc.'s four fragmented loyalty programs, then directed a foundational design transformation that established foundational, themeable UI components for the entire Gap Inc platform. As a final outcome, this work unlocked a wildly successful product gating strategy that could be scaled across each brand at a fraction of the original effort.
