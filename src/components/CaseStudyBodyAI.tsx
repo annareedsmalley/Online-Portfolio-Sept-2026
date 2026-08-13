@@ -534,7 +534,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <H2 id="reflections">Reflections</H2>
 
               <P>
-                In terms of my leadership during this project, I'm most proud of the following three things:
+                Leading this initiative was especially rewarding because it allowed me to align measurable business impact with my personal commitment to sustainability: by significantly reducing returns, we were able to reduce the waste and environmental costs inherent in apparel production.
               </P>
 
               <P>
