@@ -515,7 +515,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
               <H3>The AI principles this work established</H3>
               <P>
-                If a hiring manager wants to know how I think about AI, this is the shortest version. These are the principles I walked into this project with, and that this project then validated in production.
+                If someone wanted to know how I think about AI, this is the shortest version. These are the principles I walked into this project with, and that this project then validated in production.
               </P>
               <UL>
                 <li><strong>Trust before flash.</strong> The first job of customer-facing AI is to be trusted. Capability is wasted without it.</li>
