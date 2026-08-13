@@ -291,7 +291,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 In addition to selecting the right designer, I knew a project like this <strong>lives or dies on cross-functional execution</strong>. The org map for this project was also especially broad: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), Brand Category Merchants across all four brands, and our standard cross-functional engineering and product managemen, content strategy and UXR partners.&nbsp;
               </P>
               <P>
-                As a result, Katie and I agreed that she would run daily working sessions with the central team and twice-weekly sessions with our brand partners, in addition to as-needed huddles with anyone working on the same problem with us.
+                As a result, Katie and I agreed that she would run daily working sessions with the central team and twice-weekly sessions with our brand partners, in addition to as-needed huddles with anyone working on the solving the same problems.
               </P>
 
               <H2 id="structuring-work">The Work</H2>
