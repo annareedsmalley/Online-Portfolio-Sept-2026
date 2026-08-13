@@ -287,6 +287,13 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 <li><strong>Backed her up</strong> when stakeholders pushed back on a recommendation we knew was right.</li>
               </ul>
 
+              <P>
+                A feature like this <strong>lives or dies on cross-functional execution</strong>. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), and Brand Category Merchants across all four brands. There was also much heavier-than usual involvement from Content Strategy (because everything the model output was content the org had not previously generated.
+              </P>
+              <P>
+                While the project was in flight, Katie ran daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with the content strategist, the brand category merchants, and the product manager.
+              </P>
+
               <H2 id="structuring-work">The Work</H2>
 
               <P>
@@ -359,13 +366,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <H4>Principle 3: go beyond a simple paragraph</H4>
               <P>
                 I pushed for this pattern over the simpler alternatives because it carried the <strong>trust philosophy in its structure</strong>, not just its content. A single summary can be edited to feel positive. A "likes / dislikes" binary feels combative. The three-bucket structure mirrors how customers actually think (there are things I love, things I am unsure about, and things I worry about), and that mirroring is what makes it land as honest.
-              </P>
-
-              <P>
-                A feature like this <strong>lives or dies on cross-functional execution</strong>. The org map for this project was wider than for almost any project I had led: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), and Brand Category Merchants across all four brands. There was also much heavier-than usual involvement from Content Strategy (because everything the model output was content the org had not previously generated.
-              </P>
-              <P>
-                While the project was in flight, Katie ran daily working sessions with the central team and weekly sessions with the brands, plus many ad-hoc collaborative working sessions with the content strategist, the brand category merchants, and the product manager.
               </P>
               <figure className="my-4">
                 <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
