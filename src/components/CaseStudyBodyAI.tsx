@@ -343,7 +343,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 Katie and I held the opposite line. The whole point of the feature was to <strong>build trust</strong>, and the research was emphatic that customers earn their trust by seeing what is wrong with a product, not by seeing what is right. We were going to surface negatives clearly, in a dedicated bucket, with the same visual weight as the positives.
               </P>
-              <H4>Principle 2: add an AI disclaimer</H4>
+              <H4>Principle 2: be transparent about the use of AI</H4>
               <P>
                 Most teams shipping AI features hide the AI. They roll out a feature labeled "summary" or "highlights" and let customers infer what is going on. We did the opposite:
               </P>
