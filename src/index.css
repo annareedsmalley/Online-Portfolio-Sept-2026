@@ -177,11 +177,12 @@
     transition: all 200ms ease;
   }
 
-  /* Contact-section green gradient — hues matched to the Contact block background greens */
+  /* Contact-section green gradient — hues matched to the Contact block background greens.
+     Lightened for a subtle hover transition from beige. */
   .contact-gradient {
     background-image:
-      radial-gradient(ellipse 70% 60% at 18% 16%, hsl(95 33% 74% / 0.32) 0%, transparent 55%),
-      linear-gradient(165deg, hsl(95 26% 80%) 0%, hsl(100 24% 79%) 45%, hsl(106 22% 77%) 78%, hsl(112 20% 74%) 100%);
+      radial-gradient(ellipse 70% 60% at 18% 16%, hsl(95 24% 86% / 0.18) 0%, transparent 55%),
+      linear-gradient(165deg, hsl(95 20% 89%) 0%, hsl(100 18% 88%) 45%, hsl(106 17% 87%) 78%, hsl(112 15% 85%) 100%);
   }
 }
 
