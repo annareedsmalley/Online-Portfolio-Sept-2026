@@ -409,6 +409,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <P>
                 The most consequential AI thinking we did on this project was <strong>designing the UI around what the model actually knew</strong>, not around what we wished it knew. AI confidence is uneven. Some products have thousands of reviews and the model is highly confident. Some have a hundred reviews split across mixed sentiment and the model is much less confident about negatives in particular. Some products have a clear pattern of negative sentiment and the model is highly confident there is a problem.
               </P>
+              <figure className="my-4">
+                <ZoomableImage src={otherExplorations3} alt="Early explorations: five card variants of the AI Review Summary showing different ways to surface customer sentiment, including review summary text, keyword pill groups (Likes, Mixed, Dislikes), attribute clusters with counts, and ratings-and-reviews-at-a-glance bar variants." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  Early explorations of sentiment surfacing patterns, including exploring different presentations per brand
+                </figcaption>
+              </figure>
               <P>
                 Katie designed three states for the UI to handle this gracefully:
               </P>
