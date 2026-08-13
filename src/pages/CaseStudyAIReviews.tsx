@@ -31,7 +31,7 @@ const impacts = [
   },
   {
     label: "TEAM ALIGNMENT AT SCALE",
-    body: "Coordinated Data Science, AI/ML Engineering, Product, Engineering, UX, UXR, Content Strategy, Brand, and Design Systems around a single customer-facing AI experience.",
+    body: "Aligned Data Science, AI/ML Engineering, Product, Engineering, UX, UXR, Content Strategy, Brand, and Design Systems behind a single customer-facing AI experience.",
   },
 ];
 
