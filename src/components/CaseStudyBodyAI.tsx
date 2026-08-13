@@ -464,7 +464,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 We launched on Athleta and Old Navy in early 2025. The A/B test was set up to measure conversion, add-to-bag, and return rates.
               </P>
               <P>
-                When the results came back, conversion was up 0.7%. Add-to-bag was up by a similar amount. By the standards most AI feature launches are evaluated against, that is <strong>essentially flat</strong>. Instead, the data we had been waiting for&nbsp;was in the returns column. Returns were down 0.9%, which on the volume Old Navy and Athleta were doing translated to <strong>roughly $2.5M in annualized value</strong>, with Athleta alone projected at ~$4.4M in returns revenue value for 2025.
+                When the results came back, conversion was up 0.7%. Add-to-bag was up by a similar amount. By the standards most AI feature launches are evaluated against, that is <strong>essentially flat</strong>. Instead, it turned out the data we had been waiting for&nbsp;was in <strong>the returns column</strong>. Returns were down 0.9%, which on the volume Old Navy and Athleta were doing translated to <strong>roughly $2.5M in annualized value</strong>, with Athleta alone projected at ~$4.4M in returns revenue value for 2025.
               </P>
               <P>
                 Reducing returns was already a top Gap Inc. priority before this project. Online return rate had been a persistent and expensive problem, and the company had attempted to bring it down through multiple prior initiatives, including different approaches to fit finders, product descriptions, and model photography. None of those had moved the number meaningfully. <strong>This was the first thing that did.</strong>
