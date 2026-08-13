@@ -456,7 +456,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                   className="mt-3 font-normal"
                   style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
                 >
-                  Figma — AI Review Summary (nodes 4070-705 and 4087-2105)
+                  The flexible component accounted for model confidence, customer trust and brand reputation concerns.
                 </figcaption>
               </figure>
               <H2 id="launch-reframe">Launch & Results</H2>
