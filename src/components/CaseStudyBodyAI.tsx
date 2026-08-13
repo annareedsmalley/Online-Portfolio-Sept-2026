@@ -402,6 +402,15 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 Katie explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a <strong>3-bucket system</strong> that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
               </P>
               <figure className="my-4">
+                <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
+                <figcaption
+                  className="mt-3 font-normal"
+                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
+                >
+                  UI patterns and content rules for the GenAI Review Summary.
+                </figcaption>
+              </figure>
+              <figure className="my-4">
                 <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
                 <figcaption
                   className="mt-3 font-normal"
@@ -411,15 +420,6 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 </figcaption>
               </figure>
               <H3>Design Delivery</H3>
-              <figure className="my-4">
-                <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
-                <figcaption
-                  className="mt-3 font-normal"
-                  style={{ fontFamily: "'Inter', sans-serif", fontSize: "12px", color: "#56514D" }}
-                >
-                  UI patterns and content rules for the GenAI Review Summary.
-                </figcaption>
-              </figure>
               <P>
                 There was pushback from Banana Republic and Gap on the concept. The implementation for the Gap brand ended up not including bolding for a different reason: the Gap brand design system only contains one font weight, so bolding was technically not possible in that theme. That accident gave us a natural comparison point. Across the brands that did include bolding, <strong>the feature reduced returns more</strong>. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
               </P>
