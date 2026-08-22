@@ -504,7 +504,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 What I am most proud of from this project is not the feature itself, although the business value speaks for itself. What I am most proud of is <strong>what the feature seeded</strong>.
               </P>
               <P>
-                The success of this work contributed directly to the creation of Gap Inc.'s dedicated <strong>Office of AI</strong>, a function that exists, in part, because we proved out a way for AI to ship to customers responsibly and successfully. The patterns we established here (transparency, AI disclaimers, model-confidence-aware UI, sentiment buckets, returns as a leading trust signal) became <strong>the company's working reference for how AI features get built</strong>.
+                The success of this work contributed directly to the creation of Gap Inc.'s dedicated Office of AI, a function that exists, in part, because we proved out a way for AI to ship to customers responsibly and successfully. The patterns we established here became the company's working reference for how AI features get built.
               </P>
               <Pullquote color="blush" rotate={2} kicker="The Compounding Effect">
                 That is what foundational work is supposed to do. One project pays for the next ten.
