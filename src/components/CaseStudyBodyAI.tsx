@@ -481,10 +481,10 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 I had been here before. One thing that was clear from my 6+ years of experience at Gap Inc was that the only way to scale across four brands without burning out is to build the underlying experience as a <strong>foundational design system component</strong>, with brand expression layered on top through theming. We treated the GenAI Review Summary the same way. The trust patterns (the buckets, the disclaimer, the model-confidence states) were locked at the foundational layer, and the brand styling lived on top.
               </P>
               <P>
-                That gave each brand the room to feel like itself without putting the trust architecture up for renegotiation. Brands could choose how to theme the component. In addition, there was one foundational element of our design that received pushback from both Banana Republic and Gap: the bolding of the keywords.&nbsp;
+                That gave each brand the room to feel like itself without putting the trust architecture up for renegotiation. Brands could choose how to theme the component.&nbsp;On the other hand, what they could not choose was whether to disclose the AI or whether to acknowledge negatives at all. Those defaults held, and the data on returns and trust held with them.
               </P>
               <P>
-                On the other hand, what they could not choose was whether to disclose the AI or whether to acknowledge negatives at all. Those defaults held, and the data on returns and trust held with them.
+                In addition to applying their brand themes, however, there was one foundational element of our design that received pushback from both Banana Republic and Gap: the bolding of the keywords.&nbsp;
               </P>
               <P>
                 For Banana Republic, the feeling was that the appearance of bolded words was off-brand, and we accepted this perspective. However, the reason for Gap's pushback was that the Gap brand theme only contained one font weight, so bolding was technically not possible. Lucky for us, that accident gave us a natural comparison point. Across the brands that did include bolding, <strong>the feature reduced returns more</strong>. Once that data was shared with Banana Republic, they were swayed. Today, every Gap Inc. brand except Gap itself uses the bolded-keywords treatment.
