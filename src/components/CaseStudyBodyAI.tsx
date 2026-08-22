@@ -482,7 +482,8 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               </P>
               <P>
                 That gave each brand the room to feel like itself without putting the trust architecture up for renegotiation. Brands could choose how to theme the component. In addition, there was one element of our design that received pushback from both Banana Republic and Gap: the bolding of the keywords.&nbsp;
-                <br /><br />
+              </P>
+              <P>
                 On the other hand, what they could not choose was whether to disclose the AI or whether to acknowledge negatives at all. Those defaults held, and the data on returns and trust held with them.
               </P>
               <P>
