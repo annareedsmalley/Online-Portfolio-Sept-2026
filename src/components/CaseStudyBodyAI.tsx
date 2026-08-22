@@ -236,13 +236,8 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 I also had to dispel a familiar reflex early: the <strong>"this will be easy, let's just copy Amazon"</strong> notion floating around the room. I'd seen, more than once, what happens when PMs, engineers, and brand leaders assume copying Amazon will work for our customers. It doesn't.
               </P>
               <P>
-                My job was to help leadership see that this feature would shape our customers' <strong>first impression of Gap Inc. AI</strong>, making rigorous UX research on trust and transparency more important than ever. We invested heavily:
+                My job was to help leadership see that this feature would shape our customers' <strong>first impression of Gap Inc. AI</strong>, making rigorous UX research on trust and transparency more important than ever.
               </P>
-              <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
-                <li><strong>March 2024</strong> — foundational exploratory study</li>
-                <li><strong>July 2024</strong> — design testing</li>
-              </ul>
-              <P>Those studies became the spine of every design decision that followed.</P>
               <Pullquote color="sage" rotate={-2} kicker="The Stakes">
                 We were not being asked to ship a feature. We were being asked to set a precedent.
               </Pullquote>
