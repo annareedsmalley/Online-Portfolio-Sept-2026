@@ -464,7 +464,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 That was the case I made to leadership, and the case is durable on three counts. First, reducing returns saves the company a substantial amount of money. Second, reducing returns is a <strong>major sustainability win</strong>: every avoided return is avoided waste, energy, water, and the broader environmental cost of producing and re-shipping apparel. And third, return rate is an indirect but tangible measure of whether customers got what they wanted from us. Lower returns means more customers buying things they want to keep. That is what an e-commerce experience is supposed to do.
               </P>
               <Pullquote color="sage" rotate={-3} kicker="The Reframe">
-                The feature was working. It was just working on a different axis than we had initially measured.
+                The feature was working. It was just working on a different axis than usual.
               </Pullquote>
               <ZoomableImage src={abResults} alt="A/B results panel: 'What we expected to move' shows conversion rate +0.7% and add-to-bag +0.7% (essentially flat); 'What actually moved' shows return rate -0.9% (significant reduction), $2.5M annualized value across Athleta and Old Navy, and $4.4M projected returns value at Athleta." className="overflow-hidden w-full h-auto rounded-2xl my-4" />
             </Section>
