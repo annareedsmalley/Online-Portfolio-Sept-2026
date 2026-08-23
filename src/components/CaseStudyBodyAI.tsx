@@ -470,7 +470,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="scaling">
               <H3 id="scaling">Scaling across four brands</H3>
               <P>
-                Once we had the trust and returns story validated at Old Navy and Athleta, the next problem was scale. Four brands, each with its own visual identity, its own merchandising priorities, and its own opinions about what AI should and should not say to its customers.
+                Once we had the trust and returns story validated at Old Navy and Athleta, Gap and Banana Republic requested the feature for their brands. In other words, our final challenge was scaling to two additional brands, each with their own visual identity, merchandising priorities, and opinions about what AI should and should not say to its customers.
               </P>
               <P>
                 I had been here before. One thing that was clear from my 6+ years of experience at Gap Inc was that the only way to scale across four brands without burning out is to build the underlying experience as a <strong>foundational design system component</strong>, with brand expression layered on top through theming. We treated the GenAI Review Summary the same way. The trust patterns (the buckets, the disclaimer, the model-confidence states) were locked at the foundational layer, and the brand styling lived on top.
