@@ -21,8 +21,8 @@ const Role = ({ children }: { children: React.ReactNode }) => (
   <p className="font-inter text-[15px] font-medium text-body italic md:text-[16px]">{children}</p>
 );
 
-const P = ({ children }: { children: React.ReactNode }) => (
-  <p className="mt-4 font-inter text-[15px] leading-[1.6] text-body md:text-[16px]">{children}</p>
+const P = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
+  <p className={`mt-4 font-inter text-[15px] leading-[1.6] text-body md:text-[16px] ${className}`}>{children}</p>
 );
 
 const UL = ({ children }: { children: React.ReactNode }) => (
@@ -61,7 +61,7 @@ const Resume = () => {
 
           <Reveal>
             <H2>Summary</H2>
-            <P>
+            <P className="mt-2">
               UX design leader with 17+ years of experience building high-impact digital experiences across retail and
               enterprise products. Known for leading high-performing teams, with deep expertise in eCommerce, design
               systems, accessibility, design operations, and AI-enabled product strategy. Known for human-centered,
@@ -69,7 +69,7 @@ const Resume = () => {
             </P>
 
             <H2>Core Strengths</H2>
-            <P>
+            <P className="mt-2">
               UX and Product Strategy · Design Leadership and Mentorship · Inclusive Design and Accessibility · Design
               Operations and Governance · Omnichannel Retail and Service Design · Cross-Functional Collaboration ·
               Executive Stakeholder Management · Design Systems · Qualitative Research and Usability Testing ·
@@ -79,7 +79,7 @@ const Resume = () => {
 
             <H2>Professional Experience</H2>
 
-<Org className="mt-4">LucidMatch</Org>
+<Org className="mt-2">LucidMatch</Org>
             <Role>Founding Designer · 2026</Role>
             <UL>
               <LI>
