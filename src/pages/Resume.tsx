@@ -186,7 +186,7 @@ const Resume = () => {
             </UL>
           </Reveal>
 
-          <div className="mt-14 border-t border-border pt-8">
+          <div className="mt-6">
             <ActionLink to={resumeAsset.url} external variant="ghost" size="md">
               Download Resume (PDF)
             </ActionLink>
