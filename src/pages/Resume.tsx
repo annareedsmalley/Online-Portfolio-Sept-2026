@@ -139,7 +139,7 @@ const Resume = () => {
               </LI>
             </UL>
 
-            <Org>Walmart</Org>
+            <Org className="mt-3">Walmart</Org>
             <Role>
               Sr. Product Design Manager + UX Manager (2014–2016) · Sr. Product Designer + Information Architect
               (2008–2013) · Imagery Operations Specialist (2002–2007)
