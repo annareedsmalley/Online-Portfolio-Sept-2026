@@ -13,8 +13,8 @@ const H3 = ({ children }: { children: React.ReactNode }) => (
   </h3>
 );
 
-const Org = ({ children }: { children: React.ReactNode }) => (
-  <p className="mt-6 font-inter text-[15px] font-semibold text-title md:text-[17px]">{children}</p>
+const Org = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
+  <p className={`mt-6 font-inter text-[15px] font-semibold text-title md:text-[17px] ${className}`}>{children}</p>
 );
 
 const Role = ({ children }: { children: React.ReactNode }) => (
