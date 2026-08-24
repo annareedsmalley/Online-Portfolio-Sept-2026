@@ -92,7 +92,7 @@ const Resume = () => {
               </LI>
             </UL>
 
-            <Org>Gap Inc.</Org>
+            <Org className="mt-3">Gap Inc.</Org>
             <Role>Sr. Manager of Product Design, eCommerce Browse · 2024 – 2025</Role>
             <UL>
               <LI>
