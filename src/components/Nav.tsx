@@ -167,12 +167,11 @@ export const Nav = () => {
                 to={l.to}
                 className={({ isActive }) =>
                   cn(
-                    "font-sans text-sm font-bold inline-flex items-center rounded-full border-[1.5px] px-4 py-1.5",
+                    "font-inter text-sm font-medium inline-flex items-center",
                     isActive ? "text-terracotta" : "text-title hover:text-terracotta",
-                    isActive ? "border-terracotta" : "border-transparent",
                   )
                 }
-                style={{ transition: "color 300ms ease, opacity 200ms ease, border-color 300ms ease" }}
+                style={{ transition: "color 300ms ease, opacity 200ms ease" }}
               >
                 {l.label}
               </NavLink>
