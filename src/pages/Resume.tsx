@@ -4,7 +4,7 @@ import { ActionLink } from "@/components/ActionButton";
 import resumeAsset from "@/assets/anna-smalley-resume.pdf.asset.json";
 
 const H2 = ({ children }: { children: React.ReactNode }) => (
-  <h2 className="mt-12 font-inter text-[22px] font-bold text-title md:text-[28px]">{children}</h2>
+  <h2 className="mt-6 font-inter text-[22px] font-bold text-title md:text-[28px]">{children}</h2>
 );
 
 const H3 = ({ children }: { children: React.ReactNode }) => (
