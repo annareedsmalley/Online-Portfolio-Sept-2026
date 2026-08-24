@@ -69,7 +69,7 @@ const Resume = () => {
             </P>
 
             <H2>Core Strengths</H2>
-            <P className="mt-2">
+            <P className="mt-3">
               UX and Product Strategy · Design Leadership and Mentorship · Inclusive Design and Accessibility · Design
               Operations and Governance · Omnichannel Retail and Service Design · Cross-Functional Collaboration ·
               Executive Stakeholder Management · Design Systems · Qualitative Research and Usability Testing ·
