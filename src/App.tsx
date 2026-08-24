@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound.tsx";
 import CaseStudyGap from "./pages/CaseStudyGap.tsx";
 import CaseStudySalesforce from "./pages/CaseStudySalesforce.tsx";
 import CaseStudyAIReviews from "./pages/CaseStudyAIReviews.tsx";
+import Resume from "./pages/Resume.tsx";
 import { ScrollToTop } from "./components/ScrollToTop.tsx";
 import { CaseStudyTitleProvider } from "./context/CaseStudyTitleContext";
 import { ErrorBoundary } from "./components/ErrorBoundary.tsx";
@@ -29,6 +30,7 @@ const App = () => (
               <Route path="/work/cross-brand-product-experience" element={<CaseStudyGap />} />
               <Route path="/work/four-brands-one-membership" element={<CaseStudySalesforce />} />
               <Route path="/work/designing-trust-into-ai-feature" element={<CaseStudyAIReviews />} />
+              <Route path="/resume" element={<Resume />} />
 
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
