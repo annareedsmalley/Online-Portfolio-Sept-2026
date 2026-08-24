@@ -25,8 +25,8 @@ const P = ({ children, className = "mt-4" }: { children: React.ReactNode; classN
   <p className={`${className} font-inter text-[15px] leading-[1.6] text-body md:text-[16px]`}>{children}</p>
 );
 
-const UL = ({ children }: { children: React.ReactNode }) => (
-  <ul className="mt-1.5 mb-4 space-y-2 pl-1">{children}</ul>
+const UL = ({ children, className = "mt-1.5 mb-4" }: { children: React.ReactNode; className?: string }) => (
+  <ul className={`${className} space-y-2 pl-1`}>{children}</ul>
 );
 
 const LI = ({ children }: { children: React.ReactNode }) => (
@@ -81,7 +81,7 @@ const Resume = () => {
 
 <Org className="mt-3">LucidMatch</Org>
             <Role>Founding Designer · 2026</Role>
-            <UL>
+            <UL className="mt-1.5 mb-0">
               <LI>
                 Leading end-to-end UX strategy for a platform dedicated to solving procedural fairness in competitive
                 grants, fellowships, and award nominations.
@@ -92,7 +92,7 @@ const Resume = () => {
               </LI>
             </UL>
 
-            <Org>Gap Inc.</Org>
+            <Org className="mt-3">Gap Inc.</Org>
             <Role>Sr. Manager of Product Design, eCommerce Browse · 2024 – 2025</Role>
             <UL>
               <LI>
@@ -117,7 +117,7 @@ const Resume = () => {
             </UL>
 
             <Role>Lead Product Designer, Post-Purchase Experiences · 2018 – 2019</Role>
-            <UL>
+            <UL className="mt-1.5 mb-0">
               <LI>
                 Led design strategy and delivered dev-ready solutions for Buy Online, Pickup in Store experiences
                 across Gap, Banana Republic, Old Navy, and Athleta.
@@ -125,9 +125,9 @@ const Resume = () => {
               <LI>Drove a content strategy overhaul for shipping and pickup communications across email, SMS, and push notifications.</LI>
             </UL>
 
-            <Org>Salesforce</Org>
+            <Org className="mt-3">Salesforce</Org>
             <Role>Lead Product Designer, Salesforce Community Cloud · 2016 – 2017</Role>
-            <UL>
+            <UL className="mt-1.5 mb-0">
               <LI>Designed the first version of Einstein Answers, an AI-powered answer engine that improved content discoverability and support efficiency.</LI>
               <LI>
                 Led UX integration for Quip, defining collaborative document and workflow experiences within the
@@ -139,7 +139,7 @@ const Resume = () => {
               </LI>
             </UL>
 
-            <Org>Walmart</Org>
+            <Org className="mt-3">Walmart</Org>
             <Role>
               Sr. Product Design Manager + UX Manager (2014–2016) · Sr. Product Designer + Information Architect
               (2008–2013) · Imagery Operations Specialist (2002–2007)
