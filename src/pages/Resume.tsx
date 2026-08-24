@@ -61,7 +61,7 @@ const Resume = () => {
 
           <Reveal>
             <H2>Summary</H2>
-            <P className="mt-2">
+            <P className="mt-3">
               UX design leader with 17+ years of experience building high-impact digital experiences across retail and
               enterprise products. Known for leading high-performing teams, with deep expertise in eCommerce, design
               systems, accessibility, design operations, and AI-enabled product strategy. Known for human-centered,
