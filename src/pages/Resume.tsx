@@ -18,7 +18,7 @@ const Org = ({ children }: { children: React.ReactNode }) => (
 );
 
 const Role = ({ children }: { children: React.ReactNode }) => (
-  <p className="font-inter text-[13px] font-medium text-body italic md:text-[14px]">{children}</p>
+  <p className="font-inter text-[15px] font-medium text-body italic md:text-[16px]">{children}</p>
 );
 
 const P = ({ children }: { children: React.ReactNode }) => (
