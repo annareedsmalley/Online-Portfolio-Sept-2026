@@ -17,7 +17,7 @@ const variantClasses = {
   primary:
     "bg-terracotta text-white hover:bg-terracotta-hover hover:-translate-y-0.5 shadow-sm",
   ghost:
-    "border-[1.5px] border-terracotta text-terracotta hover:bg-terracotta hover:text-white",
+    "border-[1.5px] border-terracotta text-terracotta hover:bg-terracotta/10",
 };
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
