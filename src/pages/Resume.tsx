@@ -79,7 +79,7 @@ const Resume = () => {
 
             <H2>Professional Experience</H2>
 
-            <Org>LucidMatch</Org>
+<Org className="mt-4">LucidMatch</Org>
             <Role>Founding Designer · 2026</Role>
             <UL>
               <LI>
