@@ -25,8 +25,8 @@ const P = ({ children, className = "mt-4" }: { children: React.ReactNode; classN
   <p className={`${className} font-inter text-[15px] leading-[1.6] text-body md:text-[16px]`}>{children}</p>
 );
 
-const UL = ({ children }: { children: React.ReactNode }) => (
-  <ul className="mt-1.5 mb-4 space-y-2 pl-1">{children}</ul>
+const UL = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
+  <ul className={`mt-1.5 mb-4 space-y-2 pl-1 ${className}`}>{children}</ul>
 );
 
 const LI = ({ children }: { children: React.ReactNode }) => (
