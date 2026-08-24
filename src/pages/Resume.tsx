@@ -52,7 +52,7 @@ const Resume = () => {
               Human-Centered Design Leader · UX, Agentic AI and Accessibility
             </p>
 
-            <div className="mt-4">
+            <div className="mt-2">
               <ActionLink to={resumeAsset.url} external variant="ghost" size="md">
                 Download Resume (PDF)
               </ActionLink>
