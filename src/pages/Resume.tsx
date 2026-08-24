@@ -53,7 +53,7 @@ const Resume = () => {
             </p>
 
             <div className="mt-8">
-              <ActionLink to={resumeAsset.url} external variant="primary" size="lg">
+              <ActionLink to={resumeAsset.url} external variant="ghost" size="md">
                 Download Resume (PDF)
               </ActionLink>
             </div>
