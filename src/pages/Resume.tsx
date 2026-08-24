@@ -26,7 +26,7 @@ const P = ({ children }: { children: React.ReactNode }) => (
 );
 
 const UL = ({ children }: { children: React.ReactNode }) => (
-  <ul className="mt-3 mb-8 space-y-2 pl-1">{children}</ul>
+  <ul className="mt-1.5 mb-8 space-y-2 pl-1">{children}</ul>
 );
 
 const LI = ({ children }: { children: React.ReactNode }) => (
