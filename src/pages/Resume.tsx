@@ -21,8 +21,8 @@ const Role = ({ children }: { children: React.ReactNode }) => (
   <p className="font-inter text-[15px] font-medium text-body italic md:text-[16px]">{children}</p>
 );
 
-const P = ({ children, className = "" }: { children: React.ReactNode; className?: string }) => (
-  <p className={`mt-4 font-inter text-[15px] leading-[1.6] text-body md:text-[16px] ${className}`}>{children}</p>
+const P = ({ children, className = "mt-4" }: { children: React.ReactNode; className?: string }) => (
+  <p className={`${className} font-inter text-[15px] leading-[1.6] text-body md:text-[16px]`}>{children}</p>
 );
 
 const UL = ({ children }: { children: React.ReactNode }) => (
