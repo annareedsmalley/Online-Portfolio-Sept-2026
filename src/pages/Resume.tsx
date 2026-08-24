@@ -125,7 +125,7 @@ const Resume = () => {
               <LI>Drove a content strategy overhaul for shipping and pickup communications across email, SMS, and push notifications.</LI>
             </UL>
 
-            <Org>Salesforce</Org>
+            <Org className="mt-3">Salesforce</Org>
             <Role>Lead Product Designer, Salesforce Community Cloud · 2016 – 2017</Role>
             <UL className="mt-1.5 mb-0">
               <LI>Designed the first version of Einstein Answers, an AI-powered answer engine that improved content discoverability and support efficiency.</LI>
