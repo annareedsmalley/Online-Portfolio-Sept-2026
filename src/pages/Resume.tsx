@@ -81,7 +81,7 @@ const Resume = () => {
 
 <Org className="mt-3">LucidMatch</Org>
             <Role>Founding Designer · 2026</Role>
-            <UL>
+            <UL className="mt-1.5 mb-0">
               <LI>
                 Leading end-to-end UX strategy for a platform dedicated to solving procedural fairness in competitive
                 grants, fellowships, and award nominations.
