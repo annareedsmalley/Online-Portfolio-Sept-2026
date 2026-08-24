@@ -52,18 +52,6 @@ const Resume = () => {
               Human-Centered Design Leader · UX, Agentic AI and Accessibility
             </p>
 
-            <div className="mt-5 flex flex-wrap gap-x-5 gap-y-1 font-inter text-[13px] text-body md:text-[14px]">
-              <a href="mailto:anna.smalley@gmail.com" className="hover:text-terracotta">anna.smalley@gmail.com</a>
-              <span className="text-border">·</span>
-              <span>(415) 568-8151</span>
-              <span className="text-border">·</span>
-              <a href="https://annasmalley.com" className="hover:text-terracotta">annasmalley.com</a>
-              <span className="text-border">·</span>
-              <a href="https://www.linkedin.com/in/anna-smalley-uxlead" target="_blank" rel="noopener noreferrer" className="hover:text-terracotta">
-                LinkedIn
-              </a>
-            </div>
-
             <div className="mt-8">
               <ActionLink to={resumeAsset.url} external variant="primary" size="lg">
                 Download Resume (PDF)
