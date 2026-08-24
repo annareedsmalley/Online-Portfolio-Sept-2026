@@ -127,7 +127,7 @@ const Resume = () => {
 
             <Org>Salesforce</Org>
             <Role>Lead Product Designer, Salesforce Community Cloud · 2016 – 2017</Role>
-            <UL>
+            <UL className="mt-1.5 mb-0">
               <LI>Designed the first version of Einstein Answers, an AI-powered answer engine that improved content discoverability and support efficiency.</LI>
               <LI>
                 Led UX integration for Quip, defining collaborative document and workflow experiences within the
