@@ -117,7 +117,7 @@ const Resume = () => {
             </UL>
 
             <Role>Lead Product Designer, Post-Purchase Experiences · 2018 – 2019</Role>
-            <UL>
+            <UL className="mt-1.5 mb-0">
               <LI>
                 Led design strategy and delivered dev-ready solutions for Buy Online, Pickup in Store experiences
                 across Gap, Banana Republic, Old Navy, and Athleta.
