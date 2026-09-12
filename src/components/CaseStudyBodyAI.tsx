@@ -247,7 +247,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 My team had a full roadmap. However, saying yes meant taking on a project where the design problem was downstream of a much bigger problem: <strong>how Gap Inc. would think about AI.</strong> There's a version of this where design shows up after the fact, tidying up whatever Brand and AI/ML already built. I've seen that movie — the design looks right but the experience is wrong, and by the time anyone notices, it's shipping. <strong>I wanted us upstream.</strong>
               </P>
               <P>
-                What I didn't want was to simply add another project to my team's plate. Instead, I considered the fact that one of my Sr. Designers, Kimberly, had already expressed interest in taking on additional work, as long as that work involved AI. I also decided I could <strong>invest more of my own time</strong> supporting her — on this project and her others in parallel — so she had the runway to do it well. When I proposed this plan, she enthusiastically agreed.
+                What I didn't want was to simply add another project to my team's plate. Instead, I considered the fact that one of my Sr. Designers, Kim., had already expressed interest in taking on additional work, as long as that work involved AI. I also decided I could <strong>invest more of my own time</strong> supporting her — on this project and her others in parallel — so she had the runway to do it well. When I proposed this plan, she enthusiastically agreed.
               </P>
             </Section>
 
@@ -258,7 +258,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
               <H2 id="ai-thesis">Setup for Success</H2>
 
               <P>
-                As an added bonus to offering this work to Kimberly, her background made her unusually well suited for customer-facing AI:
+                As an added bonus to offering this work to Kim., her background made her unusually well suited for customer-facing AI:
               </P>
               <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li><strong>She had an MS in Human Factors</strong> and was a systems thinker by temperament.</li>
@@ -274,7 +274,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             {/* ===================== Structuring the Work ===================== */}
             <Section id="structuring-work">
               <P>
-                After bringing Katie in, my number one priority became to act as a <strong>bridge</strong>. Katie was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
+                After bringing Kim. in, my number one priority became to act as a <strong>bridge</strong>. Kim. was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
               </P>
               <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li>Made sure she <strong>walked into rooms already warmed up</strong> to her.</li>
@@ -286,13 +286,13 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 In addition to selecting the right designer, I knew a project like this <strong>lives or dies on cross-functional execution</strong>. The org map for this project was also especially broad: Data Science (running the model), AI/ML Engineering (running the SCOUT pipeline), Brand Category Merchants across all four brands, and our standard cross-functional engineering and product managemen, content strategy and UXR partners.&nbsp;
               </P>
               <P>
-                As a result, Katie and I agreed that she would run daily working sessions with the central team and twice-weekly sessions with our brand partners, in addition to as-needed huddles with anyone working on the solving the same problems.
+                As a result, Kim. and I agreed that she would run daily working sessions with the central team and twice-weekly sessions with our brand partners, in addition to as-needed huddles with anyone working on the solving the same problems.
               </P>
 
               <H2 id="structuring-work">The Work</H2>
 
               <P>
-                The brief came in as "pilot an AI-generated review summary." Katie's first job was to <strong>refuse that framing politely</strong>, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?
+                The brief came in as "pilot an AI-generated review summary." Kim.'s first job was to <strong>refuse that framing politely</strong>, and to back up to the underlying question: what are customers actually trying to do when they read reviews, and why might an AI summary fail them?
               </P>
               <P>
                 What she found, working with UXR and looking at our existing review data, reframed the project. Customers who engage with reviews are <strong>10% more likely to convert</strong>. But on PDPs with thousands of reviews, decision fatigue causes drop-off. Customers want a synthesis. The question was not whether AI summarization was useful. It clearly was. The question was whether customers would <strong>trust an AI to do that synthesis honestly</strong>.
@@ -306,7 +306,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
 
               <H3>Discovery</H3>
               <P>
-                Working closely with our UXR team, Katie's next step was looking at how other retailers were handling their AI review summaries, including Amazon, Target, NewEgg, and Expedia. Rather than conduct a heuristic evaluation or standard competitive analysis, we decided to request a <strong>competitive usability test</strong>. I.e., we gave our own customers tasks on the four leading sites offering AI review summaries, and let them tell us <strong>what they thought</strong>.&nbsp;
+                Working closely with our UXR team, Kim.'s next step was looking at how other retailers were handling their AI review summaries, including Amazon, Target, NewEgg, and Expedia. Rather than conduct a heuristic evaluation or standard competitive analysis, we decided to request a <strong>competitive usability test</strong>. I.e., we gave our own customers tasks on the four leading sites offering AI review summaries, and let them tell us <strong>what they thought</strong>.&nbsp;
               </P>
 
               <figure className="my-4">
@@ -335,7 +335,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             <Section id="strategic-bets">
               <H3>Defining Design Leadership Principles</H3>
               <P>
-                Once we understood the trust problem, Katie and I aligned on <strong>five principles</strong> about what the design had to do, before exploring individual UI patterns. Once we agreed on their importance,&nbsp;<strong>we used them to guide the cross-functional team</strong>.&nbsp;
+                Once we understood the trust problem, Kim. and I aligned on <strong>five principles</strong> about what the design had to do, before exploring individual UI patterns. Once we agreed on their importance,&nbsp;<strong>we used them to guide the cross-functional team</strong>.&nbsp;
               </P>
 
               <H4>Principle 1: show negative sentiment, don't hide it</H4>
@@ -343,7 +343,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 The instinct from Brand was understandable: an AI summary that says "customers found this product runs small" or "the fabric pills" sounds like negative marketing copy. The instinct from craft was to soften it, smooth it, surface it in the lightest possible way.
               </P>
               <P>
-                Katie and I held the opposite line. The whole point of the feature was to <strong>build trust</strong>, and the research was emphatic that customers earn their trust by seeing what is wrong with a product, not by seeing what is right. We were going to surface negatives clearly, in a dedicated bucket, with the same visual weight as the positives.
+                Kim. and I held the opposite line. The whole point of the feature was to <strong>build trust</strong>, and the research was emphatic that customers earn their trust by seeing what is wrong with a product, not by seeing what is right. We were going to surface negatives clearly, in a dedicated bucket, with the same visual weight as the positives.
               </P>
               <H4>Principle 2: be transparent about the use of AI</H4>
               <P>
@@ -394,7 +394,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 </figcaption>
               </figure>
               <P>
-                Katie explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a <strong>3-bucket system</strong> that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
+                Kim. explored multiple ways to surface sentiment: a single paragraph summary, a list of keywords, color-coded attributes, the works. Through UXR (the July 2024 design testing study), Design 1 emerged as the strongest: a <strong>3-bucket system</strong> that separates what customers liked, what they had mixed feelings about, and what they disliked. The 3-bucket system did the most important thing the feature could do: it formally acknowledged that there are negatives, while still summarizing them concisely.
               </P>
               <figure className="my-4">
                 <ZoomableImage src={uiPatternsAiSummary} alt="Annotated UI patterns for the AI Summary feature: title, three keyword buckets (Likes, Mixed Reviews, Dislikes) with one line and 2–4 keywords each, a 2–3 sentence review summary capped at 350 characters with one bolded phrase per line, and an AI disclaimer." className="overflow-hidden w-full h-auto rounded-2xl" />
@@ -406,7 +406,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 </figcaption>
               </figure>
               <P>
-                Next, Katie worked closely with content strategy, the data science team, and brand merchandisers from Athleta and Old Navy to make sure this three-bucket overview accurately represented customer sentiment. As a result, all teams achieved confidence in the model's ability to serve an accurate overview in a way customers would understand. In addition, her willingness to make this a highly collaborative process built up trust with all involved.
+                Next, Kim. worked closely with content strategy, the data science team, and brand merchandisers from Athleta and Old Navy to make sure this three-bucket overview accurately represented customer sentiment. As a result, all teams achieved confidence in the model's ability to serve an accurate overview in a way customers would understand. In addition, her willingness to make this a highly collaborative process built up trust with all involved.
               </P>
               <figure className="my-4">
                 <ZoomableImage src={keywordCollaboration} alt="Cross-functional collaboration artifact: a working session where Content Strategy, Data Science, and brand category merchants determined which review keywords mapped to positive, negative, or mixed indicators across the six attributes shown in the bucket display." className="overflow-hidden w-full h-auto rounded-2xl" />
@@ -422,7 +422,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 There was just one hurdle to overcome. Old Navy had, at this point, decided to launch first alongside Athleta, but they were worried about the "Dislikes" bucket. Specifically, they were worried that letting customers easily identify what other customers disliked about their products would reflect negatively on customers' impressions of brand quality. Rather than override them, we offered a path.
               </P>
               <P>
-                Based on model confidence, Katie designed three states for the UI to handle this gracefully:
+                Based on model confidence, Kim. designed three states for the UI to handle this gracefully:
               </P>
               <UL>
                 <li>Full confidence across all keyword buckets.</li>
