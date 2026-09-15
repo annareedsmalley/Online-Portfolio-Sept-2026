@@ -247,7 +247,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
                 My team had a full roadmap. However, saying yes meant taking on a project where the design problem was downstream of a much bigger problem: <strong>how Gap Inc. would think about AI.</strong> There's a version of this where design shows up after the fact, tidying up whatever Brand and AI/ML already built. I've seen that movie — the design looks right but the experience is wrong, and by the time anyone notices, it's shipping. <strong>I wanted us upstream.</strong>
               </P>
               <P>
-                What I didn't want was to simply add another project to my team's plate. Instead, I considered the fact that one of my Sr. Designers, Kim, had already expressed interest in taking on additional work, as long as that work involved AI. I also decided I could <strong>invest more of my own time</strong> supporting her — on this project and her others in parallel — so she had the runway to do it well. When I proposed this plan, she enthusiastically agreed.
+                What I didn't want was to simply add another project to my team's plate. Instead, I considered the fact that one of my highest-performing designers, Kim, had already expressed interest in taking on additional work, as long as that work involved AI. I also decided I could <strong>invest more of my own time</strong> supporting her — on this project and her others in parallel — so she had the runway to do it well. When I proposed this plan, she enthusiastically agreed.
               </P>
             </Section>
 
