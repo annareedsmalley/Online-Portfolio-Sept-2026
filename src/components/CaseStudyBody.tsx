@@ -390,7 +390,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
 
               <P>
-                My first move was <strong>selecting the right designer</strong>. I chose Kimberly, a junior designer I had inherited from another team who was currently operating at a senior level.
+                My first move was <strong>selecting the right designer</strong>. I chose Kimberly, a designer I'd hired onto my Buy team years earlier and watched grow into someone operating well above her title.
               </P>
               <P>
                 Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew they were doing senior-level work and wanted to promote them, and knew it would be an uphill battle without a high-profile story to tell.
