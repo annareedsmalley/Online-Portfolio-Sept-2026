@@ -393,7 +393,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 My first move was <strong>selecting the right designer</strong>. I chose Kimberly, a designer I'd hired onto my Buy team years earlier and watched grow into someone operating well above her title.
               </P>
               <P>
-                Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew they were doing senior-level work and wanted to promote them, and knew it would be an uphill battle without a high-profile story to tell.
+                Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew she was doing senior-level work and wanted to promote her, and knew it would be an uphill battle without a high-profile story to tell.
               </P>
               <P>
                 One gap I knew I needed to fill was that Kimberly had spent most of her Gap Inc career on the non-branded side of the journey (cart, checkout, profile, fulfillment) where the experience is the same regardless of brand. She wasn't as accustomed to the political dynamics of brand-differentiated work, where every brand wants special treatment and tensions can escalate quickly.
