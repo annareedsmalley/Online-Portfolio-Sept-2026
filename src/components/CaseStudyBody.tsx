@@ -655,7 +655,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                   Set a precedent for brand-to-platform transitions. We demonstrated what it looks like when formerly brand-owned initiatives are transferred to the central team: the UX browse team moves quickly to understand where the brands are trying to go, meets them where they are, then collaboratively works on solutions to the actual problem they're trying to solve.
                 </li>
                 <li>
-                  Set a new precedent for at Gap Inc. for inclusive research: if we're doing UXR and we already have stimuli for testing, we put that same stimuli in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership runs accessibility research simultaneously with standard UXR.
+                  Set a new precedent at Gap Inc. for inclusive research: if a team had stimuli ready for UXR, that same stimuli went in front of people with disabilities. No added timeline. No added designer effort. The C4AT partnership was still running accessibility research alongside standard UXR when I left.
                 </li>
               </UL>
 
