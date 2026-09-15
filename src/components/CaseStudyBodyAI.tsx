@@ -274,7 +274,7 @@ export const CaseStudyBodyAI = ({ studyTitle }: CaseStudyBodyAIProps) => {
             {/* ===================== Structuring the Work ===================== */}
             <Section id="structuring-work">
               <P>
-                After bringing Kim in, my number one priority became to act as a <strong>bridge</strong>. Kim was new to Gap Inc. and hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
+                After bringing Kim in, my number one priority became to act as a <strong>bridge</strong>. Kim and I had years of history: I'd hired her onto my Buy team, and she'd since gone deep on Buy for the native app. But on Gap Inc.'s eCommerce platform, Buy was a non-branded space — cart, checkout, profile, and fulfillment worked essentially the same way across all four brands. Browse was the opposite. It was the half of the journey where Gap, Old Navy, Banana Republic, and Athleta each got to look and sound like themselves, so every decision ran through four sets of brand stakeholders with their own priorities and their own politics. That part was new to her, and she hadn't yet built the relationships across Brand, Product, and UX leadership that I'd spent years developing. I used those relationships to make her path easier:
               </P>
               <ul className="body-text flex list-disc flex-col pl-6 text-[16px] leading-[1.4] md:text-[17px] [&_strong]:font-semibold [&_strong]:text-title">
                 <li>Made sure she <strong>walked into rooms already warmed up</strong> to her.</li>
