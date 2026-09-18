@@ -23,8 +23,8 @@ const impacts = [
     body: "Picked the project that would make the argument, built the team structure that de-risked it, and closed with the VP of UX.",
   },
   {
-    label: "Built executive design fluency",
-    body: "Created a recurring forum where product execs reviewed experience tradeoffs alongside roadmap.",
+    label: "PROVED OUT A TEAM STRUCTURE I'D DESIGNED",
+    body: "Ran my "Surfies/Brandies" model through its hardest test — a politically contested, cross-brand project — and it held.",
   },
 ];
 
