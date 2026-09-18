@@ -19,8 +19,8 @@ const impacts = [
     body: "Surfaced a misaligned product assumption before kickoff and re-scoped the rollout plan with execs.",
   },
   {
-    label: "WON A PROMOTION FOR A SR. DESIGNER",
-    body: "Mentored cross-brand leads through a year of org redesign without losing strategic momentum.",
+    label: "ENGINEERED A PROMOTION FOR AN UNDER-TITLED DESIGNER",
+    body: "Picked the project that would make the argument, built the team structure that de-risked it, and closed with the VP of UX.",
   },
   {
     label: "Built executive design fluency",
