@@ -646,7 +646,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <H3>Team and leadership</H3>
               <UL>
                 <li>
-                  Raised the confidence and profile of a junior designer. I got approval from the VP of UX to promote Kimberly, largely because of the visibility and impact of her work on this project. Kimberly has since been able to use her case study for this work to get a senior role at a big tech company.
+                  Raised the confidence and profile of a junior designer. I got approval from the VP of UX to promote Kimberly, largely because of the visibility and impact of her work on this project. Kimberly has since been able to use her case study for this work to get a senior role at a large tech company.
                 </li>
                 <li>
                   Proved out the <strong>Surfies/Brandies team model</strong> on a high-stakes, politically complex project, validating the team structure I had designed.
