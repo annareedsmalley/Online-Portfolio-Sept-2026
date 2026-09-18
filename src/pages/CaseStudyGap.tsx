@@ -24,7 +24,7 @@ const impacts = [
   },
   {
     label: "PROVED OUT A TEAM STRUCTURE I'D DESIGNED",
-    body: "Ran my "Surfies/Brandies" model through its hardest test — a politically contested, cross-brand project — and it held.",
+    body: 'Ran my "Surfies/Brandies" model through its hardest test — a politically contested, cross-brand project — and it held.',
   },
 ];
 
