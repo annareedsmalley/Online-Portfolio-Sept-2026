@@ -384,6 +384,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
 
               <P>
+                It was asking: what are you really trying to solve? Is this a customer problem, a business problem, or both?
+
+
                 My first move was <strong>selecting the right designer</strong>. I chose Kimberly, a designer I'd hired onto my Buy team years earlier and watched grow into someone operating well above her title.
               </P>
               <P>
