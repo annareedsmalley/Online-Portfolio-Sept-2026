@@ -59,7 +59,7 @@ const CaseStudyGap = () => {
                 { icon: Briefcase, label: "Lead UX Strategist" },
                 { icon: Building2, label: "Gap Inc." },
                 { icon: Layers, label: "4 brand surfaces" },
-                { icon: Clock, label: "18 months" },
+                { icon: Clock, label: "10 MONTHS" },
               ].map((p, i) => (
                 <Reveal key={p.label} delay={i * 90}>
                   <Pill icon={p.icon}>{p.label}</Pill>
