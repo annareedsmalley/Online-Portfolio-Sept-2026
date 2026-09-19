@@ -56,7 +56,7 @@ const CaseStudyGap = () => {
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {[
-                { icon: Briefcase, label: "Lead UX Strategist" },
+                { icon: Briefcase, label: "SR. UX MANAGER" },
                 { icon: Building2, label: "Gap Inc." },
                 { icon: Layers, label: "4 brand surfaces" },
                 { icon: Clock, label: "10 MONTHS" },
