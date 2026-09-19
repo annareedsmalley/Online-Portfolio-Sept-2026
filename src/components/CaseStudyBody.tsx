@@ -384,7 +384,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 It was asking: what are you really trying to solve? Is this a customer problem, a business problem, or both?
 
 
-                My first move was <strong>selecting the right designer</strong>. I chose Kimberly, a designer I'd hired onto my Buy team years earlier and watched grow into someone operating well above her title.
+                My first move was <strong>selecting the right designer</strong>.
               </P>
               <P>
                 Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew she was doing senior-level work and wanted to promote her, and knew it would be an uphill battle without a high-profile story to tell.
