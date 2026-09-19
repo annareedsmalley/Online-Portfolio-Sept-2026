@@ -363,12 +363,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Leadership had scoped multi-variant PDPs as straightforward UI. "Just add selectors to the page; should be simple." It wasn't. 
               </P>
 
-              <P>
-                I was navigating a <strong>complex web of stakeholders</strong>: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
-              </P>
-              <P>
-                {"\n"}
-              </P>
 
 
 
