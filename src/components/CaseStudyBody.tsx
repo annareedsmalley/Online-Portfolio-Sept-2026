@@ -360,7 +360,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Years of brand requests for multi-variant PDPs, and zero design work had been done. Engineering had already given an estimate and timeline. <strong>Handoff was three weeks away.</strong> And Old Navy had a <strong>$17 million marketing campaign</strong> riding on that timeline.
               </P>
               <P>
-                Leadership had scoped multi-variant PDPs as straightforward UI. "Just add selectors to the page; should be simple." It wasn't. This was a classic worst-case scenario for a UX team: engineering estimates and solution assumptions made without design input.
+                Leadership had scoped multi-variant PDPs as straightforward UI. "Just add selectors to the page; should be simple." It wasn't. 
               </P>
 
               <P>
