@@ -367,7 +367,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 I was navigating a <strong>complex web of stakeholders</strong>: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
               </P>
               <P>
-                The brands came to us saying "add more variant sets to PDPs." They didn't initially explain why. It was just "we want people to be able to get to other variants from the PDP." Our first step wasn't competitive analysis or prototyping. It was asking: <strong>what are you really trying to solve?</strong> Is this a customer problem, a business problem, or both?
+                It was asking: <strong>what are you really trying to solve?</strong> Is this a customer problem, a business problem, or both?
               </P>
               <P>
                 It turned out to be both. People were <strong>bouncing because they couldn't discover variant options</strong>. Users from social media and search would see one product. If it wasn't right, they'd bounce, never knowing other options existed. But the brands hadn't come to us with that framing. They just handed over a proposed solution and assumed it would work.
