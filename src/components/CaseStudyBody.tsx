@@ -364,12 +364,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
 
               <P>
-                When I first assessed the project, I immediately thought: "Uh oh, I hope this doesn't end up being something where we have to bring in the VP of UX to interface with brand executives." I had observed and heard stories of similar situations where disagreements between the central organization and the brand organizations escalated quickly. My read was we'd need to get very close to the brands very quickly and <strong>earn their trust</strong> if we wanted to avoid escalation.
-              </P>
-              <P>
-                In addition to the design problem, this was a <strong>leadership challenge</strong> of navigating organizational politics, brand autonomy tensions, and a $17 million marketing campaign that Old Navy had planned on a fixed timeline based on untested assumptions.
-              </P>
-              <P>
                 I was navigating a <strong>complex web of stakeholders</strong>: my UX team of 7 designers, the design systems team, the UXR team, a content strategist, the product manager for product groupings, the product manager for the PDP in general, platform engineering and PDP engineering, the leaders of each brand's digital experience, 1 to 3 brand producers for each brand, and the VP of UX and VP of Product Management.
               </P>
               <P>
