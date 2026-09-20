@@ -416,7 +416,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <H2 id="first-battle">Challenge #1</H2>
 
               <P>
-                Our challenge was to ask the right questions and get answers quickly to determine feasibility. We had one week's worth of competitive analysis, prototypes, and best practices research. We needed to convince stakeholders that three weeks wasn't enough, that engineering should pause, and assumptions needed to be challenged.
+                Our challenge was to ask the right questions and get answers quickly to determine feasibility. We needed to convince stakeholders that three weeks wasn't enough, that engineering should pause, and assumptions needed to be challenged.
               </P>
               <P>
                 We rallied: "These assumptions need to be challenged. We need time to put this in front of customers, look at best practices, and review competitors."
