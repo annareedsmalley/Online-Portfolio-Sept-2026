@@ -368,10 +368,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
               <H2 id="my-approach">Setup & Staffing</H2>
               <P>
-                The decision to take on this project was itself a leadership call. There were many other projects in flight for my team. Instead of keeping them all 100% allocated to other pre-existing work, I said "yes" to this, and I think that decision had to do with using it as an opportunity to <strong>influence something foundational</strong>.
-              </P>
-              <P>
-                We knew that if we didn't invest in trying to turn the ship around, it would come back to us in a way that would be much more unpleasant: cleaning up after a mess instead of designing a solid, validated solution in the first place. One that customers and the business would benefit from. And that we would benefit from, in terms of earning trust and respect from the brands and our other partners within the central org.
+                Fully allocated team, no brief, three weeks on the clock. I said yes because the most valuable thing design could do here was ask the question nobody had asked: what are we actually trying to solve? Multi-variant PDPs would be the foundation of every PDP that followed. Worth getting right once, rather than unwinding later.
               </P>
 
               <P>
