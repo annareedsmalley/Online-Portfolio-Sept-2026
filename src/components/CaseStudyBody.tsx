@@ -419,9 +419,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 Our challenge was to ask the right questions and get answers quickly to determine feasibility. We needed to convince stakeholders that three weeks wasn't enough, that engineering should pause, and assumptions needed to be challenged.
               </P>
               <P>
-                We rallied: "These assumptions need to be challenged. We need time to put this in front of customers, look at best practices, and review competitors."
-              </P>
-              <P>
                 Then we brought the evidence. The best practices were clear: do not add more than 1 to 2 variant selector types to a PDP. The reality? A single product could have 5 selector types (Size, Length, Rise, Leg Style, Stretch) creating 72 possible combinations. And with <strong>70% of shoppers on mobile</strong>, viewing only a partial page at any given moment, adding even one or two variant selectors created cognitive overload and invisible updates.
               </P>
               <P>
