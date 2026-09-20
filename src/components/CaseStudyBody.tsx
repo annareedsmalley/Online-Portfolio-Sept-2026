@@ -400,7 +400,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
              {/* ===================== Design Work ===================== */}
             <Section id="structuring-work">
               <P>
-                In addition to the requisite competitive research, I made sure the team looked for best practices around solving this problem. Not because best practices usually held much weight with the brands, but because they could, when combined with other more tangible evidence, help with winning or clarifying the argument.
+                I leveraged the sprint structure I had already set up for a parallel project (Gap Inc's "headless UI" migration), which involved several different kinds of forums, some with brands and some just with the central team. This meant there was always a <strong>live forum right around the corner</strong> where stakeholders could bring up concerns and feel heard.
               </P>
                
               <P>
