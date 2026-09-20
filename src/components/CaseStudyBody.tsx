@@ -475,7 +475,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             <Section id="first-solution">
               <H3>Design Solution A</H3>
               <P>
-                The Sticky Container keeps price, reviews, images, and selected color visible as users scroll through variant options. Paired with product setup guidelines limiting PDPs to a maximum of four variant groups.
+                Based on the research, the team developed Solution A: a Sticky Container that solved the out-of-viewport problem, keeping key elements like price, reviews, images, and selected color visible as users scrolled, paired with Product Setup Guidelines that addressed cognitive overload by limiting each PDP to a maximum of four variant groups.
               </P>
               <VideoFigure
                 src={showingNotTellingVideo}
