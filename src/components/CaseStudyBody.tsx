@@ -465,7 +465,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 I guided the team to take the same stimuli we were sharing with our UXR team and also share them with Gap Inc.'s third-party accessibility partner, the <strong>Center for Accessible Technology (C4AT)</strong>. This way, C4AT could conduct research with customers with disabilities at the same time as the UXR team was running studies with their standard pool of participants.
               </P>
               <P>
-                We got results that made us feel more confident in our approach than if we had only done UXR with the "standard" pool of participants.
+                We got results that made us feel more confident in our approach than if we had only done UXR with the "standard" pool of participants. Across every participant group, the takeaway was the same: customers have strong mental models about how products should be organized, and when variant groupings violate those mental models, confusion and frustration follow quickly. Price grouping, attribute ordering, and measurement consistency all emerged as non-negotiable from the customer's perspective.
               </P>
             </Section>
 
