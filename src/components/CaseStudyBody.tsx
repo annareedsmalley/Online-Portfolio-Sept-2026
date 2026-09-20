@@ -422,7 +422,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 The reality was that single product could have 5 selector types (Size, Length, Rise, Leg Style, Stretch) creating 72 possible combinations. And with <strong>70% of shoppers on mobile</strong>, viewing only a partial page at any given moment, adding even one or two variant selectors created cognitive overload and invisible updates.
               </P>
               <P>
-                Our first instinct was to understand, not to design. We separated the stated solution from the true goal. We established clear success metrics tied to conversion and bounce rates. Then we built to learn. The team produced <strong>15+ Figma prototypes across 4 brands</strong> and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves. Failure scenarios and edge cases were mapped across every combination. Prototypes became our primary tool for stakeholder alignment throughout the project. This was a deliberate strategic choice: instead of telling brands their assumptions were wrong, we showed them.
+                The team produced <strong>15+ Figma prototypes across 4 brands</strong> and multiple platforms, not to present polished solutions, but to stress-test assumptions from brands, engineering, and ourselves.&nbsp;
               </P>
               <P>
                 All of our efforts (bringing brands along, competitive evidence, prototypes as proof) paid off. <strong>Everyone approved. We bought the time.</strong>
