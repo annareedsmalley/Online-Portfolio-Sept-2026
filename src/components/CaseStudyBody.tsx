@@ -526,7 +526,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
               <P>
-                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, Gap Inc.'s brand promise is not Amazon's brand promise.
+                The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to confusion. Furthermore, Gap Inc.'s brand promise is not Amazon's brand promise.
               </P>
               <H3>Design Solution B</H3>
 
