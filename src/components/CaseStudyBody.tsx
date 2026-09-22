@@ -507,7 +507,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 We deployed the playbook again. We established <strong>shared vocabulary</strong>, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
               </P>
               <P>
-                Engineering advocated for simply changing the visual treatment of variants that had become disabled. Some brands, on the other hand, wanted the Amazon-style experience, where customers' selections of a variant combinations that didn't exist were simply changed to combinations that did exist, without any clear communication. So, we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
+                Engineering advocated for simply changing the visual treatment of variants that had become disabled. So, demonstrated the impact of disabled buttons elsewhere on the Gap Inc. platform: rage clicks. Some brands, on the other hand, wanted the Amazon-style experience, where customers' selections of a variant combinations that didn't exist were simply changed to combinations that did exist, without any clear communication. So, we demonstrated the full potential impacts of this behavior on Amazon, and successfully argued the case that copying it would result projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
 
             </Section>
