@@ -504,6 +504,9 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
               <P>
+                Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
+              </P>
+              <P>
                 We deployed the playbook again. We established <strong>shared vocabulary</strong>, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
               </P>
 
@@ -522,9 +525,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
 
             {/* ===================== The Second Solution: Comparison Table ===================== */}
             <Section id="additional-solution">
-              <P>
-                Some brands wanted the Amazon-style experience, so we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
-              </P>
               <P>
                 The key insight we communicated was: <strong>the user will assume all variant combinations exist.</strong> That assumption, unmet, leads directly to dead clicks. Furthermore, Gap Inc.'s brand promise is not Amazon's brand promise.
               </P>
