@@ -372,7 +372,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               </P>
 
               <P>
-                My first move was <strong>selecting the right designer</strong>.{"\u00a0"}I chose Kimberly, a designer I'd hired onto my Buy team years earlier and watched grow into someone operating well above her title.{"\u00a0"}I chose Kimberly, a designer I'd hired onto my Buy team years earlier and watched grow into someone operating well above her title.{"\u00a0"}Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew she was doing senior-level work and wanted to promote her, and knew it would be an uphill battle without a high-profile story to tell.
+                My first move was <strong>selecting the right designer</strong>.{"\u00a0"}I chose Kimberly, a designer I'd hired onto my Buy team years earlier and watched grow into someone operating well above her title.{"\u00a0"}Why: Kimberly's strengths were in going deep into problems that appeared deceptively shallow. I knew she was doing senior-level work and wanted to promote her, and knew it would be an uphill battle without a high-profile story to tell.
               </P>
               <P>
                 One gap I knew I needed to fill was that Kimberly had spent most of her Gap Inc career on the non-branded side of the journey (cart, checkout, profile, fulfillment) where the experience is the same regardless of brand. She wasn't as accustomed to the political dynamics of brand-differentiated work, where every brand wants special treatment and tensions can escalate quickly.
@@ -482,9 +482,6 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 ariaLabel="Showing, Not Telling: Prototyping as a Leadership Tool"
                 caption="A sample of the 15+ Figma prototypes built across four brands and multiple platforms. These weren't polished solutions; they were stress tests designed to surface failure scenarios and make assumptions visible."
               />
-              <P>
-                Based on the research, the team developed <strong>Solution A: a Sticky Container</strong> that solved the out-of-viewport problem, keeping key elements like price, reviews, images, and selected color visible as users scrolled, paired with <strong>Product Setup Guidelines</strong> that addressed cognitive overload by limiting variant complexity.
-              </P>
               <P>
                 Running C4AT's study alongside the standard UXR pool meant accessibility was built into the solution from the start rather than retrofitted onto it: we developed ARIA text that alerts users when the page refreshes and resets the cursor.
               </P>
