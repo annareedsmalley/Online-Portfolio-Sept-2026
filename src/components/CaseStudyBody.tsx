@@ -504,10 +504,10 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
                 With deadlines looming and a critical bug exposed, tensions were high. We had already extended the deadline once, so asking for more time again was a harder sell.
               </P>
               <P>
-                Engineering advocated for simply changing the visual treatment of variants that had become disabled. Some brands, on the other hand, wanted the Amazon-style experience, where customers' selections of a variant combinations that didn't exist were simply changed to combinations that did exist, without any clear communication. So, we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
+                We deployed the playbook again. We established <strong>shared vocabulary</strong>, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
               </P>
               <P>
-                We deployed the playbook again. We established <strong>shared vocabulary</strong>, this time around "MVG products with 100% coverage" vs. "without," then demonstrated through actual code what partial coverage would do to customers. There was no easy fix, and internal alignment was fractured.
+                Engineering advocated for simply changing the visual treatment of variants that had become disabled. Some brands, on the other hand, wanted the Amazon-style experience, where customers' selections of a variant combinations that didn't exist were simply changed to combinations that did exist, without any clear communication. So, we showed them Amazon. Then we translated what we saw into projected lost sales, returns, and customer frustration for Gap Inc.'s brands.
               </P>
 
             </Section>
