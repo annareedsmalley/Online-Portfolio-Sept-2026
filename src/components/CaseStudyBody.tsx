@@ -531,7 +531,7 @@ export const CaseStudyBody = ({ studyTitle }: CaseStudyBodyProps) => {
               <H3>Design Solution B</H3>
 
               <P>
-                The brands accepted the path forward. Athleta was the first brand to choose Option 3, and gave us the time to build it.
+                Athleta was the first brand to choose Option 3, and gave us the time to build it.
               </P>
               <P>
                 The result was a <strong>Comparison Table</strong>: a shared pattern that all four brands could align on, showing related products side by side (e.g., Straight vs. Wide Leg vs. Ankle) with key attributes compared. <strong>No 100% coverage required.</strong>
